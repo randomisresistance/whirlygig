@@ -1,0 +1,524 @@
+Release 11.1 - xst L.33 (lin)
+Copyright (c) 1995-2009 Xilinx, Inc.  All rights reserved.
+--> 
+Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.05 secs
+ 
+--> 
+Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.05 secs
+ 
+--> 
+Reading design: whirlygig.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "whirlygig.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "whirlygig"
+Output Format                      : NGC
+Target Device                      : XC9500XL CPLDs
+
+---- Source Options
+Top Module Name                    : whirlygig
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+CASE Implementation Style          : Full-Parallel
+Mux Extraction                     : YES
+Resource Sharing                   : YES
+
+---- Target Options
+Add IO Buffers                     : YES
+MACRO Preserve                     : YES
+XOR Preserve                       : YES
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Library Search Order               : whirlygig.lso
+Keep Hierarchy                     : YES
+Netlist Hierarchy                  : as_optimized
+RTL Output                         : Yes
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : maintain
+Verilog 2001                       : YES
+
+---- Other Options
+Clock Enable                       : YES
+wysiwyg                            : NO
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "/projects/randy/whirlygig-cpld/whirlygig.vhdl" in Library work.
+Entity <whirlygig> compiled.
+Entity <whirlygig> (Architecture <behavioral>) compiled.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <whirlygig> in library <work> (architecture <behavioral>).
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <whirlygig> in library <work> (Architecture <behavioral>).
+    Set user-defined property "KEEP =  true" for signal <sInv>.
+WARNING:Xst:790 - "/projects/randy/whirlygig-cpld/whirlygig.vhdl" line 104: Index value(s) does not match array range, simulation mismatch.
+WARNING:Xst:790 - "/projects/randy/whirlygig-cpld/whirlygig.vhdl" line 104: Index value(s) does not match array range, simulation mismatch.
+WARNING:Xst:790 - "/projects/randy/whirlygig-cpld/whirlygig.vhdl" line 104: Index value(s) does not match array range, simulation mismatch.
+WARNING:Xst:790 - "/projects/randy/whirlygig-cpld/whirlygig.vhdl" line 104: Index value(s) does not match array range, simulation mismatch.
+WARNING:Xst:790 - "/projects/randy/whirlygig-cpld/whirlygig.vhdl" line 104: Index value(s) does not match array range, simulation mismatch.
+WARNING:Xst:790 - "/projects/randy/whirlygig-cpld/whirlygig.vhdl" line 104: Index value(s) does not match array range, simulation mismatch.
+WARNING:Xst:790 - "/projects/randy/whirlygig-cpld/whirlygig.vhdl" line 104: Index value(s) does not match array range, simulation mismatch.
+WARNING:Xst:790 - "/projects/randy/whirlygig-cpld/whirlygig.vhdl" line 104: Index value(s) does not match array range, simulation mismatch.
+Entity <whirlygig> analyzed. Unit <whirlygig> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <whirlygig>.
+    Related source file is "/projects/randy/whirlygig-cpld/whirlygig.vhdl".
+    Found 8-bit register for signal <pSerialOut>.
+    Found 4-bit up counter for signal <ctr>.
+    Found 1-bit register for signal <flip>.
+    Found 56-bit register for signal <sLatch>.
+    Found 1-bit 16-to-1 multiplexer for signal <sLatch$mux0000> created at line 104.
+    Found 1-bit 16-to-1 multiplexer for signal <sLatch$mux0001> created at line 104.
+    Found 1-bit 16-to-1 multiplexer for signal <sLatch$mux0002> created at line 104.
+    Found 1-bit 16-to-1 multiplexer for signal <sLatch$mux0003> created at line 104.
+    Found 1-bit 16-to-1 multiplexer for signal <sLatch$mux0004> created at line 104.
+    Found 1-bit 16-to-1 multiplexer for signal <sLatch$mux0005> created at line 104.
+    Found 1-bit 16-to-1 multiplexer for signal <sLatch$mux0006> created at line 104.
+    Found 1-bit 16-to-1 multiplexer for signal <sLatch$mux0007> created at line 104.
+    Found 1-bit xor3 for signal <sLatch_0$xor0000> created at line 91.
+    Found 1-bit xor3 for signal <sLatch_1$xor0000> created at line 91.
+    Found 1-bit xor3 for signal <sLatch_10$xor0000> created at line 91.
+    Found 1-bit xor3 for signal <sLatch_11$xor0000> created at line 91.
+    Found 1-bit xor3 for signal <sLatch_12$xor0000> created at line 91.
+    Found 1-bit xor3 for signal <sLatch_13$xor0000> created at line 91.
+    Found 1-bit xor3 for signal <sLatch_14$xor0000> created at line 91.
+    Found 1-bit xor3 for signal <sLatch_15$xor0000> created at line 91.
+    Found 1-bit xor3 for signal <sLatch_16$xor0000> created at line 91.
+    Found 1-bit xor3 for signal <sLatch_17$xor0000> created at line 91.
+    Found 1-bit xor3 for signal <sLatch_18$xor0000> created at line 91.
+    Found 1-bit xor3 for signal <sLatch_19$xor0000> created at line 91.
+    Found 1-bit xor3 for signal <sLatch_2$xor0000> created at line 91.
+    Found 1-bit xor3 for signal <sLatch_20$xor0000> created at line 91.
+    Found 1-bit xor3 for signal <sLatch_21$xor0000> created at line 91.
+    Found 1-bit xor3 for signal <sLatch_22$xor0000> created at line 91.
+    Found 1-bit xor3 for signal <sLatch_23$xor0000> created at line 91.
+    Found 1-bit xor3 for signal <sLatch_24$xor0000> created at line 91.
+    Found 1-bit xor3 for signal <sLatch_25$xor0000> created at line 91.
+    Found 1-bit xor3 for signal <sLatch_26$xor0000> created at line 91.
+    Found 1-bit xor3 for signal <sLatch_27$xor0000> created at line 91.
+    Found 1-bit xor3 for signal <sLatch_28$xor0000> created at line 91.
+    Found 1-bit xor3 for signal <sLatch_29$xor0000> created at line 91.
+    Found 1-bit xor3 for signal <sLatch_3$xor0000> created at line 91.
+    Found 1-bit xor3 for signal <sLatch_30$xor0000> created at line 91.
+    Found 1-bit xor3 for signal <sLatch_31$xor0000> created at line 91.
+    Found 1-bit xor3 for signal <sLatch_32$xor0000> created at line 91.
+    Found 1-bit xor3 for signal <sLatch_33$xor0000> created at line 91.
+    Found 1-bit xor3 for signal <sLatch_34$xor0000> created at line 91.
+    Found 1-bit xor3 for signal <sLatch_35$xor0000> created at line 91.
+    Found 1-bit xor3 for signal <sLatch_36$xor0000> created at line 91.
+    Found 1-bit xor3 for signal <sLatch_37$xor0000> created at line 91.
+    Found 1-bit xor3 for signal <sLatch_38$xor0000> created at line 91.
+    Found 1-bit xor3 for signal <sLatch_39$xor0000> created at line 91.
+    Found 1-bit xor3 for signal <sLatch_4$xor0000> created at line 91.
+    Found 1-bit xor3 for signal <sLatch_40$xor0000> created at line 91.
+    Found 1-bit xor3 for signal <sLatch_41$xor0000> created at line 91.
+    Found 1-bit xor3 for signal <sLatch_42$xor0000> created at line 91.
+    Found 1-bit xor3 for signal <sLatch_43$xor0000> created at line 91.
+    Found 1-bit xor3 for signal <sLatch_44$xor0000> created at line 91.
+    Found 1-bit xor3 for signal <sLatch_45$xor0000> created at line 91.
+    Found 1-bit xor3 for signal <sLatch_46$xor0000> created at line 91.
+    Found 1-bit xor3 for signal <sLatch_47$xor0000> created at line 91.
+    Found 1-bit xor3 for signal <sLatch_48$xor0000> created at line 91.
+    Found 1-bit xor3 for signal <sLatch_49$xor0000> created at line 91.
+    Found 1-bit xor3 for signal <sLatch_5$xor0000> created at line 91.
+    Found 1-bit xor3 for signal <sLatch_50$xor0000> created at line 91.
+    Found 1-bit xor3 for signal <sLatch_51$xor0000> created at line 91.
+    Found 1-bit xor3 for signal <sLatch_52$xor0000> created at line 91.
+    Found 1-bit xor3 for signal <sLatch_53$xor0000> created at line 91.
+    Found 1-bit xor3 for signal <sLatch_54$xor0000> created at line 91.
+    Found 1-bit xor3 for signal <sLatch_55$xor0000> created at line 91.
+    Found 1-bit xor3 for signal <sLatch_6$xor0000> created at line 91.
+    Found 1-bit xor3 for signal <sLatch_7$xor0000> created at line 91.
+    Found 1-bit xor3 for signal <sLatch_8$xor0000> created at line 91.
+    Found 1-bit xor3 for signal <sLatch_9$xor0000> created at line 91.
+    Found 8-bit register for signal <sSerialOut>.
+    Found 1-bit xor2 for signal <sSerialOut_0$xor0000> created at line 104.
+    Found 1-bit xor2 for signal <sSerialOut_1$xor0000> created at line 104.
+    Found 1-bit xor2 for signal <sSerialOut_2$xor0000> created at line 104.
+    Found 1-bit xor2 for signal <sSerialOut_3$xor0000> created at line 104.
+    Found 1-bit xor2 for signal <sSerialOut_4$xor0000> created at line 104.
+    Found 1-bit xor2 for signal <sSerialOut_5$xor0000> created at line 104.
+    Found 1-bit xor2 for signal <sSerialOut_6$xor0000> created at line 104.
+    Found 1-bit xor2 for signal <sSerialOut_7$xor0000> created at line 104.
+    Summary:
+	inferred   1 Counter(s).
+	inferred  65 D-type flip-flop(s).
+	inferred   8 Xor(s).
+Unit <whirlygig> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Counters                                             : 1
+ 4-bit up counter                                      : 1
+# Registers                                            : 66
+ 1-bit register                                        : 65
+ 8-bit register                                        : 1
+# Multiplexers                                         : 8
+ 1-bit 16-to-1 multiplexer                             : 8
+# Xors                                                 : 64
+ 1-bit xor2                                            : 8
+ 1-bit xor3                                            : 56
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Counters                                             : 1
+ 4-bit up counter                                      : 1
+# Registers                                            : 65
+ Flip-Flops                                            : 65
+# Multiplexers                                         : 8
+ 1-bit 16-to-1 multiplexer                             : 8
+# Xors                                                 : 56
+ 1-bit xor3                                            : 56
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+WARNING:Xst:2170 - Unit whirlygig : the following signal(s) form a combinatorial loop: sInv<166>, sInv<167>, sInv<165>.
+WARNING:Xst:2170 - Unit whirlygig : the following signal(s) form a combinatorial loop: sInv<162>, sInv<163>, sInv<164>.
+WARNING:Xst:2170 - Unit whirlygig : the following signal(s) form a combinatorial loop: sInv<147>, sInv<148>, sInv<149>.
+WARNING:Xst:2170 - Unit whirlygig : the following signal(s) form a combinatorial loop: sInv<160>, sInv<161>, sInv<159>.
+WARNING:Xst:2170 - Unit whirlygig : the following signal(s) form a combinatorial loop: sInv<144>, sInv<145>, sInv<146>.
+WARNING:Xst:2170 - Unit whirlygig : the following signal(s) form a combinatorial loop: sInv<157>, sInv<156>, sInv<158>.
+WARNING:Xst:2170 - Unit whirlygig : the following signal(s) form a combinatorial loop: sInv<141>, sInv<142>, sInv<143>.
+WARNING:Xst:2170 - Unit whirlygig : the following signal(s) form a combinatorial loop: sInv<154>, sInv<155>, sInv<153>.
+WARNING:Xst:2170 - Unit whirlygig : the following signal(s) form a combinatorial loop: sInv<138>, sInv<139>, sInv<140>.
+WARNING:Xst:2170 - Unit whirlygig : the following signal(s) form a combinatorial loop: sInv<150>, sInv<151>, sInv<152>.
+WARNING:Xst:2170 - Unit whirlygig : the following signal(s) form a combinatorial loop: sInv<135>, sInv<136>, sInv<137>.
+WARNING:Xst:2170 - Unit whirlygig : the following signal(s) form a combinatorial loop: sInv<134>, sInv<132>, sInv<133>.
+WARNING:Xst:2170 - Unit whirlygig : the following signal(s) form a combinatorial loop: sInv<119>, sInv<117>, sInv<118>.
+WARNING:Xst:2170 - Unit whirlygig : the following signal(s) form a combinatorial loop: sInv<129>, sInv<130>, sInv<131>.
+WARNING:Xst:2170 - Unit whirlygig : the following signal(s) form a combinatorial loop: sInv<114>, sInv<115>, sInv<116>.
+WARNING:Xst:2170 - Unit whirlygig : the following signal(s) form a combinatorial loop: sInv<128>, sInv<126>, sInv<127>.
+WARNING:Xst:2170 - Unit whirlygig : the following signal(s) form a combinatorial loop: sInv<111>, sInv<112>, sInv<113>.
+WARNING:Xst:2170 - Unit whirlygig : the following signal(s) form a combinatorial loop: sInv<123>, sInv<124>, sInv<125>.
+WARNING:Xst:2170 - Unit whirlygig : the following signal(s) form a combinatorial loop: sInv<108>, sInv<110>, sInv<109>.
+WARNING:Xst:2170 - Unit whirlygig : the following signal(s) form a combinatorial loop: sInv<121>, sInv<122>, sInv<120>.
+WARNING:Xst:2170 - Unit whirlygig : the following signal(s) form a combinatorial loop: sInv<105>, sInv<106>, sInv<107>.
+WARNING:Xst:2170 - Unit whirlygig : the following signal(s) form a combinatorial loop: sInv<102>, sInv<103>, sInv<104>.
+WARNING:Xst:2170 - Unit whirlygig : the following signal(s) form a combinatorial loop: sInv<87>, sInv<88>, sInv<89>.
+WARNING:Xst:2170 - Unit whirlygig : the following signal(s) form a combinatorial loop: sInv<99>, sInv<100>, sInv<101>.
+WARNING:Xst:2170 - Unit whirlygig : the following signal(s) form a combinatorial loop: sInv<84>, sInv<85>, sInv<86>.
+WARNING:Xst:2170 - Unit whirlygig : the following signal(s) form a combinatorial loop: sInv<98>, sInv<96>, sInv<97>.
+WARNING:Xst:2170 - Unit whirlygig : the following signal(s) form a combinatorial loop: sInv<83>, sInv<81>, sInv<82>.
+WARNING:Xst:2170 - Unit whirlygig : the following signal(s) form a combinatorial loop: sInv<93>, sInv<94>, sInv<95>.
+WARNING:Xst:2170 - Unit whirlygig : the following signal(s) form a combinatorial loop: sInv<78>, sInv<79>, sInv<80>.
+WARNING:Xst:2170 - Unit whirlygig : the following signal(s) form a combinatorial loop: sInv<90>, sInv<91>, sInv<92>.
+WARNING:Xst:2170 - Unit whirlygig : the following signal(s) form a combinatorial loop: sInv<75>, sInv<76>, sInv<77>.
+WARNING:Xst:2170 - Unit whirlygig : the following signal(s) form a combinatorial loop: sInv<57>, sInv<58>, sInv<59>.
+WARNING:Xst:2170 - Unit whirlygig : the following signal(s) form a combinatorial loop: sInv<72>, sInv<73>, sInv<74>.
+WARNING:Xst:2170 - Unit whirlygig : the following signal(s) form a combinatorial loop: sInv<55>, sInv<56>, sInv<54>.
+WARNING:Xst:2170 - Unit whirlygig : the following signal(s) form a combinatorial loop: sInv<69>, sInv<70>, sInv<71>.
+WARNING:Xst:2170 - Unit whirlygig : the following signal(s) form a combinatorial loop: sInv<52>, sInv<53>, sInv<51>.
+WARNING:Xst:2170 - Unit whirlygig : the following signal(s) form a combinatorial loop: sInv<67>, sInv<68>, sInv<66>.
+WARNING:Xst:2170 - Unit whirlygig : the following signal(s) form a combinatorial loop: sInv<48>, sInv<49>, sInv<50>.
+WARNING:Xst:2170 - Unit whirlygig : the following signal(s) form a combinatorial loop: sInv<63>, sInv<64>, sInv<65>.
+WARNING:Xst:2170 - Unit whirlygig : the following signal(s) form a combinatorial loop: sInv<46>, sInv<45>, sInv<47>.
+WARNING:Xst:2170 - Unit whirlygig : the following signal(s) form a combinatorial loop: sInv<60>, sInv<61>, sInv<62>.
+WARNING:Xst:2170 - Unit whirlygig : the following signal(s) form a combinatorial loop: sInv<42>, sInv<44>, sInv<43>.
+WARNING:Xst:2170 - Unit whirlygig : the following signal(s) form a combinatorial loop: sInv<39>, sInv<40>, sInv<41>.
+WARNING:Xst:2170 - Unit whirlygig : the following signal(s) form a combinatorial loop: sInv<36>, sInv<38>, sInv<37>.
+WARNING:Xst:2170 - Unit whirlygig : the following signal(s) form a combinatorial loop: sInv<33>, sInv<35>, sInv<34>.
+WARNING:Xst:2170 - Unit whirlygig : the following signal(s) form a combinatorial loop: sInv<31>, sInv<32>, sInv<30>.
+WARNING:Xst:2170 - Unit whirlygig : the following signal(s) form a combinatorial loop: sInv<27>, sInv<28>, sInv<29>.
+WARNING:Xst:2170 - Unit whirlygig : the following signal(s) form a combinatorial loop: sInv<26>, sInv<24>, sInv<25>.
+WARNING:Xst:2170 - Unit whirlygig : the following signal(s) form a combinatorial loop: sInv<21>, sInv<22>, sInv<23>.
+WARNING:Xst:2170 - Unit whirlygig : the following signal(s) form a combinatorial loop: sInv<20>, sInv<18>, sInv<19>.
+WARNING:Xst:2170 - Unit whirlygig : the following signal(s) form a combinatorial loop: sInv<15>, sInv<16>, sInv<17>.
+WARNING:Xst:2170 - Unit whirlygig : the following signal(s) form a combinatorial loop: sInv<14>, sInv<12>, sInv<13>.
+WARNING:Xst:2170 - Unit whirlygig : the following signal(s) form a combinatorial loop: sInv<9>, sInv<10>, sInv<11>.
+WARNING:Xst:2170 - Unit whirlygig : the following signal(s) form a combinatorial loop: sInv<6>, sInv<7>, sInv<8>.
+WARNING:Xst:2170 - Unit whirlygig : the following signal(s) form a combinatorial loop: sInv<3>, sInv<4>, sInv<5>.
+WARNING:Xst:2170 - Unit whirlygig : the following signal(s) form a combinatorial loop: sInv<0>, sInv<1>, sInv<2>.
+
+Optimizing unit <whirlygig> ...
+  implementation constraint: KEEP	 : sInv<167>
+  implementation constraint: KEEP	 : sInv<166>
+  implementation constraint: KEEP	 : sInv<165>
+  implementation constraint: KEEP	 : sInv<164>
+  implementation constraint: KEEP	 : sInv<163>
+  implementation constraint: KEEP	 : sInv<162>
+  implementation constraint: KEEP	 : sInv<161>
+  implementation constraint: KEEP	 : sInv<160>
+  implementation constraint: KEEP	 : sInv<159>
+  implementation constraint: KEEP	 : sInv<158>
+  implementation constraint: KEEP	 : sInv<157>
+  implementation constraint: KEEP	 : sInv<156>
+  implementation constraint: KEEP	 : sInv<155>
+  implementation constraint: KEEP	 : sInv<154>
+  implementation constraint: KEEP	 : sInv<153>
+  implementation constraint: KEEP	 : sInv<152>
+  implementation constraint: KEEP	 : sInv<151>
+  implementation constraint: KEEP	 : sInv<150>
+  implementation constraint: KEEP	 : sInv<149>
+  implementation constraint: KEEP	 : sInv<148>
+  implementation constraint: KEEP	 : sInv<147>
+  implementation constraint: KEEP	 : sInv<146>
+  implementation constraint: KEEP	 : sInv<145>
+  implementation constraint: KEEP	 : sInv<144>
+  implementation constraint: KEEP	 : sInv<143>
+  implementation constraint: KEEP	 : sInv<142>
+  implementation constraint: KEEP	 : sInv<141>
+  implementation constraint: KEEP	 : sInv<140>
+  implementation constraint: KEEP	 : sInv<139>
+  implementation constraint: KEEP	 : sInv<138>
+  implementation constraint: KEEP	 : sInv<137>
+  implementation constraint: KEEP	 : sInv<136>
+  implementation constraint: KEEP	 : sInv<135>
+  implementation constraint: KEEP	 : sInv<134>
+  implementation constraint: KEEP	 : sInv<133>
+  implementation constraint: KEEP	 : sInv<132>
+  implementation constraint: KEEP	 : sInv<131>
+  implementation constraint: KEEP	 : sInv<130>
+  implementation constraint: KEEP	 : sInv<129>
+  implementation constraint: KEEP	 : sInv<128>
+  implementation constraint: KEEP	 : sInv<127>
+  implementation constraint: KEEP	 : sInv<126>
+  implementation constraint: KEEP	 : sInv<125>
+  implementation constraint: KEEP	 : sInv<124>
+  implementation constraint: KEEP	 : sInv<123>
+  implementation constraint: KEEP	 : sInv<122>
+  implementation constraint: KEEP	 : sInv<121>
+  implementation constraint: KEEP	 : sInv<120>
+  implementation constraint: KEEP	 : sInv<119>
+  implementation constraint: KEEP	 : sInv<118>
+  implementation constraint: KEEP	 : sInv<117>
+  implementation constraint: KEEP	 : sInv<116>
+  implementation constraint: KEEP	 : sInv<115>
+  implementation constraint: KEEP	 : sInv<114>
+  implementation constraint: KEEP	 : sInv<113>
+  implementation constraint: KEEP	 : sInv<112>
+  implementation constraint: KEEP	 : sInv<111>
+  implementation constraint: KEEP	 : sInv<110>
+  implementation constraint: KEEP	 : sInv<109>
+  implementation constraint: KEEP	 : sInv<108>
+  implementation constraint: KEEP	 : sInv<107>
+  implementation constraint: KEEP	 : sInv<106>
+  implementation constraint: KEEP	 : sInv<105>
+  implementation constraint: KEEP	 : sInv<104>
+  implementation constraint: KEEP	 : sInv<103>
+  implementation constraint: KEEP	 : sInv<102>
+  implementation constraint: KEEP	 : sInv<101>
+  implementation constraint: KEEP	 : sInv<100>
+  implementation constraint: KEEP	 : sInv<99>
+  implementation constraint: KEEP	 : sInv<98>
+  implementation constraint: KEEP	 : sInv<97>
+  implementation constraint: KEEP	 : sInv<96>
+  implementation constraint: KEEP	 : sInv<95>
+  implementation constraint: KEEP	 : sInv<94>
+  implementation constraint: KEEP	 : sInv<93>
+  implementation constraint: KEEP	 : sInv<92>
+  implementation constraint: KEEP	 : sInv<91>
+  implementation constraint: KEEP	 : sInv<90>
+  implementation constraint: KEEP	 : sInv<89>
+  implementation constraint: KEEP	 : sInv<88>
+  implementation constraint: KEEP	 : sInv<87>
+  implementation constraint: KEEP	 : sInv<86>
+  implementation constraint: KEEP	 : sInv<85>
+  implementation constraint: KEEP	 : sInv<84>
+  implementation constraint: KEEP	 : sInv<83>
+  implementation constraint: KEEP	 : sInv<82>
+  implementation constraint: KEEP	 : sInv<81>
+  implementation constraint: KEEP	 : sInv<80>
+  implementation constraint: KEEP	 : sInv<79>
+  implementation constraint: KEEP	 : sInv<78>
+  implementation constraint: KEEP	 : sInv<77>
+  implementation constraint: KEEP	 : sInv<76>
+  implementation constraint: KEEP	 : sInv<75>
+  implementation constraint: KEEP	 : sInv<74>
+  implementation constraint: KEEP	 : sInv<73>
+  implementation constraint: KEEP	 : sInv<72>
+  implementation constraint: KEEP	 : sInv<71>
+  implementation constraint: KEEP	 : sInv<70>
+  implementation constraint: KEEP	 : sInv<69>
+  implementation constraint: KEEP	 : sInv<68>
+  implementation constraint: KEEP	 : sInv<67>
+  implementation constraint: KEEP	 : sInv<66>
+  implementation constraint: KEEP	 : sInv<65>
+  implementation constraint: KEEP	 : sInv<64>
+  implementation constraint: KEEP	 : sInv<63>
+  implementation constraint: KEEP	 : sInv<62>
+  implementation constraint: KEEP	 : sInv<61>
+  implementation constraint: KEEP	 : sInv<60>
+  implementation constraint: KEEP	 : sInv<59>
+  implementation constraint: KEEP	 : sInv<58>
+  implementation constraint: KEEP	 : sInv<57>
+  implementation constraint: KEEP	 : sInv<56>
+  implementation constraint: KEEP	 : sInv<55>
+  implementation constraint: KEEP	 : sInv<54>
+  implementation constraint: KEEP	 : sInv<53>
+  implementation constraint: KEEP	 : sInv<52>
+  implementation constraint: KEEP	 : sInv<51>
+  implementation constraint: KEEP	 : sInv<50>
+  implementation constraint: KEEP	 : sInv<49>
+  implementation constraint: KEEP	 : sInv<48>
+  implementation constraint: KEEP	 : sInv<47>
+  implementation constraint: KEEP	 : sInv<46>
+  implementation constraint: KEEP	 : sInv<45>
+  implementation constraint: KEEP	 : sInv<44>
+  implementation constraint: KEEP	 : sInv<43>
+  implementation constraint: KEEP	 : sInv<42>
+  implementation constraint: KEEP	 : sInv<41>
+  implementation constraint: KEEP	 : sInv<40>
+  implementation constraint: KEEP	 : sInv<39>
+  implementation constraint: KEEP	 : sInv<38>
+  implementation constraint: KEEP	 : sInv<37>
+  implementation constraint: KEEP	 : sInv<36>
+  implementation constraint: KEEP	 : sInv<35>
+  implementation constraint: KEEP	 : sInv<34>
+  implementation constraint: KEEP	 : sInv<33>
+  implementation constraint: KEEP	 : sInv<32>
+  implementation constraint: KEEP	 : sInv<31>
+  implementation constraint: KEEP	 : sInv<30>
+  implementation constraint: KEEP	 : sInv<29>
+  implementation constraint: KEEP	 : sInv<28>
+  implementation constraint: KEEP	 : sInv<27>
+  implementation constraint: KEEP	 : sInv<26>
+  implementation constraint: KEEP	 : sInv<25>
+  implementation constraint: KEEP	 : sInv<24>
+  implementation constraint: KEEP	 : sInv<23>
+  implementation constraint: KEEP	 : sInv<22>
+  implementation constraint: KEEP	 : sInv<21>
+  implementation constraint: KEEP	 : sInv<20>
+  implementation constraint: KEEP	 : sInv<19>
+  implementation constraint: KEEP	 : sInv<18>
+  implementation constraint: KEEP	 : sInv<17>
+  implementation constraint: KEEP	 : sInv<16>
+  implementation constraint: KEEP	 : sInv<15>
+  implementation constraint: KEEP	 : sInv<14>
+  implementation constraint: KEEP	 : sInv<13>
+  implementation constraint: KEEP	 : sInv<12>
+  implementation constraint: KEEP	 : sInv<11>
+  implementation constraint: KEEP	 : sInv<10>
+  implementation constraint: KEEP	 : sInv<9>
+  implementation constraint: KEEP	 : sInv<8>
+  implementation constraint: KEEP	 : sInv<7>
+  implementation constraint: KEEP	 : sInv<6>
+  implementation constraint: KEEP	 : sInv<5>
+  implementation constraint: KEEP	 : sInv<4>
+  implementation constraint: KEEP	 : sInv<3>
+  implementation constraint: KEEP	 : sInv<2>
+  implementation constraint: KEEP	 : sInv<1>
+  implementation constraint: KEEP	 : sInv<0>
+
+=========================================================================
+*                           Partition Report                             *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : whirlygig.ngr
+Top Level Output File Name         : whirlygig
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : YES
+Target Technology                  : XC9500XL CPLDs
+Macro Preserve                     : YES
+XOR Preserve                       : YES
+Clock Enable                       : YES
+wysiwyg                            : NO
+
+Design Statistics
+# IOs                              : 9
+
+Cell Usage :
+# BELS                             : 786
+#      AND2                        : 248
+#      GND                         : 1
+#      INV                         : 294
+#      OR2                         : 120
+#      XOR2                        : 123
+# FlipFlops/Latches                : 77
+#      FD                          : 69
+#      FDCE                        : 8
+# IO Buffers                       : 9
+#      IBUF                        : 1
+#      OBUF                        : 8
+=========================================================================
+
+
+Total REAL time to Xst completion: 3.00 secs
+Total CPU time to Xst completion: 3.30 secs
+ 
+--> 
+
+
+Total memory usage is 144064 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :   64 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

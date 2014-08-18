@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="Cpld" num="0" delta="unknown" >The signal(s) &apos;<arg fmt="%s" index="1">sInv&lt;58&gt;</arg>&apos; are in combinational feedback loops.
+These signals may cause hazards/glitches. Apply the NOREDUCE parameter to the hazard reduction circuitry.
+Timing analysis of paths involving this node may be inaccurate or incomplete.
+</msg>
+
+<msg type="warning" file="Cpld" num="0" delta="unknown" >The signal(s) &apos;<arg fmt="%s" index="1">sInv&lt;70&gt;</arg>&apos; are in combinational feedback loops.
+These signals may cause hazards/glitches. Apply the NOREDUCE parameter to the hazard reduction circuitry.
+Timing analysis of paths involving this node may be inaccurate or incomplete.
+</msg>
+
+<msg type="warning" file="Cpld" num="0" delta="unknown" >The signal(s) &apos;<arg fmt="%s" index="1">sInv&lt;82&gt;</arg>&apos; are in combinational feedback loops.
+These signals may cause hazards/glitches. Apply the NOREDUCE parameter to the hazard reduction circuitry.
+Timing analysis of paths involving this node may be inaccurate or incomplete.
+</msg>
+
+<msg type="warning" file="Cpld" num="0" delta="unknown" >The signal(s) &apos;<arg fmt="%s" index="1">sInv&lt;94&gt;</arg>&apos; are in combinational feedback loops.
+These signals may cause hazards/glitches. Apply the NOREDUCE parameter to the hazard reduction circuitry.
+Timing analysis of paths involving this node may be inaccurate or incomplete.
+</msg>
+
+<msg type="warning" file="Cpld" num="0" delta="unknown" >The signal(s) &apos;<arg fmt="%s" index="1">sInv&lt;106&gt;</arg>&apos; are in combinational feedback loops.
+These signals may cause hazards/glitches. Apply the NOREDUCE parameter to the hazard reduction circuitry.
+Timing analysis of paths involving this node may be inaccurate or incomplete.
+</msg>
+
+<msg type="warning" file="Cpld" num="0" delta="unknown" >The signal(s) &apos;<arg fmt="%s" index="1">sInv&lt;118&gt;</arg>&apos; are in combinational feedback loops.
+These signals may cause hazards/glitches. Apply the NOREDUCE parameter to the hazard reduction circuitry.
+Timing analysis of paths involving this node may be inaccurate or incomplete.
+</msg>
+
+<msg type="warning" file="Cpld" num="0" delta="unknown" >The signal(s) &apos;<arg fmt="%s" index="1">sInv&lt;130&gt;</arg>&apos; are in combinational feedback loops.
+These signals may cause hazards/glitches. Apply the NOREDUCE parameter to the hazard reduction circuitry.
+Timing analysis of paths involving this node may be inaccurate or incomplete.
+</msg>
+
+<msg type="warning" file="Cpld" num="0" delta="unknown" >The signal(s) &apos;<arg fmt="%s" index="1">sInv&lt;142&gt;</arg>&apos; are in combinational feedback loops.
+These signals may cause hazards/glitches. Apply the NOREDUCE parameter to the hazard reduction circuitry.
+Timing analysis of paths involving this node may be inaccurate or incomplete.
+</msg>
+
+<msg type="warning" file="Cpld" num="0" delta="unknown" >The signal(s) &apos;<arg fmt="%s" index="1">sInv&lt;1&gt;</arg>&apos; are in combinational feedback loops.
+These signals may cause hazards/glitches. Apply the NOREDUCE parameter to the hazard reduction circuitry.
+Timing analysis of paths involving this node may be inaccurate or incomplete.
+</msg>
+
+<msg type="warning" file="Cpld" num="0" delta="unknown" >The signal(s) &apos;<arg fmt="%s" index="1">sInv&lt;31&gt;</arg>&apos; are in combinational feedback loops.
+These signals may cause hazards/glitches. Apply the NOREDUCE parameter to the hazard reduction circuitry.
+Timing analysis of paths involving this node may be inaccurate or incomplete.
+</msg>
+
+<msg type="warning" file="Cpld" num="0" delta="unknown" >The signal(s) &apos;<arg fmt="%s" index="1">sInv&lt;34&gt;</arg>&apos; are in combinational feedback loops.
+These signals may cause hazards/glitches. Apply the NOREDUCE parameter to the hazard reduction circuitry.
+Timing analysis of paths involving this node may be inaccurate or incomplete.
+</msg>
+
+<msg type="warning" file="Cpld" num="0" delta="unknown" >The signal(s) &apos;<arg fmt="%s" index="1">sInv&lt;37&gt;</arg>&apos; are in combinational feedback loops.
+These signals may cause hazards/glitches. Apply the NOREDUCE parameter to the hazard reduction circuitry.
+Timing analysis of paths involving this node may be inaccurate or incomplete.
+</msg>
+
+<msg type="warning" file="Cpld" num="0" delta="unknown" >The signal(s) &apos;<arg fmt="%s" index="1">sInv&lt;40&gt;</arg>&apos; are in combinational feedback loops.
+These signals may cause hazards/glitches. Apply the NOREDUCE parameter to the hazard reduction circuitry.
+Timing analysis of paths involving this node may be inaccurate or incomplete.
+</msg>
+
+<msg type="warning" file="Cpld" num="0" delta="unknown" >The signal(s) &apos;<arg fmt="%s" index="1">sInv&lt;43&gt;</arg>&apos; are in combinational feedback loops.
+These signals may cause hazards/glitches. Apply the NOREDUCE parameter to the hazard reduction circuitry.
+Timing analysis of paths involving this node may be inaccurate or incomplete.
+</msg>
+
+<msg type="warning" file="Cpld" num="0" delta="unknown" >The signal(s) &apos;<arg fmt="%s" index="1">sInv&lt;46&gt;</arg>&apos; are in combinational feedback loops.
+These signals may cause hazards/glitches. Apply the NOREDUCE parameter to the hazard reduction circuitry.
+Timing analysis of paths involving this node may be inaccurate or incomplete.
+</msg>
+
+<msg type="warning" file="Cpld" num="0" delta="unknown" >The signal(s) &apos;<arg fmt="%s" index="1">sInv&lt;55&gt;</arg>&apos; are in combinational feedback loops.
+These signals may cause hazards/glitches. Apply the NOREDUCE parameter to the hazard reduction circuitry.
+Timing analysis of paths involving this node may be inaccurate or incomplete.
+</msg>
+
+<msg type="warning" file="Cpld" num="0" delta="unknown" >The signal(s) &apos;<arg fmt="%s" index="1">sInv&lt;4&gt;</arg>&apos; are in combinational feedback loops.
+These signals may cause hazards/glitches. Apply the NOREDUCE parameter to the hazard reduction circuitry.
+Timing analysis of paths involving this node may be inaccurate or incomplete.
+</msg>
+
+<msg type="warning" file="Cpld" num="0" delta="unknown" >The signal(s) &apos;<arg fmt="%s" index="1">sInv&lt;67&gt;</arg>&apos; are in combinational feedback loops.
+These signals may cause hazards/glitches. Apply the NOREDUCE parameter to the hazard reduction circuitry.
+Timing analysis of paths involving this node may be inaccurate or incomplete.
+</msg>
+
+<msg type="warning" file="Cpld" num="0" delta="unknown" >The signal(s) &apos;<arg fmt="%s" index="1">sInv&lt;79&gt;</arg>&apos; are in combinational feedback loops.
+These signals may cause hazards/glitches. Apply the NOREDUCE parameter to the hazard reduction circuitry.
+Timing analysis of paths involving this node may be inaccurate or incomplete.
+</msg>
+
+<msg type="warning" file="Cpld" num="0" delta="unknown" >The signal(s) &apos;<arg fmt="%s" index="1">sInv&lt;7&gt;</arg>&apos; are in combinational feedback loops.
+These signals may cause hazards/glitches. Apply the NOREDUCE parameter to the hazard reduction circuitry.
+Timing analysis of paths involving this node may be inaccurate or incomplete.
+</msg>
+
+<msg type="warning" file="Cpld" num="0" delta="unknown" >The signal(s) &apos;<arg fmt="%s" index="1">sInv&lt;91&gt;</arg>&apos; are in combinational feedback loops.
+These signals may cause hazards/glitches. Apply the NOREDUCE parameter to the hazard reduction circuitry.
+Timing analysis of paths involving this node may be inaccurate or incomplete.
+</msg>
+
+<msg type="warning" file="Cpld" num="0" delta="unknown" >The signal(s) &apos;<arg fmt="%s" index="1">sInv&lt;103&gt;</arg>&apos; are in combinational feedback loops.
+These signals may cause hazards/glitches. Apply the NOREDUCE parameter to the hazard reduction circuitry.
+Timing analysis of paths involving this node may be inaccurate or incomplete.
+</msg>
+
+<msg type="warning" file="Cpld" num="0" delta="unknown" >The signal(s) &apos;<arg fmt="%s" index="1">sInv&lt;115&gt;</arg>&apos; are in combinational feedback loops.
+These signals may cause hazards/glitches. Apply the NOREDUCE parameter to the hazard reduction circuitry.
+Timing analysis of paths involving this node may be inaccurate or incomplete.
+</msg>
+
+<msg type="warning" file="Cpld" num="0" delta="unknown" >The signal(s) &apos;<arg fmt="%s" index="1">sInv&lt;10&gt;</arg>&apos; are in combinational feedback loops.
+These signals may cause hazards/glitches. Apply the NOREDUCE parameter to the hazard reduction circuitry.
+Timing analysis of paths involving this node may be inaccurate or incomplete.
+</msg>
+
+<msg type="warning" file="Cpld" num="0" delta="unknown" >The signal(s) &apos;<arg fmt="%s" index="1">sInv&lt;127&gt;</arg>&apos; are in combinational feedback loops.
+These signals may cause hazards/glitches. Apply the NOREDUCE parameter to the hazard reduction circuitry.
+Timing analysis of paths involving this node may be inaccurate or incomplete.
+</msg>
+
+<msg type="warning" file="Cpld" num="0" delta="unknown" >The signal(s) &apos;<arg fmt="%s" index="1">sInv&lt;139&gt;</arg>&apos; are in combinational feedback loops.
+These signals may cause hazards/glitches. Apply the NOREDUCE parameter to the hazard reduction circuitry.
+Timing analysis of paths involving this node may be inaccurate or incomplete.
+</msg>
+
+<msg type="warning" file="Cpld" num="0" delta="unknown" >The signal(s) &apos;<arg fmt="%s" index="1">sInv&lt;13&gt;</arg>&apos; are in combinational feedback loops.
+These signals may cause hazards/glitches. Apply the NOREDUCE parameter to the hazard reduction circuitry.
+Timing analysis of paths involving this node may be inaccurate or incomplete.
+</msg>
+
+<msg type="warning" file="Cpld" num="0" delta="unknown" >The signal(s) &apos;<arg fmt="%s" index="1">sInv&lt;16&gt;</arg>&apos; are in combinational feedback loops.
+These signals may cause hazards/glitches. Apply the NOREDUCE parameter to the hazard reduction circuitry.
+Timing analysis of paths involving this node may be inaccurate or incomplete.
+</msg>
+
+<msg type="warning" file="Cpld" num="0" delta="unknown" >The signal(s) &apos;<arg fmt="%s" index="1">sInv&lt;19&gt;</arg>&apos; are in combinational feedback loops.
+These signals may cause hazards/glitches. Apply the NOREDUCE parameter to the hazard reduction circuitry.
+Timing analysis of paths involving this node may be inaccurate or incomplete.
+</msg>
+
+<msg type="warning" file="Cpld" num="0" delta="unknown" >The signal(s) &apos;<arg fmt="%s" index="1">sInv&lt;22&gt;</arg>&apos; are in combinational feedback loops.
+These signals may cause hazards/glitches. Apply the NOREDUCE parameter to the hazard reduction circuitry.
+Timing analysis of paths involving this node may be inaccurate or incomplete.
+</msg>
+
+<msg type="warning" file="Cpld" num="0" delta="unknown" >The signal(s) &apos;<arg fmt="%s" index="1">sInv&lt;25&gt;</arg>&apos; are in combinational feedback loops.
+These signals may cause hazards/glitches. Apply the NOREDUCE parameter to the hazard reduction circuitry.
+Timing analysis of paths involving this node may be inaccurate or incomplete.
+</msg>
+
+<msg type="warning" file="Cpld" num="0" delta="unknown" >The signal(s) &apos;<arg fmt="%s" index="1">sInv&lt;28&gt;</arg>&apos; are in combinational feedback loops.
+These signals may cause hazards/glitches. Apply the NOREDUCE parameter to the hazard reduction circuitry.
+Timing analysis of paths involving this node may be inaccurate or incomplete.
+</msg>
+
+<msg type="warning" file="Cpld" num="0" delta="unknown" >The signal(s) &apos;<arg fmt="%s" index="1">sInv&lt;52&gt;</arg>&apos; are in combinational feedback loops.
+These signals may cause hazards/glitches. Apply the NOREDUCE parameter to the hazard reduction circuitry.
+Timing analysis of paths involving this node may be inaccurate or incomplete.
+</msg>
+
+<msg type="warning" file="Cpld" num="0" delta="unknown" >The signal(s) &apos;<arg fmt="%s" index="1">sInv&lt;64&gt;</arg>&apos; are in combinational feedback loops.
+These signals may cause hazards/glitches. Apply the NOREDUCE parameter to the hazard reduction circuitry.
+Timing analysis of paths involving this node may be inaccurate or incomplete.
+</msg>
+
+<msg type="warning" file="Cpld" num="0" delta="unknown" >The signal(s) &apos;<arg fmt="%s" index="1">sInv&lt;76&gt;</arg>&apos; are in combinational feedback loops.
+These signals may cause hazards/glitches. Apply the NOREDUCE parameter to the hazard reduction circuitry.
+Timing analysis of paths involving this node may be inaccurate or incomplete.
+</msg>
+
+<msg type="warning" file="Cpld" num="0" delta="unknown" >The signal(s) &apos;<arg fmt="%s" index="1">sInv&lt;88&gt;</arg>&apos; are in combinational feedback loops.
+These signals may cause hazards/glitches. Apply the NOREDUCE parameter to the hazard reduction circuitry.
+Timing analysis of paths involving this node may be inaccurate or incomplete.
+</msg>
+
+<msg type="warning" file="Cpld" num="0" delta="unknown" >The signal(s) &apos;<arg fmt="%s" index="1">sInv&lt;100&gt;</arg>&apos; are in combinational feedback loops.
+These signals may cause hazards/glitches. Apply the NOREDUCE parameter to the hazard reduction circuitry.
+Timing analysis of paths involving this node may be inaccurate or incomplete.
+</msg>
+
+<msg type="warning" file="Cpld" num="0" delta="unknown" >The signal(s) &apos;<arg fmt="%s" index="1">sInv&lt;112&gt;</arg>&apos; are in combinational feedback loops.
+These signals may cause hazards/glitches. Apply the NOREDUCE parameter to the hazard reduction circuitry.
+Timing analysis of paths involving this node may be inaccurate or incomplete.
+</msg>
+
+<msg type="warning" file="Cpld" num="0" delta="unknown" >The signal(s) &apos;<arg fmt="%s" index="1">sInv&lt;124&gt;</arg>&apos; are in combinational feedback loops.
+These signals may cause hazards/glitches. Apply the NOREDUCE parameter to the hazard reduction circuitry.
+Timing analysis of paths involving this node may be inaccurate or incomplete.
+</msg>
+
+<msg type="warning" file="Cpld" num="0" delta="unknown" >The signal(s) &apos;<arg fmt="%s" index="1">sInv&lt;136&gt;</arg>&apos; are in combinational feedback loops.
+These signals may cause hazards/glitches. Apply the NOREDUCE parameter to the hazard reduction circuitry.
+Timing analysis of paths involving this node may be inaccurate or incomplete.
+</msg>
+
+<msg type="warning" file="Cpld" num="0" delta="unknown" >The signal(s) &apos;<arg fmt="%s" index="1">sInv&lt;49&gt;</arg>&apos; are in combinational feedback loops.
+These signals may cause hazards/glitches. Apply the NOREDUCE parameter to the hazard reduction circuitry.
+Timing analysis of paths involving this node may be inaccurate or incomplete.
+</msg>
+
+<msg type="warning" file="Cpld" num="0" delta="unknown" >The signal(s) &apos;<arg fmt="%s" index="1">sInv&lt;61&gt;</arg>&apos; are in combinational feedback loops.
+These signals may cause hazards/glitches. Apply the NOREDUCE parameter to the hazard reduction circuitry.
+Timing analysis of paths involving this node may be inaccurate or incomplete.
+</msg>
+
+<msg type="warning" file="Cpld" num="0" delta="unknown" >The signal(s) &apos;<arg fmt="%s" index="1">sInv&lt;73&gt;</arg>&apos; are in combinational feedback loops.
+These signals may cause hazards/glitches. Apply the NOREDUCE parameter to the hazard reduction circuitry.
+Timing analysis of paths involving this node may be inaccurate or incomplete.
+</msg>
+
+<msg type="warning" file="Cpld" num="0" delta="unknown" >The signal(s) &apos;<arg fmt="%s" index="1">sInv&lt;85&gt;</arg>&apos; are in combinational feedback loops.
+These signals may cause hazards/glitches. Apply the NOREDUCE parameter to the hazard reduction circuitry.
+Timing analysis of paths involving this node may be inaccurate or incomplete.
+</msg>
+
+<msg type="warning" file="Cpld" num="0" delta="unknown" >The signal(s) &apos;<arg fmt="%s" index="1">sInv&lt;97&gt;</arg>&apos; are in combinational feedback loops.
+These signals may cause hazards/glitches. Apply the NOREDUCE parameter to the hazard reduction circuitry.
+Timing analysis of paths involving this node may be inaccurate or incomplete.
+</msg>
+
+<msg type="warning" file="Cpld" num="0" delta="unknown" >The signal(s) &apos;<arg fmt="%s" index="1">sInv&lt;109&gt;</arg>&apos; are in combinational feedback loops.
+These signals may cause hazards/glitches. Apply the NOREDUCE parameter to the hazard reduction circuitry.
+Timing analysis of paths involving this node may be inaccurate or incomplete.
+</msg>
+
+<msg type="warning" file="Cpld" num="0" delta="unknown" >The signal(s) &apos;<arg fmt="%s" index="1">sInv&lt;121&gt;</arg>&apos; are in combinational feedback loops.
+These signals may cause hazards/glitches. Apply the NOREDUCE parameter to the hazard reduction circuitry.
+Timing analysis of paths involving this node may be inaccurate or incomplete.
+</msg>
+
+<msg type="warning" file="Cpld" num="0" delta="unknown" >The signal(s) &apos;<arg fmt="%s" index="1">sInv&lt;133&gt;</arg>&apos; are in combinational feedback loops.
+These signals may cause hazards/glitches. Apply the NOREDUCE parameter to the hazard reduction circuitry.
+Timing analysis of paths involving this node may be inaccurate or incomplete.
+</msg>
+
+<msg type="warning" file="Cpld" num="0" delta="unknown" >The signal(s) &apos;<arg fmt="%s" index="1">sInv&lt;145&gt;</arg>&apos; are in combinational feedback loops.
+These signals may cause hazards/glitches. Apply the NOREDUCE parameter to the hazard reduction circuitry.
+Timing analysis of paths involving this node may be inaccurate or incomplete.
+</msg>
+
+<msg type="warning" file="Cpld" num="0" delta="unknown" >The signal(s) &apos;<arg fmt="%s" index="1">sInv&lt;148&gt;</arg>&apos; are in combinational feedback loops.
+These signals may cause hazards/glitches. Apply the NOREDUCE parameter to the hazard reduction circuitry.
+Timing analysis of paths involving this node may be inaccurate or incomplete.
+</msg>
+
+<msg type="warning" file="Cpld" num="0" delta="unknown" >The signal(s) &apos;<arg fmt="%s" index="1">sInv&lt;151&gt;</arg>&apos; are in combinational feedback loops.
+These signals may cause hazards/glitches. Apply the NOREDUCE parameter to the hazard reduction circuitry.
+Timing analysis of paths involving this node may be inaccurate or incomplete.
+</msg>
+
+<msg type="warning" file="Cpld" num="0" delta="unknown" >The signal(s) &apos;<arg fmt="%s" index="1">sInv&lt;154&gt;</arg>&apos; are in combinational feedback loops.
+These signals may cause hazards/glitches. Apply the NOREDUCE parameter to the hazard reduction circuitry.
+Timing analysis of paths involving this node may be inaccurate or incomplete.
+</msg>
+
+<msg type="warning" file="Cpld" num="0" delta="unknown" >The signal(s) &apos;<arg fmt="%s" index="1">sInv&lt;157&gt;</arg>&apos; are in combinational feedback loops.
+These signals may cause hazards/glitches. Apply the NOREDUCE parameter to the hazard reduction circuitry.
+Timing analysis of paths involving this node may be inaccurate or incomplete.
+</msg>
+
+<msg type="warning" file="Cpld" num="0" delta="unknown" >The signal(s) &apos;<arg fmt="%s" index="1">sInv&lt;160&gt;</arg>&apos; are in combinational feedback loops.
+These signals may cause hazards/glitches. Apply the NOREDUCE parameter to the hazard reduction circuitry.
+Timing analysis of paths involving this node may be inaccurate or incomplete.
+</msg>
+
+<msg type="warning" file="Cpld" num="0" delta="unknown" >The signal(s) &apos;<arg fmt="%s" index="1">sInv&lt;163&gt;</arg>&apos; are in combinational feedback loops.
+These signals may cause hazards/glitches. Apply the NOREDUCE parameter to the hazard reduction circuitry.
+Timing analysis of paths involving this node may be inaccurate or incomplete.
+</msg>
+
+<msg type="warning" file="Cpld" num="0" delta="unknown" >The signal(s) &apos;<arg fmt="%s" index="1">sInv&lt;166&gt;</arg>&apos; are in combinational feedback loops.
+These signals may cause hazards/glitches. Apply the NOREDUCE parameter to the hazard reduction circuitry.
+Timing analysis of paths involving this node may be inaccurate or incomplete.
+</msg>
+
+</messages>
+

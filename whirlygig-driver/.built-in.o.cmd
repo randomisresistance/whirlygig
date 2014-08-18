@@ -1,0 +1,1 @@
+cmd_/home/lynx/Projekte/Whirlygig/new/whirlygig-driver/built-in.o :=  rm -f /home/lynx/Projekte/Whirlygig/new/whirlygig-driver/built-in.o; ar rcsD /home/lynx/Projekte/Whirlygig/new/whirlygig-driver/built-in.o

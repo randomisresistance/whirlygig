@@ -1,0 +1,226 @@
+----------------------------------------------------------------------------------
+-- Company: Crash Barrier Ltd
+-- Engineer: Andy Green
+-- 
+-- Create Date:    20:43:12 11/05/2007 
+-- Design Name: "whirlygig" Random number generator
+-- Module Name:    whirlygig - Behavioral 
+-- Project Name: whirlygig
+-- Target Devices: 
+-- Tool versions: 
+-- Description: Serial random number generator
+--
+-- Dependencies: 
+--
+-- Revision: 
+-- Revision 0.01 - File Created
+-- Additional Comments: 
+--
+----------------------------------------------------------------------------------
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+use IEEE.STD_LOGIC_ARITH.ALL;
+use IEEE.STD_LOGIC_UNSIGNED.ALL;
+
+---- Uncomment the following library declaration if instantiating
+---- any Xilinx primitives in this code.
+library UNISIM;
+use UNISIM.VComponents.all;
+
+entity whirlygig is
+    Port (
+		pClock : in STD_LOGIC;
+		pSerialOut : out std_logic_vector(7 downto 0)
+	 );
+end whirlygig;
+
+architecture Behavioral of whirlygig is
+
+	attribute keep : string;
+
+	signal sInv1 : std_logic_vector(6 downto 0);
+	signal sInv2 : std_logic_vector(8 downto 0);
+	signal sInv3 : std_logic_vector(10 downto 0);
+	signal sInv4 : std_logic_vector(6 downto 0);
+	signal sInv5 : std_logic_vector(8 downto 0);
+	signal sInv6 : std_logic_vector(10 downto 0);
+	signal sInv7 : std_logic_vector(6 downto 0);
+	signal sInv8 : std_logic_vector(8 downto 0);
+	signal sInv9 : std_logic_vector(10 downto 0);
+	signal sInv10 : std_logic_vector(6 downto 0);
+	signal sInv11 : std_logic_vector(8 downto 0);
+	signal sInv12 : std_logic_vector(10 downto 0);
+	signal sInv13 : std_logic_vector(6 downto 0);
+	signal sInv14 : std_logic_vector(8 downto 0);
+	signal sInv15 : std_logic_vector(10 downto 0);
+	signal sInv16 : std_logic_vector(6 downto 0);
+	signal sInv17 : std_logic_vector(8 downto 0);
+	signal sInv18 : std_logic_vector(10 downto 0);
+	signal sInv19 : std_logic_vector(6 downto 0);
+	signal sInv20 : std_logic_vector(8 downto 0);
+	signal sInv21 : std_logic_vector(10 downto 0);
+	signal sInv22 : std_logic_vector(6 downto 0);
+	signal sInv23 : std_logic_vector(8 downto 0);
+	signal sInv24 : std_logic_vector(10 downto 0);
+
+	signal sSerialOut : std_logic_vector(7 downto 0);
+	signal sCount : std_logic_vector(2 downto 0);
+	signal sCountPre : std_logic_vector(2 downto 0);
+
+	signal sToggle, sClockOld : std_logic;
+
+	attribute keep of sInv1, sInv2, sInv3, sInv4, 
+		sInv5, sInv6, sInv7, sInv8, sInv9, sInv10, sInv11, sInv12,
+		sInv13, sInv14, sInv15, sInv16, sInv17, sInv18, sInv19, sInv20,
+		sInv21, sInv22, sInv23, sInv24
+	: signal is "true";
+
+
+function int_from_vector (vec1: std_logic_vector) return integer is 
+	variable retval: integer := 0; 
+	alias vec: std_logic_vector(vec1'length-1 downto 0) is vec1; 
+begin 
+	for i in vec'high downto 1 loop 
+		if (vec(i) = '1') then 
+			retval := (retval + 1) * 2; 
+		else 
+			retval := retval * 2; 
+		end if; 
+	end loop; 
+	if (vec(0) = '1') then
+		retval := retval + 1; 
+	end if; 
+	return retval; 
+end int_from_vector; 
+
+begin
+
+processRings: process(
+ sInv1	
+) 
+
+   variable j: integer := 0; 
+
+begin	
+
+-- generate the rings, 8 each of length 7, 9 and 11 inverters
+
+	for i in 0 to 6 loop
+		j := i;
+		if (j = 0) then
+			j := 6 + 1;
+		end if;
+		sInv1(i) <= not sInv1(j - 1);
+		sInv4(i) <= not sInv4(j - 1);
+		sInv7(i) <= not sInv7(j - 1);
+		sInv10(i) <= not sInv10(j - 1);
+		sInv13(i) <= not sInv13(j - 1);
+		sInv16(i) <= not sInv16(j - 1);
+		sInv19(i) <= not sInv19(j - 1);
+		sInv22(i) <= not sInv22(j - 1);
+	end loop;
+
+	for i in 0 to 8 loop
+		j := i;
+		if (j = 0) then
+			j := 8 + 1;
+		end if;
+		sInv2(i) <= not sInv2(j - 1);
+		sInv5(i) <= not sInv5(j - 1);
+		sInv8(i) <= not sInv8(j - 1);
+		sInv11(i) <= not sInv11(j - 1);
+		sInv14(i) <= not sInv14(j - 1);
+		sInv17(i) <= not sInv17(j - 1);
+		sInv20(i) <= not sInv20(j - 1);
+		sInv23(i) <= not sInv23(j - 1);
+	end loop;
+
+	for i in 0 to 10 loop
+		j := i;
+		if (j = 0) then
+			j := 10 + 1;
+		end if;
+		sInv3(i) <= not sInv3(j - 1);
+		sInv6(i) <= not sInv6(j - 1);
+		sInv9(i) <= not sInv9(j - 1);
+		sInv12(i) <= not sInv12(j - 1);
+		sInv15(i) <= not sInv15(j - 1);
+		sInv18(i) <= not sInv18(j - 1);
+		sInv21(i) <= not sInv21(j - 1);
+		sInv24(i) <= not sInv24(j - 1);
+	end loop;
+
+end process processRings;
+
+
+processSample: process(
+	pClock
+) begin
+
+	if (pClock'EVENT and pClock = '1') then
+
+		sClockOld <= sInv1(1) xor sInv10(2) xor sInv16(3) xor sInv22(4);
+		sToggle <= sToggle xor sClockOld;
+		
+		sCountPre(0) <= sInv4(3) xor sInv7(3) xor sInv19(4) xor sInv9(4);
+		sCountPre(1) <= sInv13(3) xor sInv1(3) xor sInv22(4) xor sInv12(4);
+		sCountPre(2) <= sInv10(5) xor sInv19(0) xor sInv16(4) xor sInv15(4);
+
+		sCount(0) <= sCount(1) xor sCountPre(0);
+		sCount(1) <= sCount(2) xor sCountPre(1);
+		sCount(2) <= sCount(0) xor sCountPre(2);
+
+		sSerialOut(0) <= sSerialOut(0) xor
+			(sInv1(0) xor sInv2(0) xor sInv3(0)) xor
+			(sInv10(0) xor sInv8(0) xor sInv9(0)) xor
+			(sInv13(0) xor sInv17(0) xor sInv21(0))
+			;
+		sSerialOut(1) <= sSerialOut(1) xor
+			(sInv4(0) xor sInv5(0) xor sInv6(0)) xor
+			(sInv7(0) xor sInv11(0) xor sInv12(0)) xor
+			(sInv10(0) xor sInv20(0) xor sInv24(0))
+			;
+		sSerialOut(2) <= sSerialOut(2) xor
+			(sInv7(0) xor sInv8(0) xor sInv9(0)) xor
+			(sInv4(0) xor sInv14(0) xor sInv15(0)) xor
+			(sInv16(0) xor sInv23(0) xor sInv3(0))
+			;
+		sSerialOut(3) <= sSerialOut(3) xor
+			(sInv10(0) xor sInv11(0) xor sInv12(0)) xor
+			(sInv1(0) xor sInv17(0) xor sInv18(0)) xor
+			(sInv19(0) xor sInv2(0) xor sInv6(0))
+			;
+		sSerialOut(4) <= sSerialOut(4) xor
+			(sInv13(0) xor sInv14(0) xor sInv15(0)) xor
+			(sInv19(0) xor sInv2(0) xor sInv21(0)) xor
+			(sInv22(0) xor sInv5(0) xor sInv9(0)) 
+			;
+		sSerialOut(5) <= sSerialOut(5) xor
+			(sInv16(0) xor sInv17(0) xor sInv18(0)) xor
+			(sInv13(0) xor sInv23(0) xor sInv24(0)) xor
+			(sInv1(0) xor sInv8(0) xor sInv12(0))
+			;
+		sSerialOut(6) <= sSerialOut(6) xor
+			(sInv19(0) xor sInv20(0) xor sInv21(0)) xor
+			(sInv22(0) xor sInv20(0) xor sInv3(0)) xor
+			(sInv4(0) xor sInv11(0) xor sInv15(0))
+			;
+		sSerialOut(7) <= sSerialOut(7) xor
+			(sInv22(0) xor sInv23(0) xor sInv24(0)) xor
+			(sInv1(0) xor sInv5(0) xor sInv6(0)) xor
+			(sInv7(0) xor sInv14(0) xor sInv18(0))
+			;
+
+
+		pSerialOut(0) <= sSerialOut(0);
+		pSerialOut(1) <= sSerialOut(1);
+		pSerialOut(2) <= sSerialOut(2);
+		pSerialOut(3) <= sSerialOut(3);
+		pSerialOut(4) <= sSerialOut(4);
+		pSerialOut(5) <= sSerialOut(5);
+		pSerialOut(6) <= sSerialOut(6);
+		pSerialOut(7) <= sSerialOut(7);
+	end if;
+end process processSample;
+end Behavioral;
+

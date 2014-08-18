@@ -1,0 +1,2666 @@
+MDF Database:  version 1.0
+MDF_INFO | whirlygig | XC95288XL-6-TQ144
+MACROCELL | 14 | 2 | pSerialOut_0
+ATTRIBUTES | 8684354 | 0
+INPUTS | 5 | sSerialOut<0>  | ctr<0>  | ctr<1>  | ctr<2>  | ctr<3>
+INPUTMC | 5 | 14 | 17 | 14 | 3 | 14 | 6 | 14 | 5 | 14 | 4
+EQ | 3 | 
+   pSerialOut<0>.D = sSerialOut<0>;
+   pSerialOut<0>.CLK = pClock;	// GCK
+   pSerialOut<0>.CE = ctr<0> & !ctr<1> & ctr<2> & ctr<3>;
+GLOBALS | 1 | 2 | pClock
+
+MACROCELL | 14 | 7 | pSerialOut_1
+ATTRIBUTES | 8684354 | 0
+INPUTS | 5 | sSerialOut<1>  | ctr<0>  | ctr<1>  | ctr<2>  | ctr<3>
+INPUTMC | 5 | 15 | 17 | 14 | 3 | 14 | 6 | 14 | 5 | 14 | 4
+EQ | 3 | 
+   pSerialOut<1>.D = sSerialOut<1>;
+   pSerialOut<1>.CLK = pClock;	// GCK
+   pSerialOut<1>.CE = ctr<0> & !ctr<1> & ctr<2> & ctr<3>;
+GLOBALS | 1 | 2 | pClock
+
+MACROCELL | 14 | 14 | pSerialOut_2
+ATTRIBUTES | 8684354 | 0
+INPUTS | 5 | sSerialOut<2>  | ctr<0>  | ctr<1>  | ctr<2>  | ctr<3>
+INPUTMC | 5 | 15 | 16 | 14 | 3 | 14 | 6 | 14 | 5 | 14 | 4
+EQ | 3 | 
+   pSerialOut<2>.D = sSerialOut<2>;
+   pSerialOut<2>.CLK = pClock;	// GCK
+   pSerialOut<2>.CE = ctr<0> & !ctr<1> & ctr<2> & ctr<3>;
+GLOBALS | 1 | 2 | pClock
+
+MACROCELL | 14 | 16 | pSerialOut_3
+ATTRIBUTES | 8684354 | 0
+OUTPUTMC | 1 | 14 | 17
+INPUTS | 11 | sSerialOut<3>  | ctr<0>  | ctr<1>  | ctr<2>  | ctr<3>  | sLatch<19>  | sLatch<15>  | sLatch<18>  | sLatch<17>  | sLatch<16>  | sLatch<7>
+INPUTMC | 11 | 15 | 14 | 14 | 3 | 14 | 6 | 14 | 5 | 14 | 4 | 1 | 2 | 2 | 14 | 2 | 11 | 2 | 12 | 2 | 13 | 5 | 16
+EXPORTS | 1 | 14 | 17
+EQ | 7 | 
+   pSerialOut<3>.D = sSerialOut<3>;
+   pSerialOut<3>.CLK = pClock;	// GCK
+   pSerialOut<3>.CE = ctr<0> & !ctr<1> & ctr<2> & ctr<3>;
+    pSerialOut_3.EXP  =  sLatch<19> & sLatch<15> & sLatch<18> & 
+	sLatch<17> & sLatch<16>
+	# !sLatch<19> & sLatch<18> & sLatch<7> & 
+	sLatch<17> & sLatch<16>
+GLOBALS | 1 | 2 | pClock
+
+MACROCELL | 15 | 2 | pSerialOut_4
+ATTRIBUTES | 8684354 | 0
+INPUTS | 5 | sSerialOut<4>  | ctr<0>  | ctr<1>  | ctr<2>  | ctr<3>
+INPUTMC | 5 | 0 | 17 | 14 | 3 | 14 | 6 | 14 | 5 | 14 | 4
+EQ | 3 | 
+   pSerialOut<4>.D = sSerialOut<4>;
+   pSerialOut<4>.CLK = pClock;	// GCK
+   pSerialOut<4>.CE = ctr<0> & !ctr<1> & ctr<2> & ctr<3>;
+GLOBALS | 1 | 2 | pClock
+
+MACROCELL | 15 | 4 | pSerialOut_5
+ATTRIBUTES | 8684354 | 0
+INPUTS | 5 | sSerialOut<5>  | ctr<0>  | ctr<1>  | ctr<2>  | ctr<3>
+INPUTMC | 5 | 0 | 16 | 14 | 3 | 14 | 6 | 14 | 5 | 14 | 4
+EQ | 3 | 
+   pSerialOut<5>.D = sSerialOut<5>;
+   pSerialOut<5>.CLK = pClock;	// GCK
+   pSerialOut<5>.CE = ctr<0> & !ctr<1> & ctr<2> & ctr<3>;
+GLOBALS | 1 | 2 | pClock
+
+MACROCELL | 15 | 9 | pSerialOut_6
+ATTRIBUTES | 8684354 | 0
+INPUTS | 5 | sSerialOut<6>  | ctr<0>  | ctr<1>  | ctr<2>  | ctr<3>
+INPUTMC | 5 | 0 | 14 | 14 | 3 | 14 | 6 | 14 | 5 | 14 | 4
+EQ | 3 | 
+   pSerialOut<6>.D = sSerialOut<6>;
+   pSerialOut<6>.CLK = pClock;	// GCK
+   pSerialOut<6>.CE = ctr<0> & !ctr<1> & ctr<2> & ctr<3>;
+GLOBALS | 1 | 2 | pClock
+
+MACROCELL | 15 | 10 | pSerialOut_7
+ATTRIBUTES | 8684354 | 0
+INPUTS | 5 | sSerialOut<7>  | ctr<0>  | ctr<1>  | ctr<2>  | ctr<3>
+INPUTMC | 5 | 1 | 17 | 14 | 3 | 14 | 6 | 14 | 5 | 14 | 4
+EQ | 3 | 
+   pSerialOut<7>.D = sSerialOut<7>;
+   pSerialOut<7>.CLK = pClock;	// GCK
+   pSerialOut<7>.CE = ctr<0> & !ctr<1> & ctr<2> & ctr<3>;
+GLOBALS | 1 | 2 | pClock
+
+MACROCELL | 14 | 1 | flip
+ATTRIBUTES | 4358912 | 0
+OUTPUTMC | 56 | 1 | 2 | 2 | 6 | 2 | 2 | 3 | 13 | 3 | 9 | 3 | 5 | 4 | 16 | 4 | 12 | 2 | 17 | 1 | 5 | 2 | 16 | 2 | 15 | 1 | 4 | 1 | 3 | 2 | 14 | 2 | 11 | 2 | 10 | 2 | 7 | 2 | 3 | 3 | 15 | 3 | 14 | 3 | 10 | 3 | 6 | 3 | 4 | 4 | 17 | 4 | 13 | 4 | 9 | 4 | 2 | 5 | 17 | 5 | 16 | 5 | 15 | 5 | 14 | 2 | 12 | 2 | 8 | 2 | 4 | 3 | 16 | 3 | 11 | 3 | 7 | 3 | 2 | 4 | 14 | 2 | 13 | 2 | 9 | 2 | 5 | 3 | 17 | 3 | 12 | 3 | 8 | 3 | 3 | 4 | 15 | 4 | 11 | 4 | 10 | 4 | 8 | 4 | 7 | 4 | 6 | 4 | 5 | 4 | 4 | 4 | 3
+INPUTS | 0
+EQ | 2 | 
+   flip.T = Vcc;
+   flip.CLK = pClock;	// GCK
+GLOBALS | 1 | 2 | pClock
+
+MACROCELL | 1 | 2 | sLatch<19>
+ATTRIBUTES | 8553216 | 0
+OUTPUTMC | 6 | 2 | 9 | 14 | 17 | 0 | 13 | 0 | 12 | 1 | 16 | 14 | 16
+INPUTS | 3 | flip  | sLatch<18>  | sInv<58>
+INPUTMC | 3 | 14 | 1 | 2 | 11 | 11 | 11
+EQ | 4 | 
+   !sLatch<19>.D = flip
+	$ sLatch<18> & sInv<58>
+	# !sLatch<18> & !sInv<58>;
+   sLatch<19>.CLK = pClock;	// GCK
+GLOBALS | 1 | 2 | pClock
+
+MACROCELL | 2 | 6 | sLatch<23>
+ATTRIBUTES | 8553216 | 0
+OUTPUTMC | 6 | 2 | 5 | 15 | 17 | 1 | 14 | 1 | 15 | 14 | 15 | 15 | 0
+INPUTS | 3 | flip  | sLatch<22>  | sInv<70>
+INPUTMC | 3 | 14 | 1 | 2 | 7 | 12 | 15
+EQ | 4 | 
+   !sLatch<23>.D = flip
+	$ sLatch<22> & sInv<70>
+	# !sLatch<22> & !sInv<70>;
+   sLatch<23>.CLK = pClock;	// GCK
+GLOBALS | 1 | 2 | pClock
+
+MACROCELL | 2 | 2 | sLatch<27>
+ATTRIBUTES | 8553216 | 0
+OUTPUTMC | 6 | 3 | 17 | 15 | 16 | 1 | 13 | 1 | 12 | 14 | 13 | 15 | 15
+INPUTS | 3 | flip  | sLatch<26>  | sInv<82>
+INPUTMC | 3 | 14 | 1 | 2 | 3 | 12 | 2
+EQ | 4 | 
+   !sLatch<27>.D = flip
+	$ sLatch<26> & sInv<82>
+	# !sLatch<26> & !sInv<82>;
+   sLatch<27>.CLK = pClock;	// GCK
+GLOBALS | 1 | 2 | pClock
+
+MACROCELL | 3 | 13 | sLatch<31>
+ATTRIBUTES | 8553216 | 0
+OUTPUTMC | 6 | 3 | 12 | 15 | 14 | 1 | 10 | 1 | 11 | 14 | 12 | 15 | 13
+INPUTS | 3 | flip  | sLatch<30>  | sInv<94>
+INPUTMC | 3 | 14 | 1 | 3 | 14 | 13 | 7
+EQ | 4 | 
+   !sLatch<31>.D = flip
+	$ sLatch<30> & sInv<94>
+	# !sLatch<30> & !sInv<94>;
+   sLatch<31>.CLK = pClock;	// GCK
+GLOBALS | 1 | 2 | pClock
+
+MACROCELL | 3 | 9 | sLatch<35>
+ATTRIBUTES | 8553216 | 0
+OUTPUTMC | 6 | 3 | 8 | 0 | 17 | 0 | 11 | 1 | 9 | 14 | 11 | 0 | 0
+INPUTS | 3 | flip  | sLatch<34>  | sInv<106>
+INPUTMC | 3 | 14 | 1 | 3 | 10 | 5 | 10
+EQ | 4 | 
+   !sLatch<35>.D = flip
+	$ sLatch<34> & sInv<106>
+	# !sLatch<34> & !sInv<106>;
+   sLatch<35>.CLK = pClock;	// GCK
+GLOBALS | 1 | 2 | pClock
+
+MACROCELL | 3 | 5 | sLatch<39>
+ATTRIBUTES | 8553216 | 0
+OUTPUTMC | 6 | 3 | 3 | 0 | 16 | 0 | 10 | 14 | 10 | 1 | 8 | 0 | 15
+INPUTS | 3 | flip  | sLatch<38>  | sInv<118>
+INPUTMC | 3 | 14 | 1 | 3 | 6 | 6 | 12
+EQ | 4 | 
+   !sLatch<39>.D = flip
+	$ sLatch<38> & sInv<118>
+	# !sLatch<38> & !sInv<118>;
+   sLatch<39>.CLK = pClock;	// GCK
+GLOBALS | 1 | 2 | pClock
+
+MACROCELL | 4 | 16 | sLatch<43>
+ATTRIBUTES | 8553216 | 0
+OUTPUTMC | 6 | 4 | 15 | 0 | 14 | 1 | 7 | 0 | 9 | 14 | 9 | 0 | 13
+INPUTS | 3 | flip  | sLatch<42>  | sInv<130>
+INPUTMC | 3 | 14 | 1 | 4 | 17 | 7 | 17
+EQ | 4 | 
+   !sLatch<43>.D = flip
+	$ sLatch<42> & sInv<130>
+	# !sLatch<42> & !sInv<130>;
+   sLatch<43>.CLK = pClock;	// GCK
+GLOBALS | 1 | 2 | pClock
+
+MACROCELL | 4 | 12 | sLatch<47>
+ATTRIBUTES | 8553216 | 0
+OUTPUTMC | 7 | 1 | 17 | 4 | 11 | 1 | 6 | 0 | 8 | 14 | 8 | 1 | 0 | 1 | 16
+INPUTS | 3 | flip  | sLatch<46>  | sInv<142>
+INPUTMC | 3 | 14 | 1 | 4 | 13 | 7 | 5
+EQ | 4 | 
+   !sLatch<47>.D = flip
+	$ sLatch<46> & sInv<142>
+	# !sLatch<46> & !sInv<142>;
+   sLatch<47>.CLK = pClock;	// GCK
+GLOBALS | 1 | 2 | pClock
+
+MACROCELL | 2 | 17 | sLatch<0>
+ATTRIBUTES | 8553216 | 0
+OUTPUTMC | 9 | 2 | 10 | 1 | 16 | 1 | 15 | 1 | 13 | 1 | 11 | 1 | 9 | 1 | 8 | 1 | 7 | 1 | 6
+INPUTS | 3 | flip  | sLatch<55>  | sInv<1>
+INPUTMC | 3 | 14 | 1 | 4 | 3 | 9 | 9
+EQ | 4 | 
+   !sLatch<0>.D = flip
+	$ sLatch<55> & sInv<1>
+	# !sLatch<55> & !sInv<1>;
+   sLatch<0>.CLK = pClock;	// GCK
+GLOBALS | 1 | 2 | pClock
+
+MACROCELL | 1 | 5 | sLatch<10>
+ATTRIBUTES | 8553216 | 0
+OUTPUTMC | 9 | 2 | 16 | 15 | 17 | 15 | 16 | 15 | 14 | 0 | 17 | 0 | 16 | 0 | 14 | 0 | 12 | 0 | 8
+INPUTS | 3 | flip  | sLatch<9>  | sInv<31>
+INPUTMC | 3 | 14 | 1 | 5 | 14 | 9 | 1
+EQ | 4 | 
+   !sLatch<10>.D = flip
+	$ sLatch<9> & sInv<31>
+	# !sLatch<9> & !sInv<31>;
+   sLatch<10>.CLK = pClock;	// GCK
+GLOBALS | 1 | 2 | pClock
+
+MACROCELL | 2 | 16 | sLatch<11>
+ATTRIBUTES | 8553216 | 0
+OUTPUTMC | 9 | 2 | 15 | 14 | 17 | 14 | 15 | 14 | 13 | 14 | 12 | 14 | 11 | 14 | 10 | 14 | 9 | 14 | 8
+INPUTS | 3 | flip  | sLatch<10>  | sInv<34>
+INPUTMC | 3 | 14 | 1 | 1 | 5 | 10 | 17
+EQ | 4 | 
+   !sLatch<11>.D = flip
+	$ sLatch<10> & sInv<34>
+	# !sLatch<10> & !sInv<34>;
+   sLatch<11>.CLK = pClock;	// GCK
+GLOBALS | 1 | 2 | pClock
+
+MACROCELL | 2 | 15 | sLatch<12>
+ATTRIBUTES | 8553216 | 0
+OUTPUTMC | 9 | 1 | 4 | 1 | 16 | 1 | 15 | 1 | 13 | 1 | 11 | 1 | 9 | 1 | 8 | 1 | 7 | 1 | 6
+INPUTS | 3 | flip  | sLatch<11>  | sInv<37>
+INPUTMC | 3 | 14 | 1 | 2 | 16 | 10 | 15
+EQ | 4 | 
+   !sLatch<12>.D = flip
+	$ sLatch<11> & sInv<37>
+	# !sLatch<11> & !sInv<37>;
+   sLatch<12>.CLK = pClock;	// GCK
+GLOBALS | 1 | 2 | pClock
+
+MACROCELL | 1 | 4 | sLatch<13>
+ATTRIBUTES | 8553216 | 0
+OUTPUTMC | 9 | 1 | 3 | 1 | 0 | 0 | 12 | 1 | 14 | 1 | 12 | 1 | 10 | 0 | 11 | 0 | 10 | 0 | 9
+INPUTS | 3 | flip  | sLatch<12>  | sInv<40>
+INPUTMC | 3 | 14 | 1 | 2 | 15 | 10 | 11
+EQ | 4 | 
+   !sLatch<13>.D = flip
+	$ sLatch<12> & sInv<40>
+	# !sLatch<12> & !sInv<40>;
+   sLatch<13>.CLK = pClock;	// GCK
+GLOBALS | 1 | 2 | pClock
+
+MACROCELL | 1 | 3 | sLatch<14>
+ATTRIBUTES | 8553216 | 0
+OUTPUTMC | 9 | 2 | 14 | 15 | 0 | 15 | 15 | 15 | 13 | 0 | 0 | 0 | 15 | 0 | 13 | 0 | 12 | 0 | 8
+INPUTS | 3 | flip  | sLatch<13>  | sInv<43>
+INPUTMC | 3 | 14 | 1 | 1 | 4 | 10 | 9
+EQ | 4 | 
+   !sLatch<14>.D = flip
+	$ sLatch<13> & sInv<43>
+	# !sLatch<13> & !sInv<43>;
+   sLatch<14>.CLK = pClock;	// GCK
+GLOBALS | 1 | 2 | pClock
+
+MACROCELL | 2 | 14 | sLatch<15>
+ATTRIBUTES | 8553216 | 0
+OUTPUTMC | 9 | 2 | 13 | 14 | 16 | 14 | 15 | 14 | 13 | 14 | 12 | 14 | 11 | 14 | 10 | 14 | 9 | 14 | 8
+INPUTS | 3 | flip  | sLatch<14>  | sInv<46>
+INPUTMC | 3 | 14 | 1 | 1 | 3 | 10 | 6
+EQ | 4 | 
+   !sLatch<15>.D = flip
+	$ sLatch<14> & sInv<46>
+	# !sLatch<14> & !sInv<46>;
+   sLatch<15>.CLK = pClock;	// GCK
+GLOBALS | 1 | 2 | pClock
+
+MACROCELL | 2 | 11 | sLatch<18>
+ATTRIBUTES | 8553216 | 0
+OUTPUTMC | 6 | 1 | 2 | 14 | 17 | 0 | 13 | 0 | 12 | 1 | 16 | 14 | 16
+INPUTS | 3 | flip  | sLatch<17>  | sInv<55>
+INPUTMC | 3 | 14 | 1 | 2 | 12 | 11 | 14
+EQ | 4 | 
+   !sLatch<18>.D = flip
+	$ sLatch<17> & sInv<55>
+	# !sLatch<17> & !sInv<55>;
+   sLatch<18>.CLK = pClock;	// GCK
+GLOBALS | 1 | 2 | pClock
+
+MACROCELL | 2 | 10 | sLatch<1>
+ATTRIBUTES | 8553216 | 0
+OUTPUTMC | 9 | 3 | 15 | 1 | 17 | 0 | 13 | 1 | 14 | 1 | 12 | 1 | 10 | 0 | 11 | 0 | 10 | 0 | 9
+INPUTS | 3 | flip  | sLatch<0>  | sInv<4>
+INPUTMC | 3 | 14 | 1 | 2 | 17 | 10 | 2
+EQ | 4 | 
+   !sLatch<1>.D = flip
+	$ sLatch<0> & sInv<4>
+	# !sLatch<0> & !sInv<4>;
+   sLatch<1>.CLK = pClock;	// GCK
+GLOBALS | 1 | 2 | pClock
+
+MACROCELL | 2 | 7 | sLatch<22>
+ATTRIBUTES | 8553216 | 0
+OUTPUTMC | 6 | 2 | 6 | 15 | 17 | 1 | 14 | 1 | 15 | 14 | 15 | 15 | 0
+INPUTS | 3 | flip  | sLatch<21>  | sInv<67>
+INPUTMC | 3 | 14 | 1 | 2 | 8 | 11 | 1
+EQ | 4 | 
+   !sLatch<22>.D = flip
+	$ sLatch<21> & sInv<67>
+	# !sLatch<21> & !sInv<67>;
+   sLatch<22>.CLK = pClock;	// GCK
+GLOBALS | 1 | 2 | pClock
+
+MACROCELL | 2 | 3 | sLatch<26>
+ATTRIBUTES | 8553216 | 0
+OUTPUTMC | 6 | 2 | 2 | 15 | 16 | 1 | 13 | 1 | 12 | 14 | 13 | 15 | 15
+INPUTS | 3 | flip  | sLatch<25>  | sInv<79>
+INPUTMC | 3 | 14 | 1 | 2 | 4 | 12 | 6
+EQ | 4 | 
+   !sLatch<26>.D = flip
+	$ sLatch<25> & sInv<79>
+	# !sLatch<25> & !sInv<79>;
+   sLatch<26>.CLK = pClock;	// GCK
+GLOBALS | 1 | 2 | pClock
+
+MACROCELL | 3 | 15 | sLatch<2>
+ATTRIBUTES | 8553216 | 0
+OUTPUTMC | 9 | 3 | 4 | 15 | 17 | 15 | 16 | 15 | 14 | 0 | 17 | 0 | 16 | 0 | 14 | 0 | 12 | 0 | 8
+INPUTS | 3 | flip  | sLatch<1>  | sInv<7>
+INPUTMC | 3 | 14 | 1 | 2 | 10 | 12 | 5
+EQ | 4 | 
+   !sLatch<2>.D = flip
+	$ sLatch<1> & sInv<7>
+	# !sLatch<1> & !sInv<7>;
+   sLatch<2>.CLK = pClock;	// GCK
+GLOBALS | 1 | 2 | pClock
+
+MACROCELL | 3 | 14 | sLatch<30>
+ATTRIBUTES | 8553216 | 0
+OUTPUTMC | 6 | 3 | 13 | 15 | 14 | 1 | 10 | 1 | 11 | 14 | 12 | 15 | 13
+INPUTS | 3 | flip  | sLatch<29>  | sInv<91>
+INPUTMC | 3 | 14 | 1 | 3 | 16 | 13 | 10
+EQ | 4 | 
+   !sLatch<30>.D = flip
+	$ sLatch<29> & sInv<91>
+	# !sLatch<29> & !sInv<91>;
+   sLatch<30>.CLK = pClock;	// GCK
+GLOBALS | 1 | 2 | pClock
+
+MACROCELL | 3 | 10 | sLatch<34>
+ATTRIBUTES | 8553216 | 0
+OUTPUTMC | 6 | 3 | 9 | 0 | 17 | 0 | 11 | 1 | 9 | 14 | 11 | 0 | 0
+INPUTS | 3 | flip  | sLatch<33>  | sInv<103>
+INPUTMC | 3 | 14 | 1 | 3 | 11 | 5 | 12
+EQ | 4 | 
+   !sLatch<34>.D = flip
+	$ sLatch<33> & sInv<103>
+	# !sLatch<33> & !sInv<103>;
+   sLatch<34>.CLK = pClock;	// GCK
+GLOBALS | 1 | 2 | pClock
+
+MACROCELL | 3 | 6 | sLatch<38>
+ATTRIBUTES | 8553216 | 0
+OUTPUTMC | 6 | 3 | 5 | 0 | 16 | 0 | 10 | 14 | 10 | 1 | 8 | 0 | 15
+INPUTS | 3 | flip  | sLatch<37>  | sInv<115>
+INPUTMC | 3 | 14 | 1 | 3 | 7 | 6 | 15
+EQ | 4 | 
+   !sLatch<38>.D = flip
+	$ sLatch<37> & sInv<115>
+	# !sLatch<37> & !sInv<115>;
+   sLatch<38>.CLK = pClock;	// GCK
+GLOBALS | 1 | 2 | pClock
+
+MACROCELL | 3 | 4 | sLatch<3>
+ATTRIBUTES | 8553216 | 0
+OUTPUTMC | 9 | 4 | 9 | 14 | 17 | 14 | 15 | 14 | 13 | 14 | 12 | 14 | 11 | 14 | 10 | 14 | 9 | 14 | 8
+INPUTS | 3 | flip  | sLatch<2>  | sInv<10>
+INPUTMC | 3 | 14 | 1 | 3 | 15 | 5 | 7
+EQ | 4 | 
+   !sLatch<3>.D = flip
+	$ sLatch<2> & sInv<10>
+	# !sLatch<2> & !sInv<10>;
+   sLatch<3>.CLK = pClock;	// GCK
+GLOBALS | 1 | 2 | pClock
+
+MACROCELL | 4 | 17 | sLatch<42>
+ATTRIBUTES | 8553216 | 0
+OUTPUTMC | 6 | 4 | 16 | 0 | 14 | 1 | 7 | 0 | 9 | 14 | 9 | 0 | 13
+INPUTS | 3 | flip  | sLatch<41>  | sInv<127>
+INPUTMC | 3 | 14 | 1 | 3 | 2 | 6 | 2
+EQ | 4 | 
+   !sLatch<42>.D = flip
+	$ sLatch<41> & sInv<127>
+	# !sLatch<41> & !sInv<127>;
+   sLatch<42>.CLK = pClock;	// GCK
+GLOBALS | 1 | 2 | pClock
+
+MACROCELL | 4 | 13 | sLatch<46>
+ATTRIBUTES | 8553216 | 0
+OUTPUTMC | 7 | 4 | 12 | 1 | 17 | 1 | 6 | 0 | 8 | 14 | 8 | 1 | 0 | 1 | 16
+INPUTS | 3 | flip  | sLatch<45>  | sInv<139>
+INPUTMC | 3 | 14 | 1 | 4 | 14 | 7 | 9
+EQ | 4 | 
+   !sLatch<46>.D = flip
+	$ sLatch<45> & sInv<139>
+	# !sLatch<45> & !sInv<139>;
+   sLatch<46>.CLK = pClock;	// GCK
+GLOBALS | 1 | 2 | pClock
+
+MACROCELL | 4 | 9 | sLatch<4>
+ATTRIBUTES | 8553216 | 0
+OUTPUTMC | 9 | 4 | 2 | 1 | 16 | 1 | 15 | 1 | 13 | 1 | 11 | 1 | 9 | 1 | 8 | 1 | 7 | 1 | 6
+INPUTS | 3 | flip  | sLatch<3>  | sInv<13>
+INPUTMC | 3 | 14 | 1 | 3 | 4 | 7 | 8
+EQ | 4 | 
+   !sLatch<4>.D = flip
+	$ sLatch<3> & sInv<13>
+	# !sLatch<3> & !sInv<13>;
+   sLatch<4>.CLK = pClock;	// GCK
+GLOBALS | 1 | 2 | pClock
+
+MACROCELL | 4 | 2 | sLatch<5>
+ATTRIBUTES | 8553216 | 0
+OUTPUTMC | 9 | 5 | 17 | 1 | 16 | 0 | 13 | 1 | 14 | 1 | 12 | 1 | 10 | 0 | 11 | 0 | 10 | 0 | 9
+INPUTS | 3 | flip  | sLatch<4>  | sInv<16>
+INPUTMC | 3 | 14 | 1 | 4 | 9 | 9 | 13
+EQ | 4 | 
+   !sLatch<5>.D = flip
+	$ sLatch<4> & sInv<16>
+	# !sLatch<4> & !sInv<16>;
+   sLatch<5>.CLK = pClock;	// GCK
+GLOBALS | 1 | 2 | pClock
+
+MACROCELL | 5 | 17 | sLatch<6>
+ATTRIBUTES | 8553216 | 0
+OUTPUTMC | 9 | 5 | 16 | 15 | 0 | 15 | 15 | 15 | 13 | 0 | 0 | 0 | 15 | 0 | 13 | 0 | 12 | 0 | 8
+INPUTS | 3 | flip  | sLatch<5>  | sInv<19>
+INPUTMC | 3 | 14 | 1 | 4 | 2 | 9 | 10
+EQ | 4 | 
+   !sLatch<6>.D = flip
+	$ sLatch<5> & sInv<19>
+	# !sLatch<5> & !sInv<19>;
+   sLatch<6>.CLK = pClock;	// GCK
+GLOBALS | 1 | 2 | pClock
+
+MACROCELL | 5 | 16 | sLatch<7>
+ATTRIBUTES | 8553216 | 0
+OUTPUTMC | 9 | 5 | 15 | 14 | 16 | 14 | 15 | 14 | 13 | 14 | 12 | 14 | 11 | 14 | 10 | 14 | 9 | 14 | 8
+INPUTS | 3 | flip  | sLatch<6>  | sInv<22>
+INPUTMC | 3 | 14 | 1 | 5 | 17 | 9 | 7
+EQ | 4 | 
+   !sLatch<7>.D = flip
+	$ sLatch<6> & sInv<22>
+	# !sLatch<6> & !sInv<22>;
+   sLatch<7>.CLK = pClock;	// GCK
+GLOBALS | 1 | 2 | pClock
+
+MACROCELL | 5 | 15 | sLatch<8>
+ATTRIBUTES | 8553216 | 0
+OUTPUTMC | 9 | 5 | 14 | 1 | 16 | 1 | 15 | 1 | 13 | 1 | 11 | 1 | 9 | 1 | 8 | 1 | 7 | 1 | 6
+INPUTS | 3 | flip  | sLatch<7>  | sInv<25>
+INPUTMC | 3 | 14 | 1 | 5 | 16 | 9 | 5
+EQ | 4 | 
+   !sLatch<8>.D = flip
+	$ sLatch<7> & sInv<25>
+	# !sLatch<7> & !sInv<25>;
+   sLatch<8>.CLK = pClock;	// GCK
+GLOBALS | 1 | 2 | pClock
+
+MACROCELL | 5 | 14 | sLatch<9>
+ATTRIBUTES | 8553216 | 0
+OUTPUTMC | 9 | 1 | 5 | 1 | 17 | 0 | 13 | 1 | 14 | 1 | 12 | 1 | 10 | 0 | 11 | 0 | 10 | 0 | 9
+INPUTS | 3 | flip  | sLatch<8>  | sInv<28>
+INPUTMC | 3 | 14 | 1 | 5 | 15 | 9 | 3
+EQ | 4 | 
+   !sLatch<9>.D = flip
+	$ sLatch<8> & sInv<28>
+	# !sLatch<8> & !sInv<28>;
+   sLatch<9>.CLK = pClock;	// GCK
+GLOBALS | 1 | 2 | pClock
+
+MACROCELL | 2 | 12 | sLatch<17>
+ATTRIBUTES | 8553216 | 0
+OUTPUTMC | 3 | 2 | 11 | 14 | 17 | 14 | 16
+INPUTS | 3 | flip  | sLatch<16>  | sInv<52>
+INPUTMC | 3 | 14 | 1 | 2 | 13 | 11 | 17
+EQ | 4 | 
+   !sLatch<17>.D = flip
+	$ sLatch<16> & sInv<52>
+	# !sLatch<16> & !sInv<52>;
+   sLatch<17>.CLK = pClock;	// GCK
+GLOBALS | 1 | 2 | pClock
+
+MACROCELL | 2 | 8 | sLatch<21>
+ATTRIBUTES | 8553216 | 0
+OUTPUTMC | 3 | 2 | 7 | 15 | 17 | 15 | 0
+INPUTS | 3 | flip  | sLatch<20>  | sInv<64>
+INPUTMC | 3 | 14 | 1 | 2 | 9 | 11 | 4
+EQ | 4 | 
+   !sLatch<21>.D = flip
+	$ sLatch<20> & sInv<64>
+	# !sLatch<20> & !sInv<64>;
+   sLatch<21>.CLK = pClock;	// GCK
+GLOBALS | 1 | 2 | pClock
+
+MACROCELL | 2 | 4 | sLatch<25>
+ATTRIBUTES | 8553216 | 0
+OUTPUTMC | 3 | 2 | 3 | 15 | 16 | 15 | 15
+INPUTS | 3 | flip  | sLatch<24>  | sInv<76>
+INPUTMC | 3 | 14 | 1 | 2 | 5 | 12 | 9
+EQ | 4 | 
+   !sLatch<25>.D = flip
+	$ sLatch<24> & sInv<76>
+	# !sLatch<24> & !sInv<76>;
+   sLatch<25>.CLK = pClock;	// GCK
+GLOBALS | 1 | 2 | pClock
+
+MACROCELL | 3 | 16 | sLatch<29>
+ATTRIBUTES | 8553216 | 0
+OUTPUTMC | 3 | 3 | 14 | 15 | 14 | 15 | 13
+INPUTS | 3 | flip  | sLatch<28>  | sInv<88>
+INPUTMC | 3 | 14 | 1 | 3 | 17 | 13 | 14
+EQ | 4 | 
+   !sLatch<29>.D = flip
+	$ sLatch<28> & sInv<88>
+	# !sLatch<28> & !sInv<88>;
+   sLatch<29>.CLK = pClock;	// GCK
+GLOBALS | 1 | 2 | pClock
+
+MACROCELL | 3 | 11 | sLatch<33>
+ATTRIBUTES | 8553216 | 0
+OUTPUTMC | 3 | 3 | 10 | 0 | 17 | 0 | 0
+INPUTS | 3 | flip  | sLatch<32>  | sInv<100>
+INPUTMC | 3 | 14 | 1 | 3 | 12 | 15 | 0
+EQ | 4 | 
+   !sLatch<33>.D = flip
+	$ sLatch<32> & sInv<100>
+	# !sLatch<32> & !sInv<100>;
+   sLatch<33>.CLK = pClock;	// GCK
+GLOBALS | 1 | 2 | pClock
+
+MACROCELL | 3 | 7 | sLatch<37>
+ATTRIBUTES | 8553216 | 0
+OUTPUTMC | 3 | 3 | 6 | 0 | 16 | 0 | 15
+INPUTS | 3 | flip  | sLatch<36>  | sInv<112>
+INPUTMC | 3 | 14 | 1 | 3 | 8 | 5 | 4
+EQ | 4 | 
+   !sLatch<37>.D = flip
+	$ sLatch<36> & sInv<112>
+	# !sLatch<36> & !sInv<112>;
+   sLatch<37>.CLK = pClock;	// GCK
+GLOBALS | 1 | 2 | pClock
+
+MACROCELL | 3 | 2 | sLatch<41>
+ATTRIBUTES | 8553216 | 0
+OUTPUTMC | 3 | 4 | 17 | 0 | 14 | 0 | 13
+INPUTS | 3 | flip  | sLatch<40>  | sInv<124>
+INPUTMC | 3 | 14 | 1 | 3 | 3 | 6 | 5
+EQ | 4 | 
+   !sLatch<41>.D = flip
+	$ sLatch<40> & sInv<124>
+	# !sLatch<40> & !sInv<124>;
+   sLatch<41>.CLK = pClock;	// GCK
+GLOBALS | 1 | 2 | pClock
+
+MACROCELL | 4 | 14 | sLatch<45>
+ATTRIBUTES | 8553216 | 0
+OUTPUTMC | 4 | 4 | 13 | 1 | 17 | 1 | 0 | 1 | 16
+INPUTS | 3 | flip  | sLatch<44>  | sInv<136>
+INPUTMC | 3 | 14 | 1 | 4 | 15 | 7 | 12
+EQ | 4 | 
+   !sLatch<45>.D = flip
+	$ sLatch<44> & sInv<136>
+	# !sLatch<44> & !sInv<136>;
+   sLatch<45>.CLK = pClock;	// GCK
+GLOBALS | 1 | 2 | pClock
+
+MACROCELL | 14 | 3 | ctr<0>
+ATTRIBUTES | 4358912 | 0
+OUTPUTMC | 11 | 14 | 2 | 14 | 7 | 14 | 14 | 14 | 16 | 15 | 2 | 15 | 4 | 15 | 9 | 15 | 10 | 14 | 6 | 14 | 5 | 14 | 4
+INPUTS | 0
+EQ | 2 | 
+   ctr<0>.T = Vcc;
+   ctr<0>.CLK = pClock;	// GCK
+GLOBALS | 1 | 2 | pClock
+
+MACROCELL | 14 | 6 | ctr<1>
+ATTRIBUTES | 4358912 | 0
+OUTPUTMC | 11 | 14 | 2 | 14 | 7 | 14 | 14 | 14 | 16 | 15 | 2 | 15 | 4 | 15 | 9 | 15 | 10 | 14 | 6 | 14 | 5 | 14 | 4
+INPUTS | 4 | ctr<0>  | ctr<1>  | ctr<2>  | ctr<3>
+INPUTMC | 4 | 14 | 3 | 14 | 6 | 14 | 5 | 14 | 4
+EQ | 3 | 
+   !ctr<1>.T = !ctr<0>
+	# !ctr<1> & ctr<2> & ctr<3>;
+   ctr<1>.CLK = pClock;	// GCK
+GLOBALS | 1 | 2 | pClock
+
+MACROCELL | 14 | 5 | ctr<2>
+ATTRIBUTES | 4358912 | 0
+OUTPUTMC | 11 | 14 | 2 | 14 | 7 | 14 | 14 | 14 | 16 | 15 | 2 | 15 | 4 | 15 | 9 | 15 | 10 | 14 | 6 | 14 | 5 | 14 | 4
+INPUTS | 4 | ctr<0>  | ctr<1>  | ctr<2>  | ctr<3>
+INPUTMC | 4 | 14 | 3 | 14 | 6 | 14 | 5 | 14 | 4
+EQ | 3 | 
+   ctr<2>.T = ctr<0> & ctr<1>
+	# ctr<0> & ctr<2> & ctr<3>;
+   ctr<2>.CLK = pClock;	// GCK
+GLOBALS | 1 | 2 | pClock
+
+MACROCELL | 2 | 13 | sLatch<16>
+ATTRIBUTES | 8553216 | 0
+OUTPUTMC | 3 | 2 | 12 | 14 | 17 | 14 | 16
+INPUTS | 3 | flip  | sLatch<15>  | sInv<49>
+INPUTMC | 3 | 14 | 1 | 2 | 14 | 10 | 3
+EQ | 4 | 
+   !sLatch<16>.D = flip
+	$ sLatch<15> & sInv<49>
+	# !sLatch<15> & !sInv<49>;
+   sLatch<16>.CLK = pClock;	// GCK
+GLOBALS | 1 | 2 | pClock
+
+MACROCELL | 2 | 9 | sLatch<20>
+ATTRIBUTES | 8553216 | 0
+OUTPUTMC | 3 | 2 | 8 | 15 | 17 | 15 | 0
+INPUTS | 3 | flip  | sLatch<19>  | sInv<61>
+INPUTMC | 3 | 14 | 1 | 1 | 2 | 11 | 7
+EQ | 4 | 
+   !sLatch<20>.D = flip
+	$ sLatch<19> & sInv<61>
+	# !sLatch<19> & !sInv<61>;
+   sLatch<20>.CLK = pClock;	// GCK
+GLOBALS | 1 | 2 | pClock
+
+MACROCELL | 2 | 5 | sLatch<24>
+ATTRIBUTES | 8553216 | 0
+OUTPUTMC | 3 | 2 | 4 | 15 | 16 | 15 | 15
+INPUTS | 3 | flip  | sLatch<23>  | sInv<73>
+INPUTMC | 3 | 14 | 1 | 2 | 6 | 12 | 12
+EQ | 4 | 
+   !sLatch<24>.D = flip
+	$ sLatch<23> & sInv<73>
+	# !sLatch<23> & !sInv<73>;
+   sLatch<24>.CLK = pClock;	// GCK
+GLOBALS | 1 | 2 | pClock
+
+MACROCELL | 3 | 17 | sLatch<28>
+ATTRIBUTES | 8553216 | 0
+OUTPUTMC | 3 | 3 | 16 | 15 | 14 | 15 | 13
+INPUTS | 3 | flip  | sLatch<27>  | sInv<85>
+INPUTMC | 3 | 14 | 1 | 2 | 2 | 13 | 17
+EQ | 4 | 
+   !sLatch<28>.D = flip
+	$ sLatch<27> & sInv<85>
+	# !sLatch<27> & !sInv<85>;
+   sLatch<28>.CLK = pClock;	// GCK
+GLOBALS | 1 | 2 | pClock
+
+MACROCELL | 3 | 12 | sLatch<32>
+ATTRIBUTES | 8553216 | 0
+OUTPUTMC | 3 | 3 | 11 | 0 | 17 | 0 | 0
+INPUTS | 3 | flip  | sLatch<31>  | sInv<97>
+INPUTMC | 3 | 14 | 1 | 3 | 13 | 13 | 4
+EQ | 4 | 
+   !sLatch<32>.D = flip
+	$ sLatch<31> & sInv<97>
+	# !sLatch<31> & !sInv<97>;
+   sLatch<32>.CLK = pClock;	// GCK
+GLOBALS | 1 | 2 | pClock
+
+MACROCELL | 3 | 8 | sLatch<36>
+ATTRIBUTES | 8553216 | 0
+OUTPUTMC | 3 | 3 | 7 | 0 | 16 | 0 | 15
+INPUTS | 3 | flip  | sLatch<35>  | sInv<109>
+INPUTMC | 3 | 14 | 1 | 3 | 9 | 5 | 8
+EQ | 4 | 
+   !sLatch<36>.D = flip
+	$ sLatch<35> & sInv<109>
+	# !sLatch<35> & !sInv<109>;
+   sLatch<36>.CLK = pClock;	// GCK
+GLOBALS | 1 | 2 | pClock
+
+MACROCELL | 3 | 3 | sLatch<40>
+ATTRIBUTES | 8553216 | 0
+OUTPUTMC | 3 | 3 | 2 | 0 | 14 | 0 | 13
+INPUTS | 3 | flip  | sLatch<39>  | sInv<121>
+INPUTMC | 3 | 14 | 1 | 3 | 5 | 6 | 8
+EQ | 4 | 
+   !sLatch<40>.D = flip
+	$ sLatch<39> & sInv<121>
+	# !sLatch<39> & !sInv<121>;
+   sLatch<40>.CLK = pClock;	// GCK
+GLOBALS | 1 | 2 | pClock
+
+MACROCELL | 4 | 15 | sLatch<44>
+ATTRIBUTES | 8553216 | 0
+OUTPUTMC | 4 | 4 | 14 | 1 | 17 | 1 | 0 | 1 | 16
+INPUTS | 3 | flip  | sLatch<43>  | sInv<133>
+INPUTMC | 3 | 14 | 1 | 4 | 16 | 7 | 15
+EQ | 4 | 
+   !sLatch<44>.D = flip
+	$ sLatch<43> & sInv<133>
+	# !sLatch<43> & !sInv<133>;
+   sLatch<44>.CLK = pClock;	// GCK
+GLOBALS | 1 | 2 | pClock
+
+MACROCELL | 14 | 4 | ctr<3>
+ATTRIBUTES | 4358912 | 0
+OUTPUTMC | 11 | 14 | 2 | 14 | 7 | 14 | 14 | 14 | 16 | 15 | 2 | 15 | 4 | 15 | 9 | 15 | 10 | 14 | 6 | 14 | 5 | 14 | 4
+INPUTS | 4 | ctr<0>  | ctr<1>  | ctr<2>  | ctr<3>
+INPUTMC | 4 | 14 | 3 | 14 | 6 | 14 | 5 | 14 | 4
+EQ | 3 | 
+   ctr<3>.T = ctr<0> & ctr<1> & ctr<2>
+	# ctr<0> & ctr<2> & ctr<3>;
+   ctr<3>.CLK = pClock;	// GCK
+GLOBALS | 1 | 2 | pClock
+
+MACROCELL | 14 | 17 | sSerialOut<0>
+ATTRIBUTES | 4358912 | 0
+OUTPUTMC | 1 | 14 | 2
+INPUTS | 10 | sLatch<17>  | sLatch<16>  | $OpTx$FX_DC$70  | $OpTx$FX_DC$71  | $OpTx$FX_DC$72  | sLatch<19>  | sLatch<18>  | sLatch<3>  | sLatch<11>  | pSerialOut_3.EXP
+INPUTMC | 10 | 2 | 12 | 2 | 13 | 0 | 13 | 0 | 12 | 1 | 16 | 1 | 2 | 2 | 11 | 3 | 4 | 2 | 16 | 14 | 16
+IMPORTS | 1 | 14 | 16
+EQ | 13 | 
+   sSerialOut<0>.T = sLatch<17> & !sLatch<16> & $OpTx$FX_DC$71
+	# !sLatch<17> & sLatch<16> & $OpTx$FX_DC$70
+	# !sLatch<17> & !sLatch<16> & $OpTx$FX_DC$72
+	# sLatch<19> & sLatch<11> & !sLatch<18> & 
+	sLatch<17> & sLatch<16>
+	# !sLatch<19> & !sLatch<18> & sLatch<3> & 
+	sLatch<17> & sLatch<16>
+;Imported pterms FB15_17
+	# sLatch<19> & sLatch<15> & sLatch<18> & 
+	sLatch<17> & sLatch<16>
+	# !sLatch<19> & sLatch<18> & sLatch<7> & 
+	sLatch<17> & sLatch<16>;
+   sSerialOut<0>.CLK = pClock;	// GCK
+GLOBALS | 1 | 2 | pClock
+
+MACROCELL | 15 | 17 | sSerialOut<1>
+ATTRIBUTES | 4358912 | 0
+OUTPUTMC | 1 | 14 | 7
+INPUTS | 10 | sLatch<21>  | sLatch<20>  | $OpTx$FX_DC$76  | $OpTx$FX_DC$74  | $OpTx$FX_DC$75  | sLatch<23>  | sLatch<10>  | sLatch<22>  | sLatch<2>  | sInv<100>.EXP
+INPUTMC | 10 | 2 | 8 | 2 | 9 | 1 | 14 | 1 | 15 | 14 | 15 | 2 | 6 | 1 | 5 | 2 | 7 | 3 | 15 | 15 | 0
+IMPORTS | 1 | 15 | 0
+EQ | 13 | 
+   sSerialOut<1>.T = sLatch<21> & sLatch<20> & $OpTx$FX_DC$75
+	# !sLatch<21> & sLatch<20> & $OpTx$FX_DC$76
+	# !sLatch<21> & !sLatch<20> & $OpTx$FX_DC$74
+	# sLatch<23> & sLatch<10> & !sLatch<22> & 
+	sLatch<21> & !sLatch<20>
+	# !sLatch<23> & !sLatch<22> & sLatch<2> & 
+	sLatch<21> & !sLatch<20>
+;Imported pterms FB16_1
+	# sLatch<23> & sLatch<14> & sLatch<22> & 
+	sLatch<21> & !sLatch<20>
+	# !sLatch<23> & sLatch<22> & sLatch<6> & 
+	sLatch<21> & !sLatch<20>;
+   sSerialOut<1>.CLK = pClock;	// GCK
+GLOBALS | 1 | 2 | pClock
+
+MACROCELL | 15 | 16 | sSerialOut<2>
+ATTRIBUTES | 4358912 | 0
+OUTPUTMC | 1 | 14 | 14
+INPUTS | 10 | sLatch<25>  | sLatch<24>  | $OpTx$FX_DC$78  | $OpTx$FX_DC$80  | $OpTx$FX_DC$79  | sLatch<27>  | sLatch<10>  | sLatch<26>  | sLatch<2>  | EXP20_.EXP
+INPUTMC | 10 | 2 | 4 | 2 | 5 | 1 | 13 | 1 | 12 | 14 | 13 | 2 | 2 | 1 | 5 | 2 | 3 | 3 | 15 | 15 | 15
+IMPORTS | 1 | 15 | 15
+EQ | 13 | 
+   sSerialOut<2>.T = sLatch<25> & sLatch<24> & $OpTx$FX_DC$79
+	# !sLatch<25> & sLatch<24> & $OpTx$FX_DC$80
+	# !sLatch<25> & !sLatch<24> & $OpTx$FX_DC$78
+	# sLatch<27> & sLatch<10> & !sLatch<26> & 
+	sLatch<25> & !sLatch<24>
+	# !sLatch<27> & !sLatch<26> & sLatch<2> & 
+	sLatch<25> & !sLatch<24>
+;Imported pterms FB16_16
+	# sLatch<27> & sLatch<14> & sLatch<26> & 
+	sLatch<25> & !sLatch<24>
+	# !sLatch<27> & sLatch<26> & sLatch<6> & 
+	sLatch<25> & !sLatch<24>;
+   sSerialOut<2>.CLK = pClock;	// GCK
+GLOBALS | 1 | 2 | pClock
+
+MACROCELL | 15 | 14 | sSerialOut<3>
+ATTRIBUTES | 4358912 | 0
+OUTPUTMC | 1 | 14 | 16
+INPUTS | 10 | sLatch<29>  | sLatch<28>  | $OpTx$FX_DC$84  | $OpTx$FX_DC$82  | $OpTx$FX_DC$83  | sLatch<31>  | sLatch<10>  | sLatch<30>  | sLatch<2>  | EXP19_.EXP
+INPUTMC | 10 | 3 | 16 | 3 | 17 | 1 | 10 | 1 | 11 | 14 | 12 | 3 | 13 | 1 | 5 | 3 | 14 | 3 | 15 | 15 | 13
+IMPORTS | 1 | 15 | 13
+EQ | 13 | 
+   sSerialOut<3>.T = sLatch<29> & sLatch<28> & $OpTx$FX_DC$83
+	# !sLatch<29> & sLatch<28> & $OpTx$FX_DC$84
+	# !sLatch<29> & !sLatch<28> & $OpTx$FX_DC$82
+	# sLatch<31> & sLatch<10> & !sLatch<30> & 
+	sLatch<29> & !sLatch<28>
+	# !sLatch<31> & sLatch<2> & !sLatch<30> & 
+	sLatch<29> & !sLatch<28>
+;Imported pterms FB16_14
+	# sLatch<31> & sLatch<14> & sLatch<30> & 
+	sLatch<29> & !sLatch<28>
+	# !sLatch<31> & sLatch<30> & sLatch<6> & 
+	sLatch<29> & !sLatch<28>;
+   sSerialOut<3>.CLK = pClock;	// GCK
+GLOBALS | 1 | 2 | pClock
+
+MACROCELL | 0 | 17 | sSerialOut<4>
+ATTRIBUTES | 4358912 | 0
+OUTPUTMC | 1 | 15 | 2
+INPUTS | 10 | sLatch<33>  | sLatch<32>  | $OpTx$FX_DC$88  | $OpTx$FX_DC$86  | $OpTx$FX_DC$87  | sLatch<35>  | sLatch<10>  | sLatch<34>  | sLatch<2>  | sInv<101>.EXP
+INPUTMC | 10 | 3 | 11 | 3 | 12 | 0 | 11 | 1 | 9 | 14 | 11 | 3 | 9 | 1 | 5 | 3 | 10 | 3 | 15 | 0 | 0
+IMPORTS | 1 | 0 | 0
+EQ | 13 | 
+   sSerialOut<4>.T = sLatch<33> & sLatch<32> & $OpTx$FX_DC$87
+	# !sLatch<33> & sLatch<32> & $OpTx$FX_DC$88
+	# !sLatch<33> & !sLatch<32> & $OpTx$FX_DC$86
+	# sLatch<35> & sLatch<10> & !sLatch<34> & 
+	sLatch<33> & !sLatch<32>
+	# !sLatch<35> & sLatch<2> & !sLatch<34> & 
+	sLatch<33> & !sLatch<32>
+;Imported pterms FB1_1
+	# sLatch<35> & sLatch<14> & sLatch<34> & 
+	sLatch<33> & !sLatch<32>
+	# !sLatch<35> & sLatch<34> & sLatch<6> & 
+	sLatch<33> & !sLatch<32>;
+   sSerialOut<4>.CLK = pClock;	// GCK
+GLOBALS | 1 | 2 | pClock
+
+MACROCELL | 0 | 16 | sSerialOut<5>
+ATTRIBUTES | 4358912 | 0
+OUTPUTMC | 1 | 15 | 4
+INPUTS | 10 | sLatch<37>  | sLatch<36>  | $OpTx$FX_DC$92  | $OpTx$FX_DC$91  | $OpTx$FX_DC$90  | sLatch<39>  | sLatch<10>  | sLatch<38>  | sLatch<2>  | EXP18_.EXP
+INPUTMC | 10 | 3 | 7 | 3 | 8 | 0 | 10 | 14 | 10 | 1 | 8 | 3 | 5 | 1 | 5 | 3 | 6 | 3 | 15 | 0 | 15
+IMPORTS | 1 | 0 | 15
+EQ | 13 | 
+   sSerialOut<5>.T = sLatch<37> & sLatch<36> & $OpTx$FX_DC$91
+	# !sLatch<37> & sLatch<36> & $OpTx$FX_DC$92
+	# !sLatch<37> & !sLatch<36> & $OpTx$FX_DC$90
+	# sLatch<39> & sLatch<10> & !sLatch<38> & 
+	sLatch<37> & !sLatch<36>
+	# !sLatch<39> & sLatch<2> & !sLatch<38> & 
+	sLatch<37> & !sLatch<36>
+;Imported pterms FB1_16
+	# sLatch<39> & sLatch<14> & sLatch<38> & 
+	sLatch<37> & !sLatch<36>
+	# !sLatch<39> & sLatch<38> & sLatch<6> & 
+	sLatch<37> & !sLatch<36>;
+   sSerialOut<5>.CLK = pClock;	// GCK
+GLOBALS | 1 | 2 | pClock
+
+MACROCELL | 0 | 14 | sSerialOut<6>
+ATTRIBUTES | 4358912 | 0
+OUTPUTMC | 1 | 15 | 9
+INPUTS | 10 | sLatch<41>  | sLatch<40>  | $OpTx$FX_DC$94  | $OpTx$FX_DC$96  | $OpTx$FX_DC$95  | sLatch<43>  | sLatch<10>  | sLatch<42>  | sLatch<2>  | $OpTx$FX_DC$70.EXP
+INPUTMC | 10 | 3 | 2 | 3 | 3 | 1 | 7 | 0 | 9 | 14 | 9 | 4 | 16 | 1 | 5 | 4 | 17 | 3 | 15 | 0 | 13
+IMPORTS | 1 | 0 | 13
+EQ | 13 | 
+   sSerialOut<6>.T = sLatch<41> & sLatch<40> & $OpTx$FX_DC$95
+	# !sLatch<41> & sLatch<40> & $OpTx$FX_DC$96
+	# !sLatch<41> & !sLatch<40> & $OpTx$FX_DC$94
+	# sLatch<43> & sLatch<10> & !sLatch<42> & 
+	sLatch<41> & !sLatch<40>
+	# !sLatch<43> & sLatch<2> & !sLatch<42> & 
+	sLatch<41> & !sLatch<40>
+;Imported pterms FB1_14
+	# sLatch<43> & sLatch<14> & sLatch<42> & 
+	sLatch<41> & !sLatch<40>
+	# !sLatch<43> & sLatch<42> & sLatch<6> & 
+	sLatch<41> & !sLatch<40>;
+   sSerialOut<6>.CLK = pClock;	// GCK
+GLOBALS | 1 | 2 | pClock
+
+MACROCELL | 1 | 17 | sSerialOut<7>
+ATTRIBUTES | 4358912 | 0
+OUTPUTMC | 1 | 15 | 10
+INPUTS | 11 | sLatch<45>  | sLatch<44>  | $OpTx$FX_DC$98  | $OpTx$FX_DC$97  | $OpTx$FX_DC$99  | sLatch<47>  | sLatch<1>  | sLatch<46>  | sLatch<9>  | sInv<41>.EXP  | $OpTx$FX_DC$72.EXP
+INPUTMC | 11 | 4 | 14 | 4 | 15 | 1 | 6 | 0 | 8 | 14 | 8 | 4 | 12 | 2 | 10 | 4 | 13 | 5 | 14 | 1 | 0 | 1 | 16
+IMPORTS | 2 | 1 | 0 | 1 | 16
+EQ | 14 | 
+   sSerialOut<7>.T = sLatch<45> & sLatch<44> & $OpTx$FX_DC$99
+	# sLatch<45> & !sLatch<44> & $OpTx$FX_DC$97
+	# !sLatch<45> & !sLatch<44> & $OpTx$FX_DC$98
+	# sLatch<47> & !sLatch<46> & sLatch<9> & 
+	!sLatch<45> & sLatch<44>
+	# !sLatch<47> & sLatch<1> & !sLatch<46> & 
+	!sLatch<45> & sLatch<44>
+;Imported pterms FB2_1
+	# sLatch<47> & sLatch<13> & sLatch<46> & 
+	!sLatch<45> & sLatch<44>
+;Imported pterms FB2_17
+	# !sLatch<47> & sLatch<46> & sLatch<5> & 
+	!sLatch<45> & sLatch<44>;
+   sSerialOut<7>.CLK = pClock;	// GCK
+GLOBALS | 1 | 2 | pClock
+
+MACROCELL | 4 | 11 | sLatch<48>
+ATTRIBUTES | 8553216 | 0
+OUTPUTMC | 1 | 4 | 10
+INPUTS | 3 | flip  | sLatch<47>  | sInv<145>
+INPUTMC | 3 | 14 | 1 | 4 | 12 | 7 | 2
+EQ | 4 | 
+   !sLatch<48>.D = flip
+	$ sLatch<47> & sInv<145>
+	# !sLatch<47> & !sInv<145>;
+   sLatch<48>.CLK = pClock;	// GCK
+GLOBALS | 1 | 2 | pClock
+
+MACROCELL | 4 | 10 | sLatch<49>
+ATTRIBUTES | 8553216 | 0
+OUTPUTMC | 1 | 4 | 8
+INPUTS | 3 | flip  | sLatch<48>  | sInv<148>
+INPUTMC | 3 | 14 | 1 | 4 | 11 | 8 | 17
+EQ | 4 | 
+   !sLatch<49>.D = flip
+	$ sLatch<48> & sInv<148>
+	# !sLatch<48> & !sInv<148>;
+   sLatch<49>.CLK = pClock;	// GCK
+GLOBALS | 1 | 2 | pClock
+
+MACROCELL | 4 | 8 | sLatch<50>
+ATTRIBUTES | 8553216 | 0
+OUTPUTMC | 1 | 4 | 7
+INPUTS | 3 | flip  | sLatch<49>  | sInv<151>
+INPUTMC | 3 | 14 | 1 | 4 | 10 | 8 | 13
+EQ | 4 | 
+   !sLatch<50>.D = flip
+	$ sLatch<49> & sInv<151>
+	# !sLatch<49> & !sInv<151>;
+   sLatch<50>.CLK = pClock;	// GCK
+GLOBALS | 1 | 2 | pClock
+
+MACROCELL | 4 | 7 | sLatch<51>
+ATTRIBUTES | 8553216 | 0
+OUTPUTMC | 1 | 4 | 6
+INPUTS | 3 | flip  | sLatch<50>  | sInv<154>
+INPUTMC | 3 | 14 | 1 | 4 | 8 | 8 | 10
+EQ | 4 | 
+   !sLatch<51>.D = flip
+	$ sLatch<50> & sInv<154>
+	# !sLatch<50> & !sInv<154>;
+   sLatch<51>.CLK = pClock;	// GCK
+GLOBALS | 1 | 2 | pClock
+
+MACROCELL | 4 | 6 | sLatch<52>
+ATTRIBUTES | 8553216 | 0
+OUTPUTMC | 1 | 4 | 5
+INPUTS | 3 | flip  | sLatch<51>  | sInv<157>
+INPUTMC | 3 | 14 | 1 | 4 | 7 | 8 | 7
+EQ | 4 | 
+   !sLatch<52>.D = flip
+	$ sLatch<51> & sInv<157>
+	# !sLatch<51> & !sInv<157>;
+   sLatch<52>.CLK = pClock;	// GCK
+GLOBALS | 1 | 2 | pClock
+
+MACROCELL | 4 | 5 | sLatch<53>
+ATTRIBUTES | 8553216 | 0
+OUTPUTMC | 1 | 4 | 4
+INPUTS | 3 | flip  | sLatch<52>  | sInv<160>
+INPUTMC | 3 | 14 | 1 | 4 | 6 | 8 | 3
+EQ | 4 | 
+   !sLatch<53>.D = flip
+	$ sLatch<52> & sInv<160>
+	# !sLatch<52> & !sInv<160>;
+   sLatch<53>.CLK = pClock;	// GCK
+GLOBALS | 1 | 2 | pClock
+
+MACROCELL | 4 | 4 | sLatch<54>
+ATTRIBUTES | 8553216 | 0
+OUTPUTMC | 1 | 4 | 3
+INPUTS | 3 | flip  | sLatch<53>  | sInv<163>
+INPUTMC | 3 | 14 | 1 | 4 | 5 | 8 | 0
+EQ | 4 | 
+   !sLatch<54>.D = flip
+	$ sLatch<53> & sInv<163>
+	# !sLatch<53> & !sInv<163>;
+   sLatch<54>.CLK = pClock;	// GCK
+GLOBALS | 1 | 2 | pClock
+
+MACROCELL | 4 | 3 | sLatch<55>
+ATTRIBUTES | 8553216 | 0
+OUTPUTMC | 1 | 2 | 17
+INPUTS | 3 | flip  | sLatch<54>  | sInv<166>
+INPUTMC | 3 | 14 | 1 | 4 | 4 | 9 | 15
+EQ | 4 | 
+   !sLatch<55>.D = flip
+	$ sLatch<54> & sInv<166>
+	# !sLatch<54> & !sInv<166>;
+   sLatch<55>.CLK = pClock;	// GCK
+GLOBALS | 1 | 2 | pClock
+
+MACROCELL | 15 | 0 | sInv<100>
+ATTRIBUTES | 133888 | 0
+OUTPUTMC | 3 | 3 | 11 | 0 | 0 | 15 | 17
+INPUTS | 7 | sInv<99>  | sLatch<23>  | sLatch<14>  | sLatch<22>  | sLatch<21>  | sLatch<20>  | sLatch<6>
+INPUTMC | 7 | 13 | 2 | 2 | 6 | 1 | 3 | 2 | 7 | 2 | 8 | 2 | 9 | 5 | 17
+EXPORTS | 1 | 15 | 17
+EQ | 5 | 
+   sInv<100> = !sInv<99>;
+    sInv<100>.EXP  =  sLatch<23> & sLatch<14> & sLatch<22> & 
+	sLatch<21> & !sLatch<20>
+	# !sLatch<23> & sLatch<22> & sLatch<6> & 
+	sLatch<21> & !sLatch<20>
+
+MACROCELL | 5 | 12 | sInv<103>
+ATTRIBUTES | 133888 | 0
+OUTPUTMC | 2 | 3 | 10 | 3 | 1
+INPUTS | 1 | sInv<102>
+INPUTMC | 1 | 5 | 13
+EQ | 1 | 
+   sInv<103> = !sInv<102>;
+
+MACROCELL | 5 | 10 | sInv<106>
+ATTRIBUTES | 133888 | 0
+OUTPUTMC | 2 | 3 | 9 | 3 | 0
+INPUTS | 1 | sInv<105>
+INPUTMC | 1 | 5 | 11
+EQ | 1 | 
+   sInv<106> = !sInv<105>;
+
+MACROCELL | 5 | 8 | sInv<109>
+ATTRIBUTES | 133888 | 0
+OUTPUTMC | 2 | 3 | 8 | 5 | 6
+INPUTS | 1 | sInv<108>
+INPUTMC | 1 | 5 | 9
+EQ | 1 | 
+   sInv<109> = !sInv<108>;
+
+MACROCELL | 5 | 7 | sInv<10>
+ATTRIBUTES | 133888 | 0
+OUTPUTMC | 2 | 3 | 4 | 6 | 10
+INPUTS | 1 | sInv<9>
+INPUTMC | 1 | 13 | 1
+EQ | 1 | 
+   sInv<10> = !sInv<9>;
+
+MACROCELL | 5 | 4 | sInv<112>
+ATTRIBUTES | 133888 | 0
+OUTPUTMC | 2 | 3 | 7 | 6 | 17
+INPUTS | 1 | sInv<111>
+INPUTMC | 1 | 5 | 5
+EQ | 1 | 
+   sInv<112> = !sInv<111>;
+
+MACROCELL | 6 | 15 | sInv<115>
+ATTRIBUTES | 133888 | 0
+OUTPUTMC | 2 | 3 | 6 | 6 | 14
+INPUTS | 1 | sInv<114>
+INPUTMC | 1 | 6 | 16
+EQ | 1 | 
+   sInv<115> = !sInv<114>;
+
+MACROCELL | 6 | 12 | sInv<118>
+ATTRIBUTES | 133888 | 0
+OUTPUTMC | 2 | 3 | 5 | 6 | 11
+INPUTS | 1 | sInv<117>
+INPUTMC | 1 | 6 | 13
+EQ | 1 | 
+   sInv<118> = !sInv<117>;
+
+MACROCELL | 6 | 8 | sInv<121>
+ATTRIBUTES | 133888 | 0
+OUTPUTMC | 2 | 3 | 3 | 6 | 7
+INPUTS | 1 | sInv<120>
+INPUTMC | 1 | 6 | 9
+EQ | 1 | 
+   sInv<121> = !sInv<120>;
+
+MACROCELL | 6 | 5 | sInv<124>
+ATTRIBUTES | 133888 | 0
+OUTPUTMC | 2 | 3 | 2 | 6 | 4
+INPUTS | 1 | sInv<123>
+INPUTMC | 1 | 6 | 6
+EQ | 1 | 
+   sInv<124> = !sInv<123>;
+
+MACROCELL | 6 | 2 | sInv<127>
+ATTRIBUTES | 133888 | 0
+OUTPUTMC | 2 | 4 | 17 | 4 | 1
+INPUTS | 1 | sInv<126>
+INPUTMC | 1 | 6 | 3
+EQ | 1 | 
+   sInv<127> = !sInv<126>;
+
+MACROCELL | 7 | 17 | sInv<130>
+ATTRIBUTES | 133888 | 0
+OUTPUTMC | 2 | 4 | 16 | 4 | 0
+INPUTS | 1 | sInv<129>
+INPUTMC | 1 | 6 | 1
+EQ | 1 | 
+   sInv<130> = !sInv<129>;
+
+MACROCELL | 7 | 15 | sInv<133>
+ATTRIBUTES | 133888 | 0
+OUTPUTMC | 2 | 4 | 15 | 7 | 14
+INPUTS | 1 | sInv<132>
+INPUTMC | 1 | 7 | 16
+EQ | 1 | 
+   sInv<133> = !sInv<132>;
+
+MACROCELL | 7 | 12 | sInv<136>
+ATTRIBUTES | 133888 | 0
+OUTPUTMC | 2 | 4 | 14 | 7 | 11
+INPUTS | 1 | sInv<135>
+INPUTMC | 1 | 7 | 13
+EQ | 1 | 
+   sInv<136> = !sInv<135>;
+
+MACROCELL | 7 | 9 | sInv<139>
+ATTRIBUTES | 133888 | 0
+OUTPUTMC | 2 | 4 | 13 | 7 | 7
+INPUTS | 1 | sInv<138>
+INPUTMC | 1 | 7 | 10
+EQ | 1 | 
+   sInv<139> = !sInv<138>;
+
+MACROCELL | 7 | 8 | sInv<13>
+ATTRIBUTES | 133888 | 0
+OUTPUTMC | 2 | 4 | 9 | 8 | 15
+INPUTS | 1 | sInv<12>
+INPUTMC | 1 | 6 | 0
+EQ | 1 | 
+   sInv<13> = !sInv<12>;
+
+MACROCELL | 7 | 5 | sInv<142>
+ATTRIBUTES | 133888 | 0
+OUTPUTMC | 2 | 4 | 12 | 7 | 4
+INPUTS | 1 | sInv<141>
+INPUTMC | 1 | 7 | 6
+EQ | 1 | 
+   sInv<142> = !sInv<141>;
+
+MACROCELL | 7 | 2 | sInv<145>
+ATTRIBUTES | 133888 | 0
+OUTPUTMC | 2 | 4 | 11 | 7 | 1
+INPUTS | 1 | sInv<144>
+INPUTMC | 1 | 7 | 3
+EQ | 1 | 
+   sInv<145> = !sInv<144>;
+
+MACROCELL | 8 | 17 | sInv<148>
+ATTRIBUTES | 133888 | 0
+OUTPUTMC | 2 | 4 | 10 | 8 | 16
+INPUTS | 1 | sInv<147>
+INPUTMC | 1 | 7 | 0
+EQ | 1 | 
+   sInv<148> = !sInv<147>;
+
+MACROCELL | 8 | 13 | sInv<151>
+ATTRIBUTES | 133888 | 0
+OUTPUTMC | 2 | 4 | 8 | 8 | 12
+INPUTS | 1 | sInv<150>
+INPUTMC | 1 | 8 | 14
+EQ | 1 | 
+   sInv<151> = !sInv<150>;
+
+MACROCELL | 8 | 10 | sInv<154>
+ATTRIBUTES | 133888 | 0
+OUTPUTMC | 2 | 4 | 7 | 8 | 9
+INPUTS | 1 | sInv<153>
+INPUTMC | 1 | 8 | 11
+EQ | 1 | 
+   sInv<154> = !sInv<153>;
+
+MACROCELL | 8 | 7 | sInv<157>
+ATTRIBUTES | 133888 | 0
+OUTPUTMC | 2 | 4 | 6 | 8 | 6
+INPUTS | 1 | sInv<156>
+INPUTMC | 1 | 8 | 8
+EQ | 1 | 
+   sInv<157> = !sInv<156>;
+
+MACROCELL | 8 | 3 | sInv<160>
+ATTRIBUTES | 133888 | 0
+OUTPUTMC | 2 | 4 | 5 | 8 | 2
+INPUTS | 1 | sInv<159>
+INPUTMC | 1 | 8 | 5
+EQ | 1 | 
+   sInv<160> = !sInv<159>;
+
+MACROCELL | 8 | 0 | sInv<163>
+ATTRIBUTES | 133888 | 0
+OUTPUTMC | 2 | 4 | 4 | 9 | 17
+INPUTS | 1 | sInv<162>
+INPUTMC | 1 | 8 | 1
+EQ | 1 | 
+   sInv<163> = !sInv<162>;
+
+MACROCELL | 9 | 15 | sInv<166>
+ATTRIBUTES | 133888 | 0
+OUTPUTMC | 2 | 4 | 3 | 9 | 14
+INPUTS | 1 | sInv<165>
+INPUTMC | 1 | 9 | 16
+EQ | 1 | 
+   sInv<166> = !sInv<165>;
+
+MACROCELL | 9 | 13 | sInv<16>
+ATTRIBUTES | 133888 | 0
+OUTPUTMC | 2 | 4 | 2 | 9 | 12
+INPUTS | 1 | sInv<15>
+INPUTMC | 1 | 8 | 4
+EQ | 1 | 
+   sInv<16> = !sInv<15>;
+
+MACROCELL | 9 | 10 | sInv<19>
+ATTRIBUTES | 133888 | 0
+OUTPUTMC | 2 | 5 | 17 | 5 | 3
+INPUTS | 1 | sInv<18>
+INPUTMC | 1 | 9 | 11
+EQ | 1 | 
+   sInv<19> = !sInv<18>;
+
+MACROCELL | 9 | 9 | sInv<1>
+ATTRIBUTES | 133888 | 0
+OUTPUTMC | 2 | 2 | 17 | 2 | 1
+INPUTS | 1 | sInv<0>
+INPUTMC | 1 | 14 | 0
+EQ | 1 | 
+   sInv<1> = !sInv<0>;
+
+MACROCELL | 9 | 7 | sInv<22>
+ATTRIBUTES | 133888 | 0
+OUTPUTMC | 2 | 5 | 16 | 5 | 2
+INPUTS | 1 | sInv<21>
+INPUTMC | 1 | 9 | 8
+EQ | 1 | 
+   sInv<22> = !sInv<21>;
+
+MACROCELL | 9 | 5 | sInv<25>
+ATTRIBUTES | 133888 | 0
+OUTPUTMC | 2 | 5 | 15 | 5 | 1
+INPUTS | 1 | sInv<24>
+INPUTMC | 1 | 9 | 6
+EQ | 1 | 
+   sInv<25> = !sInv<24>;
+
+MACROCELL | 9 | 3 | sInv<28>
+ATTRIBUTES | 133888 | 0
+OUTPUTMC | 2 | 5 | 14 | 5 | 0
+INPUTS | 1 | sInv<27>
+INPUTMC | 1 | 9 | 4
+EQ | 1 | 
+   sInv<28> = !sInv<27>;
+
+MACROCELL | 9 | 1 | sInv<31>
+ATTRIBUTES | 133888 | 0
+OUTPUTMC | 2 | 1 | 5 | 1 | 1
+INPUTS | 1 | sInv<30>
+INPUTMC | 1 | 9 | 2
+EQ | 1 | 
+   sInv<31> = !sInv<30>;
+
+MACROCELL | 10 | 17 | sInv<34>
+ATTRIBUTES | 133888 | 0
+OUTPUTMC | 2 | 2 | 16 | 2 | 0
+INPUTS | 1 | sInv<33>
+INPUTMC | 1 | 9 | 0
+EQ | 1 | 
+   sInv<34> = !sInv<33>;
+
+MACROCELL | 10 | 15 | sInv<37>
+ATTRIBUTES | 133888 | 0
+OUTPUTMC | 2 | 2 | 15 | 10 | 14
+INPUTS | 1 | sInv<36>
+INPUTMC | 1 | 10 | 16
+EQ | 1 | 
+   sInv<37> = !sInv<36>;
+
+MACROCELL | 10 | 11 | sInv<40>
+ATTRIBUTES | 133888 | 0
+OUTPUTMC | 2 | 1 | 4 | 1 | 0
+INPUTS | 1 | sInv<39>
+INPUTMC | 1 | 10 | 13
+EQ | 1 | 
+   sInv<40> = !sInv<39>;
+
+MACROCELL | 10 | 9 | sInv<43>
+ATTRIBUTES | 133888 | 0
+OUTPUTMC | 2 | 1 | 3 | 10 | 8
+INPUTS | 1 | sInv<42>
+INPUTMC | 1 | 10 | 10
+EQ | 1 | 
+   sInv<43> = !sInv<42>;
+
+MACROCELL | 10 | 6 | sInv<46>
+ATTRIBUTES | 133888 | 0
+OUTPUTMC | 2 | 2 | 14 | 10 | 5
+INPUTS | 1 | sInv<45>
+INPUTMC | 1 | 10 | 7
+EQ | 1 | 
+   sInv<46> = !sInv<45>;
+
+MACROCELL | 10 | 3 | sInv<49>
+ATTRIBUTES | 133888 | 0
+OUTPUTMC | 2 | 2 | 13 | 10 | 1
+INPUTS | 1 | sInv<48>
+INPUTMC | 1 | 10 | 4
+EQ | 1 | 
+   sInv<49> = !sInv<48>;
+
+MACROCELL | 10 | 2 | sInv<4>
+ATTRIBUTES | 133888 | 0
+OUTPUTMC | 2 | 2 | 10 | 11 | 9
+INPUTS | 1 | sInv<3>
+INPUTMC | 1 | 10 | 12
+EQ | 1 | 
+   sInv<4> = !sInv<3>;
+
+MACROCELL | 11 | 17 | sInv<52>
+ATTRIBUTES | 133888 | 0
+OUTPUTMC | 2 | 2 | 12 | 11 | 16
+INPUTS | 1 | sInv<51>
+INPUTMC | 1 | 10 | 0
+EQ | 1 | 
+   sInv<52> = !sInv<51>;
+
+MACROCELL | 11 | 14 | sInv<55>
+ATTRIBUTES | 133888 | 0
+OUTPUTMC | 2 | 2 | 11 | 11 | 13
+INPUTS | 1 | sInv<54>
+INPUTMC | 1 | 11 | 15
+EQ | 1 | 
+   sInv<55> = !sInv<54>;
+
+MACROCELL | 11 | 11 | sInv<58>
+ATTRIBUTES | 133888 | 0
+OUTPUTMC | 2 | 1 | 2 | 11 | 10
+INPUTS | 1 | sInv<57>
+INPUTMC | 1 | 11 | 12
+EQ | 1 | 
+   sInv<58> = !sInv<57>;
+
+MACROCELL | 11 | 7 | sInv<61>
+ATTRIBUTES | 133888 | 0
+OUTPUTMC | 2 | 2 | 9 | 11 | 6
+INPUTS | 1 | sInv<60>
+INPUTMC | 1 | 11 | 8
+EQ | 1 | 
+   sInv<61> = !sInv<60>;
+
+MACROCELL | 11 | 4 | sInv<64>
+ATTRIBUTES | 133888 | 0
+OUTPUTMC | 2 | 2 | 8 | 11 | 3
+INPUTS | 1 | sInv<63>
+INPUTMC | 1 | 11 | 5
+EQ | 1 | 
+   sInv<64> = !sInv<63>;
+
+MACROCELL | 11 | 1 | sInv<67>
+ATTRIBUTES | 133888 | 0
+OUTPUTMC | 2 | 2 | 7 | 11 | 0
+INPUTS | 1 | sInv<66>
+INPUTMC | 1 | 11 | 2
+EQ | 1 | 
+   sInv<67> = !sInv<66>;
+
+MACROCELL | 12 | 15 | sInv<70>
+ATTRIBUTES | 133888 | 0
+OUTPUTMC | 2 | 2 | 6 | 12 | 14
+INPUTS | 1 | sInv<69>
+INPUTMC | 1 | 12 | 17
+EQ | 1 | 
+   sInv<70> = !sInv<69>;
+
+MACROCELL | 12 | 12 | sInv<73>
+ATTRIBUTES | 133888 | 0
+OUTPUTMC | 2 | 2 | 5 | 12 | 11
+INPUTS | 1 | sInv<72>
+INPUTMC | 1 | 12 | 13
+EQ | 1 | 
+   sInv<73> = !sInv<72>;
+
+MACROCELL | 12 | 9 | sInv<76>
+ATTRIBUTES | 133888 | 0
+OUTPUTMC | 2 | 2 | 4 | 12 | 8
+INPUTS | 1 | sInv<75>
+INPUTMC | 1 | 12 | 10
+EQ | 1 | 
+   sInv<76> = !sInv<75>;
+
+MACROCELL | 12 | 6 | sInv<79>
+ATTRIBUTES | 133888 | 0
+OUTPUTMC | 2 | 2 | 3 | 12 | 4
+INPUTS | 1 | sInv<78>
+INPUTMC | 1 | 12 | 7
+EQ | 1 | 
+   sInv<79> = !sInv<78>;
+
+MACROCELL | 12 | 5 | sInv<7>
+ATTRIBUTES | 133888 | 0
+OUTPUTMC | 2 | 3 | 15 | 13 | 12
+INPUTS | 1 | sInv<6>
+INPUTMC | 1 | 12 | 16
+EQ | 1 | 
+   sInv<7> = !sInv<6>;
+
+MACROCELL | 12 | 2 | sInv<82>
+ATTRIBUTES | 133888 | 0
+OUTPUTMC | 2 | 2 | 2 | 12 | 1
+INPUTS | 1 | sInv<81>
+INPUTMC | 1 | 12 | 3
+EQ | 1 | 
+   sInv<82> = !sInv<81>;
+
+MACROCELL | 13 | 17 | sInv<85>
+ATTRIBUTES | 133888 | 0
+OUTPUTMC | 2 | 3 | 17 | 13 | 16
+INPUTS | 1 | sInv<84>
+INPUTMC | 1 | 12 | 0
+EQ | 1 | 
+   sInv<85> = !sInv<84>;
+
+MACROCELL | 13 | 14 | sInv<88>
+ATTRIBUTES | 133888 | 0
+OUTPUTMC | 2 | 3 | 16 | 13 | 13
+INPUTS | 1 | sInv<87>
+INPUTMC | 1 | 13 | 15
+EQ | 1 | 
+   sInv<88> = !sInv<87>;
+
+MACROCELL | 13 | 10 | sInv<91>
+ATTRIBUTES | 133888 | 0
+OUTPUTMC | 2 | 3 | 14 | 13 | 9
+INPUTS | 1 | sInv<90>
+INPUTMC | 1 | 13 | 11
+EQ | 1 | 
+   sInv<91> = !sInv<90>;
+
+MACROCELL | 13 | 7 | sInv<94>
+ATTRIBUTES | 133888 | 0
+OUTPUTMC | 2 | 3 | 13 | 13 | 6
+INPUTS | 1 | sInv<93>
+INPUTMC | 1 | 13 | 8
+EQ | 1 | 
+   sInv<94> = !sInv<93>;
+
+MACROCELL | 13 | 4 | sInv<97>
+ATTRIBUTES | 133888 | 0
+OUTPUTMC | 2 | 3 | 12 | 13 | 3
+INPUTS | 1 | sInv<96>
+INPUTMC | 1 | 13 | 5
+EQ | 1 | 
+   sInv<97> = !sInv<96>;
+
+MACROCELL | 14 | 0 | sInv<0>
+ATTRIBUTES | 133888 | 0
+OUTPUTMC | 1 | 9 | 9
+INPUTS | 1 | sInv<2>
+INPUTMC | 1 | 2 | 1
+EQ | 1 | 
+   sInv<0> = !sInv<2>;
+
+MACROCELL | 0 | 0 | sInv<101>
+ATTRIBUTES | 133888 | 0
+OUTPUTMC | 2 | 13 | 2 | 0 | 17
+INPUTS | 7 | sInv<100>  | sLatch<35>  | sLatch<14>  | sLatch<34>  | sLatch<33>  | sLatch<32>  | sLatch<6>
+INPUTMC | 7 | 15 | 0 | 3 | 9 | 1 | 3 | 3 | 10 | 3 | 11 | 3 | 12 | 5 | 17
+EXPORTS | 1 | 0 | 17
+EQ | 5 | 
+   sInv<101> = !sInv<100>;
+    sInv<101>.EXP  =  sLatch<35> & sLatch<14> & sLatch<34> & 
+	sLatch<33> & !sLatch<32>
+	# !sLatch<35> & sLatch<34> & sLatch<6> & 
+	sLatch<33> & !sLatch<32>
+
+MACROCELL | 5 | 13 | sInv<102>
+ATTRIBUTES | 133888 | 0
+OUTPUTMC | 1 | 5 | 12
+INPUTS | 1 | sInv<104>
+INPUTMC | 1 | 3 | 1
+EQ | 1 | 
+   sInv<102> = !sInv<104>;
+
+MACROCELL | 3 | 1 | sInv<104>
+ATTRIBUTES | 133888 | 0
+OUTPUTMC | 1 | 5 | 13
+INPUTS | 1 | sInv<103>
+INPUTMC | 1 | 5 | 12
+EQ | 1 | 
+   sInv<104> = !sInv<103>;
+
+MACROCELL | 5 | 11 | sInv<105>
+ATTRIBUTES | 133888 | 0
+OUTPUTMC | 1 | 5 | 10
+INPUTS | 1 | sInv<107>
+INPUTMC | 1 | 3 | 0
+EQ | 1 | 
+   sInv<105> = !sInv<107>;
+
+MACROCELL | 3 | 0 | sInv<107>
+ATTRIBUTES | 133888 | 0
+OUTPUTMC | 1 | 5 | 11
+INPUTS | 1 | sInv<106>
+INPUTMC | 1 | 5 | 10
+EQ | 1 | 
+   sInv<107> = !sInv<106>;
+
+MACROCELL | 5 | 9 | sInv<108>
+ATTRIBUTES | 133888 | 0
+OUTPUTMC | 1 | 5 | 8
+INPUTS | 1 | sInv<110>
+INPUTMC | 1 | 5 | 6
+EQ | 1 | 
+   sInv<108> = !sInv<110>;
+
+MACROCELL | 5 | 6 | sInv<110>
+ATTRIBUTES | 133888 | 0
+OUTPUTMC | 1 | 5 | 9
+INPUTS | 1 | sInv<109>
+INPUTMC | 1 | 5 | 8
+EQ | 1 | 
+   sInv<110> = !sInv<109>;
+
+MACROCELL | 5 | 5 | sInv<111>
+ATTRIBUTES | 133888 | 0
+OUTPUTMC | 1 | 5 | 4
+INPUTS | 1 | sInv<113>
+INPUTMC | 1 | 6 | 17
+EQ | 1 | 
+   sInv<111> = !sInv<113>;
+
+MACROCELL | 6 | 17 | sInv<113>
+ATTRIBUTES | 133888 | 0
+OUTPUTMC | 1 | 5 | 5
+INPUTS | 1 | sInv<112>
+INPUTMC | 1 | 5 | 4
+EQ | 1 | 
+   sInv<113> = !sInv<112>;
+
+MACROCELL | 6 | 16 | sInv<114>
+ATTRIBUTES | 133888 | 0
+OUTPUTMC | 1 | 6 | 15
+INPUTS | 1 | sInv<116>
+INPUTMC | 1 | 6 | 14
+EQ | 1 | 
+   sInv<114> = !sInv<116>;
+
+MACROCELL | 6 | 14 | sInv<116>
+ATTRIBUTES | 133888 | 0
+OUTPUTMC | 1 | 6 | 16
+INPUTS | 1 | sInv<115>
+INPUTMC | 1 | 6 | 15
+EQ | 1 | 
+   sInv<116> = !sInv<115>;
+
+MACROCELL | 6 | 13 | sInv<117>
+ATTRIBUTES | 133888 | 0
+OUTPUTMC | 1 | 6 | 12
+INPUTS | 1 | sInv<119>
+INPUTMC | 1 | 6 | 11
+EQ | 1 | 
+   sInv<117> = !sInv<119>;
+
+MACROCELL | 6 | 11 | sInv<119>
+ATTRIBUTES | 133888 | 0
+OUTPUTMC | 1 | 6 | 13
+INPUTS | 1 | sInv<118>
+INPUTMC | 1 | 6 | 12
+EQ | 1 | 
+   sInv<119> = !sInv<118>;
+
+MACROCELL | 6 | 10 | sInv<11>
+ATTRIBUTES | 133888 | 0
+OUTPUTMC | 1 | 13 | 1
+INPUTS | 1 | sInv<10>
+INPUTMC | 1 | 5 | 7
+EQ | 1 | 
+   sInv<11> = !sInv<10>;
+
+MACROCELL | 6 | 9 | sInv<120>
+ATTRIBUTES | 133888 | 0
+OUTPUTMC | 1 | 6 | 8
+INPUTS | 1 | sInv<122>
+INPUTMC | 1 | 6 | 7
+EQ | 1 | 
+   sInv<120> = !sInv<122>;
+
+MACROCELL | 6 | 7 | sInv<122>
+ATTRIBUTES | 133888 | 0
+OUTPUTMC | 1 | 6 | 9
+INPUTS | 1 | sInv<121>
+INPUTMC | 1 | 6 | 8
+EQ | 1 | 
+   sInv<122> = !sInv<121>;
+
+MACROCELL | 6 | 6 | sInv<123>
+ATTRIBUTES | 133888 | 0
+OUTPUTMC | 1 | 6 | 5
+INPUTS | 1 | sInv<125>
+INPUTMC | 1 | 6 | 4
+EQ | 1 | 
+   sInv<123> = !sInv<125>;
+
+MACROCELL | 6 | 4 | sInv<125>
+ATTRIBUTES | 133888 | 0
+OUTPUTMC | 1 | 6 | 6
+INPUTS | 1 | sInv<124>
+INPUTMC | 1 | 6 | 5
+EQ | 1 | 
+   sInv<125> = !sInv<124>;
+
+MACROCELL | 6 | 3 | sInv<126>
+ATTRIBUTES | 133888 | 0
+OUTPUTMC | 1 | 6 | 2
+INPUTS | 1 | sInv<128>
+INPUTMC | 1 | 4 | 1
+EQ | 1 | 
+   sInv<126> = !sInv<128>;
+
+MACROCELL | 4 | 1 | sInv<128>
+ATTRIBUTES | 133888 | 0
+OUTPUTMC | 1 | 6 | 3
+INPUTS | 1 | sInv<127>
+INPUTMC | 1 | 6 | 2
+EQ | 1 | 
+   sInv<128> = !sInv<127>;
+
+MACROCELL | 6 | 1 | sInv<129>
+ATTRIBUTES | 133888 | 0
+OUTPUTMC | 1 | 7 | 17
+INPUTS | 1 | sInv<131>
+INPUTMC | 1 | 4 | 0
+EQ | 1 | 
+   sInv<129> = !sInv<131>;
+
+MACROCELL | 6 | 0 | sInv<12>
+ATTRIBUTES | 133888 | 0
+OUTPUTMC | 1 | 7 | 8
+INPUTS | 1 | sInv<14>
+INPUTMC | 1 | 8 | 15
+EQ | 1 | 
+   sInv<12> = !sInv<14>;
+
+MACROCELL | 4 | 0 | sInv<131>
+ATTRIBUTES | 133888 | 0
+OUTPUTMC | 1 | 6 | 1
+INPUTS | 1 | sInv<130>
+INPUTMC | 1 | 7 | 17
+EQ | 1 | 
+   sInv<131> = !sInv<130>;
+
+MACROCELL | 7 | 16 | sInv<132>
+ATTRIBUTES | 133888 | 0
+OUTPUTMC | 1 | 7 | 15
+INPUTS | 1 | sInv<134>
+INPUTMC | 1 | 7 | 14
+EQ | 1 | 
+   sInv<132> = !sInv<134>;
+
+MACROCELL | 7 | 14 | sInv<134>
+ATTRIBUTES | 133888 | 0
+OUTPUTMC | 1 | 7 | 16
+INPUTS | 1 | sInv<133>
+INPUTMC | 1 | 7 | 15
+EQ | 1 | 
+   sInv<134> = !sInv<133>;
+
+MACROCELL | 7 | 13 | sInv<135>
+ATTRIBUTES | 133888 | 0
+OUTPUTMC | 1 | 7 | 12
+INPUTS | 1 | sInv<137>
+INPUTMC | 1 | 7 | 11
+EQ | 1 | 
+   sInv<135> = !sInv<137>;
+
+MACROCELL | 7 | 11 | sInv<137>
+ATTRIBUTES | 133888 | 0
+OUTPUTMC | 1 | 7 | 13
+INPUTS | 1 | sInv<136>
+INPUTMC | 1 | 7 | 12
+EQ | 1 | 
+   sInv<137> = !sInv<136>;
+
+MACROCELL | 7 | 10 | sInv<138>
+ATTRIBUTES | 133888 | 0
+OUTPUTMC | 1 | 7 | 9
+INPUTS | 1 | sInv<140>
+INPUTMC | 1 | 7 | 7
+EQ | 1 | 
+   sInv<138> = !sInv<140>;
+
+MACROCELL | 7 | 7 | sInv<140>
+ATTRIBUTES | 133888 | 0
+OUTPUTMC | 1 | 7 | 10
+INPUTS | 1 | sInv<139>
+INPUTMC | 1 | 7 | 9
+EQ | 1 | 
+   sInv<140> = !sInv<139>;
+
+MACROCELL | 7 | 6 | sInv<141>
+ATTRIBUTES | 133888 | 0
+OUTPUTMC | 1 | 7 | 5
+INPUTS | 1 | sInv<143>
+INPUTMC | 1 | 7 | 4
+EQ | 1 | 
+   sInv<141> = !sInv<143>;
+
+MACROCELL | 7 | 4 | sInv<143>
+ATTRIBUTES | 133888 | 0
+OUTPUTMC | 1 | 7 | 6
+INPUTS | 1 | sInv<142>
+INPUTMC | 1 | 7 | 5
+EQ | 1 | 
+   sInv<143> = !sInv<142>;
+
+MACROCELL | 7 | 3 | sInv<144>
+ATTRIBUTES | 133888 | 0
+OUTPUTMC | 1 | 7 | 2
+INPUTS | 1 | sInv<146>
+INPUTMC | 1 | 7 | 1
+EQ | 1 | 
+   sInv<144> = !sInv<146>;
+
+MACROCELL | 7 | 1 | sInv<146>
+ATTRIBUTES | 133888 | 0
+OUTPUTMC | 1 | 7 | 3
+INPUTS | 1 | sInv<145>
+INPUTMC | 1 | 7 | 2
+EQ | 1 | 
+   sInv<146> = !sInv<145>;
+
+MACROCELL | 7 | 0 | sInv<147>
+ATTRIBUTES | 133888 | 0
+OUTPUTMC | 1 | 8 | 17
+INPUTS | 1 | sInv<149>
+INPUTMC | 1 | 8 | 16
+EQ | 1 | 
+   sInv<147> = !sInv<149>;
+
+MACROCELL | 8 | 16 | sInv<149>
+ATTRIBUTES | 133888 | 0
+OUTPUTMC | 1 | 7 | 0
+INPUTS | 1 | sInv<148>
+INPUTMC | 1 | 8 | 17
+EQ | 1 | 
+   sInv<149> = !sInv<148>;
+
+MACROCELL | 8 | 15 | sInv<14>
+ATTRIBUTES | 133888 | 0
+OUTPUTMC | 1 | 6 | 0
+INPUTS | 1 | sInv<13>
+INPUTMC | 1 | 7 | 8
+EQ | 1 | 
+   sInv<14> = !sInv<13>;
+
+MACROCELL | 8 | 14 | sInv<150>
+ATTRIBUTES | 133888 | 0
+OUTPUTMC | 1 | 8 | 13
+INPUTS | 1 | sInv<152>
+INPUTMC | 1 | 8 | 12
+EQ | 1 | 
+   sInv<150> = !sInv<152>;
+
+MACROCELL | 8 | 12 | sInv<152>
+ATTRIBUTES | 133888 | 0
+OUTPUTMC | 1 | 8 | 14
+INPUTS | 1 | sInv<151>
+INPUTMC | 1 | 8 | 13
+EQ | 1 | 
+   sInv<152> = !sInv<151>;
+
+MACROCELL | 8 | 11 | sInv<153>
+ATTRIBUTES | 133888 | 0
+OUTPUTMC | 1 | 8 | 10
+INPUTS | 1 | sInv<155>
+INPUTMC | 1 | 8 | 9
+EQ | 1 | 
+   sInv<153> = !sInv<155>;
+
+MACROCELL | 8 | 9 | sInv<155>
+ATTRIBUTES | 133888 | 0
+OUTPUTMC | 1 | 8 | 11
+INPUTS | 1 | sInv<154>
+INPUTMC | 1 | 8 | 10
+EQ | 1 | 
+   sInv<155> = !sInv<154>;
+
+MACROCELL | 8 | 8 | sInv<156>
+ATTRIBUTES | 133888 | 0
+OUTPUTMC | 1 | 8 | 7
+INPUTS | 1 | sInv<158>
+INPUTMC | 1 | 8 | 6
+EQ | 1 | 
+   sInv<156> = !sInv<158>;
+
+MACROCELL | 8 | 6 | sInv<158>
+ATTRIBUTES | 133888 | 0
+OUTPUTMC | 1 | 8 | 8
+INPUTS | 1 | sInv<157>
+INPUTMC | 1 | 8 | 7
+EQ | 1 | 
+   sInv<158> = !sInv<157>;
+
+MACROCELL | 8 | 5 | sInv<159>
+ATTRIBUTES | 133888 | 0
+OUTPUTMC | 1 | 8 | 3
+INPUTS | 1 | sInv<161>
+INPUTMC | 1 | 8 | 2
+EQ | 1 | 
+   sInv<159> = !sInv<161>;
+
+MACROCELL | 8 | 4 | sInv<15>
+ATTRIBUTES | 133888 | 0
+OUTPUTMC | 1 | 9 | 13
+INPUTS | 1 | sInv<17>
+INPUTMC | 1 | 9 | 12
+EQ | 1 | 
+   sInv<15> = !sInv<17>;
+
+MACROCELL | 8 | 2 | sInv<161>
+ATTRIBUTES | 133888 | 0
+OUTPUTMC | 1 | 8 | 5
+INPUTS | 1 | sInv<160>
+INPUTMC | 1 | 8 | 3
+EQ | 1 | 
+   sInv<161> = !sInv<160>;
+
+MACROCELL | 8 | 1 | sInv<162>
+ATTRIBUTES | 133888 | 0
+OUTPUTMC | 1 | 8 | 0
+INPUTS | 1 | sInv<164>
+INPUTMC | 1 | 9 | 17
+EQ | 1 | 
+   sInv<162> = !sInv<164>;
+
+MACROCELL | 9 | 17 | sInv<164>
+ATTRIBUTES | 133888 | 0
+OUTPUTMC | 1 | 8 | 1
+INPUTS | 1 | sInv<163>
+INPUTMC | 1 | 8 | 0
+EQ | 1 | 
+   sInv<164> = !sInv<163>;
+
+MACROCELL | 9 | 16 | sInv<165>
+ATTRIBUTES | 133888 | 0
+OUTPUTMC | 1 | 9 | 15
+INPUTS | 1 | sInv<167>
+INPUTMC | 1 | 9 | 14
+EQ | 1 | 
+   sInv<165> = !sInv<167>;
+
+MACROCELL | 9 | 14 | sInv<167>
+ATTRIBUTES | 133888 | 0
+OUTPUTMC | 1 | 9 | 16
+INPUTS | 1 | sInv<166>
+INPUTMC | 1 | 9 | 15
+EQ | 1 | 
+   sInv<167> = !sInv<166>;
+
+MACROCELL | 9 | 12 | sInv<17>
+ATTRIBUTES | 133888 | 0
+OUTPUTMC | 1 | 8 | 4
+INPUTS | 1 | sInv<16>
+INPUTMC | 1 | 9 | 13
+EQ | 1 | 
+   sInv<17> = !sInv<16>;
+
+MACROCELL | 9 | 11 | sInv<18>
+ATTRIBUTES | 133888 | 0
+OUTPUTMC | 1 | 9 | 10
+INPUTS | 1 | sInv<20>
+INPUTMC | 1 | 5 | 3
+EQ | 1 | 
+   sInv<18> = !sInv<20>;
+
+MACROCELL | 5 | 3 | sInv<20>
+ATTRIBUTES | 133888 | 0
+OUTPUTMC | 1 | 9 | 11
+INPUTS | 1 | sInv<19>
+INPUTMC | 1 | 9 | 10
+EQ | 1 | 
+   sInv<20> = !sInv<19>;
+
+MACROCELL | 9 | 8 | sInv<21>
+ATTRIBUTES | 133888 | 0
+OUTPUTMC | 1 | 9 | 7
+INPUTS | 1 | sInv<23>
+INPUTMC | 1 | 5 | 2
+EQ | 1 | 
+   sInv<21> = !sInv<23>;
+
+MACROCELL | 5 | 2 | sInv<23>
+ATTRIBUTES | 133888 | 0
+OUTPUTMC | 1 | 9 | 8
+INPUTS | 1 | sInv<22>
+INPUTMC | 1 | 9 | 7
+EQ | 1 | 
+   sInv<23> = !sInv<22>;
+
+MACROCELL | 9 | 6 | sInv<24>
+ATTRIBUTES | 133888 | 0
+OUTPUTMC | 1 | 9 | 5
+INPUTS | 1 | sInv<26>
+INPUTMC | 1 | 5 | 1
+EQ | 1 | 
+   sInv<24> = !sInv<26>;
+
+MACROCELL | 5 | 1 | sInv<26>
+ATTRIBUTES | 133888 | 0
+OUTPUTMC | 1 | 9 | 6
+INPUTS | 1 | sInv<25>
+INPUTMC | 1 | 9 | 5
+EQ | 1 | 
+   sInv<26> = !sInv<25>;
+
+MACROCELL | 9 | 4 | sInv<27>
+ATTRIBUTES | 133888 | 0
+OUTPUTMC | 1 | 9 | 3
+INPUTS | 1 | sInv<29>
+INPUTMC | 1 | 5 | 0
+EQ | 1 | 
+   sInv<27> = !sInv<29>;
+
+MACROCELL | 5 | 0 | sInv<29>
+ATTRIBUTES | 133888 | 0
+OUTPUTMC | 1 | 9 | 4
+INPUTS | 1 | sInv<28>
+INPUTMC | 1 | 9 | 3
+EQ | 1 | 
+   sInv<29> = !sInv<28>;
+
+MACROCELL | 2 | 1 | sInv<2>
+ATTRIBUTES | 133888 | 0
+OUTPUTMC | 1 | 14 | 0
+INPUTS | 1 | sInv<1>
+INPUTMC | 1 | 9 | 9
+EQ | 1 | 
+   sInv<2> = !sInv<1>;
+
+MACROCELL | 9 | 2 | sInv<30>
+ATTRIBUTES | 133888 | 0
+OUTPUTMC | 1 | 9 | 1
+INPUTS | 1 | sInv<32>
+INPUTMC | 1 | 1 | 1
+EQ | 1 | 
+   sInv<30> = !sInv<32>;
+
+MACROCELL | 1 | 1 | sInv<32>
+ATTRIBUTES | 133888 | 0
+OUTPUTMC | 1 | 9 | 2
+INPUTS | 1 | sInv<31>
+INPUTMC | 1 | 9 | 1
+EQ | 1 | 
+   sInv<32> = !sInv<31>;
+
+MACROCELL | 9 | 0 | sInv<33>
+ATTRIBUTES | 133888 | 0
+OUTPUTMC | 1 | 10 | 17
+INPUTS | 1 | sInv<35>
+INPUTMC | 1 | 2 | 0
+EQ | 1 | 
+   sInv<33> = !sInv<35>;
+
+MACROCELL | 2 | 0 | sInv<35>
+ATTRIBUTES | 133888 | 0
+OUTPUTMC | 1 | 9 | 0
+INPUTS | 1 | sInv<34>
+INPUTMC | 1 | 10 | 17
+EQ | 1 | 
+   sInv<35> = !sInv<34>;
+
+MACROCELL | 10 | 16 | sInv<36>
+ATTRIBUTES | 133888 | 0
+OUTPUTMC | 1 | 10 | 15
+INPUTS | 1 | sInv<38>
+INPUTMC | 1 | 10 | 14
+EQ | 1 | 
+   sInv<36> = !sInv<38>;
+
+MACROCELL | 10 | 14 | sInv<38>
+ATTRIBUTES | 133888 | 0
+OUTPUTMC | 1 | 10 | 16
+INPUTS | 1 | sInv<37>
+INPUTMC | 1 | 10 | 15
+EQ | 1 | 
+   sInv<38> = !sInv<37>;
+
+MACROCELL | 10 | 13 | sInv<39>
+ATTRIBUTES | 133888 | 0
+OUTPUTMC | 1 | 10 | 11
+INPUTS | 1 | sInv<41>
+INPUTMC | 1 | 1 | 0
+EQ | 1 | 
+   sInv<39> = !sInv<41>;
+
+MACROCELL | 10 | 12 | sInv<3>
+ATTRIBUTES | 133888 | 0
+OUTPUTMC | 1 | 10 | 2
+INPUTS | 1 | sInv<5>
+INPUTMC | 1 | 11 | 9
+EQ | 1 | 
+   sInv<3> = !sInv<5>;
+
+MACROCELL | 1 | 0 | sInv<41>
+ATTRIBUTES | 133888 | 0
+OUTPUTMC | 2 | 10 | 13 | 1 | 17
+INPUTS | 6 | sInv<40>  | sLatch<47>  | sLatch<13>  | sLatch<46>  | sLatch<45>  | sLatch<44>
+INPUTMC | 6 | 10 | 11 | 4 | 12 | 1 | 4 | 4 | 13 | 4 | 14 | 4 | 15
+EXPORTS | 1 | 1 | 17
+EQ | 3 | 
+   sInv<41> = !sInv<40>;
+    sInv<41>.EXP  =  sLatch<47> & sLatch<13> & sLatch<46> & 
+	!sLatch<45> & sLatch<44>
+
+MACROCELL | 10 | 10 | sInv<42>
+ATTRIBUTES | 133888 | 0
+OUTPUTMC | 1 | 10 | 9
+INPUTS | 1 | sInv<44>
+INPUTMC | 1 | 10 | 8
+EQ | 1 | 
+   sInv<42> = !sInv<44>;
+
+MACROCELL | 10 | 8 | sInv<44>
+ATTRIBUTES | 133888 | 0
+OUTPUTMC | 1 | 10 | 10
+INPUTS | 1 | sInv<43>
+INPUTMC | 1 | 10 | 9
+EQ | 1 | 
+   sInv<44> = !sInv<43>;
+
+MACROCELL | 10 | 7 | sInv<45>
+ATTRIBUTES | 133888 | 0
+OUTPUTMC | 1 | 10 | 6
+INPUTS | 1 | sInv<47>
+INPUTMC | 1 | 10 | 5
+EQ | 1 | 
+   sInv<45> = !sInv<47>;
+
+MACROCELL | 10 | 5 | sInv<47>
+ATTRIBUTES | 133888 | 0
+OUTPUTMC | 1 | 10 | 7
+INPUTS | 1 | sInv<46>
+INPUTMC | 1 | 10 | 6
+EQ | 1 | 
+   sInv<47> = !sInv<46>;
+
+MACROCELL | 10 | 4 | sInv<48>
+ATTRIBUTES | 133888 | 0
+OUTPUTMC | 1 | 10 | 3
+INPUTS | 1 | sInv<50>
+INPUTMC | 1 | 10 | 1
+EQ | 1 | 
+   sInv<48> = !sInv<50>;
+
+MACROCELL | 10 | 1 | sInv<50>
+ATTRIBUTES | 133888 | 0
+OUTPUTMC | 1 | 10 | 4
+INPUTS | 1 | sInv<49>
+INPUTMC | 1 | 10 | 3
+EQ | 1 | 
+   sInv<50> = !sInv<49>;
+
+MACROCELL | 10 | 0 | sInv<51>
+ATTRIBUTES | 133888 | 0
+OUTPUTMC | 1 | 11 | 17
+INPUTS | 1 | sInv<53>
+INPUTMC | 1 | 11 | 16
+EQ | 1 | 
+   sInv<51> = !sInv<53>;
+
+MACROCELL | 11 | 16 | sInv<53>
+ATTRIBUTES | 133888 | 0
+OUTPUTMC | 1 | 10 | 0
+INPUTS | 1 | sInv<52>
+INPUTMC | 1 | 11 | 17
+EQ | 1 | 
+   sInv<53> = !sInv<52>;
+
+MACROCELL | 11 | 15 | sInv<54>
+ATTRIBUTES | 133888 | 0
+OUTPUTMC | 1 | 11 | 14
+INPUTS | 1 | sInv<56>
+INPUTMC | 1 | 11 | 13
+EQ | 1 | 
+   sInv<54> = !sInv<56>;
+
+MACROCELL | 11 | 13 | sInv<56>
+ATTRIBUTES | 133888 | 0
+OUTPUTMC | 1 | 11 | 15
+INPUTS | 1 | sInv<55>
+INPUTMC | 1 | 11 | 14
+EQ | 1 | 
+   sInv<56> = !sInv<55>;
+
+MACROCELL | 11 | 12 | sInv<57>
+ATTRIBUTES | 133888 | 0
+OUTPUTMC | 1 | 11 | 11
+INPUTS | 1 | sInv<59>
+INPUTMC | 1 | 11 | 10
+EQ | 1 | 
+   sInv<57> = !sInv<59>;
+
+MACROCELL | 11 | 10 | sInv<59>
+ATTRIBUTES | 133888 | 0
+OUTPUTMC | 1 | 11 | 12
+INPUTS | 1 | sInv<58>
+INPUTMC | 1 | 11 | 11
+EQ | 1 | 
+   sInv<59> = !sInv<58>;
+
+MACROCELL | 11 | 9 | sInv<5>
+ATTRIBUTES | 133888 | 0
+OUTPUTMC | 1 | 10 | 12
+INPUTS | 1 | sInv<4>
+INPUTMC | 1 | 10 | 2
+EQ | 1 | 
+   sInv<5> = !sInv<4>;
+
+MACROCELL | 11 | 8 | sInv<60>
+ATTRIBUTES | 133888 | 0
+OUTPUTMC | 1 | 11 | 7
+INPUTS | 1 | sInv<62>
+INPUTMC | 1 | 11 | 6
+EQ | 1 | 
+   sInv<60> = !sInv<62>;
+
+MACROCELL | 11 | 6 | sInv<62>
+ATTRIBUTES | 133888 | 0
+OUTPUTMC | 1 | 11 | 8
+INPUTS | 1 | sInv<61>
+INPUTMC | 1 | 11 | 7
+EQ | 1 | 
+   sInv<62> = !sInv<61>;
+
+MACROCELL | 11 | 5 | sInv<63>
+ATTRIBUTES | 133888 | 0
+OUTPUTMC | 1 | 11 | 4
+INPUTS | 1 | sInv<65>
+INPUTMC | 1 | 11 | 3
+EQ | 1 | 
+   sInv<63> = !sInv<65>;
+
+MACROCELL | 11 | 3 | sInv<65>
+ATTRIBUTES | 133888 | 0
+OUTPUTMC | 1 | 11 | 5
+INPUTS | 1 | sInv<64>
+INPUTMC | 1 | 11 | 4
+EQ | 1 | 
+   sInv<65> = !sInv<64>;
+
+MACROCELL | 11 | 2 | sInv<66>
+ATTRIBUTES | 133888 | 0
+OUTPUTMC | 1 | 11 | 1
+INPUTS | 1 | sInv<68>
+INPUTMC | 1 | 11 | 0
+EQ | 1 | 
+   sInv<66> = !sInv<68>;
+
+MACROCELL | 11 | 0 | sInv<68>
+ATTRIBUTES | 133888 | 0
+OUTPUTMC | 1 | 11 | 2
+INPUTS | 1 | sInv<67>
+INPUTMC | 1 | 11 | 1
+EQ | 1 | 
+   sInv<68> = !sInv<67>;
+
+MACROCELL | 12 | 17 | sInv<69>
+ATTRIBUTES | 133888 | 0
+OUTPUTMC | 1 | 12 | 15
+INPUTS | 1 | sInv<71>
+INPUTMC | 1 | 12 | 14
+EQ | 1 | 
+   sInv<69> = !sInv<71>;
+
+MACROCELL | 12 | 16 | sInv<6>
+ATTRIBUTES | 133888 | 0
+OUTPUTMC | 1 | 12 | 5
+INPUTS | 1 | sInv<8>
+INPUTMC | 1 | 13 | 12
+EQ | 1 | 
+   sInv<6> = !sInv<8>;
+
+MACROCELL | 12 | 14 | sInv<71>
+ATTRIBUTES | 133888 | 0
+OUTPUTMC | 1 | 12 | 17
+INPUTS | 1 | sInv<70>
+INPUTMC | 1 | 12 | 15
+EQ | 1 | 
+   sInv<71> = !sInv<70>;
+
+MACROCELL | 12 | 13 | sInv<72>
+ATTRIBUTES | 133888 | 0
+OUTPUTMC | 1 | 12 | 12
+INPUTS | 1 | sInv<74>
+INPUTMC | 1 | 12 | 11
+EQ | 1 | 
+   sInv<72> = !sInv<74>;
+
+MACROCELL | 12 | 11 | sInv<74>
+ATTRIBUTES | 133888 | 0
+OUTPUTMC | 1 | 12 | 13
+INPUTS | 1 | sInv<73>
+INPUTMC | 1 | 12 | 12
+EQ | 1 | 
+   sInv<74> = !sInv<73>;
+
+MACROCELL | 12 | 10 | sInv<75>
+ATTRIBUTES | 133888 | 0
+OUTPUTMC | 1 | 12 | 9
+INPUTS | 1 | sInv<77>
+INPUTMC | 1 | 12 | 8
+EQ | 1 | 
+   sInv<75> = !sInv<77>;
+
+MACROCELL | 12 | 8 | sInv<77>
+ATTRIBUTES | 133888 | 0
+OUTPUTMC | 1 | 12 | 10
+INPUTS | 1 | sInv<76>
+INPUTMC | 1 | 12 | 9
+EQ | 1 | 
+   sInv<77> = !sInv<76>;
+
+MACROCELL | 12 | 7 | sInv<78>
+ATTRIBUTES | 133888 | 0
+OUTPUTMC | 1 | 12 | 6
+INPUTS | 1 | sInv<80>
+INPUTMC | 1 | 12 | 4
+EQ | 1 | 
+   sInv<78> = !sInv<80>;
+
+MACROCELL | 12 | 4 | sInv<80>
+ATTRIBUTES | 133888 | 0
+OUTPUTMC | 1 | 12 | 7
+INPUTS | 1 | sInv<79>
+INPUTMC | 1 | 12 | 6
+EQ | 1 | 
+   sInv<80> = !sInv<79>;
+
+MACROCELL | 12 | 3 | sInv<81>
+ATTRIBUTES | 133888 | 0
+OUTPUTMC | 1 | 12 | 2
+INPUTS | 1 | sInv<83>
+INPUTMC | 1 | 12 | 1
+EQ | 1 | 
+   sInv<81> = !sInv<83>;
+
+MACROCELL | 12 | 1 | sInv<83>
+ATTRIBUTES | 133888 | 0
+OUTPUTMC | 1 | 12 | 3
+INPUTS | 1 | sInv<82>
+INPUTMC | 1 | 12 | 2
+EQ | 1 | 
+   sInv<83> = !sInv<82>;
+
+MACROCELL | 12 | 0 | sInv<84>
+ATTRIBUTES | 133888 | 0
+OUTPUTMC | 1 | 13 | 17
+INPUTS | 1 | sInv<86>
+INPUTMC | 1 | 13 | 16
+EQ | 1 | 
+   sInv<84> = !sInv<86>;
+
+MACROCELL | 13 | 16 | sInv<86>
+ATTRIBUTES | 133888 | 0
+OUTPUTMC | 1 | 12 | 0
+INPUTS | 1 | sInv<85>
+INPUTMC | 1 | 13 | 17
+EQ | 1 | 
+   sInv<86> = !sInv<85>;
+
+MACROCELL | 13 | 15 | sInv<87>
+ATTRIBUTES | 133888 | 0
+OUTPUTMC | 1 | 13 | 14
+INPUTS | 1 | sInv<89>
+INPUTMC | 1 | 13 | 13
+EQ | 1 | 
+   sInv<87> = !sInv<89>;
+
+MACROCELL | 13 | 13 | sInv<89>
+ATTRIBUTES | 133888 | 0
+OUTPUTMC | 1 | 13 | 15
+INPUTS | 1 | sInv<88>
+INPUTMC | 1 | 13 | 14
+EQ | 1 | 
+   sInv<89> = !sInv<88>;
+
+MACROCELL | 13 | 12 | sInv<8>
+ATTRIBUTES | 133888 | 0
+OUTPUTMC | 1 | 12 | 16
+INPUTS | 1 | sInv<7>
+INPUTMC | 1 | 12 | 5
+EQ | 1 | 
+   sInv<8> = !sInv<7>;
+
+MACROCELL | 13 | 11 | sInv<90>
+ATTRIBUTES | 133888 | 0
+OUTPUTMC | 1 | 13 | 10
+INPUTS | 1 | sInv<92>
+INPUTMC | 1 | 13 | 9
+EQ | 1 | 
+   sInv<90> = !sInv<92>;
+
+MACROCELL | 13 | 9 | sInv<92>
+ATTRIBUTES | 133888 | 0
+OUTPUTMC | 1 | 13 | 11
+INPUTS | 1 | sInv<91>
+INPUTMC | 1 | 13 | 10
+EQ | 1 | 
+   sInv<92> = !sInv<91>;
+
+MACROCELL | 13 | 8 | sInv<93>
+ATTRIBUTES | 133888 | 0
+OUTPUTMC | 1 | 13 | 7
+INPUTS | 1 | sInv<95>
+INPUTMC | 1 | 13 | 6
+EQ | 1 | 
+   sInv<93> = !sInv<95>;
+
+MACROCELL | 13 | 6 | sInv<95>
+ATTRIBUTES | 133888 | 0
+OUTPUTMC | 1 | 13 | 8
+INPUTS | 1 | sInv<94>
+INPUTMC | 1 | 13 | 7
+EQ | 1 | 
+   sInv<95> = !sInv<94>;
+
+MACROCELL | 13 | 5 | sInv<96>
+ATTRIBUTES | 133888 | 0
+OUTPUTMC | 1 | 13 | 4
+INPUTS | 1 | sInv<98>
+INPUTMC | 1 | 13 | 3
+EQ | 1 | 
+   sInv<96> = !sInv<98>;
+
+MACROCELL | 13 | 3 | sInv<98>
+ATTRIBUTES | 133888 | 0
+OUTPUTMC | 1 | 13 | 5
+INPUTS | 1 | sInv<97>
+INPUTMC | 1 | 13 | 4
+EQ | 1 | 
+   sInv<98> = !sInv<97>;
+
+MACROCELL | 13 | 2 | sInv<99>
+ATTRIBUTES | 133888 | 0
+OUTPUTMC | 1 | 15 | 0
+INPUTS | 1 | sInv<101>
+INPUTMC | 1 | 0 | 0
+EQ | 1 | 
+   sInv<99> = !sInv<101>;
+
+MACROCELL | 13 | 1 | sInv<9>
+ATTRIBUTES | 133888 | 0
+OUTPUTMC | 1 | 5 | 7
+INPUTS | 1 | sInv<11>
+INPUTMC | 1 | 6 | 10
+EQ | 1 | 
+   sInv<9> = !sInv<11>;
+
+MACROCELL | 0 | 13 | $OpTx$FX_DC$70
+ATTRIBUTES | 133888 | 0
+OUTPUTMC | 2 | 14 | 17 | 0 | 14
+INPUTS | 12 | sLatch<19>  | sLatch<18>  | sLatch<1>  | sLatch<9>  | sLatch<5>  | sLatch<43>  | sLatch<14>  | sLatch<42>  | sLatch<41>  | sLatch<40>  | sLatch<6>  | $OpTx$FX_DC$71.EXP
+INPUTMC | 12 | 1 | 2 | 2 | 11 | 2 | 10 | 5 | 14 | 4 | 2 | 4 | 16 | 1 | 3 | 4 | 17 | 3 | 2 | 3 | 3 | 5 | 17 | 0 | 12
+EXPORTS | 1 | 0 | 14
+IMPORTS | 1 | 0 | 12
+EQ | 9 | 
+   $OpTx$FX_DC$70 = sLatch<19> & !sLatch<18> & sLatch<9>
+	# !sLatch<19> & sLatch<18> & sLatch<5>
+	# !sLatch<19> & !sLatch<18> & sLatch<1>
+;Imported pterms FB1_13
+	# sLatch<19> & sLatch<13> & sLatch<18>;
+    $OpTx$FX_DC$70.EXP  =  sLatch<43> & sLatch<14> & sLatch<42> & 
+	sLatch<41> & !sLatch<40>
+	# !sLatch<43> & sLatch<42> & sLatch<6> & 
+	sLatch<41> & !sLatch<40>
+
+MACROCELL | 0 | 12 | $OpTx$FX_DC$71
+ATTRIBUTES | 133888 | 0
+OUTPUTMC | 2 | 14 | 17 | 0 | 13
+INPUTS | 7 | sLatch<19>  | sLatch<18>  | sLatch<2>  | sLatch<10>  | sLatch<6>  | sLatch<14>  | sLatch<13>
+INPUTMC | 7 | 1 | 2 | 2 | 11 | 3 | 15 | 1 | 5 | 5 | 17 | 1 | 3 | 1 | 4
+EXPORTS | 1 | 0 | 13
+EQ | 5 | 
+   $OpTx$FX_DC$71 = sLatch<19> & sLatch<10> & !sLatch<18>
+	# sLatch<19> & sLatch<14> & sLatch<18>
+	# !sLatch<19> & sLatch<18> & sLatch<6>
+	# !sLatch<19> & !sLatch<18> & sLatch<2>;
+    $OpTx$FX_DC$71.EXP  =  sLatch<19> & sLatch<13> & sLatch<18>
+
+MACROCELL | 1 | 16 | $OpTx$FX_DC$72
+ATTRIBUTES | 133888 | 0
+OUTPUTMC | 2 | 14 | 17 | 1 | 17
+INPUTS | 11 | sLatch<19>  | sLatch<0>  | sLatch<18>  | sLatch<8>  | sLatch<4>  | sLatch<12>  | sLatch<47>  | sLatch<46>  | sLatch<5>  | sLatch<45>  | sLatch<44>
+INPUTMC | 11 | 1 | 2 | 2 | 17 | 2 | 11 | 5 | 15 | 4 | 9 | 2 | 15 | 4 | 12 | 4 | 13 | 4 | 2 | 4 | 14 | 4 | 15
+EXPORTS | 1 | 1 | 17
+EQ | 6 | 
+   $OpTx$FX_DC$72 = sLatch<19> & sLatch<12> & sLatch<18>
+	# sLatch<19> & !sLatch<18> & sLatch<8>
+	# !sLatch<19> & sLatch<0> & !sLatch<18>
+	# !sLatch<19> & sLatch<18> & sLatch<4>;
+    $OpTx$FX_DC$72.EXP  =  !sLatch<47> & sLatch<46> & sLatch<5> & 
+	!sLatch<45> & sLatch<44>
+
+MACROCELL | 1 | 14 | $OpTx$FX_DC$76
+ATTRIBUTES | 133888 | 0
+OUTPUTMC | 1 | 15 | 17
+INPUTS | 6 | sLatch<23>  | sLatch<1>  | sLatch<22>  | sLatch<9>  | sLatch<5>  | sLatch<13>
+INPUTMC | 6 | 2 | 6 | 2 | 10 | 2 | 7 | 5 | 14 | 4 | 2 | 1 | 4
+EQ | 4 | 
+   $OpTx$FX_DC$76 = sLatch<23> & sLatch<13> & sLatch<22>
+	# sLatch<23> & !sLatch<22> & sLatch<9>
+	# !sLatch<23> & sLatch<1> & !sLatch<22>
+	# !sLatch<23> & sLatch<22> & sLatch<5>;
+
+MACROCELL | 1 | 15 | $OpTx$FX_DC$74
+ATTRIBUTES | 133888 | 0
+OUTPUTMC | 1 | 15 | 17
+INPUTS | 6 | sLatch<23>  | sLatch<22>  | sLatch<8>  | sLatch<0>  | sLatch<12>  | sLatch<4>
+INPUTMC | 6 | 2 | 6 | 2 | 7 | 5 | 15 | 2 | 17 | 2 | 15 | 4 | 9
+EQ | 4 | 
+   $OpTx$FX_DC$74 = sLatch<23> & sLatch<12> & sLatch<22>
+	# sLatch<23> & !sLatch<22> & sLatch<8>
+	# !sLatch<23> & sLatch<0> & !sLatch<22>
+	# !sLatch<23> & sLatch<22> & sLatch<4>;
+
+MACROCELL | 14 | 15 | $OpTx$FX_DC$75
+ATTRIBUTES | 133888 | 0
+OUTPUTMC | 1 | 15 | 17
+INPUTS | 6 | sLatch<23>  | sLatch<11>  | sLatch<22>  | sLatch<3>  | sLatch<15>  | sLatch<7>
+INPUTMC | 6 | 2 | 6 | 2 | 16 | 2 | 7 | 3 | 4 | 2 | 14 | 5 | 16
+EQ | 4 | 
+   $OpTx$FX_DC$75 = sLatch<23> & sLatch<11> & !sLatch<22>
+	# sLatch<23> & sLatch<15> & sLatch<22>
+	# !sLatch<23> & sLatch<22> & sLatch<7>
+	# !sLatch<23> & !sLatch<22> & sLatch<3>;
+
+MACROCELL | 1 | 13 | $OpTx$FX_DC$78
+ATTRIBUTES | 133888 | 0
+OUTPUTMC | 1 | 15 | 16
+INPUTS | 6 | sLatch<27>  | sLatch<26>  | sLatch<8>  | sLatch<0>  | sLatch<12>  | sLatch<4>
+INPUTMC | 6 | 2 | 2 | 2 | 3 | 5 | 15 | 2 | 17 | 2 | 15 | 4 | 9
+EQ | 4 | 
+   $OpTx$FX_DC$78 = sLatch<27> & sLatch<12> & sLatch<26>
+	# sLatch<27> & !sLatch<26> & sLatch<8>
+	# !sLatch<27> & sLatch<0> & !sLatch<26>
+	# !sLatch<27> & sLatch<26> & sLatch<4>;
+
+MACROCELL | 1 | 12 | $OpTx$FX_DC$80
+ATTRIBUTES | 133888 | 0
+OUTPUTMC | 1 | 15 | 16
+INPUTS | 6 | sLatch<27>  | sLatch<1>  | sLatch<26>  | sLatch<9>  | sLatch<5>  | sLatch<13>
+INPUTMC | 6 | 2 | 2 | 2 | 10 | 2 | 3 | 5 | 14 | 4 | 2 | 1 | 4
+EQ | 4 | 
+   $OpTx$FX_DC$80 = sLatch<27> & sLatch<13> & sLatch<26>
+	# sLatch<27> & !sLatch<26> & sLatch<9>
+	# !sLatch<27> & sLatch<1> & !sLatch<26>
+	# !sLatch<27> & sLatch<26> & sLatch<5>;
+
+MACROCELL | 14 | 13 | $OpTx$FX_DC$79
+ATTRIBUTES | 133888 | 0
+OUTPUTMC | 1 | 15 | 16
+INPUTS | 6 | sLatch<27>  | sLatch<11>  | sLatch<26>  | sLatch<3>  | sLatch<15>  | sLatch<7>
+INPUTMC | 6 | 2 | 2 | 2 | 16 | 2 | 3 | 3 | 4 | 2 | 14 | 5 | 16
+EQ | 4 | 
+   $OpTx$FX_DC$79 = sLatch<27> & sLatch<11> & !sLatch<26>
+	# sLatch<27> & sLatch<15> & sLatch<26>
+	# !sLatch<27> & sLatch<26> & sLatch<7>
+	# !sLatch<27> & !sLatch<26> & sLatch<3>;
+
+MACROCELL | 1 | 10 | $OpTx$FX_DC$84
+ATTRIBUTES | 133888 | 0
+OUTPUTMC | 1 | 15 | 14
+INPUTS | 6 | sLatch<31>  | sLatch<1>  | sLatch<30>  | sLatch<9>  | sLatch<5>  | sLatch<13>
+INPUTMC | 6 | 3 | 13 | 2 | 10 | 3 | 14 | 5 | 14 | 4 | 2 | 1 | 4
+EQ | 4 | 
+   $OpTx$FX_DC$84 = sLatch<31> & sLatch<13> & sLatch<30>
+	# sLatch<31> & !sLatch<30> & sLatch<9>
+	# !sLatch<31> & sLatch<1> & !sLatch<30>
+	# !sLatch<31> & sLatch<30> & sLatch<5>;
+
+MACROCELL | 1 | 11 | $OpTx$FX_DC$82
+ATTRIBUTES | 133888 | 0
+OUTPUTMC | 1 | 15 | 14
+INPUTS | 6 | sLatch<31>  | sLatch<30>  | sLatch<8>  | sLatch<0>  | sLatch<12>  | sLatch<4>
+INPUTMC | 6 | 3 | 13 | 3 | 14 | 5 | 15 | 2 | 17 | 2 | 15 | 4 | 9
+EQ | 4 | 
+   $OpTx$FX_DC$82 = sLatch<31> & sLatch<12> & sLatch<30>
+	# sLatch<31> & !sLatch<30> & sLatch<8>
+	# !sLatch<31> & sLatch<0> & !sLatch<30>
+	# !sLatch<31> & sLatch<30> & sLatch<4>;
+
+MACROCELL | 14 | 12 | $OpTx$FX_DC$83
+ATTRIBUTES | 133888 | 0
+OUTPUTMC | 1 | 15 | 14
+INPUTS | 6 | sLatch<31>  | sLatch<11>  | sLatch<30>  | sLatch<3>  | sLatch<15>  | sLatch<7>
+INPUTMC | 6 | 3 | 13 | 2 | 16 | 3 | 14 | 3 | 4 | 2 | 14 | 5 | 16
+EQ | 4 | 
+   $OpTx$FX_DC$83 = sLatch<31> & sLatch<11> & !sLatch<30>
+	# sLatch<31> & sLatch<15> & sLatch<30>
+	# !sLatch<31> & sLatch<30> & sLatch<7>
+	# !sLatch<31> & !sLatch<30> & sLatch<3>;
+
+MACROCELL | 0 | 11 | $OpTx$FX_DC$88
+ATTRIBUTES | 133888 | 0
+OUTPUTMC | 1 | 0 | 17
+INPUTS | 6 | sLatch<35>  | sLatch<1>  | sLatch<34>  | sLatch<9>  | sLatch<5>  | sLatch<13>
+INPUTMC | 6 | 3 | 9 | 2 | 10 | 3 | 10 | 5 | 14 | 4 | 2 | 1 | 4
+EQ | 4 | 
+   $OpTx$FX_DC$88 = sLatch<35> & sLatch<13> & sLatch<34>
+	# sLatch<35> & !sLatch<34> & sLatch<9>
+	# !sLatch<35> & sLatch<1> & !sLatch<34>
+	# !sLatch<35> & sLatch<34> & sLatch<5>;
+
+MACROCELL | 1 | 9 | $OpTx$FX_DC$86
+ATTRIBUTES | 133888 | 0
+OUTPUTMC | 1 | 0 | 17
+INPUTS | 6 | sLatch<35>  | sLatch<34>  | sLatch<8>  | sLatch<0>  | sLatch<12>  | sLatch<4>
+INPUTMC | 6 | 3 | 9 | 3 | 10 | 5 | 15 | 2 | 17 | 2 | 15 | 4 | 9
+EQ | 4 | 
+   $OpTx$FX_DC$86 = sLatch<35> & sLatch<12> & sLatch<34>
+	# sLatch<35> & !sLatch<34> & sLatch<8>
+	# !sLatch<35> & sLatch<0> & !sLatch<34>
+	# !sLatch<35> & sLatch<34> & sLatch<4>;
+
+MACROCELL | 14 | 11 | $OpTx$FX_DC$87
+ATTRIBUTES | 133888 | 0
+OUTPUTMC | 1 | 0 | 17
+INPUTS | 6 | sLatch<35>  | sLatch<11>  | sLatch<34>  | sLatch<3>  | sLatch<15>  | sLatch<7>
+INPUTMC | 6 | 3 | 9 | 2 | 16 | 3 | 10 | 3 | 4 | 2 | 14 | 5 | 16
+EQ | 4 | 
+   $OpTx$FX_DC$87 = sLatch<35> & sLatch<11> & !sLatch<34>
+	# sLatch<35> & sLatch<15> & sLatch<34>
+	# !sLatch<35> & sLatch<34> & sLatch<7>
+	# !sLatch<35> & !sLatch<34> & sLatch<3>;
+
+MACROCELL | 0 | 10 | $OpTx$FX_DC$92
+ATTRIBUTES | 133888 | 0
+OUTPUTMC | 1 | 0 | 16
+INPUTS | 6 | sLatch<39>  | sLatch<1>  | sLatch<38>  | sLatch<9>  | sLatch<5>  | sLatch<13>
+INPUTMC | 6 | 3 | 5 | 2 | 10 | 3 | 6 | 5 | 14 | 4 | 2 | 1 | 4
+EQ | 4 | 
+   $OpTx$FX_DC$92 = sLatch<39> & sLatch<13> & sLatch<38>
+	# sLatch<39> & !sLatch<38> & sLatch<9>
+	# !sLatch<39> & sLatch<1> & !sLatch<38>
+	# !sLatch<39> & sLatch<38> & sLatch<5>;
+
+MACROCELL | 14 | 10 | $OpTx$FX_DC$91
+ATTRIBUTES | 133888 | 0
+OUTPUTMC | 1 | 0 | 16
+INPUTS | 6 | sLatch<39>  | sLatch<11>  | sLatch<38>  | sLatch<3>  | sLatch<15>  | sLatch<7>
+INPUTMC | 6 | 3 | 5 | 2 | 16 | 3 | 6 | 3 | 4 | 2 | 14 | 5 | 16
+EQ | 4 | 
+   $OpTx$FX_DC$91 = sLatch<39> & sLatch<11> & !sLatch<38>
+	# sLatch<39> & sLatch<15> & sLatch<38>
+	# !sLatch<39> & sLatch<38> & sLatch<7>
+	# !sLatch<39> & !sLatch<38> & sLatch<3>;
+
+MACROCELL | 1 | 8 | $OpTx$FX_DC$90
+ATTRIBUTES | 133888 | 0
+OUTPUTMC | 1 | 0 | 16
+INPUTS | 6 | sLatch<39>  | sLatch<38>  | sLatch<8>  | sLatch<0>  | sLatch<12>  | sLatch<4>
+INPUTMC | 6 | 3 | 5 | 3 | 6 | 5 | 15 | 2 | 17 | 2 | 15 | 4 | 9
+EQ | 4 | 
+   $OpTx$FX_DC$90 = sLatch<39> & sLatch<12> & sLatch<38>
+	# sLatch<39> & !sLatch<38> & sLatch<8>
+	# !sLatch<39> & sLatch<0> & !sLatch<38>
+	# !sLatch<39> & sLatch<38> & sLatch<4>;
+
+MACROCELL | 1 | 7 | $OpTx$FX_DC$94
+ATTRIBUTES | 133888 | 0
+OUTPUTMC | 1 | 0 | 14
+INPUTS | 6 | sLatch<43>  | sLatch<42>  | sLatch<8>  | sLatch<0>  | sLatch<12>  | sLatch<4>
+INPUTMC | 6 | 4 | 16 | 4 | 17 | 5 | 15 | 2 | 17 | 2 | 15 | 4 | 9
+EQ | 4 | 
+   $OpTx$FX_DC$94 = sLatch<43> & sLatch<12> & sLatch<42>
+	# sLatch<43> & !sLatch<42> & sLatch<8>
+	# !sLatch<43> & sLatch<0> & !sLatch<42>
+	# !sLatch<43> & sLatch<42> & sLatch<4>;
+
+MACROCELL | 0 | 9 | $OpTx$FX_DC$96
+ATTRIBUTES | 133888 | 0
+OUTPUTMC | 1 | 0 | 14
+INPUTS | 6 | sLatch<43>  | sLatch<1>  | sLatch<42>  | sLatch<9>  | sLatch<5>  | sLatch<13>
+INPUTMC | 6 | 4 | 16 | 2 | 10 | 4 | 17 | 5 | 14 | 4 | 2 | 1 | 4
+EQ | 4 | 
+   $OpTx$FX_DC$96 = sLatch<43> & sLatch<13> & sLatch<42>
+	# sLatch<43> & !sLatch<42> & sLatch<9>
+	# !sLatch<43> & sLatch<1> & !sLatch<42>
+	# !sLatch<43> & sLatch<42> & sLatch<5>;
+
+MACROCELL | 14 | 9 | $OpTx$FX_DC$95
+ATTRIBUTES | 133888 | 0
+OUTPUTMC | 1 | 0 | 14
+INPUTS | 6 | sLatch<43>  | sLatch<11>  | sLatch<42>  | sLatch<3>  | sLatch<15>  | sLatch<7>
+INPUTMC | 6 | 4 | 16 | 2 | 16 | 4 | 17 | 3 | 4 | 2 | 14 | 5 | 16
+EQ | 4 | 
+   $OpTx$FX_DC$95 = sLatch<43> & sLatch<11> & !sLatch<42>
+	# sLatch<43> & sLatch<15> & sLatch<42>
+	# !sLatch<43> & sLatch<3> & !sLatch<42>
+	# !sLatch<43> & sLatch<42> & sLatch<7>;
+
+MACROCELL | 1 | 6 | $OpTx$FX_DC$98
+ATTRIBUTES | 133888 | 0
+OUTPUTMC | 1 | 1 | 17
+INPUTS | 6 | sLatch<47>  | sLatch<46>  | sLatch<8>  | sLatch<0>  | sLatch<12>  | sLatch<4>
+INPUTMC | 6 | 4 | 12 | 4 | 13 | 5 | 15 | 2 | 17 | 2 | 15 | 4 | 9
+EQ | 4 | 
+   $OpTx$FX_DC$98 = sLatch<47> & sLatch<12> & sLatch<46>
+	# sLatch<47> & !sLatch<46> & sLatch<8>
+	# !sLatch<47> & sLatch<0> & !sLatch<46>
+	# !sLatch<47> & sLatch<46> & sLatch<4>;
+
+MACROCELL | 0 | 8 | $OpTx$FX_DC$97
+ATTRIBUTES | 133888 | 0
+OUTPUTMC | 1 | 1 | 17
+INPUTS | 6 | sLatch<47>  | sLatch<10>  | sLatch<46>  | sLatch<2>  | sLatch<14>  | sLatch<6>
+INPUTMC | 6 | 4 | 12 | 1 | 5 | 4 | 13 | 3 | 15 | 1 | 3 | 5 | 17
+EQ | 4 | 
+   $OpTx$FX_DC$97 = sLatch<47> & sLatch<10> & !sLatch<46>
+	# sLatch<47> & sLatch<14> & sLatch<46>
+	# !sLatch<47> & sLatch<2> & !sLatch<46>
+	# !sLatch<47> & sLatch<46> & sLatch<6>;
+
+MACROCELL | 14 | 8 | $OpTx$FX_DC$99
+ATTRIBUTES | 133888 | 0
+OUTPUTMC | 1 | 1 | 17
+INPUTS | 6 | sLatch<47>  | sLatch<11>  | sLatch<46>  | sLatch<3>  | sLatch<15>  | sLatch<7>
+INPUTMC | 6 | 4 | 12 | 2 | 16 | 4 | 13 | 3 | 4 | 2 | 14 | 5 | 16
+EQ | 4 | 
+   $OpTx$FX_DC$99 = sLatch<47> & sLatch<11> & !sLatch<46>
+	# sLatch<47> & sLatch<15> & sLatch<46>
+	# !sLatch<47> & sLatch<3> & !sLatch<46>
+	# !sLatch<47> & sLatch<46> & sLatch<7>;
+
+MACROCELL | 0 | 15 | EXP18_
+ATTRIBUTES | 2048 | 0
+OUTPUTMC | 1 | 0 | 16
+INPUTS | 6 | sLatch<39>  | sLatch<14>  | sLatch<38>  | sLatch<37>  | sLatch<36>  | sLatch<6>
+INPUTMC | 6 | 3 | 5 | 1 | 3 | 3 | 6 | 3 | 7 | 3 | 8 | 5 | 17
+EXPORTS | 1 | 0 | 16
+EQ | 4 | 
+       EXP18_.EXP  =  sLatch<39> & sLatch<14> & sLatch<38> & 
+	sLatch<37> & !sLatch<36>
+	# !sLatch<39> & sLatch<38> & sLatch<6> & 
+	sLatch<37> & !sLatch<36>
+
+MACROCELL | 15 | 13 | EXP19_
+ATTRIBUTES | 2048 | 0
+OUTPUTMC | 1 | 15 | 14
+INPUTS | 6 | sLatch<31>  | sLatch<14>  | sLatch<30>  | sLatch<29>  | sLatch<28>  | sLatch<6>
+INPUTMC | 6 | 3 | 13 | 1 | 3 | 3 | 14 | 3 | 16 | 3 | 17 | 5 | 17
+EXPORTS | 1 | 15 | 14
+EQ | 4 | 
+       EXP19_.EXP  =  sLatch<31> & sLatch<14> & sLatch<30> & 
+	sLatch<29> & !sLatch<28>
+	# !sLatch<31> & sLatch<30> & sLatch<6> & 
+	sLatch<29> & !sLatch<28>
+
+MACROCELL | 15 | 15 | EXP20_
+ATTRIBUTES | 2048 | 0
+OUTPUTMC | 1 | 15 | 16
+INPUTS | 6 | sLatch<27>  | sLatch<14>  | sLatch<26>  | sLatch<25>  | sLatch<24>  | sLatch<6>
+INPUTMC | 6 | 2 | 2 | 1 | 3 | 2 | 3 | 2 | 4 | 2 | 5 | 5 | 17
+EXPORTS | 1 | 15 | 16
+EQ | 4 | 
+       EXP20_.EXP  =  sLatch<27> & sLatch<14> & sLatch<26> & 
+	sLatch<25> & !sLatch<24>
+	# !sLatch<27> & sLatch<26> & sLatch<6> & 
+	sLatch<25> & !sLatch<24>
+
+PIN | pClock | 4096 | 0 | N/A | 57 | 77 | 14 | 2 | 14 | 7 | 14 | 14 | 14 | 16 | 15 | 2 | 15 | 4 | 15 | 9 | 15 | 10 | 14 | 1 | 1 | 2 | 2 | 6 | 2 | 2 | 3 | 13 | 3 | 9 | 3 | 5 | 4 | 16 | 4 | 12 | 2 | 17 | 1 | 5 | 2 | 16 | 2 | 15 | 1 | 4 | 1 | 3 | 2 | 14 | 2 | 11 | 2 | 10 | 2 | 7 | 2 | 3 | 3 | 15 | 3 | 14 | 3 | 10 | 3 | 6 | 3 | 4 | 4 | 17 | 4 | 13 | 4 | 9 | 4 | 2 | 5 | 17 | 5 | 16 | 5 | 15 | 5 | 14 | 2 | 12 | 2 | 8 | 2 | 4 | 3 | 16 | 3 | 11 | 3 | 7 | 3 | 2 | 4 | 14 | 14 | 3 | 14 | 6 | 14 | 5 | 2 | 13 | 2 | 9 | 2 | 5 | 3 | 17 | 3 | 12 | 3 | 8 | 3 | 3 | 4 | 15 | 14 | 4 | 14 | 17 | 15 | 17 | 15 | 16 | 15 | 14 | 0 | 17 | 0 | 16 | 0 | 14 | 1 | 17 | 4 | 11 | 4 | 10 | 4 | 8 | 4 | 7 | 4 | 6 | 4 | 5 | 4 | 4 | 4 | 3
+PIN | pSerialOut<0> | 536871040 | 0 | N/A | 152
+PIN | pSerialOut<1> | 536871040 | 0 | N/A | 155
+PIN | pSerialOut<2> | 536871040 | 0 | N/A | 162
+PIN | pSerialOut<3> | 536871040 | 0 | N/A | 163
+PIN | pSerialOut<4> | 536871040 | 0 | N/A | 169
+PIN | pSerialOut<5> | 536871040 | 0 | N/A | 170
+PIN | pSerialOut<6> | 536871040 | 0 | N/A | 174
+PIN | pSerialOut<7> | 536871040 | 0 | N/A | 175

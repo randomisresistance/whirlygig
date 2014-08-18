@@ -1,0 +1,98 @@
+Pin Freeze File:  version L.33
+
+95288XL144 XC95288XL-6-TQ144
+pClock S:PIN30
+pSerialOut<0> S:PIN80
+pSerialOut<1> S:PIN81
+pSerialOut<2> S:PIN87
+pSerialOut<3> S:PIN88
+pSerialOut<4> S:PIN92
+pSerialOut<5> S:PIN93
+pSerialOut<6> S:PIN96
+pSerialOut<7> S:PIN97
+
+
+;The remaining section of the .gyd file is for documentation purposes only.
+;It shows where your internal equations were placed in the last successful fit.
+
+PARTITION FB1_1 sInv<101>
+PARTITION FB1_9 $OpTx$FX_DC$97 $OpTx$FX_DC$96 $OpTx$FX_DC$92 $OpTx$FX_DC$88
+		 $OpTx$FX_DC$71 $OpTx$FX_DC$70 sSerialOut<6> EXP18_
+		 sSerialOut<5> sSerialOut<4>
+PARTITION FB2_1 sInv<41> sInv<32> sLatch<19> sLatch<14>
+		 sLatch<13> sLatch<10> $OpTx$FX_DC$98 $OpTx$FX_DC$94
+		 $OpTx$FX_DC$90 $OpTx$FX_DC$86 $OpTx$FX_DC$84 $OpTx$FX_DC$82
+		 $OpTx$FX_DC$80 $OpTx$FX_DC$78 $OpTx$FX_DC$76 $OpTx$FX_DC$74
+		 $OpTx$FX_DC$72 sSerialOut<7>
+PARTITION FB3_1 sInv<35> sInv<2> sLatch<27> sLatch<26>
+		 sLatch<25> sLatch<24> sLatch<23> sLatch<22>
+		 sLatch<21> sLatch<20> sLatch<1> sLatch<18>
+		 sLatch<17> sLatch<16> sLatch<15> sLatch<12>
+		 sLatch<11> sLatch<0>
+PARTITION FB4_1 sInv<107> sInv<104> sLatch<41> sLatch<40>
+		 sLatch<3> sLatch<39> sLatch<38> sLatch<37>
+		 sLatch<36> sLatch<35> sLatch<34> sLatch<33>
+		 sLatch<32> sLatch<31> sLatch<30> sLatch<2>
+		 sLatch<29> sLatch<28>
+PARTITION FB5_1 sInv<131> sInv<128> sLatch<5> sLatch<55>
+		 sLatch<54> sLatch<53> sLatch<52> sLatch<51>
+		 sLatch<50> sLatch<4> sLatch<49> sLatch<48>
+		 sLatch<47> sLatch<46> sLatch<45> sLatch<44>
+		 sLatch<43> sLatch<42>
+PARTITION FB6_1 sInv<29> sInv<26> sInv<23> sInv<20>
+		 sInv<112> sInv<111> sInv<110> sInv<10>
+		 sInv<109> sInv<108> sInv<106> sInv<105>
+		 sInv<103> sInv<102> sLatch<9> sLatch<8>
+		 sLatch<7> sLatch<6>
+PARTITION FB7_1 sInv<12> sInv<129> sInv<127> sInv<126>
+		 sInv<125> sInv<124> sInv<123> sInv<122>
+		 sInv<121> sInv<120> sInv<11> sInv<119>
+		 sInv<118> sInv<117> sInv<116> sInv<115>
+		 sInv<114> sInv<113>
+PARTITION FB8_1 sInv<147> sInv<146> sInv<145> sInv<144>
+		 sInv<143> sInv<142> sInv<141> sInv<140>
+		 sInv<13> sInv<139> sInv<138> sInv<137>
+		 sInv<136> sInv<135> sInv<134> sInv<133>
+		 sInv<132> sInv<130>
+PARTITION FB9_1 sInv<163> sInv<162> sInv<161> sInv<160>
+		 sInv<15> sInv<159> sInv<158> sInv<157>
+		 sInv<156> sInv<155> sInv<154> sInv<153>
+		 sInv<152> sInv<151> sInv<150> sInv<14>
+		 sInv<149> sInv<148>
+PARTITION FB10_1 sInv<33> sInv<31> sInv<30> sInv<28>
+		 sInv<27> sInv<25> sInv<24> sInv<22>
+		 sInv<21> sInv<1> sInv<19> sInv<18>
+		 sInv<17> sInv<16> sInv<167> sInv<166>
+		 sInv<165> sInv<164>
+PARTITION FB11_1 sInv<51> sInv<50> sInv<4> sInv<49>
+		 sInv<48> sInv<47> sInv<46> sInv<45>
+		 sInv<44> sInv<43> sInv<42> sInv<40>
+		 sInv<3> sInv<39> sInv<38> sInv<37>
+		 sInv<36> sInv<34>
+PARTITION FB12_1 sInv<68> sInv<67> sInv<66> sInv<65>
+		 sInv<64> sInv<63> sInv<62> sInv<61>
+		 sInv<60> sInv<5> sInv<59> sInv<58>
+		 sInv<57> sInv<56> sInv<55> sInv<54>
+		 sInv<53> sInv<52>
+PARTITION FB13_1 sInv<84> sInv<83> sInv<82> sInv<81>
+		 sInv<80> sInv<7> sInv<79> sInv<78>
+		 sInv<77> sInv<76> sInv<75> sInv<74>
+		 sInv<73> sInv<72> sInv<71> sInv<70>
+		 sInv<6> sInv<69>
+PARTITION FB14_2 sInv<9> sInv<99> sInv<98> sInv<97>
+		 sInv<96> sInv<95> sInv<94> sInv<93>
+		 sInv<92> sInv<91> sInv<90> sInv<8>
+		 sInv<89> sInv<88> sInv<87> sInv<86>
+		 sInv<85>
+PARTITION FB15_1 sInv<0> flip pSerialOut_0 ctr<0>
+		 ctr<3> ctr<2> ctr<1> pSerialOut_1
+		 $OpTx$FX_DC$99 $OpTx$FX_DC$95 $OpTx$FX_DC$91 $OpTx$FX_DC$87
+		 $OpTx$FX_DC$83 $OpTx$FX_DC$79 pSerialOut_2 $OpTx$FX_DC$75
+		 pSerialOut_3 sSerialOut<0>
+PARTITION FB16_1 sInv<100>
+PARTITION FB16_3 pSerialOut_4
+PARTITION FB16_5 pSerialOut_5
+PARTITION FB16_10 pSerialOut_6 pSerialOut_7
+PARTITION FB16_14 EXP19_ sSerialOut<3> EXP20_ sSerialOut<2>
+		 sSerialOut<1>
+

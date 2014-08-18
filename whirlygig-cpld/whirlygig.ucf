@@ -1,0 +1,12 @@
+NET "pClock"      LOC =  "S:PIN30";
+# production
+NET "pSerialOut<0>"  LOC =  "S:PIN80";
+NET "pSerialOut<1>"  LOC =  "S:PIN81";
+NET "pSerialOut<2>"  LOC =  "S:PIN87";
+NET "pSerialOut<3>"  LOC =  "S:PIN88";
+NET "pSerialOut<4>"  LOC =  "S:PIN92";
+NET "pSerialOut<5>"  LOC =  "S:PIN93";
+NET "pSerialOut<6>"  LOC =  "S:PIN96";
+NET "pSerialOut<7>"  LOC =  "S:PIN97";
+
+

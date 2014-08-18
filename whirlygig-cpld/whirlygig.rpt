@@ -1,0 +1,2750 @@
+ 
+cpldfit:  version L.33                              Xilinx Inc.
+                                  Fitter Report
+Design Name: whirlygig                           Date:  5-12-2009,  4:55PM
+Device Used: XC95288XL-6-TQ144
+Fitting Status: Successful
+
+*************************  Mapped Resource Summary  **************************
+
+Macrocells     Product Terms    Function Block   Registers      Pins           
+Used/Tot       Used/Tot         Inps Used/Tot    Used/Tot       Used/Tot       
+269/288 ( 93%) 510 /1440 ( 35%) 397/864 ( 46%)   77 /288 ( 27%) 9  /117 (  8%)
+
+** Function Block Resources **
+
+Function    Mcells      FB Inps     Pterms      IO          
+Block       Used/Tot    Used/Tot    Used/Tot    Used/Tot    
+FB1          10/18       34/54       46/90       0/ 8
+FB2          18/18*      34/54       65/90       0/10
+FB3          18/18*      33/54       50/90       1/ 5
+FB4          18/18*      33/54       50/90       0/ 6
+FB5          18/18*      33/54       50/90       0/ 8
+FB6          18/18*      19/54       26/90       0/ 8
+FB7          18/18*      18/54       18/90       0/ 4
+FB8          18/18*      18/54       18/90       0/ 5
+FB9          18/18*      18/54       18/90       0/ 9
+FB10         18/18*      18/54       18/90       0/10
+FB11         18/18*      18/54       18/90       0/ 7
+FB12         18/18*      18/54       18/90       0/ 6
+FB13         18/18*      18/54       18/90       0/ 6
+FB14         17/18       17/54       17/90       0/ 8
+FB15         18/18*      34/54       50/90       4/ 9
+FB16          8/18       34/54       30/90       4/ 8
+             -----       -----       -----      -----    
+            269/288     397/864     510/1440     9/117
+
+* - Resource is exhausted
+
+** Global Control Resources **
+
+Signal 'pClock' mapped onto global clock net GCK1.
+Global output enable net(s) unused.
+Global set/reset net(s) unused.
+
+** Pin Resources **
+
+Signal Type    Required     Mapped  |  Pin Type            Used    Total 
+------------------------------------|------------------------------------
+Input         :    0           0    |  I/O              :     8     109
+Output        :    8           8    |  GCK/IO           :     1       3
+Bidirectional :    0           0    |  GTS/IO           :     0       4
+GCK           :    1           1    |  GSR/IO           :     0       1
+GTS           :    0           0    |
+GSR           :    0           0    |
+                 ----        ----
+        Total      9           9
+
+** Power Data **
+
+There are 269 macrocells in high performance mode (MCHP).
+There are 0 macrocells in low power mode (MCLP).
+End of Mapped Resource Summary
+**************************  Errors and Warnings  ***************************
+
+WARNING:Cpld - The signal(s) 'sInv<58>' are in combinational feedback loops.
+   These signals may cause hazards/glitches. Apply the NOREDUCE parameter to the
+   hazard reduction circuitry.
+   Timing analysis of paths involving this node may be inaccurate or incomplete.
+WARNING:Cpld - The signal(s) 'sInv<70>' are in combinational feedback loops.
+   These signals may cause hazards/glitches. Apply the NOREDUCE parameter to the
+   hazard reduction circuitry.
+   Timing analysis of paths involving this node may be inaccurate or incomplete.
+WARNING:Cpld - The signal(s) 'sInv<82>' are in combinational feedback loops.
+   These signals may cause hazards/glitches. Apply the NOREDUCE parameter to the
+   hazard reduction circuitry.
+   Timing analysis of paths involving this node may be inaccurate or incomplete.
+WARNING:Cpld - The signal(s) 'sInv<94>' are in combinational feedback loops.
+   These signals may cause hazards/glitches. Apply the NOREDUCE parameter to the
+   hazard reduction circuitry.
+   Timing analysis of paths involving this node may be inaccurate or incomplete.
+WARNING:Cpld - The signal(s) 'sInv<106>' are in combinational feedback loops.
+   These signals may cause hazards/glitches. Apply the NOREDUCE parameter to the
+   hazard reduction circuitry.
+   Timing analysis of paths involving this node may be inaccurate or incomplete.
+WARNING:Cpld - The signal(s) 'sInv<118>' are in combinational feedback loops.
+   These signals may cause hazards/glitches. Apply the NOREDUCE parameter to the
+   hazard reduction circuitry.
+   Timing analysis of paths involving this node may be inaccurate or incomplete.
+WARNING:Cpld - The signal(s) 'sInv<130>' are in combinational feedback loops.
+   These signals may cause hazards/glitches. Apply the NOREDUCE parameter to the
+   hazard reduction circuitry.
+   Timing analysis of paths involving this node may be inaccurate or incomplete.
+WARNING:Cpld - The signal(s) 'sInv<142>' are in combinational feedback loops.
+   These signals may cause hazards/glitches. Apply the NOREDUCE parameter to the
+   hazard reduction circuitry.
+   Timing analysis of paths involving this node may be inaccurate or incomplete.
+WARNING:Cpld - The signal(s) 'sInv<1>' are in combinational feedback loops.
+   These signals may cause hazards/glitches. Apply the NOREDUCE parameter to the
+   hazard reduction circuitry.
+   Timing analysis of paths involving this node may be inaccurate or incomplete.
+WARNING:Cpld - The signal(s) 'sInv<31>' are in combinational feedback loops.
+   These signals may cause hazards/glitches. Apply the NOREDUCE parameter to the
+   hazard reduction circuitry.
+   Timing analysis of paths involving this node may be inaccurate or incomplete.
+WARNING:Cpld - The signal(s) 'sInv<34>' are in combinational feedback loops.
+   These signals may cause hazards/glitches. Apply the NOREDUCE parameter to the
+   hazard reduction circuitry.
+   Timing analysis of paths involving this node may be inaccurate or incomplete.
+WARNING:Cpld - The signal(s) 'sInv<37>' are in combinational feedback loops.
+   These signals may cause hazards/glitches. Apply the NOREDUCE parameter to the
+   hazard reduction circuitry.
+   Timing analysis of paths involving this node may be inaccurate or incomplete.
+WARNING:Cpld - The signal(s) 'sInv<40>' are in combinational feedback loops.
+   These signals may cause hazards/glitches. Apply the NOREDUCE parameter to the
+   hazard reduction circuitry.
+   Timing analysis of paths involving this node may be inaccurate or incomplete.
+WARNING:Cpld - The signal(s) 'sInv<43>' are in combinational feedback loops.
+   These signals may cause hazards/glitches. Apply the NOREDUCE parameter to the
+   hazard reduction circuitry.
+   Timing analysis of paths involving this node may be inaccurate or incomplete.
+WARNING:Cpld - The signal(s) 'sInv<46>' are in combinational feedback loops.
+   These signals may cause hazards/glitches. Apply the NOREDUCE parameter to the
+   hazard reduction circuitry.
+   Timing analysis of paths involving this node may be inaccurate or incomplete.
+WARNING:Cpld - The signal(s) 'sInv<55>' are in combinational feedback loops.
+   These signals may cause hazards/glitches. Apply the NOREDUCE parameter to the
+   hazard reduction circuitry.
+   Timing analysis of paths involving this node may be inaccurate or incomplete.
+WARNING:Cpld - The signal(s) 'sInv<4>' are in combinational feedback loops.
+   These signals may cause hazards/glitches. Apply the NOREDUCE parameter to the
+   hazard reduction circuitry.
+   Timing analysis of paths involving this node may be inaccurate or incomplete.
+WARNING:Cpld - The signal(s) 'sInv<67>' are in combinational feedback loops.
+   These signals may cause hazards/glitches. Apply the NOREDUCE parameter to the
+   hazard reduction circuitry.
+   Timing analysis of paths involving this node may be inaccurate or incomplete.
+WARNING:Cpld - The signal(s) 'sInv<79>' are in combinational feedback loops.
+   These signals may cause hazards/glitches. Apply the NOREDUCE parameter to the
+   hazard reduction circuitry.
+   Timing analysis of paths involving this node may be inaccurate or incomplete.
+WARNING:Cpld - The signal(s) 'sInv<7>' are in combinational feedback loops.
+   These signals may cause hazards/glitches. Apply the NOREDUCE parameter to the
+   hazard reduction circuitry.
+   Timing analysis of paths involving this node may be inaccurate or incomplete.
+WARNING:Cpld - The signal(s) 'sInv<91>' are in combinational feedback loops.
+   These signals may cause hazards/glitches. Apply the NOREDUCE parameter to the
+   hazard reduction circuitry.
+   Timing analysis of paths involving this node may be inaccurate or incomplete.
+WARNING:Cpld - The signal(s) 'sInv<103>' are in combinational feedback loops.
+   These signals may cause hazards/glitches. Apply the NOREDUCE parameter to the
+   hazard reduction circuitry.
+   Timing analysis of paths involving this node may be inaccurate or incomplete.
+WARNING:Cpld - The signal(s) 'sInv<115>' are in combinational feedback loops.
+   These signals may cause hazards/glitches. Apply the NOREDUCE parameter to the
+   hazard reduction circuitry.
+   Timing analysis of paths involving this node may be inaccurate or incomplete.
+WARNING:Cpld - The signal(s) 'sInv<10>' are in combinational feedback loops.
+   These signals may cause hazards/glitches. Apply the NOREDUCE parameter to the
+   hazard reduction circuitry.
+   Timing analysis of paths involving this node may be inaccurate or incomplete.
+WARNING:Cpld - The signal(s) 'sInv<127>' are in combinational feedback loops.
+   These signals may cause hazards/glitches. Apply the NOREDUCE parameter to the
+   hazard reduction circuitry.
+   Timing analysis of paths involving this node may be inaccurate or incomplete.
+WARNING:Cpld - The signal(s) 'sInv<139>' are in combinational feedback loops.
+   These signals may cause hazards/glitches. Apply the NOREDUCE parameter to the
+   hazard reduction circuitry.
+   Timing analysis of paths involving this node may be inaccurate or incomplete.
+WARNING:Cpld - The signal(s) 'sInv<13>' are in combinational feedback loops.
+   These signals may cause hazards/glitches. Apply the NOREDUCE parameter to the
+   hazard reduction circuitry.
+   Timing analysis of paths involving this node may be inaccurate or incomplete.
+WARNING:Cpld - The signal(s) 'sInv<16>' are in combinational feedback loops.
+   These signals may cause hazards/glitches. Apply the NOREDUCE parameter to the
+   hazard reduction circuitry.
+   Timing analysis of paths involving this node may be inaccurate or incomplete.
+WARNING:Cpld - The signal(s) 'sInv<19>' are in combinational feedback loops.
+   These signals may cause hazards/glitches. Apply the NOREDUCE parameter to the
+   hazard reduction circuitry.
+   Timing analysis of paths involving this node may be inaccurate or incomplete.
+WARNING:Cpld - The signal(s) 'sInv<22>' are in combinational feedback loops.
+   These signals may cause hazards/glitches. Apply the NOREDUCE parameter to the
+   hazard reduction circuitry.
+   Timing analysis of paths involving this node may be inaccurate or incomplete.
+WARNING:Cpld - The signal(s) 'sInv<25>' are in combinational feedback loops.
+   These signals may cause hazards/glitches. Apply the NOREDUCE parameter to the
+   hazard reduction circuitry.
+   Timing analysis of paths involving this node may be inaccurate or incomplete.
+WARNING:Cpld - The signal(s) 'sInv<28>' are in combinational feedback loops.
+   These signals may cause hazards/glitches. Apply the NOREDUCE parameter to the
+   hazard reduction circuitry.
+   Timing analysis of paths involving this node may be inaccurate or incomplete.
+WARNING:Cpld - The signal(s) 'sInv<52>' are in combinational feedback loops.
+   These signals may cause hazards/glitches. Apply the NOREDUCE parameter to the
+   hazard reduction circuitry.
+   Timing analysis of paths involving this node may be inaccurate or incomplete.
+WARNING:Cpld - The signal(s) 'sInv<64>' are in combinational feedback loops.
+   These signals may cause hazards/glitches. Apply the NOREDUCE parameter to the
+   hazard reduction circuitry.
+   Timing analysis of paths involving this node may be inaccurate or incomplete.
+WARNING:Cpld - The signal(s) 'sInv<76>' are in combinational feedback loops.
+   These signals may cause hazards/glitches. Apply the NOREDUCE parameter to the
+   hazard reduction circuitry.
+   Timing analysis of paths involving this node may be inaccurate or incomplete.
+WARNING:Cpld - The signal(s) 'sInv<88>' are in combinational feedback loops.
+   These signals may cause hazards/glitches. Apply the NOREDUCE parameter to the
+   hazard reduction circuitry.
+   Timing analysis of paths involving this node may be inaccurate or incomplete.
+WARNING:Cpld - The signal(s) 'sInv<100>' are in combinational feedback loops.
+   These signals may cause hazards/glitches. Apply the NOREDUCE parameter to the
+   hazard reduction circuitry.
+   Timing analysis of paths involving this node may be inaccurate or incomplete.
+WARNING:Cpld - The signal(s) 'sInv<112>' are in combinational feedback loops.
+   These signals may cause hazards/glitches. Apply the NOREDUCE parameter to the
+   hazard reduction circuitry.
+   Timing analysis of paths involving this node may be inaccurate or incomplete.
+WARNING:Cpld - The signal(s) 'sInv<124>' are in combinational feedback loops.
+   These signals may cause hazards/glitches. Apply the NOREDUCE parameter to the
+   hazard reduction circuitry.
+   Timing analysis of paths involving this node may be inaccurate or incomplete.
+WARNING:Cpld - The signal(s) 'sInv<136>' are in combinational feedback loops.
+   These signals may cause hazards/glitches. Apply the NOREDUCE parameter to the
+   hazard reduction circuitry.
+   Timing analysis of paths involving this node may be inaccurate or incomplete.
+WARNING:Cpld - The signal(s) 'sInv<49>' are in combinational feedback loops.
+   These signals may cause hazards/glitches. Apply the NOREDUCE parameter to the
+   hazard reduction circuitry.
+   Timing analysis of paths involving this node may be inaccurate or incomplete.
+WARNING:Cpld - The signal(s) 'sInv<61>' are in combinational feedback loops.
+   These signals may cause hazards/glitches. Apply the NOREDUCE parameter to the
+   hazard reduction circuitry.
+   Timing analysis of paths involving this node may be inaccurate or incomplete.
+WARNING:Cpld - The signal(s) 'sInv<73>' are in combinational feedback loops.
+   These signals may cause hazards/glitches. Apply the NOREDUCE parameter to the
+   hazard reduction circuitry.
+   Timing analysis of paths involving this node may be inaccurate or incomplete.
+WARNING:Cpld - The signal(s) 'sInv<85>' are in combinational feedback loops.
+   These signals may cause hazards/glitches. Apply the NOREDUCE parameter to the
+   hazard reduction circuitry.
+   Timing analysis of paths involving this node may be inaccurate or incomplete.
+WARNING:Cpld - The signal(s) 'sInv<97>' are in combinational feedback loops.
+   These signals may cause hazards/glitches. Apply the NOREDUCE parameter to the
+   hazard reduction circuitry.
+   Timing analysis of paths involving this node may be inaccurate or incomplete.
+WARNING:Cpld - The signal(s) 'sInv<109>' are in combinational feedback loops.
+   These signals may cause hazards/glitches. Apply the NOREDUCE parameter to the
+   hazard reduction circuitry.
+   Timing analysis of paths involving this node may be inaccurate or incomplete.
+WARNING:Cpld - The signal(s) 'sInv<121>' are in combinational feedback loops.
+   These signals may cause hazards/glitches. Apply the NOREDUCE parameter to the
+   hazard reduction circuitry.
+   Timing analysis of paths involving this node may be inaccurate or incomplete.
+WARNING:Cpld - The signal(s) 'sInv<133>' are in combinational feedback loops.
+   These signals may cause hazards/glitches. Apply the NOREDUCE parameter to the
+   hazard reduction circuitry.
+   Timing analysis of paths involving this node may be inaccurate or incomplete.
+WARNING:Cpld - The signal(s) 'sInv<145>' are in combinational feedback loops.
+   These signals may cause hazards/glitches. Apply the NOREDUCE parameter to the
+   hazard reduction circuitry.
+   Timing analysis of paths involving this node may be inaccurate or incomplete.
+WARNING:Cpld - The signal(s) 'sInv<148>' are in combinational feedback loops.
+   These signals may cause hazards/glitches. Apply the NOREDUCE parameter to the
+   hazard reduction circuitry.
+   Timing analysis of paths involving this node may be inaccurate or incomplete.
+WARNING:Cpld - The signal(s) 'sInv<151>' are in combinational feedback loops.
+   These signals may cause hazards/glitches. Apply the NOREDUCE parameter to the
+   hazard reduction circuitry.
+   Timing analysis of paths involving this node may be inaccurate or incomplete.
+WARNING:Cpld - The signal(s) 'sInv<154>' are in combinational feedback loops.
+   These signals may cause hazards/glitches. Apply the NOREDUCE parameter to the
+   hazard reduction circuitry.
+   Timing analysis of paths involving this node may be inaccurate or incomplete.
+WARNING:Cpld - The signal(s) 'sInv<157>' are in combinational feedback loops.
+   These signals may cause hazards/glitches. Apply the NOREDUCE parameter to the
+   hazard reduction circuitry.
+   Timing analysis of paths involving this node may be inaccurate or incomplete.
+WARNING:Cpld - The signal(s) 'sInv<160>' are in combinational feedback loops.
+   These signals may cause hazards/glitches. Apply the NOREDUCE parameter to the
+   hazard reduction circuitry.
+   Timing analysis of paths involving this node may be inaccurate or incomplete.
+WARNING:Cpld - The signal(s) 'sInv<163>' are in combinational feedback loops.
+   These signals may cause hazards/glitches. Apply the NOREDUCE parameter to the
+   hazard reduction circuitry.
+   Timing analysis of paths involving this node may be inaccurate or incomplete.
+WARNING:Cpld - The signal(s) 'sInv<166>' are in combinational feedback loops.
+   These signals may cause hazards/glitches. Apply the NOREDUCE parameter to the
+   hazard reduction circuitry.
+   Timing analysis of paths involving this node may be inaccurate or incomplete.
+*************************  Summary of Mapped Logic  ************************
+
+** 8 Outputs **
+
+Signal              Total Total Loc     Pin  Pin     Pin     Pwr  Slew Reg Init
+Name                Pts   Inps          No.  Type    Use     Mode Rate State
+pSerialOut<0>       2     5     FB15_3  80   I/O     O       STD  FAST RESET
+pSerialOut<1>       2     5     FB15_8  81   I/O     O       STD  FAST RESET
+pSerialOut<2>       2     5     FB15_15 87   I/O     O       STD  FAST RESET
+pSerialOut<3>       2     5     FB15_17 88   I/O     O       STD  FAST RESET
+pSerialOut<4>       2     5     FB16_3  92   I/O     O       STD  FAST RESET
+pSerialOut<5>       2     5     FB16_5  93   I/O     O       STD  FAST RESET
+pSerialOut<6>       2     5     FB16_10 96   I/O     O       STD  FAST RESET
+pSerialOut<7>       2     5     FB16_11 97   I/O     O       STD  FAST RESET
+
+** 261 Buried Nodes **
+
+Signal              Total Total Loc     Pwr  Reg Init
+Name                Pts   Inps          Mode State
+sInv<101>           1     1     FB1_1   STD  
+$OpTx$FX_DC$97      4     6     FB1_9   STD  
+$OpTx$FX_DC$96      4     6     FB1_10  STD  
+$OpTx$FX_DC$92      4     6     FB1_11  STD  
+$OpTx$FX_DC$88      4     6     FB1_12  STD  
+$OpTx$FX_DC$71      4     6     FB1_13  STD  
+$OpTx$FX_DC$70      4     6     FB1_14  STD  
+sSerialOut<6>       7     11    FB1_15  STD  RESET
+sSerialOut<5>       7     11    FB1_17  STD  RESET
+sSerialOut<4>       7     11    FB1_18  STD  RESET
+sInv<41>            1     1     FB2_1   STD  
+sInv<32>            1     1     FB2_2   STD  
+sLatch<19>          3     3     FB2_3   STD  RESET
+sLatch<14>          3     3     FB2_4   STD  RESET
+sLatch<13>          3     3     FB2_5   STD  RESET
+sLatch<10>          3     3     FB2_6   STD  RESET
+$OpTx$FX_DC$98      4     6     FB2_7   STD  
+$OpTx$FX_DC$94      4     6     FB2_8   STD  
+$OpTx$FX_DC$90      4     6     FB2_9   STD  
+$OpTx$FX_DC$86      4     6     FB2_10  STD  
+$OpTx$FX_DC$84      4     6     FB2_11  STD  
+$OpTx$FX_DC$82      4     6     FB2_12  STD  
+$OpTx$FX_DC$80      4     6     FB2_13  STD  
+$OpTx$FX_DC$78      4     6     FB2_14  STD  
+$OpTx$FX_DC$76      4     6     FB2_15  STD  
+$OpTx$FX_DC$74      4     6     FB2_16  STD  
+$OpTx$FX_DC$72      4     6     FB2_17  STD  
+sSerialOut<7>       7     11    FB2_18  STD  RESET
+sInv<35>            1     1     FB3_1   STD  
+sInv<2>             1     1     FB3_2   STD  
+sLatch<27>          3     3     FB3_3   STD  RESET
+sLatch<26>          3     3     FB3_4   STD  RESET
+sLatch<25>          3     3     FB3_5   STD  RESET
+sLatch<24>          3     3     FB3_6   STD  RESET
+sLatch<23>          3     3     FB3_7   STD  RESET
+sLatch<22>          3     3     FB3_8   STD  RESET
+sLatch<21>          3     3     FB3_9   STD  RESET
+sLatch<20>          3     3     FB3_10  STD  RESET
+sLatch<1>           3     3     FB3_11  STD  RESET
+sLatch<18>          3     3     FB3_12  STD  RESET
+
+Signal              Total Total Loc     Pwr  Reg Init
+Name                Pts   Inps          Mode State
+sLatch<17>          3     3     FB3_13  STD  RESET
+sLatch<16>          3     3     FB3_14  STD  RESET
+sLatch<15>          3     3     FB3_15  STD  RESET
+sLatch<12>          3     3     FB3_16  STD  RESET
+sLatch<11>          3     3     FB3_17  STD  RESET
+sLatch<0>           3     3     FB3_18  STD  RESET
+sInv<107>           1     1     FB4_1   STD  
+sInv<104>           1     1     FB4_2   STD  
+sLatch<41>          3     3     FB4_3   STD  RESET
+sLatch<40>          3     3     FB4_4   STD  RESET
+sLatch<3>           3     3     FB4_5   STD  RESET
+sLatch<39>          3     3     FB4_6   STD  RESET
+sLatch<38>          3     3     FB4_7   STD  RESET
+sLatch<37>          3     3     FB4_8   STD  RESET
+sLatch<36>          3     3     FB4_9   STD  RESET
+sLatch<35>          3     3     FB4_10  STD  RESET
+sLatch<34>          3     3     FB4_11  STD  RESET
+sLatch<33>          3     3     FB4_12  STD  RESET
+sLatch<32>          3     3     FB4_13  STD  RESET
+sLatch<31>          3     3     FB4_14  STD  RESET
+sLatch<30>          3     3     FB4_15  STD  RESET
+sLatch<2>           3     3     FB4_16  STD  RESET
+sLatch<29>          3     3     FB4_17  STD  RESET
+sLatch<28>          3     3     FB4_18  STD  RESET
+sInv<131>           1     1     FB5_1   STD  
+sInv<128>           1     1     FB5_2   STD  
+sLatch<5>           3     3     FB5_3   STD  RESET
+sLatch<55>          3     3     FB5_4   STD  RESET
+sLatch<54>          3     3     FB5_5   STD  RESET
+sLatch<53>          3     3     FB5_6   STD  RESET
+sLatch<52>          3     3     FB5_7   STD  RESET
+sLatch<51>          3     3     FB5_8   STD  RESET
+sLatch<50>          3     3     FB5_9   STD  RESET
+sLatch<4>           3     3     FB5_10  STD  RESET
+sLatch<49>          3     3     FB5_11  STD  RESET
+sLatch<48>          3     3     FB5_12  STD  RESET
+sLatch<47>          3     3     FB5_13  STD  RESET
+sLatch<46>          3     3     FB5_14  STD  RESET
+sLatch<45>          3     3     FB5_15  STD  RESET
+sLatch<44>          3     3     FB5_16  STD  RESET
+
+Signal              Total Total Loc     Pwr  Reg Init
+Name                Pts   Inps          Mode State
+sLatch<43>          3     3     FB5_17  STD  RESET
+sLatch<42>          3     3     FB5_18  STD  RESET
+sInv<29>            1     1     FB6_1   STD  
+sInv<26>            1     1     FB6_2   STD  
+sInv<23>            1     1     FB6_3   STD  
+sInv<20>            1     1     FB6_4   STD  
+sInv<112>           1     1     FB6_5   STD  
+sInv<111>           1     1     FB6_6   STD  
+sInv<110>           1     1     FB6_7   STD  
+sInv<10>            1     1     FB6_8   STD  
+sInv<109>           1     1     FB6_9   STD  
+sInv<108>           1     1     FB6_10  STD  
+sInv<106>           1     1     FB6_11  STD  
+sInv<105>           1     1     FB6_12  STD  
+sInv<103>           1     1     FB6_13  STD  
+sInv<102>           1     1     FB6_14  STD  
+sLatch<9>           3     3     FB6_15  STD  RESET
+sLatch<8>           3     3     FB6_16  STD  RESET
+sLatch<7>           3     3     FB6_17  STD  RESET
+sLatch<6>           3     3     FB6_18  STD  RESET
+sInv<12>            1     1     FB7_1   STD  
+sInv<129>           1     1     FB7_2   STD  
+sInv<127>           1     1     FB7_3   STD  
+sInv<126>           1     1     FB7_4   STD  
+sInv<125>           1     1     FB7_5   STD  
+sInv<124>           1     1     FB7_6   STD  
+sInv<123>           1     1     FB7_7   STD  
+sInv<122>           1     1     FB7_8   STD  
+sInv<121>           1     1     FB7_9   STD  
+sInv<120>           1     1     FB7_10  STD  
+sInv<11>            1     1     FB7_11  STD  
+sInv<119>           1     1     FB7_12  STD  
+sInv<118>           1     1     FB7_13  STD  
+sInv<117>           1     1     FB7_14  STD  
+sInv<116>           1     1     FB7_15  STD  
+sInv<115>           1     1     FB7_16  STD  
+sInv<114>           1     1     FB7_17  STD  
+sInv<113>           1     1     FB7_18  STD  
+sInv<147>           1     1     FB8_1   STD  
+sInv<146>           1     1     FB8_2   STD  
+
+Signal              Total Total Loc     Pwr  Reg Init
+Name                Pts   Inps          Mode State
+sInv<145>           1     1     FB8_3   STD  
+sInv<144>           1     1     FB8_4   STD  
+sInv<143>           1     1     FB8_5   STD  
+sInv<142>           1     1     FB8_6   STD  
+sInv<141>           1     1     FB8_7   STD  
+sInv<140>           1     1     FB8_8   STD  
+sInv<13>            1     1     FB8_9   STD  
+sInv<139>           1     1     FB8_10  STD  
+sInv<138>           1     1     FB8_11  STD  
+sInv<137>           1     1     FB8_12  STD  
+sInv<136>           1     1     FB8_13  STD  
+sInv<135>           1     1     FB8_14  STD  
+sInv<134>           1     1     FB8_15  STD  
+sInv<133>           1     1     FB8_16  STD  
+sInv<132>           1     1     FB8_17  STD  
+sInv<130>           1     1     FB8_18  STD  
+sInv<163>           1     1     FB9_1   STD  
+sInv<162>           1     1     FB9_2   STD  
+sInv<161>           1     1     FB9_3   STD  
+sInv<160>           1     1     FB9_4   STD  
+sInv<15>            1     1     FB9_5   STD  
+sInv<159>           1     1     FB9_6   STD  
+sInv<158>           1     1     FB9_7   STD  
+sInv<157>           1     1     FB9_8   STD  
+sInv<156>           1     1     FB9_9   STD  
+sInv<155>           1     1     FB9_10  STD  
+sInv<154>           1     1     FB9_11  STD  
+sInv<153>           1     1     FB9_12  STD  
+sInv<152>           1     1     FB9_13  STD  
+sInv<151>           1     1     FB9_14  STD  
+sInv<150>           1     1     FB9_15  STD  
+sInv<14>            1     1     FB9_16  STD  
+sInv<149>           1     1     FB9_17  STD  
+sInv<148>           1     1     FB9_18  STD  
+sInv<33>            1     1     FB10_1  STD  
+sInv<31>            1     1     FB10_2  STD  
+sInv<30>            1     1     FB10_3  STD  
+sInv<28>            1     1     FB10_4  STD  
+sInv<27>            1     1     FB10_5  STD  
+sInv<25>            1     1     FB10_6  STD  
+
+Signal              Total Total Loc     Pwr  Reg Init
+Name                Pts   Inps          Mode State
+sInv<24>            1     1     FB10_7  STD  
+sInv<22>            1     1     FB10_8  STD  
+sInv<21>            1     1     FB10_9  STD  
+sInv<1>             1     1     FB10_10 STD  
+sInv<19>            1     1     FB10_11 STD  
+sInv<18>            1     1     FB10_12 STD  
+sInv<17>            1     1     FB10_13 STD  
+sInv<16>            1     1     FB10_14 STD  
+sInv<167>           1     1     FB10_15 STD  
+sInv<166>           1     1     FB10_16 STD  
+sInv<165>           1     1     FB10_17 STD  
+sInv<164>           1     1     FB10_18 STD  
+sInv<51>            1     1     FB11_1  STD  
+sInv<50>            1     1     FB11_2  STD  
+sInv<4>             1     1     FB11_3  STD  
+sInv<49>            1     1     FB11_4  STD  
+sInv<48>            1     1     FB11_5  STD  
+sInv<47>            1     1     FB11_6  STD  
+sInv<46>            1     1     FB11_7  STD  
+sInv<45>            1     1     FB11_8  STD  
+sInv<44>            1     1     FB11_9  STD  
+sInv<43>            1     1     FB11_10 STD  
+sInv<42>            1     1     FB11_11 STD  
+sInv<40>            1     1     FB11_12 STD  
+sInv<3>             1     1     FB11_13 STD  
+sInv<39>            1     1     FB11_14 STD  
+sInv<38>            1     1     FB11_15 STD  
+sInv<37>            1     1     FB11_16 STD  
+sInv<36>            1     1     FB11_17 STD  
+sInv<34>            1     1     FB11_18 STD  
+sInv<68>            1     1     FB12_1  STD  
+sInv<67>            1     1     FB12_2  STD  
+sInv<66>            1     1     FB12_3  STD  
+sInv<65>            1     1     FB12_4  STD  
+sInv<64>            1     1     FB12_5  STD  
+sInv<63>            1     1     FB12_6  STD  
+sInv<62>            1     1     FB12_7  STD  
+sInv<61>            1     1     FB12_8  STD  
+sInv<60>            1     1     FB12_9  STD  
+sInv<5>             1     1     FB12_10 STD  
+
+Signal              Total Total Loc     Pwr  Reg Init
+Name                Pts   Inps          Mode State
+sInv<59>            1     1     FB12_11 STD  
+sInv<58>            1     1     FB12_12 STD  
+sInv<57>            1     1     FB12_13 STD  
+sInv<56>            1     1     FB12_14 STD  
+sInv<55>            1     1     FB12_15 STD  
+sInv<54>            1     1     FB12_16 STD  
+sInv<53>            1     1     FB12_17 STD  
+sInv<52>            1     1     FB12_18 STD  
+sInv<84>            1     1     FB13_1  STD  
+sInv<83>            1     1     FB13_2  STD  
+sInv<82>            1     1     FB13_3  STD  
+sInv<81>            1     1     FB13_4  STD  
+sInv<80>            1     1     FB13_5  STD  
+sInv<7>             1     1     FB13_6  STD  
+sInv<79>            1     1     FB13_7  STD  
+sInv<78>            1     1     FB13_8  STD  
+sInv<77>            1     1     FB13_9  STD  
+sInv<76>            1     1     FB13_10 STD  
+sInv<75>            1     1     FB13_11 STD  
+sInv<74>            1     1     FB13_12 STD  
+sInv<73>            1     1     FB13_13 STD  
+sInv<72>            1     1     FB13_14 STD  
+sInv<71>            1     1     FB13_15 STD  
+sInv<70>            1     1     FB13_16 STD  
+sInv<6>             1     1     FB13_17 STD  
+sInv<69>            1     1     FB13_18 STD  
+sInv<9>             1     1     FB14_2  STD  
+sInv<99>            1     1     FB14_3  STD  
+sInv<98>            1     1     FB14_4  STD  
+sInv<97>            1     1     FB14_5  STD  
+sInv<96>            1     1     FB14_6  STD  
+sInv<95>            1     1     FB14_7  STD  
+sInv<94>            1     1     FB14_8  STD  
+sInv<93>            1     1     FB14_9  STD  
+sInv<92>            1     1     FB14_10 STD  
+sInv<91>            1     1     FB14_11 STD  
+sInv<90>            1     1     FB14_12 STD  
+sInv<8>             1     1     FB14_13 STD  
+sInv<89>            1     1     FB14_14 STD  
+sInv<88>            1     1     FB14_15 STD  
+
+Signal              Total Total Loc     Pwr  Reg Init
+Name                Pts   Inps          Mode State
+sInv<87>            1     1     FB14_16 STD  
+sInv<86>            1     1     FB14_17 STD  
+sInv<85>            1     1     FB14_18 STD  
+sInv<0>             1     1     FB15_1  STD  
+flip                0     0     FB15_2  STD  RESET
+ctr<0>              0     0     FB15_4  STD  RESET
+ctr<3>              2     4     FB15_5  STD  RESET
+ctr<2>              2     4     FB15_6  STD  RESET
+ctr<1>              2     4     FB15_7  STD  RESET
+$OpTx$FX_DC$99      4     6     FB15_9  STD  
+$OpTx$FX_DC$95      4     6     FB15_10 STD  
+$OpTx$FX_DC$91      4     6     FB15_11 STD  
+$OpTx$FX_DC$87      4     6     FB15_12 STD  
+$OpTx$FX_DC$83      4     6     FB15_13 STD  
+$OpTx$FX_DC$79      4     6     FB15_14 STD  
+$OpTx$FX_DC$75      4     6     FB15_16 STD  
+sSerialOut<0>       7     11    FB15_18 STD  RESET
+sInv<100>           1     1     FB16_1  STD  
+sSerialOut<3>       7     11    FB16_15 STD  RESET
+sSerialOut<2>       7     11    FB16_17 STD  RESET
+sSerialOut<1>       7     11    FB16_18 STD  RESET
+
+** 1 Inputs **
+
+Signal              Loc     Pin  Pin     Pin     
+Name                        No.  Type    Use     
+pClock              FB3_10  30   GCK/I/O GCK
+
+Legend:
+Pin No. - ~ - User Assigned
+**************************  Function Block Details  ************************
+Legend:
+Total Pt     - Total product terms used by the macrocell signal
+Imp Pt       - Product terms imported from other macrocells
+Exp Pt       - Product terms exported to other macrocells
+               in direction shown
+Unused Pt    - Unused local product terms remaining in macrocell
+Loc          - Location where logic was mapped in device
+Pin Type/Use - I  - Input             GCK - Global Clock
+               O  - Output            GTS - Global Output Enable
+              (b) - Buried macrocell  GSR - Global Set/Reset
+X            - Signal used as input to the macrocell logic.
+Pin No.      - ~  - User Assigned
+*********************************** FB1  ***********************************
+Number of function block inputs used/remaining:               34/20
+Number of signals used by logic mapping into function block:  34
+Signal              Total   Imp   Exp Unused  Loc     Pin   Pin     Pin
+Name                Pt      Pt    Pt  Pt               #    Type    Use
+sInv<101>             1       0   /\2   2     FB1_1         (b)     (b)
+(unused)              0       0     0   5     FB1_2         (b)     
+(unused)              0       0     0   5     FB1_3         (b)     
+(unused)              0       0     0   5     FB1_4         (b)     
+(unused)              0       0     0   5     FB1_5   20    I/O     
+(unused)              0       0     0   5     FB1_6   21    I/O     
+(unused)              0       0     0   5     FB1_7         (b)     
+(unused)              0       0     0   5     FB1_8   22    I/O     
+$OpTx$FX_DC$97        4       0     0   1     FB1_9         (b)     (b)
+$OpTx$FX_DC$96        4       0     0   1     FB1_10  23    I/O     (b)
+$OpTx$FX_DC$92        4       0     0   1     FB1_11        (b)     (b)
+$OpTx$FX_DC$88        4       0     0   1     FB1_12  24    I/O     (b)
+$OpTx$FX_DC$71        4       0   \/1   0     FB1_13        (b)     (b)
+$OpTx$FX_DC$70        4       1<- \/2   0     FB1_14  25    I/O     (b)
+sSerialOut<6>         7       2<-   0   0     FB1_15  26    I/O     (b)
+(unused)              0       0   \/2   3     FB1_16        (b)     (b)
+sSerialOut<5>         7       2<-   0   0     FB1_17  27    I/O     (b)
+sSerialOut<4>         7       2<-   0   0     FB1_18        (b)     (b)
+
+Signals Used by Logic in Function Block
+  1: $OpTx$FX_DC$86    13: sLatch<14>        24: sLatch<38> 
+  2: $OpTx$FX_DC$87    14: sLatch<18>        25: sLatch<39> 
+  3: $OpTx$FX_DC$88    15: sLatch<19>        26: sLatch<40> 
+  4: $OpTx$FX_DC$90    16: sLatch<1>         27: sLatch<41> 
+  5: $OpTx$FX_DC$91    17: sLatch<2>         28: sLatch<42> 
+  6: $OpTx$FX_DC$92    18: sLatch<32>        29: sLatch<43> 
+  7: $OpTx$FX_DC$94    19: sLatch<33>        30: sLatch<46> 
+  8: $OpTx$FX_DC$95    20: sLatch<34>        31: sLatch<47> 
+  9: $OpTx$FX_DC$96    21: sLatch<35>        32: sLatch<5> 
+ 10: sInv<100>         22: sLatch<36>        33: sLatch<6> 
+ 11: sLatch<10>        23: sLatch<37>        34: sLatch<9> 
+ 12: sLatch<13>       
+
+Signal                        1         2         3         4 FB
+Name                0----+----0----+----0----+----0----+----0 Inputs
+sInv<101>            .........X.............................. 1
+$OpTx$FX_DC$97       ..........X.X...X............XX.X....... 6
+$OpTx$FX_DC$96       ...........X...X...........XX..X.X...... 6
+$OpTx$FX_DC$92       ...........X...X.......XX......X.X...... 6
+$OpTx$FX_DC$88       ...........X...X...XX..........X.X...... 6
+$OpTx$FX_DC$71       ..........X.XXX.X...............X....... 6
+$OpTx$FX_DC$70       ...........X.XXX...............X.X...... 6
+sSerialOut<6>        ......XXX.X.X...X........XXXX...X....... 11
+sSerialOut<5>        ...XXX....X.X...X....XXXX.......X....... 11
+sSerialOut<4>        XXX.......X.X...XXXXX...........X....... 11
+                    0----+----1----+----2----+----3----+----4
+                              0         0         0         0
+*********************************** FB2  ***********************************
+Number of function block inputs used/remaining:               34/20
+Number of signals used by logic mapping into function block:  34
+Signal              Total   Imp   Exp Unused  Loc     Pin   Pin     Pin
+Name                Pt      Pt    Pt  Pt               #    Type    Use
+sInv<41>              1       0   /\1   3     FB2_1         (b)     (b)
+sInv<32>              1       0     0   4     FB2_2   9     I/O     (b)
+sLatch<19>            3       0     0   2     FB2_3   10    I/O     (b)
+sLatch<14>            3       0     0   2     FB2_4         (b)     (b)
+sLatch<13>            3       0     0   2     FB2_5   11    I/O     (b)
+sLatch<10>            3       0     0   2     FB2_6   12    I/O     (b)
+$OpTx$FX_DC$98        4       0     0   1     FB2_7         (b)     (b)
+$OpTx$FX_DC$94        4       0     0   1     FB2_8   13    I/O     (b)
+$OpTx$FX_DC$90        4       0     0   1     FB2_9         (b)     (b)
+$OpTx$FX_DC$86        4       0     0   1     FB2_10  14    I/O     (b)
+$OpTx$FX_DC$84        4       0     0   1     FB2_11        (b)     (b)
+$OpTx$FX_DC$82        4       0     0   1     FB2_12  15    I/O     (b)
+$OpTx$FX_DC$80        4       0     0   1     FB2_13        (b)     (b)
+$OpTx$FX_DC$78        4       0     0   1     FB2_14  16    I/O     (b)
+$OpTx$FX_DC$76        4       0     0   1     FB2_15  17    I/O     (b)
+$OpTx$FX_DC$74        4       0     0   1     FB2_16        (b)     (b)
+$OpTx$FX_DC$72        4       0   \/1   0     FB2_17  19    I/O     (b)
+sSerialOut<7>         7       2<-   0   0     FB2_18        (b)     (b)
+
+Signals Used by Logic in Function Block
+  1: $OpTx$FX_DC$97    13: sLatch<19>        24: sLatch<39> 
+  2: $OpTx$FX_DC$98    14: sLatch<1>         25: sLatch<42> 
+  3: $OpTx$FX_DC$99    15: sLatch<22>        26: sLatch<43> 
+  4: flip              16: sLatch<23>        27: sLatch<44> 
+  5: sInv<31>          17: sLatch<26>        28: sLatch<45> 
+  6: sInv<40>          18: sLatch<27>        29: sLatch<46> 
+  7: sInv<43>          19: sLatch<30>        30: sLatch<47> 
+  8: sInv<58>          20: sLatch<31>        31: sLatch<4> 
+  9: sLatch<0>         21: sLatch<34>        32: sLatch<5> 
+ 10: sLatch<12>        22: sLatch<35>        33: sLatch<8> 
+ 11: sLatch<13>        23: sLatch<38>        34: sLatch<9> 
+ 12: sLatch<18>       
+
+Signal                        1         2         3         4 FB
+Name                0----+----0----+----0----+----0----+----0 Inputs
+sInv<41>             .....X.................................. 1
+sInv<32>             ....X................................... 1
+sLatch<19>           ...X...X...X............................ 3
+sLatch<14>           ...X..X...X............................. 3
+sLatch<13>           ...X.X...X.............................. 3
+sLatch<10>           ...XX............................X...... 3
+$OpTx$FX_DC$98       ........XX..................XXX.X....... 6
+$OpTx$FX_DC$94       ........XX..............XX....X.X....... 6
+$OpTx$FX_DC$90       ........XX............XX......X.X....... 6
+$OpTx$FX_DC$86       ........XX..........XX........X.X....... 6
+$OpTx$FX_DC$84       ..........X..X....XX...........X.X...... 6
+$OpTx$FX_DC$82       ........XX........XX..........X.X....... 6
+$OpTx$FX_DC$80       ..........X..X..XX.............X.X...... 6
+$OpTx$FX_DC$78       ........XX......XX............X.X....... 6
+$OpTx$FX_DC$76       ..........X..XXX...............X.X...... 6
+$OpTx$FX_DC$74       ........XX....XX..............X.X....... 6
+$OpTx$FX_DC$72       ........XX.XX.................X.X....... 6
+sSerialOut<7>        XXX.......X..X............XXXX.X.X...... 11
+                    0----+----1----+----2----+----3----+----4
+                              0         0         0         0
+*********************************** FB3  ***********************************
+Number of function block inputs used/remaining:               33/21
+Number of signals used by logic mapping into function block:  33
+Signal              Total   Imp   Exp Unused  Loc     Pin   Pin     Pin
+Name                Pt      Pt    Pt  Pt               #    Type    Use
+sInv<35>              1       0     0   4     FB3_1         (b)     (b)
+sInv<2>               1       0     0   4     FB3_2   28    I/O     (b)
+sLatch<27>            3       0     0   2     FB3_3         (b)     (b)
+sLatch<26>            3       0     0   2     FB3_4         (b)     (b)
+sLatch<25>            3       0     0   2     FB3_5         (b)     (b)
+sLatch<24>            3       0     0   2     FB3_6         (b)     (b)
+sLatch<23>            3       0     0   2     FB3_7         (b)     (b)
+sLatch<22>            3       0     0   2     FB3_8         (b)     (b)
+sLatch<21>            3       0     0   2     FB3_9         (b)     (b)
+sLatch<20>            3       0     0   2     FB3_10  30    GCK/I/O GCK
+sLatch<1>             3       0     0   2     FB3_11        (b)     (b)
+sLatch<18>            3       0     0   2     FB3_12  31    I/O     (b)
+sLatch<17>            3       0     0   2     FB3_13        (b)     (b)
+sLatch<16>            3       0     0   2     FB3_14  32    GCK/I/O (b)
+sLatch<15>            3       0     0   2     FB3_15  33    I/O     (b)
+sLatch<12>            3       0     0   2     FB3_16        (b)     (b)
+sLatch<11>            3       0     0   2     FB3_17        (b)     (b)
+sLatch<0>             3       0     0   2     FB3_18        (b)     (b)
+
+Signals Used by Logic in Function Block
+  1: flip              12: sInv<67>          23: sLatch<16> 
+  2: sInv<1>           13: sInv<70>          24: sLatch<17> 
+  3: sInv<34>          14: sInv<73>          25: sLatch<19> 
+  4: sInv<37>          15: sInv<76>          26: sLatch<20> 
+  5: sInv<46>          16: sInv<79>          27: sLatch<21> 
+  6: sInv<49>          17: sInv<82>          28: sLatch<22> 
+  7: sInv<4>           18: sLatch<0>         29: sLatch<23> 
+  8: sInv<52>          19: sLatch<10>        30: sLatch<24> 
+  9: sInv<55>          20: sLatch<11>        31: sLatch<25> 
+ 10: sInv<61>          21: sLatch<14>        32: sLatch<26> 
+ 11: sInv<64>          22: sLatch<15>        33: sLatch<55> 
+
+Signal                        1         2         3         4 FB
+Name                0----+----0----+----0----+----0----+----0 Inputs
+sInv<35>             ..X..................................... 1
+sInv<2>              .X...................................... 1
+sLatch<27>           X...............X..............X........ 3
+sLatch<26>           X..............X..............X......... 3
+sLatch<25>           X.............X..............X.......... 3
+sLatch<24>           X............X..............X........... 3
+sLatch<23>           X...........X..............X............ 3
+sLatch<22>           X..........X..............X............. 3
+sLatch<21>           X.........X..............X.............. 3
+sLatch<20>           X........X..............X............... 3
+sLatch<1>            X.....X..........X...................... 3
+sLatch<18>           X.......X..............X................ 3
+sLatch<17>           X......X..............X................. 3
+sLatch<16>           X....X...............X.................. 3
+sLatch<15>           X...X...............X................... 3
+sLatch<12>           X..X...............X.................... 3
+sLatch<11>           X.X...............X..................... 3
+sLatch<0>            XX..............................X....... 3
+                    0----+----1----+----2----+----3----+----4
+                              0         0         0         0
+*********************************** FB4  ***********************************
+Number of function block inputs used/remaining:               33/21
+Number of signals used by logic mapping into function block:  33
+Signal              Total   Imp   Exp Unused  Loc     Pin   Pin     Pin
+Name                Pt      Pt    Pt  Pt               #    Type    Use
+sInv<107>             1       0     0   4     FB4_1         (b)     (b)
+sInv<104>             1       0     0   4     FB4_2   2     GTS/I/O (b)
+sLatch<41>            3       0     0   2     FB4_3         (b)     (b)
+sLatch<40>            3       0     0   2     FB4_4         (b)     (b)
+sLatch<3>             3       0     0   2     FB4_5   3     GTS/I/O (b)
+sLatch<39>            3       0     0   2     FB4_6   4     I/O     (b)
+sLatch<38>            3       0     0   2     FB4_7         (b)     (b)
+sLatch<37>            3       0     0   2     FB4_8   5     GTS/I/O (b)
+sLatch<36>            3       0     0   2     FB4_9         (b)     (b)
+sLatch<35>            3       0     0   2     FB4_10        (b)     (b)
+sLatch<34>            3       0     0   2     FB4_11        (b)     (b)
+sLatch<33>            3       0     0   2     FB4_12  6     GTS/I/O (b)
+sLatch<32>            3       0     0   2     FB4_13        (b)     (b)
+sLatch<31>            3       0     0   2     FB4_14  7     I/O     (b)
+sLatch<30>            3       0     0   2     FB4_15        (b)     (b)
+sLatch<2>             3       0     0   2     FB4_16        (b)     (b)
+sLatch<29>            3       0     0   2     FB4_17        (b)     (b)
+sLatch<28>            3       0     0   2     FB4_18        (b)     (b)
+
+Signals Used by Logic in Function Block
+  1: flip              12: sInv<7>           23: sLatch<30> 
+  2: sInv<100>         13: sInv<85>          24: sLatch<31> 
+  3: sInv<103>         14: sInv<88>          25: sLatch<32> 
+  4: sInv<106>         15: sInv<91>          26: sLatch<33> 
+  5: sInv<109>         16: sInv<94>          27: sLatch<34> 
+  6: sInv<10>          17: sInv<97>          28: sLatch<35> 
+  7: sInv<112>         18: sLatch<1>         29: sLatch<36> 
+  8: sInv<115>         19: sLatch<27>        30: sLatch<37> 
+  9: sInv<118>         20: sLatch<28>        31: sLatch<38> 
+ 10: sInv<121>         21: sLatch<29>        32: sLatch<39> 
+ 11: sInv<124>         22: sLatch<2>         33: sLatch<40> 
+
+Signal                        1         2         3         4 FB
+Name                0----+----0----+----0----+----0----+----0 Inputs
+sInv<107>            ...X.................................... 1
+sInv<104>            ..X..................................... 1
+sLatch<41>           X.........X.....................X....... 3
+sLatch<40>           X........X.....................X........ 3
+sLatch<3>            X....X...............X.................. 3
+sLatch<39>           X.......X.....................X......... 3
+sLatch<38>           X......X.....................X.......... 3
+sLatch<37>           X.....X.....................X........... 3
+sLatch<36>           X...X......................X............ 3
+sLatch<35>           X..X......................X............. 3
+sLatch<34>           X.X......................X.............. 3
+sLatch<33>           XX......................X............... 3
+sLatch<32>           X...............X......X................ 3
+sLatch<31>           X..............X......X................. 3
+sLatch<30>           X.............X.....X................... 3
+sLatch<2>            X..........X.....X...................... 3
+sLatch<29>           X............X.....X.................... 3
+sLatch<28>           X...........X.....X..................... 3
+                    0----+----1----+----2----+----3----+----4
+                              0         0         0         0
+*********************************** FB5  ***********************************
+Number of function block inputs used/remaining:               33/21
+Number of signals used by logic mapping into function block:  33
+Signal              Total   Imp   Exp Unused  Loc     Pin   Pin     Pin
+Name                Pt      Pt    Pt  Pt               #    Type    Use
+sInv<131>             1       0     0   4     FB5_1         (b)     (b)
+sInv<128>             1       0     0   4     FB5_2   34    I/O     (b)
+sLatch<5>             3       0     0   2     FB5_3         (b)     (b)
+sLatch<55>            3       0     0   2     FB5_4         (b)     (b)
+sLatch<54>            3       0     0   2     FB5_5   35    I/O     (b)
+sLatch<53>            3       0     0   2     FB5_6         (b)     (b)
+sLatch<52>            3       0     0   2     FB5_7         (b)     (b)
+sLatch<51>            3       0     0   2     FB5_8   38    GCK/I/O (b)
+sLatch<50>            3       0     0   2     FB5_9         (b)     (b)
+sLatch<4>             3       0     0   2     FB5_10  39    I/O     (b)
+sLatch<49>            3       0     0   2     FB5_11        (b)     (b)
+sLatch<48>            3       0     0   2     FB5_12  40    I/O     (b)
+sLatch<47>            3       0     0   2     FB5_13        (b)     (b)
+sLatch<46>            3       0     0   2     FB5_14  41    I/O     (b)
+sLatch<45>            3       0     0   2     FB5_15  43    I/O     (b)
+sLatch<44>            3       0     0   2     FB5_16        (b)     (b)
+sLatch<43>            3       0     0   2     FB5_17  44    I/O     (b)
+sLatch<42>            3       0     0   2     FB5_18        (b)     (b)
+
+Signals Used by Logic in Function Block
+  1: flip              12: sInv<154>         23: sLatch<45> 
+  2: sInv<127>         13: sInv<157>         24: sLatch<46> 
+  3: sInv<130>         14: sInv<160>         25: sLatch<47> 
+  4: sInv<133>         15: sInv<163>         26: sLatch<48> 
+  5: sInv<136>         16: sInv<166>         27: sLatch<49> 
+  6: sInv<139>         17: sInv<16>          28: sLatch<4> 
+  7: sInv<13>          18: sLatch<3>         29: sLatch<50> 
+  8: sInv<142>         19: sLatch<41>        30: sLatch<51> 
+  9: sInv<145>         20: sLatch<42>        31: sLatch<52> 
+ 10: sInv<148>         21: sLatch<43>        32: sLatch<53> 
+ 11: sInv<151>         22: sLatch<44>        33: sLatch<54> 
+
+Signal                        1         2         3         4 FB
+Name                0----+----0----+----0----+----0----+----0 Inputs
+sInv<131>            ..X..................................... 1
+sInv<128>            .X...................................... 1
+sLatch<5>            X...............X..........X............ 3
+sLatch<55>           X..............X................X....... 3
+sLatch<54>           X.............X................X........ 3
+sLatch<53>           X............X................X......... 3
+sLatch<52>           X...........X................X.......... 3
+sLatch<51>           X..........X................X........... 3
+sLatch<50>           X.........X...............X............. 3
+sLatch<4>            X.....X..........X...................... 3
+sLatch<49>           X........X...............X.............. 3
+sLatch<48>           X.......X...............X............... 3
+sLatch<47>           X......X...............X................ 3
+sLatch<46>           X....X................X................. 3
+sLatch<45>           X...X................X.................. 3
+sLatch<44>           X..X................X................... 3
+sLatch<43>           X.X................X.................... 3
+sLatch<42>           XX................X..................... 3
+                    0----+----1----+----2----+----3----+----4
+                              0         0         0         0
+*********************************** FB6  ***********************************
+Number of function block inputs used/remaining:               19/35
+Number of signals used by logic mapping into function block:  19
+Signal              Total   Imp   Exp Unused  Loc     Pin   Pin     Pin
+Name                Pt      Pt    Pt  Pt               #    Type    Use
+sInv<29>              1       0     0   4     FB6_1         (b)     (b)
+sInv<26>              1       0     0   4     FB6_2   135   I/O     (b)
+sInv<23>              1       0     0   4     FB6_3   136   I/O     (b)
+sInv<20>              1       0     0   4     FB6_4         (b)     (b)
+sInv<112>             1       0     0   4     FB6_5   137   I/O     (b)
+sInv<111>             1       0     0   4     FB6_6   138   I/O     (b)
+sInv<110>             1       0     0   4     FB6_7         (b)     (b)
+sInv<10>              1       0     0   4     FB6_8   139   I/O     (b)
+sInv<109>             1       0     0   4     FB6_9         (b)     (b)
+sInv<108>             1       0     0   4     FB6_10  140   I/O     (b)
+sInv<106>             1       0     0   4     FB6_11        (b)     (b)
+sInv<105>             1       0     0   4     FB6_12        (b)     (b)
+sInv<103>             1       0     0   4     FB6_13        (b)     (b)
+sInv<102>             1       0     0   4     FB6_14  142   I/O     (b)
+sLatch<9>             3       0     0   2     FB6_15  143   GSR/I/O (b)
+sLatch<8>             3       0     0   2     FB6_16        (b)     (b)
+sLatch<7>             3       0     0   2     FB6_17        (b)     (b)
+sLatch<6>             3       0     0   2     FB6_18        (b)     (b)
+
+Signals Used by Logic in Function Block
+  1: flip               8: sInv<110>         14: sInv<28> 
+  2: sInv<102>          9: sInv<111>         15: sInv<9> 
+  3: sInv<104>         10: sInv<113>         16: sLatch<5> 
+  4: sInv<105>         11: sInv<19>          17: sLatch<6> 
+  5: sInv<107>         12: sInv<22>          18: sLatch<7> 
+  6: sInv<108>         13: sInv<25>          19: sLatch<8> 
+  7: sInv<109>        
+
+Signal                        1         2         3         4 FB
+Name                0----+----0----+----0----+----0----+----0 Inputs
+sInv<29>             .............X.......................... 1
+sInv<26>             ............X........................... 1
+sInv<23>             ...........X............................ 1
+sInv<20>             ..........X............................. 1
+sInv<112>            ........X............................... 1
+sInv<111>            .........X.............................. 1
+sInv<110>            ......X................................. 1
+sInv<10>             ..............X......................... 1
+sInv<109>            .....X.................................. 1
+sInv<108>            .......X................................ 1
+sInv<106>            ...X.................................... 1
+sInv<105>            ....X................................... 1
+sInv<103>            .X...................................... 1
+sInv<102>            ..X..................................... 1
+sLatch<9>            X............X....X..................... 3
+sLatch<8>            X...........X....X...................... 3
+sLatch<7>            X..........X....X....................... 3
+sLatch<6>            X.........X....X........................ 3
+                    0----+----1----+----2----+----3----+----4
+                              0         0         0         0
+*********************************** FB7  ***********************************
+Number of function block inputs used/remaining:               18/36
+Number of signals used by logic mapping into function block:  18
+Signal              Total   Imp   Exp Unused  Loc     Pin   Pin     Pin
+Name                Pt      Pt    Pt  Pt               #    Type    Use
+sInv<12>              1       0     0   4     FB7_1         (b)     (b)
+sInv<129>             1       0     0   4     FB7_2         (b)     (b)
+sInv<127>             1       0     0   4     FB7_3   45    I/O     (b)
+sInv<126>             1       0     0   4     FB7_4         (b)     (b)
+sInv<125>             1       0     0   4     FB7_5   46    I/O     (b)
+sInv<124>             1       0     0   4     FB7_6         (b)     (b)
+sInv<123>             1       0     0   4     FB7_7         (b)     (b)
+sInv<122>             1       0     0   4     FB7_8         (b)     (b)
+sInv<121>             1       0     0   4     FB7_9         (b)     (b)
+sInv<120>             1       0     0   4     FB7_10        (b)     (b)
+sInv<11>              1       0     0   4     FB7_11        (b)     (b)
+sInv<119>             1       0     0   4     FB7_12  48    I/O     (b)
+sInv<118>             1       0     0   4     FB7_13        (b)     (b)
+sInv<117>             1       0     0   4     FB7_14        (b)     (b)
+sInv<116>             1       0     0   4     FB7_15  49    I/O     (b)
+sInv<115>             1       0     0   4     FB7_16        (b)     (b)
+sInv<114>             1       0     0   4     FB7_17        (b)     (b)
+sInv<113>             1       0     0   4     FB7_18        (b)     (b)
+
+Signals Used by Logic in Function Block
+  1: sInv<10>           7: sInv<118>         13: sInv<124> 
+  2: sInv<112>          8: sInv<119>         14: sInv<125> 
+  3: sInv<114>          9: sInv<120>         15: sInv<126> 
+  4: sInv<115>         10: sInv<121>         16: sInv<128> 
+  5: sInv<116>         11: sInv<122>         17: sInv<131> 
+  6: sInv<117>         12: sInv<123>         18: sInv<14> 
+
+Signal                        1         2         3         4 FB
+Name                0----+----0----+----0----+----0----+----0 Inputs
+sInv<12>             .................X...................... 1
+sInv<129>            ................X....................... 1
+sInv<127>            ..............X......................... 1
+sInv<126>            ...............X........................ 1
+sInv<125>            ............X........................... 1
+sInv<124>            ...........X............................ 1
+sInv<123>            .............X.......................... 1
+sInv<122>            .........X.............................. 1
+sInv<121>            ........X............................... 1
+sInv<120>            ..........X............................. 1
+sInv<11>             X....................................... 1
+sInv<119>            ......X................................. 1
+sInv<118>            .....X.................................. 1
+sInv<117>            .......X................................ 1
+sInv<116>            ...X.................................... 1
+sInv<115>            ..X..................................... 1
+sInv<114>            ....X................................... 1
+sInv<113>            .X...................................... 1
+                    0----+----1----+----2----+----3----+----4
+                              0         0         0         0
+*********************************** FB8  ***********************************
+Number of function block inputs used/remaining:               18/36
+Number of signals used by logic mapping into function block:  18
+Signal              Total   Imp   Exp Unused  Loc     Pin   Pin     Pin
+Name                Pt      Pt    Pt  Pt               #    Type    Use
+sInv<147>             1       0     0   4     FB8_1         (b)     (b)
+sInv<146>             1       0     0   4     FB8_2   130   I/O     (b)
+sInv<145>             1       0     0   4     FB8_3   131   I/O     (b)
+sInv<144>             1       0     0   4     FB8_4         (b)     (b)
+sInv<143>             1       0     0   4     FB8_5   132   I/O     (b)
+sInv<142>             1       0     0   4     FB8_6         (b)     (b)
+sInv<141>             1       0     0   4     FB8_7         (b)     (b)
+sInv<140>             1       0     0   4     FB8_8   133   I/O     (b)
+sInv<13>              1       0     0   4     FB8_9         (b)     (b)
+sInv<139>             1       0     0   4     FB8_10  134   I/O     (b)
+sInv<138>             1       0     0   4     FB8_11        (b)     (b)
+sInv<137>             1       0     0   4     FB8_12        (b)     (b)
+sInv<136>             1       0     0   4     FB8_13        (b)     (b)
+sInv<135>             1       0     0   4     FB8_14        (b)     (b)
+sInv<134>             1       0     0   4     FB8_15        (b)     (b)
+sInv<133>             1       0     0   4     FB8_16        (b)     (b)
+sInv<132>             1       0     0   4     FB8_17        (b)     (b)
+sInv<130>             1       0     0   4     FB8_18        (b)     (b)
+
+Signals Used by Logic in Function Block
+  1: sInv<129>          7: sInv<136>         13: sInv<142> 
+  2: sInv<12>           8: sInv<137>         14: sInv<143> 
+  3: sInv<132>          9: sInv<138>         15: sInv<144> 
+  4: sInv<133>         10: sInv<139>         16: sInv<145> 
+  5: sInv<134>         11: sInv<140>         17: sInv<146> 
+  6: sInv<135>         12: sInv<141>         18: sInv<149> 
+
+Signal                        1         2         3         4 FB
+Name                0----+----0----+----0----+----0----+----0 Inputs
+sInv<147>            .................X...................... 1
+sInv<146>            ...............X........................ 1
+sInv<145>            ..............X......................... 1
+sInv<144>            ................X....................... 1
+sInv<143>            ............X........................... 1
+sInv<142>            ...........X............................ 1
+sInv<141>            .............X.......................... 1
+sInv<140>            .........X.............................. 1
+sInv<13>             .X...................................... 1
+sInv<139>            ........X............................... 1
+sInv<138>            ..........X............................. 1
+sInv<137>            ......X................................. 1
+sInv<136>            .....X.................................. 1
+sInv<135>            .......X................................ 1
+sInv<134>            ...X.................................... 1
+sInv<133>            ..X..................................... 1
+sInv<132>            ....X................................... 1
+sInv<130>            X....................................... 1
+                    0----+----1----+----2----+----3----+----4
+                              0         0         0         0
+*********************************** FB9  ***********************************
+Number of function block inputs used/remaining:               18/36
+Number of signals used by logic mapping into function block:  18
+Signal              Total   Imp   Exp Unused  Loc     Pin   Pin     Pin
+Name                Pt      Pt    Pt  Pt               #    Type    Use
+sInv<163>             1       0     0   4     FB9_1         (b)     (b)
+sInv<162>             1       0     0   4     FB9_2   50    I/O     (b)
+sInv<161>             1       0     0   4     FB9_3   51    I/O     (b)
+sInv<160>             1       0     0   4     FB9_4         (b)     (b)
+sInv<15>              1       0     0   4     FB9_5   52    I/O     (b)
+sInv<159>             1       0     0   4     FB9_6   53    I/O     (b)
+sInv<158>             1       0     0   4     FB9_7         (b)     (b)
+sInv<157>             1       0     0   4     FB9_8   54    I/O     (b)
+sInv<156>             1       0     0   4     FB9_9         (b)     (b)
+sInv<155>             1       0     0   4     FB9_10        (b)     (b)
+sInv<154>             1       0     0   4     FB9_11  56    I/O     (b)
+sInv<153>             1       0     0   4     FB9_12  57    I/O     (b)
+sInv<152>             1       0     0   4     FB9_13        (b)     (b)
+sInv<151>             1       0     0   4     FB9_14  58    I/O     (b)
+sInv<150>             1       0     0   4     FB9_15        (b)     (b)
+sInv<14>              1       0     0   4     FB9_16        (b)     (b)
+sInv<149>             1       0     0   4     FB9_17  59    I/O     (b)
+sInv<148>             1       0     0   4     FB9_18        (b)     (b)
+
+Signals Used by Logic in Function Block
+  1: sInv<13>           7: sInv<153>         13: sInv<159> 
+  2: sInv<147>          8: sInv<154>         14: sInv<160> 
+  3: sInv<148>          9: sInv<155>         15: sInv<161> 
+  4: sInv<150>         10: sInv<156>         16: sInv<162> 
+  5: sInv<151>         11: sInv<157>         17: sInv<164> 
+  6: sInv<152>         12: sInv<158>         18: sInv<17> 
+
+Signal                        1         2         3         4 FB
+Name                0----+----0----+----0----+----0----+----0 Inputs
+sInv<163>            ...............X........................ 1
+sInv<162>            ................X....................... 1
+sInv<161>            .............X.......................... 1
+sInv<160>            ............X........................... 1
+sInv<15>             .................X...................... 1
+sInv<159>            ..............X......................... 1
+sInv<158>            ..........X............................. 1
+sInv<157>            .........X.............................. 1
+sInv<156>            ...........X............................ 1
+sInv<155>            .......X................................ 1
+sInv<154>            ......X................................. 1
+sInv<153>            ........X............................... 1
+sInv<152>            ....X................................... 1
+sInv<151>            ...X.................................... 1
+sInv<150>            .....X.................................. 1
+sInv<14>             X....................................... 1
+sInv<149>            ..X..................................... 1
+sInv<148>            .X...................................... 1
+                    0----+----1----+----2----+----3----+----4
+                              0         0         0         0
+*********************************** FB10 ***********************************
+Number of function block inputs used/remaining:               18/36
+Number of signals used by logic mapping into function block:  18
+Signal              Total   Imp   Exp Unused  Loc     Pin   Pin     Pin
+Name                Pt      Pt    Pt  Pt               #    Type    Use
+sInv<33>              1       0     0   4     FB10_1        (b)     (b)
+sInv<31>              1       0     0   4     FB10_2  117   I/O     (b)
+sInv<30>              1       0     0   4     FB10_3  118   I/O     (b)
+sInv<28>              1       0     0   4     FB10_4        (b)     (b)
+sInv<27>              1       0     0   4     FB10_5  119   I/O     (b)
+sInv<25>              1       0     0   4     FB10_6  120   I/O     (b)
+sInv<24>              1       0     0   4     FB10_7        (b)     (b)
+sInv<22>              1       0     0   4     FB10_8  121   I/O     (b)
+sInv<21>              1       0     0   4     FB10_9        (b)     (b)
+sInv<1>               1       0     0   4     FB10_10 124   I/O     (b)
+sInv<19>              1       0     0   4     FB10_11 125   I/O     (b)
+sInv<18>              1       0     0   4     FB10_12 126   I/O     (b)
+sInv<17>              1       0     0   4     FB10_13       (b)     (b)
+sInv<16>              1       0     0   4     FB10_14 128   I/O     (b)
+sInv<167>             1       0     0   4     FB10_15       (b)     (b)
+sInv<166>             1       0     0   4     FB10_16       (b)     (b)
+sInv<165>             1       0     0   4     FB10_17 129   I/O     (b)
+sInv<164>             1       0     0   4     FB10_18       (b)     (b)
+
+Signals Used by Logic in Function Block
+  1: sInv<0>            7: sInv<16>          13: sInv<26> 
+  2: sInv<15>           8: sInv<18>          14: sInv<27> 
+  3: sInv<163>          9: sInv<20>          15: sInv<29> 
+  4: sInv<165>         10: sInv<21>          16: sInv<30> 
+  5: sInv<166>         11: sInv<23>          17: sInv<32> 
+  6: sInv<167>         12: sInv<24>          18: sInv<35> 
+
+Signal                        1         2         3         4 FB
+Name                0----+----0----+----0----+----0----+----0 Inputs
+sInv<33>             .................X...................... 1
+sInv<31>             ...............X........................ 1
+sInv<30>             ................X....................... 1
+sInv<28>             .............X.......................... 1
+sInv<27>             ..............X......................... 1
+sInv<25>             ...........X............................ 1
+sInv<24>             ............X........................... 1
+sInv<22>             .........X.............................. 1
+sInv<21>             ..........X............................. 1
+sInv<1>              X....................................... 1
+sInv<19>             .......X................................ 1
+sInv<18>             ........X............................... 1
+sInv<17>             ......X................................. 1
+sInv<16>             .X...................................... 1
+sInv<167>            ....X................................... 1
+sInv<166>            ...X.................................... 1
+sInv<165>            .....X.................................. 1
+sInv<164>            ..X..................................... 1
+                    0----+----1----+----2----+----3----+----4
+                              0         0         0         0
+*********************************** FB11 ***********************************
+Number of function block inputs used/remaining:               18/36
+Number of signals used by logic mapping into function block:  18
+Signal              Total   Imp   Exp Unused  Loc     Pin   Pin     Pin
+Name                Pt      Pt    Pt  Pt               #    Type    Use
+sInv<51>              1       0     0   4     FB11_1        (b)     (b)
+sInv<50>              1       0     0   4     FB11_2        (b)     (b)
+sInv<4>               1       0     0   4     FB11_3  60    I/O     (b)
+sInv<49>              1       0     0   4     FB11_4        (b)     (b)
+sInv<48>              1       0     0   4     FB11_5  61    I/O     (b)
+sInv<47>              1       0     0   4     FB11_6        (b)     (b)
+sInv<46>              1       0     0   4     FB11_7        (b)     (b)
+sInv<45>              1       0     0   4     FB11_8        (b)     (b)
+sInv<44>              1       0     0   4     FB11_9        (b)     (b)
+sInv<43>              1       0     0   4     FB11_10 64    I/O     (b)
+sInv<42>              1       0     0   4     FB11_11 66    I/O     (b)
+sInv<40>              1       0     0   4     FB11_12 68    I/O     (b)
+sInv<3>               1       0     0   4     FB11_13       (b)     (b)
+sInv<39>              1       0     0   4     FB11_14 69    I/O     (b)
+sInv<38>              1       0     0   4     FB11_15       (b)     (b)
+sInv<37>              1       0     0   4     FB11_16       (b)     (b)
+sInv<36>              1       0     0   4     FB11_17 70    I/O     (b)
+sInv<34>              1       0     0   4     FB11_18       (b)     (b)
+
+Signals Used by Logic in Function Block
+  1: sInv<33>           7: sInv<41>          13: sInv<47> 
+  2: sInv<36>           8: sInv<42>          14: sInv<48> 
+  3: sInv<37>           9: sInv<43>          15: sInv<49> 
+  4: sInv<38>          10: sInv<44>          16: sInv<50> 
+  5: sInv<39>          11: sInv<45>          17: sInv<53> 
+  6: sInv<3>           12: sInv<46>          18: sInv<5> 
+
+Signal                        1         2         3         4 FB
+Name                0----+----0----+----0----+----0----+----0 Inputs
+sInv<51>             ................X....................... 1
+sInv<50>             ..............X......................... 1
+sInv<4>              .....X.................................. 1
+sInv<49>             .............X.......................... 1
+sInv<48>             ...............X........................ 1
+sInv<47>             ...........X............................ 1
+sInv<46>             ..........X............................. 1
+sInv<45>             ............X........................... 1
+sInv<44>             ........X............................... 1
+sInv<43>             .......X................................ 1
+sInv<42>             .........X.............................. 1
+sInv<40>             ....X................................... 1
+sInv<3>              .................X...................... 1
+sInv<39>             ......X................................. 1
+sInv<38>             ..X..................................... 1
+sInv<37>             .X...................................... 1
+sInv<36>             ...X.................................... 1
+sInv<34>             X....................................... 1
+                    0----+----1----+----2----+----3----+----4
+                              0         0         0         0
+*********************************** FB12 ***********************************
+Number of function block inputs used/remaining:               18/36
+Number of signals used by logic mapping into function block:  18
+Signal              Total   Imp   Exp Unused  Loc     Pin   Pin     Pin
+Name                Pt      Pt    Pt  Pt               #    Type    Use
+sInv<68>              1       0     0   4     FB12_1        (b)     (b)
+sInv<67>              1       0     0   4     FB12_2  110   I/O     (b)
+sInv<66>              1       0     0   4     FB12_3  111   I/O     (b)
+sInv<65>              1       0     0   4     FB12_4        (b)     (b)
+sInv<64>              1       0     0   4     FB12_5  112   I/O     (b)
+sInv<63>              1       0     0   4     FB12_6        (b)     (b)
+sInv<62>              1       0     0   4     FB12_7        (b)     (b)
+sInv<61>              1       0     0   4     FB12_8  113   I/O     (b)
+sInv<60>              1       0     0   4     FB12_9        (b)     (b)
+sInv<5>               1       0     0   4     FB12_10 115   I/O     (b)
+sInv<59>              1       0     0   4     FB12_11       (b)     (b)
+sInv<58>              1       0     0   4     FB12_12 116   I/O     (b)
+sInv<57>              1       0     0   4     FB12_13       (b)     (b)
+sInv<56>              1       0     0   4     FB12_14       (b)     (b)
+sInv<55>              1       0     0   4     FB12_15       (b)     (b)
+sInv<54>              1       0     0   4     FB12_16       (b)     (b)
+sInv<53>              1       0     0   4     FB12_17       (b)     (b)
+sInv<52>              1       0     0   4     FB12_18       (b)     (b)
+
+Signals Used by Logic in Function Block
+  1: sInv<4>            7: sInv<57>          13: sInv<63> 
+  2: sInv<51>           8: sInv<58>          14: sInv<64> 
+  3: sInv<52>           9: sInv<59>          15: sInv<65> 
+  4: sInv<54>          10: sInv<60>          16: sInv<66> 
+  5: sInv<55>          11: sInv<61>          17: sInv<67> 
+  6: sInv<56>          12: sInv<62>          18: sInv<68> 
+
+Signal                        1         2         3         4 FB
+Name                0----+----0----+----0----+----0----+----0 Inputs
+sInv<68>             ................X....................... 1
+sInv<67>             ...............X........................ 1
+sInv<66>             .................X...................... 1
+sInv<65>             .............X.......................... 1
+sInv<64>             ............X........................... 1
+sInv<63>             ..............X......................... 1
+sInv<62>             ..........X............................. 1
+sInv<61>             .........X.............................. 1
+sInv<60>             ...........X............................ 1
+sInv<5>              X....................................... 1
+sInv<59>             .......X................................ 1
+sInv<58>             ......X................................. 1
+sInv<57>             ........X............................... 1
+sInv<56>             ....X................................... 1
+sInv<55>             ...X.................................... 1
+sInv<54>             .....X.................................. 1
+sInv<53>             ..X..................................... 1
+sInv<52>             .X...................................... 1
+                    0----+----1----+----2----+----3----+----4
+                              0         0         0         0
+*********************************** FB13 ***********************************
+Number of function block inputs used/remaining:               18/36
+Number of signals used by logic mapping into function block:  18
+Signal              Total   Imp   Exp Unused  Loc     Pin   Pin     Pin
+Name                Pt      Pt    Pt  Pt               #    Type    Use
+sInv<84>              1       0     0   4     FB13_1        (b)     (b)
+sInv<83>              1       0     0   4     FB13_2  71    I/O     (b)
+sInv<82>              1       0     0   4     FB13_3        (b)     (b)
+sInv<81>              1       0     0   4     FB13_4        (b)     (b)
+sInv<80>              1       0     0   4     FB13_5        (b)     (b)
+sInv<7>               1       0     0   4     FB13_6        (b)     (b)
+sInv<79>              1       0     0   4     FB13_7        (b)     (b)
+sInv<78>              1       0     0   4     FB13_8  74    I/O     (b)
+sInv<77>              1       0     0   4     FB13_9        (b)     (b)
+sInv<76>              1       0     0   4     FB13_10       (b)     (b)
+sInv<75>              1       0     0   4     FB13_11 75    I/O     (b)
+sInv<74>              1       0     0   4     FB13_12       (b)     (b)
+sInv<73>              1       0     0   4     FB13_13       (b)     (b)
+sInv<72>              1       0     0   4     FB13_14 76    I/O     (b)
+sInv<71>              1       0     0   4     FB13_15 77    I/O     (b)
+sInv<70>              1       0     0   4     FB13_16       (b)     (b)
+sInv<6>               1       0     0   4     FB13_17 78    I/O     (b)
+sInv<69>              1       0     0   4     FB13_18       (b)     (b)
+
+Signals Used by Logic in Function Block
+  1: sInv<69>           7: sInv<74>          13: sInv<80> 
+  2: sInv<6>            8: sInv<75>          14: sInv<81> 
+  3: sInv<70>           9: sInv<76>          15: sInv<82> 
+  4: sInv<71>          10: sInv<77>          16: sInv<83> 
+  5: sInv<72>          11: sInv<78>          17: sInv<86> 
+  6: sInv<73>          12: sInv<79>          18: sInv<8> 
+
+Signal                        1         2         3         4 FB
+Name                0----+----0----+----0----+----0----+----0 Inputs
+sInv<84>             ................X....................... 1
+sInv<83>             ..............X......................... 1
+sInv<82>             .............X.......................... 1
+sInv<81>             ...............X........................ 1
+sInv<80>             ...........X............................ 1
+sInv<7>              .X...................................... 1
+sInv<79>             ..........X............................. 1
+sInv<78>             ............X........................... 1
+sInv<77>             ........X............................... 1
+sInv<76>             .......X................................ 1
+sInv<75>             .........X.............................. 1
+sInv<74>             .....X.................................. 1
+sInv<73>             ....X................................... 1
+sInv<72>             ......X................................. 1
+sInv<71>             ..X..................................... 1
+sInv<70>             X....................................... 1
+sInv<6>              .................X...................... 1
+sInv<69>             ...X.................................... 1
+                    0----+----1----+----2----+----3----+----4
+                              0         0         0         0
+*********************************** FB14 ***********************************
+Number of function block inputs used/remaining:               17/37
+Number of signals used by logic mapping into function block:  17
+Signal              Total   Imp   Exp Unused  Loc     Pin   Pin     Pin
+Name                Pt      Pt    Pt  Pt               #    Type    Use
+(unused)              0       0     0   5     FB14_1        (b)     
+sInv<9>               1       0     0   4     FB14_2        (b)     (b)
+sInv<99>              1       0     0   4     FB14_3  100   I/O     (b)
+sInv<98>              1       0     0   4     FB14_4        (b)     (b)
+sInv<97>              1       0     0   4     FB14_5  101   I/O     (b)
+sInv<96>              1       0     0   4     FB14_6  102   I/O     (b)
+sInv<95>              1       0     0   4     FB14_7        (b)     (b)
+sInv<94>              1       0     0   4     FB14_8  103   I/O     (b)
+sInv<93>              1       0     0   4     FB14_9        (b)     (b)
+sInv<92>              1       0     0   4     FB14_10 104   I/O     (b)
+sInv<91>              1       0     0   4     FB14_11 105   I/O     (b)
+sInv<90>              1       0     0   4     FB14_12       (b)     (b)
+sInv<8>               1       0     0   4     FB14_13       (b)     (b)
+sInv<89>              1       0     0   4     FB14_14 106   I/O     (b)
+sInv<88>              1       0     0   4     FB14_15 107   I/O     (b)
+sInv<87>              1       0     0   4     FB14_16       (b)     (b)
+sInv<86>              1       0     0   4     FB14_17       (b)     (b)
+sInv<85>              1       0     0   4     FB14_18       (b)     (b)
+
+Signals Used by Logic in Function Block
+  1: sInv<101>          7: sInv<88>          13: sInv<94> 
+  2: sInv<11>           8: sInv<89>          14: sInv<95> 
+  3: sInv<7>            9: sInv<90>          15: sInv<96> 
+  4: sInv<84>          10: sInv<91>          16: sInv<97> 
+  5: sInv<85>          11: sInv<92>          17: sInv<98> 
+  6: sInv<87>          12: sInv<93>         
+
+Signal                        1         2         3         4 FB
+Name                0----+----0----+----0----+----0----+----0 Inputs
+sInv<9>              .X...................................... 1
+sInv<99>             X....................................... 1
+sInv<98>             ...............X........................ 1
+sInv<97>             ..............X......................... 1
+sInv<96>             ................X....................... 1
+sInv<95>             ............X........................... 1
+sInv<94>             ...........X............................ 1
+sInv<93>             .............X.......................... 1
+sInv<92>             .........X.............................. 1
+sInv<91>             ........X............................... 1
+sInv<90>             ..........X............................. 1
+sInv<8>              ..X..................................... 1
+sInv<89>             ......X................................. 1
+sInv<88>             .....X.................................. 1
+sInv<87>             .......X................................ 1
+sInv<86>             ....X................................... 1
+sInv<85>             ...X.................................... 1
+                    0----+----1----+----2----+----3----+----4
+                              0         0         0         0
+*********************************** FB15 ***********************************
+Number of function block inputs used/remaining:               34/20
+Number of signals used by logic mapping into function block:  34
+Signal              Total   Imp   Exp Unused  Loc     Pin   Pin     Pin
+Name                Pt      Pt    Pt  Pt               #    Type    Use
+sInv<0>               1       0     0   4     FB15_1        (b)     (b)
+flip                  0       0     0   5     FB15_2  79    I/O     (b)
+pSerialOut<0>         2       0     0   3     FB15_3  80    I/O     O
+ctr<0>                0       0     0   5     FB15_4        (b)     (b)
+ctr<3>                2       0     0   3     FB15_5        (b)     (b)
+ctr<2>                2       0     0   3     FB15_6        (b)     (b)
+ctr<1>                2       0     0   3     FB15_7        (b)     (b)
+pSerialOut<1>         2       0     0   3     FB15_8  81    I/O     O
+$OpTx$FX_DC$99        4       0     0   1     FB15_9        (b)     (b)
+$OpTx$FX_DC$95        4       0     0   1     FB15_10 82    I/O     (b)
+$OpTx$FX_DC$91        4       0     0   1     FB15_11 83    I/O     (b)
+$OpTx$FX_DC$87        4       0     0   1     FB15_12 85    I/O     (b)
+$OpTx$FX_DC$83        4       0     0   1     FB15_13       (b)     (b)
+$OpTx$FX_DC$79        4       0     0   1     FB15_14 86    I/O     (b)
+pSerialOut<2>         2       0     0   3     FB15_15 87    I/O     O
+$OpTx$FX_DC$75        4       0     0   1     FB15_16       (b)     (b)
+pSerialOut<3>         2       0   \/2   1     FB15_17 88    I/O     O
+sSerialOut<0>         7       2<-   0   0     FB15_18       (b)     (b)
+
+Signals Used by Logic in Function Block
+  1: $OpTx$FX_DC$70    13: sLatch<18>        24: sLatch<39> 
+  2: $OpTx$FX_DC$71    14: sLatch<19>        25: sLatch<3> 
+  3: $OpTx$FX_DC$72    15: sLatch<22>        26: sLatch<42> 
+  4: ctr<0>            16: sLatch<23>        27: sLatch<43> 
+  5: ctr<1>            17: sLatch<26>        28: sLatch<46> 
+  6: ctr<2>            18: sLatch<27>        29: sLatch<47> 
+  7: ctr<3>            19: sLatch<30>        30: sLatch<7> 
+  8: sInv<2>           20: sLatch<31>        31: sSerialOut<0> 
+  9: sLatch<11>        21: sLatch<34>        32: sSerialOut<1> 
+ 10: sLatch<15>        22: sLatch<35>        33: sSerialOut<2> 
+ 11: sLatch<16>        23: sLatch<38>        34: sSerialOut<3> 
+ 12: sLatch<17>       
+
+Signal                        1         2         3         4 FB
+Name                0----+----0----+----0----+----0----+----0 Inputs
+sInv<0>              .......X................................ 1
+flip                 ........................................ 0
+pSerialOut<0>        ...XXXX.......................X......... 5
+ctr<0>               ........................................ 0
+ctr<3>               ...XXXX................................. 4
+ctr<2>               ...XXXX................................. 4
+ctr<1>               ...XXXX................................. 4
+pSerialOut<1>        ...XXXX........................X........ 5
+$OpTx$FX_DC$99       ........XX..............X..XXX.......... 6
+$OpTx$FX_DC$95       ........XX..............XXX..X.......... 6
+$OpTx$FX_DC$91       ........XX............XXX....X.......... 6
+$OpTx$FX_DC$87       ........XX..........XX..X....X.......... 6
+$OpTx$FX_DC$83       ........XX........XX....X....X.......... 6
+$OpTx$FX_DC$79       ........XX......XX......X....X.......... 6
+pSerialOut<2>        ...XXXX.........................X....... 5
+$OpTx$FX_DC$75       ........XX....XX........X....X.......... 6
+pSerialOut<3>        ...XXXX..........................X...... 5
+sSerialOut<0>        XXX.....XXXXXX..........X....X.......... 11
+                    0----+----1----+----2----+----3----+----4
+                              0         0         0         0
+*********************************** FB16 ***********************************
+Number of function block inputs used/remaining:               34/20
+Number of signals used by logic mapping into function block:  34
+Signal              Total   Imp   Exp Unused  Loc     Pin   Pin     Pin
+Name                Pt      Pt    Pt  Pt               #    Type    Use
+sInv<100>             1       0   /\2   2     FB16_1        (b)     (b)
+(unused)              0       0     0   5     FB16_2  91    I/O     
+pSerialOut<4>         2       0     0   3     FB16_3  92    I/O     O
+(unused)              0       0     0   5     FB16_4        (b)     
+pSerialOut<5>         2       0     0   3     FB16_5  93    I/O     O
+(unused)              0       0     0   5     FB16_6  94    I/O     
+(unused)              0       0     0   5     FB16_7        (b)     
+(unused)              0       0     0   5     FB16_8  95    I/O     
+(unused)              0       0     0   5     FB16_9        (b)     
+pSerialOut<6>         2       0     0   3     FB16_10 96    I/O     O
+pSerialOut<7>         2       0     0   3     FB16_11 97    I/O     O
+(unused)              0       0     0   5     FB16_12 98    I/O     
+(unused)              0       0     0   5     FB16_13       (b)     
+(unused)              0       0   \/2   3     FB16_14       (b)     (b)
+sSerialOut<3>         7       2<-   0   0     FB16_15       (b)     (b)
+(unused)              0       0   \/2   3     FB16_16       (b)     (b)
+sSerialOut<2>         7       2<-   0   0     FB16_17       (b)     (b)
+sSerialOut<1>         7       2<-   0   0     FB16_18       (b)     (b)
+
+Signals Used by Logic in Function Block
+  1: $OpTx$FX_DC$74    13: ctr<3>            24: sLatch<27> 
+  2: $OpTx$FX_DC$75    14: sInv<99>          25: sLatch<28> 
+  3: $OpTx$FX_DC$76    15: sLatch<10>        26: sLatch<29> 
+  4: $OpTx$FX_DC$78    16: sLatch<14>        27: sLatch<2> 
+  5: $OpTx$FX_DC$79    17: sLatch<20>        28: sLatch<30> 
+  6: $OpTx$FX_DC$80    18: sLatch<21>        29: sLatch<31> 
+  7: $OpTx$FX_DC$82    19: sLatch<22>        30: sLatch<6> 
+  8: $OpTx$FX_DC$83    20: sLatch<23>        31: sSerialOut<4> 
+  9: $OpTx$FX_DC$84    21: sLatch<24>        32: sSerialOut<5> 
+ 10: ctr<0>            22: sLatch<25>        33: sSerialOut<6> 
+ 11: ctr<1>            23: sLatch<26>        34: sSerialOut<7> 
+ 12: ctr<2>           
+
+Signal                        1         2         3         4 FB
+Name                0----+----0----+----0----+----0----+----0 Inputs
+sInv<100>            .............X.......................... 1
+pSerialOut<4>        .........XXXX.................X......... 5
+pSerialOut<5>        .........XXXX..................X........ 5
+pSerialOut<6>        .........XXXX...................X....... 5
+pSerialOut<7>        .........XXXX....................X...... 5
+sSerialOut<3>        ......XXX.....XX........XXXXXX.......... 11
+sSerialOut<2>        ...XXX........XX....XXXX..X..X.......... 11
+sSerialOut<1>        XXX...........XXXXXX......X..X.......... 11
+                    0----+----1----+----2----+----3----+----4
+                              0         0         0         0
+*******************************  Equations  ********************************
+
+********** Mapped Logic **********
+
+
+$OpTx$FX_DC$70 <= ((sLatch(19) AND sLatch(13) AND sLatch(18))
+	OR (sLatch(19) AND NOT sLatch(18) AND sLatch(9))
+	OR (NOT sLatch(19) AND sLatch(18) AND sLatch(5))
+	OR (NOT sLatch(19) AND NOT sLatch(18) AND sLatch(1)));
+
+
+$OpTx$FX_DC$71 <= ((sLatch(19) AND sLatch(10) AND NOT sLatch(18))
+	OR (sLatch(19) AND sLatch(14) AND sLatch(18))
+	OR (NOT sLatch(19) AND sLatch(18) AND sLatch(6))
+	OR (NOT sLatch(19) AND NOT sLatch(18) AND sLatch(2)));
+
+
+$OpTx$FX_DC$72 <= ((sLatch(19) AND sLatch(12) AND sLatch(18))
+	OR (sLatch(19) AND NOT sLatch(18) AND sLatch(8))
+	OR (NOT sLatch(19) AND sLatch(0) AND NOT sLatch(18))
+	OR (NOT sLatch(19) AND sLatch(18) AND sLatch(4)));
+
+
+$OpTx$FX_DC$74 <= ((sLatch(23) AND sLatch(12) AND sLatch(22))
+	OR (sLatch(23) AND NOT sLatch(22) AND sLatch(8))
+	OR (NOT sLatch(23) AND sLatch(0) AND NOT sLatch(22))
+	OR (NOT sLatch(23) AND sLatch(22) AND sLatch(4)));
+
+
+$OpTx$FX_DC$75 <= ((sLatch(23) AND sLatch(11) AND NOT sLatch(22))
+	OR (sLatch(23) AND sLatch(15) AND sLatch(22))
+	OR (NOT sLatch(23) AND sLatch(22) AND sLatch(7))
+	OR (NOT sLatch(23) AND NOT sLatch(22) AND sLatch(3)));
+
+
+$OpTx$FX_DC$76 <= ((sLatch(23) AND sLatch(13) AND sLatch(22))
+	OR (sLatch(23) AND NOT sLatch(22) AND sLatch(9))
+	OR (NOT sLatch(23) AND sLatch(1) AND NOT sLatch(22))
+	OR (NOT sLatch(23) AND sLatch(22) AND sLatch(5)));
+
+
+$OpTx$FX_DC$78 <= ((sLatch(27) AND sLatch(12) AND sLatch(26))
+	OR (sLatch(27) AND NOT sLatch(26) AND sLatch(8))
+	OR (NOT sLatch(27) AND sLatch(0) AND NOT sLatch(26))
+	OR (NOT sLatch(27) AND sLatch(26) AND sLatch(4)));
+
+
+$OpTx$FX_DC$79 <= ((sLatch(27) AND sLatch(11) AND NOT sLatch(26))
+	OR (sLatch(27) AND sLatch(15) AND sLatch(26))
+	OR (NOT sLatch(27) AND sLatch(26) AND sLatch(7))
+	OR (NOT sLatch(27) AND NOT sLatch(26) AND sLatch(3)));
+
+
+$OpTx$FX_DC$80 <= ((sLatch(27) AND sLatch(13) AND sLatch(26))
+	OR (sLatch(27) AND NOT sLatch(26) AND sLatch(9))
+	OR (NOT sLatch(27) AND sLatch(1) AND NOT sLatch(26))
+	OR (NOT sLatch(27) AND sLatch(26) AND sLatch(5)));
+
+
+$OpTx$FX_DC$82 <= ((sLatch(31) AND sLatch(12) AND sLatch(30))
+	OR (sLatch(31) AND NOT sLatch(30) AND sLatch(8))
+	OR (NOT sLatch(31) AND sLatch(0) AND NOT sLatch(30))
+	OR (NOT sLatch(31) AND sLatch(30) AND sLatch(4)));
+
+
+$OpTx$FX_DC$83 <= ((sLatch(31) AND sLatch(11) AND NOT sLatch(30))
+	OR (sLatch(31) AND sLatch(15) AND sLatch(30))
+	OR (NOT sLatch(31) AND sLatch(30) AND sLatch(7))
+	OR (NOT sLatch(31) AND NOT sLatch(30) AND sLatch(3)));
+
+
+$OpTx$FX_DC$84 <= ((sLatch(31) AND sLatch(13) AND sLatch(30))
+	OR (sLatch(31) AND NOT sLatch(30) AND sLatch(9))
+	OR (NOT sLatch(31) AND sLatch(1) AND NOT sLatch(30))
+	OR (NOT sLatch(31) AND sLatch(30) AND sLatch(5)));
+
+
+$OpTx$FX_DC$86 <= ((sLatch(35) AND sLatch(12) AND sLatch(34))
+	OR (sLatch(35) AND NOT sLatch(34) AND sLatch(8))
+	OR (NOT sLatch(35) AND sLatch(0) AND NOT sLatch(34))
+	OR (NOT sLatch(35) AND sLatch(34) AND sLatch(4)));
+
+
+$OpTx$FX_DC$87 <= ((sLatch(35) AND sLatch(11) AND NOT sLatch(34))
+	OR (sLatch(35) AND sLatch(15) AND sLatch(34))
+	OR (NOT sLatch(35) AND sLatch(34) AND sLatch(7))
+	OR (NOT sLatch(35) AND NOT sLatch(34) AND sLatch(3)));
+
+
+$OpTx$FX_DC$88 <= ((sLatch(35) AND sLatch(13) AND sLatch(34))
+	OR (sLatch(35) AND NOT sLatch(34) AND sLatch(9))
+	OR (NOT sLatch(35) AND sLatch(1) AND NOT sLatch(34))
+	OR (NOT sLatch(35) AND sLatch(34) AND sLatch(5)));
+
+
+$OpTx$FX_DC$90 <= ((sLatch(39) AND sLatch(12) AND sLatch(38))
+	OR (sLatch(39) AND NOT sLatch(38) AND sLatch(8))
+	OR (NOT sLatch(39) AND sLatch(0) AND NOT sLatch(38))
+	OR (NOT sLatch(39) AND sLatch(38) AND sLatch(4)));
+
+
+$OpTx$FX_DC$91 <= ((sLatch(39) AND sLatch(11) AND NOT sLatch(38))
+	OR (sLatch(39) AND sLatch(15) AND sLatch(38))
+	OR (NOT sLatch(39) AND sLatch(38) AND sLatch(7))
+	OR (NOT sLatch(39) AND NOT sLatch(38) AND sLatch(3)));
+
+
+$OpTx$FX_DC$92 <= ((sLatch(39) AND sLatch(13) AND sLatch(38))
+	OR (sLatch(39) AND NOT sLatch(38) AND sLatch(9))
+	OR (NOT sLatch(39) AND sLatch(1) AND NOT sLatch(38))
+	OR (NOT sLatch(39) AND sLatch(38) AND sLatch(5)));
+
+
+$OpTx$FX_DC$94 <= ((sLatch(43) AND sLatch(12) AND sLatch(42))
+	OR (sLatch(43) AND NOT sLatch(42) AND sLatch(8))
+	OR (NOT sLatch(43) AND sLatch(0) AND NOT sLatch(42))
+	OR (NOT sLatch(43) AND sLatch(42) AND sLatch(4)));
+
+
+$OpTx$FX_DC$95 <= ((sLatch(43) AND sLatch(11) AND NOT sLatch(42))
+	OR (sLatch(43) AND sLatch(15) AND sLatch(42))
+	OR (NOT sLatch(43) AND sLatch(3) AND NOT sLatch(42))
+	OR (NOT sLatch(43) AND sLatch(42) AND sLatch(7)));
+
+
+$OpTx$FX_DC$96 <= ((sLatch(43) AND sLatch(13) AND sLatch(42))
+	OR (sLatch(43) AND NOT sLatch(42) AND sLatch(9))
+	OR (NOT sLatch(43) AND sLatch(1) AND NOT sLatch(42))
+	OR (NOT sLatch(43) AND sLatch(42) AND sLatch(5)));
+
+
+$OpTx$FX_DC$97 <= ((sLatch(47) AND sLatch(10) AND NOT sLatch(46))
+	OR (sLatch(47) AND sLatch(14) AND sLatch(46))
+	OR (NOT sLatch(47) AND sLatch(2) AND NOT sLatch(46))
+	OR (NOT sLatch(47) AND sLatch(46) AND sLatch(6)));
+
+
+$OpTx$FX_DC$98 <= ((sLatch(47) AND sLatch(12) AND sLatch(46))
+	OR (sLatch(47) AND NOT sLatch(46) AND sLatch(8))
+	OR (NOT sLatch(47) AND sLatch(0) AND NOT sLatch(46))
+	OR (NOT sLatch(47) AND sLatch(46) AND sLatch(4)));
+
+
+$OpTx$FX_DC$99 <= ((sLatch(47) AND sLatch(11) AND NOT sLatch(46))
+	OR (sLatch(47) AND sLatch(15) AND sLatch(46))
+	OR (NOT sLatch(47) AND sLatch(3) AND NOT sLatch(46))
+	OR (NOT sLatch(47) AND sLatch(46) AND sLatch(7)));
+
+
+
+
+
+
+
+FTCPE_ctr0: FTCPE port map (ctr(0),'1',pClock,'0','0');
+
+FTCPE_ctr1: FTCPE port map (ctr(1),ctr_T(1),pClock,'0','0');
+ctr_T(1) <= ((NOT ctr(0))
+	OR (NOT ctr(1) AND ctr(2) AND ctr(3)));
+
+FTCPE_ctr2: FTCPE port map (ctr(2),ctr_T(2),pClock,'0','0');
+ctr_T(2) <= ((ctr(0) AND ctr(1))
+	OR (ctr(0) AND ctr(2) AND ctr(3)));
+
+FTCPE_ctr3: FTCPE port map (ctr(3),ctr_T(3),pClock,'0','0');
+ctr_T(3) <= ((ctr(0) AND ctr(1) AND ctr(2))
+	OR (ctr(0) AND ctr(2) AND ctr(3)));
+
+FTCPE_flip: FTCPE port map (flip,'1',pClock,'0','0');
+
+FDCPE_pSerialOut0: FDCPE port map (pSerialOut(0),sSerialOut(0),pClock,'0','0',pSerialOut_CE(0));
+pSerialOut_CE(0) <= (ctr(0) AND NOT ctr(1) AND ctr(2) AND ctr(3));
+
+FDCPE_pSerialOut1: FDCPE port map (pSerialOut(1),sSerialOut(1),pClock,'0','0',pSerialOut_CE(1));
+pSerialOut_CE(1) <= (ctr(0) AND NOT ctr(1) AND ctr(2) AND ctr(3));
+
+FDCPE_pSerialOut2: FDCPE port map (pSerialOut(2),sSerialOut(2),pClock,'0','0',pSerialOut_CE(2));
+pSerialOut_CE(2) <= (ctr(0) AND NOT ctr(1) AND ctr(2) AND ctr(3));
+
+FDCPE_pSerialOut3: FDCPE port map (pSerialOut(3),sSerialOut(3),pClock,'0','0',pSerialOut_CE(3));
+pSerialOut_CE(3) <= (ctr(0) AND NOT ctr(1) AND ctr(2) AND ctr(3));
+
+FDCPE_pSerialOut4: FDCPE port map (pSerialOut(4),sSerialOut(4),pClock,'0','0',pSerialOut_CE(4));
+pSerialOut_CE(4) <= (ctr(0) AND NOT ctr(1) AND ctr(2) AND ctr(3));
+
+FDCPE_pSerialOut5: FDCPE port map (pSerialOut(5),sSerialOut(5),pClock,'0','0',pSerialOut_CE(5));
+pSerialOut_CE(5) <= (ctr(0) AND NOT ctr(1) AND ctr(2) AND ctr(3));
+
+FDCPE_pSerialOut6: FDCPE port map (pSerialOut(6),sSerialOut(6),pClock,'0','0',pSerialOut_CE(6));
+pSerialOut_CE(6) <= (ctr(0) AND NOT ctr(1) AND ctr(2) AND ctr(3));
+
+FDCPE_pSerialOut7: FDCPE port map (pSerialOut(7),sSerialOut(7),pClock,'0','0',pSerialOut_CE(7));
+pSerialOut_CE(7) <= (ctr(0) AND NOT ctr(1) AND ctr(2) AND ctr(3));
+
+
+sInv(0) <= NOT sInv(2);
+
+
+sInv(1) <= NOT sInv(0);
+
+
+sInv(2) <= NOT sInv(1);
+
+
+sInv(3) <= NOT sInv(5);
+
+
+sInv(4) <= NOT sInv(3);
+
+
+sInv(5) <= NOT sInv(4);
+
+
+sInv(6) <= NOT sInv(8);
+
+
+sInv(7) <= NOT sInv(6);
+
+
+sInv(8) <= NOT sInv(7);
+
+
+sInv(9) <= NOT sInv(11);
+
+
+sInv(10) <= NOT sInv(9);
+
+
+sInv(11) <= NOT sInv(10);
+
+
+sInv(12) <= NOT sInv(14);
+
+
+sInv(13) <= NOT sInv(12);
+
+
+sInv(14) <= NOT sInv(13);
+
+
+sInv(15) <= NOT sInv(17);
+
+
+sInv(16) <= NOT sInv(15);
+
+
+sInv(17) <= NOT sInv(16);
+
+
+sInv(18) <= NOT sInv(20);
+
+
+sInv(19) <= NOT sInv(18);
+
+
+sInv(20) <= NOT sInv(19);
+
+
+sInv(21) <= NOT sInv(23);
+
+
+sInv(22) <= NOT sInv(21);
+
+
+sInv(23) <= NOT sInv(22);
+
+
+sInv(24) <= NOT sInv(26);
+
+
+sInv(25) <= NOT sInv(24);
+
+
+sInv(26) <= NOT sInv(25);
+
+
+sInv(27) <= NOT sInv(29);
+
+
+sInv(28) <= NOT sInv(27);
+
+
+sInv(29) <= NOT sInv(28);
+
+
+sInv(30) <= NOT sInv(32);
+
+
+sInv(31) <= NOT sInv(30);
+
+
+sInv(32) <= NOT sInv(31);
+
+
+sInv(33) <= NOT sInv(35);
+
+
+sInv(34) <= NOT sInv(33);
+
+
+sInv(35) <= NOT sInv(34);
+
+
+sInv(36) <= NOT sInv(38);
+
+
+sInv(37) <= NOT sInv(36);
+
+
+sInv(38) <= NOT sInv(37);
+
+
+sInv(39) <= NOT sInv(41);
+
+
+sInv(40) <= NOT sInv(39);
+
+
+sInv(41) <= NOT sInv(40);
+
+
+sInv(42) <= NOT sInv(44);
+
+
+sInv(43) <= NOT sInv(42);
+
+
+sInv(44) <= NOT sInv(43);
+
+
+sInv(45) <= NOT sInv(47);
+
+
+sInv(46) <= NOT sInv(45);
+
+
+sInv(47) <= NOT sInv(46);
+
+
+sInv(48) <= NOT sInv(50);
+
+
+sInv(49) <= NOT sInv(48);
+
+
+sInv(50) <= NOT sInv(49);
+
+
+sInv(51) <= NOT sInv(53);
+
+
+sInv(52) <= NOT sInv(51);
+
+
+sInv(53) <= NOT sInv(52);
+
+
+sInv(54) <= NOT sInv(56);
+
+
+sInv(55) <= NOT sInv(54);
+
+
+sInv(56) <= NOT sInv(55);
+
+
+sInv(57) <= NOT sInv(59);
+
+
+sInv(58) <= NOT sInv(57);
+
+
+sInv(59) <= NOT sInv(58);
+
+
+sInv(60) <= NOT sInv(62);
+
+
+sInv(61) <= NOT sInv(60);
+
+
+sInv(62) <= NOT sInv(61);
+
+
+sInv(63) <= NOT sInv(65);
+
+
+sInv(64) <= NOT sInv(63);
+
+
+sInv(65) <= NOT sInv(64);
+
+
+sInv(66) <= NOT sInv(68);
+
+
+sInv(67) <= NOT sInv(66);
+
+
+sInv(68) <= NOT sInv(67);
+
+
+sInv(69) <= NOT sInv(71);
+
+
+sInv(70) <= NOT sInv(69);
+
+
+sInv(71) <= NOT sInv(70);
+
+
+sInv(72) <= NOT sInv(74);
+
+
+sInv(73) <= NOT sInv(72);
+
+
+sInv(74) <= NOT sInv(73);
+
+
+sInv(75) <= NOT sInv(77);
+
+
+sInv(76) <= NOT sInv(75);
+
+
+sInv(77) <= NOT sInv(76);
+
+
+sInv(78) <= NOT sInv(80);
+
+
+sInv(79) <= NOT sInv(78);
+
+
+sInv(80) <= NOT sInv(79);
+
+
+sInv(81) <= NOT sInv(83);
+
+
+sInv(82) <= NOT sInv(81);
+
+
+sInv(83) <= NOT sInv(82);
+
+
+sInv(84) <= NOT sInv(86);
+
+
+sInv(85) <= NOT sInv(84);
+
+
+sInv(86) <= NOT sInv(85);
+
+
+sInv(87) <= NOT sInv(89);
+
+
+sInv(88) <= NOT sInv(87);
+
+
+sInv(89) <= NOT sInv(88);
+
+
+sInv(90) <= NOT sInv(92);
+
+
+sInv(91) <= NOT sInv(90);
+
+
+sInv(92) <= NOT sInv(91);
+
+
+sInv(93) <= NOT sInv(95);
+
+
+sInv(94) <= NOT sInv(93);
+
+
+sInv(95) <= NOT sInv(94);
+
+
+sInv(96) <= NOT sInv(98);
+
+
+sInv(97) <= NOT sInv(96);
+
+
+sInv(98) <= NOT sInv(97);
+
+
+sInv(99) <= NOT sInv(101);
+
+
+sInv(100) <= NOT sInv(99);
+
+
+sInv(101) <= NOT sInv(100);
+
+
+sInv(102) <= NOT sInv(104);
+
+
+sInv(103) <= NOT sInv(102);
+
+
+sInv(104) <= NOT sInv(103);
+
+
+sInv(105) <= NOT sInv(107);
+
+
+sInv(106) <= NOT sInv(105);
+
+
+sInv(107) <= NOT sInv(106);
+
+
+sInv(108) <= NOT sInv(110);
+
+
+sInv(109) <= NOT sInv(108);
+
+
+sInv(110) <= NOT sInv(109);
+
+
+sInv(111) <= NOT sInv(113);
+
+
+sInv(112) <= NOT sInv(111);
+
+
+sInv(113) <= NOT sInv(112);
+
+
+sInv(114) <= NOT sInv(116);
+
+
+sInv(115) <= NOT sInv(114);
+
+
+sInv(116) <= NOT sInv(115);
+
+
+sInv(117) <= NOT sInv(119);
+
+
+sInv(118) <= NOT sInv(117);
+
+
+sInv(119) <= NOT sInv(118);
+
+
+sInv(120) <= NOT sInv(122);
+
+
+sInv(121) <= NOT sInv(120);
+
+
+sInv(122) <= NOT sInv(121);
+
+
+sInv(123) <= NOT sInv(125);
+
+
+sInv(124) <= NOT sInv(123);
+
+
+sInv(125) <= NOT sInv(124);
+
+
+sInv(126) <= NOT sInv(128);
+
+
+sInv(127) <= NOT sInv(126);
+
+
+sInv(128) <= NOT sInv(127);
+
+
+sInv(129) <= NOT sInv(131);
+
+
+sInv(130) <= NOT sInv(129);
+
+
+sInv(131) <= NOT sInv(130);
+
+
+sInv(132) <= NOT sInv(134);
+
+
+sInv(133) <= NOT sInv(132);
+
+
+sInv(134) <= NOT sInv(133);
+
+
+sInv(135) <= NOT sInv(137);
+
+
+sInv(136) <= NOT sInv(135);
+
+
+sInv(137) <= NOT sInv(136);
+
+
+sInv(138) <= NOT sInv(140);
+
+
+sInv(139) <= NOT sInv(138);
+
+
+sInv(140) <= NOT sInv(139);
+
+
+sInv(141) <= NOT sInv(143);
+
+
+sInv(142) <= NOT sInv(141);
+
+
+sInv(143) <= NOT sInv(142);
+
+
+sInv(144) <= NOT sInv(146);
+
+
+sInv(145) <= NOT sInv(144);
+
+
+sInv(146) <= NOT sInv(145);
+
+
+sInv(147) <= NOT sInv(149);
+
+
+sInv(148) <= NOT sInv(147);
+
+
+sInv(149) <= NOT sInv(148);
+
+
+sInv(150) <= NOT sInv(152);
+
+
+sInv(151) <= NOT sInv(150);
+
+
+sInv(152) <= NOT sInv(151);
+
+
+sInv(153) <= NOT sInv(155);
+
+
+sInv(154) <= NOT sInv(153);
+
+
+sInv(155) <= NOT sInv(154);
+
+
+sInv(156) <= NOT sInv(158);
+
+
+sInv(157) <= NOT sInv(156);
+
+
+sInv(158) <= NOT sInv(157);
+
+
+sInv(159) <= NOT sInv(161);
+
+
+sInv(160) <= NOT sInv(159);
+
+
+sInv(161) <= NOT sInv(160);
+
+
+sInv(162) <= NOT sInv(164);
+
+
+sInv(163) <= NOT sInv(162);
+
+
+sInv(164) <= NOT sInv(163);
+
+
+sInv(165) <= NOT sInv(167);
+
+
+sInv(166) <= NOT sInv(165);
+
+
+sInv(167) <= NOT sInv(166);
+
+FDCPE_sLatch0: FDCPE port map (sLatch(0),sLatch_D(0),pClock,'0','0');
+sLatch_D(0) <= flip
+	 XOR 
+sLatch_D(0) <= ((sLatch(55) AND sInv(1))
+	OR (NOT sLatch(55) AND NOT sInv(1)));
+
+FDCPE_sLatch1: FDCPE port map (sLatch(1),sLatch_D(1),pClock,'0','0');
+sLatch_D(1) <= flip
+	 XOR 
+sLatch_D(1) <= ((sLatch(0) AND sInv(4))
+	OR (NOT sLatch(0) AND NOT sInv(4)));
+
+FDCPE_sLatch2: FDCPE port map (sLatch(2),sLatch_D(2),pClock,'0','0');
+sLatch_D(2) <= flip
+	 XOR 
+sLatch_D(2) <= ((sLatch(1) AND sInv(7))
+	OR (NOT sLatch(1) AND NOT sInv(7)));
+
+FDCPE_sLatch3: FDCPE port map (sLatch(3),sLatch_D(3),pClock,'0','0');
+sLatch_D(3) <= flip
+	 XOR 
+sLatch_D(3) <= ((sLatch(2) AND sInv(10))
+	OR (NOT sLatch(2) AND NOT sInv(10)));
+
+FDCPE_sLatch4: FDCPE port map (sLatch(4),sLatch_D(4),pClock,'0','0');
+sLatch_D(4) <= flip
+	 XOR 
+sLatch_D(4) <= ((sLatch(3) AND sInv(13))
+	OR (NOT sLatch(3) AND NOT sInv(13)));
+
+FDCPE_sLatch5: FDCPE port map (sLatch(5),sLatch_D(5),pClock,'0','0');
+sLatch_D(5) <= flip
+	 XOR 
+sLatch_D(5) <= ((sLatch(4) AND sInv(16))
+	OR (NOT sLatch(4) AND NOT sInv(16)));
+
+FDCPE_sLatch6: FDCPE port map (sLatch(6),sLatch_D(6),pClock,'0','0');
+sLatch_D(6) <= flip
+	 XOR 
+sLatch_D(6) <= ((sLatch(5) AND sInv(19))
+	OR (NOT sLatch(5) AND NOT sInv(19)));
+
+FDCPE_sLatch7: FDCPE port map (sLatch(7),sLatch_D(7),pClock,'0','0');
+sLatch_D(7) <= flip
+	 XOR 
+sLatch_D(7) <= ((sLatch(6) AND sInv(22))
+	OR (NOT sLatch(6) AND NOT sInv(22)));
+
+FDCPE_sLatch8: FDCPE port map (sLatch(8),sLatch_D(8),pClock,'0','0');
+sLatch_D(8) <= flip
+	 XOR 
+sLatch_D(8) <= ((sLatch(7) AND sInv(25))
+	OR (NOT sLatch(7) AND NOT sInv(25)));
+
+FDCPE_sLatch9: FDCPE port map (sLatch(9),sLatch_D(9),pClock,'0','0');
+sLatch_D(9) <= flip
+	 XOR 
+sLatch_D(9) <= ((sLatch(8) AND sInv(28))
+	OR (NOT sLatch(8) AND NOT sInv(28)));
+
+FDCPE_sLatch10: FDCPE port map (sLatch(10),sLatch_D(10),pClock,'0','0');
+sLatch_D(10) <= flip
+	 XOR 
+sLatch_D(10) <= ((sLatch(9) AND sInv(31))
+	OR (NOT sLatch(9) AND NOT sInv(31)));
+
+FDCPE_sLatch11: FDCPE port map (sLatch(11),sLatch_D(11),pClock,'0','0');
+sLatch_D(11) <= flip
+	 XOR 
+sLatch_D(11) <= ((sLatch(10) AND sInv(34))
+	OR (NOT sLatch(10) AND NOT sInv(34)));
+
+FDCPE_sLatch12: FDCPE port map (sLatch(12),sLatch_D(12),pClock,'0','0');
+sLatch_D(12) <= flip
+	 XOR 
+sLatch_D(12) <= ((sLatch(11) AND sInv(37))
+	OR (NOT sLatch(11) AND NOT sInv(37)));
+
+FDCPE_sLatch13: FDCPE port map (sLatch(13),sLatch_D(13),pClock,'0','0');
+sLatch_D(13) <= flip
+	 XOR 
+sLatch_D(13) <= ((sLatch(12) AND sInv(40))
+	OR (NOT sLatch(12) AND NOT sInv(40)));
+
+FDCPE_sLatch14: FDCPE port map (sLatch(14),sLatch_D(14),pClock,'0','0');
+sLatch_D(14) <= flip
+	 XOR 
+sLatch_D(14) <= ((sLatch(13) AND sInv(43))
+	OR (NOT sLatch(13) AND NOT sInv(43)));
+
+FDCPE_sLatch15: FDCPE port map (sLatch(15),sLatch_D(15),pClock,'0','0');
+sLatch_D(15) <= flip
+	 XOR 
+sLatch_D(15) <= ((sLatch(14) AND sInv(46))
+	OR (NOT sLatch(14) AND NOT sInv(46)));
+
+FDCPE_sLatch16: FDCPE port map (sLatch(16),sLatch_D(16),pClock,'0','0');
+sLatch_D(16) <= flip
+	 XOR 
+sLatch_D(16) <= ((sLatch(15) AND sInv(49))
+	OR (NOT sLatch(15) AND NOT sInv(49)));
+
+FDCPE_sLatch17: FDCPE port map (sLatch(17),sLatch_D(17),pClock,'0','0');
+sLatch_D(17) <= flip
+	 XOR 
+sLatch_D(17) <= ((sLatch(16) AND sInv(52))
+	OR (NOT sLatch(16) AND NOT sInv(52)));
+
+FDCPE_sLatch18: FDCPE port map (sLatch(18),sLatch_D(18),pClock,'0','0');
+sLatch_D(18) <= flip
+	 XOR 
+sLatch_D(18) <= ((sLatch(17) AND sInv(55))
+	OR (NOT sLatch(17) AND NOT sInv(55)));
+
+FDCPE_sLatch19: FDCPE port map (sLatch(19),sLatch_D(19),pClock,'0','0');
+sLatch_D(19) <= flip
+	 XOR 
+sLatch_D(19) <= ((sLatch(18) AND sInv(58))
+	OR (NOT sLatch(18) AND NOT sInv(58)));
+
+FDCPE_sLatch20: FDCPE port map (sLatch(20),sLatch_D(20),pClock,'0','0');
+sLatch_D(20) <= flip
+	 XOR 
+sLatch_D(20) <= ((sLatch(19) AND sInv(61))
+	OR (NOT sLatch(19) AND NOT sInv(61)));
+
+FDCPE_sLatch21: FDCPE port map (sLatch(21),sLatch_D(21),pClock,'0','0');
+sLatch_D(21) <= flip
+	 XOR 
+sLatch_D(21) <= ((sLatch(20) AND sInv(64))
+	OR (NOT sLatch(20) AND NOT sInv(64)));
+
+FDCPE_sLatch22: FDCPE port map (sLatch(22),sLatch_D(22),pClock,'0','0');
+sLatch_D(22) <= flip
+	 XOR 
+sLatch_D(22) <= ((sLatch(21) AND sInv(67))
+	OR (NOT sLatch(21) AND NOT sInv(67)));
+
+FDCPE_sLatch23: FDCPE port map (sLatch(23),sLatch_D(23),pClock,'0','0');
+sLatch_D(23) <= flip
+	 XOR 
+sLatch_D(23) <= ((sLatch(22) AND sInv(70))
+	OR (NOT sLatch(22) AND NOT sInv(70)));
+
+FDCPE_sLatch24: FDCPE port map (sLatch(24),sLatch_D(24),pClock,'0','0');
+sLatch_D(24) <= flip
+	 XOR 
+sLatch_D(24) <= ((sLatch(23) AND sInv(73))
+	OR (NOT sLatch(23) AND NOT sInv(73)));
+
+FDCPE_sLatch25: FDCPE port map (sLatch(25),sLatch_D(25),pClock,'0','0');
+sLatch_D(25) <= flip
+	 XOR 
+sLatch_D(25) <= ((sLatch(24) AND sInv(76))
+	OR (NOT sLatch(24) AND NOT sInv(76)));
+
+FDCPE_sLatch26: FDCPE port map (sLatch(26),sLatch_D(26),pClock,'0','0');
+sLatch_D(26) <= flip
+	 XOR 
+sLatch_D(26) <= ((sLatch(25) AND sInv(79))
+	OR (NOT sLatch(25) AND NOT sInv(79)));
+
+FDCPE_sLatch27: FDCPE port map (sLatch(27),sLatch_D(27),pClock,'0','0');
+sLatch_D(27) <= flip
+	 XOR 
+sLatch_D(27) <= ((sLatch(26) AND sInv(82))
+	OR (NOT sLatch(26) AND NOT sInv(82)));
+
+FDCPE_sLatch28: FDCPE port map (sLatch(28),sLatch_D(28),pClock,'0','0');
+sLatch_D(28) <= flip
+	 XOR 
+sLatch_D(28) <= ((sLatch(27) AND sInv(85))
+	OR (NOT sLatch(27) AND NOT sInv(85)));
+
+FDCPE_sLatch29: FDCPE port map (sLatch(29),sLatch_D(29),pClock,'0','0');
+sLatch_D(29) <= flip
+	 XOR 
+sLatch_D(29) <= ((sLatch(28) AND sInv(88))
+	OR (NOT sLatch(28) AND NOT sInv(88)));
+
+FDCPE_sLatch30: FDCPE port map (sLatch(30),sLatch_D(30),pClock,'0','0');
+sLatch_D(30) <= flip
+	 XOR 
+sLatch_D(30) <= ((sLatch(29) AND sInv(91))
+	OR (NOT sLatch(29) AND NOT sInv(91)));
+
+FDCPE_sLatch31: FDCPE port map (sLatch(31),sLatch_D(31),pClock,'0','0');
+sLatch_D(31) <= flip
+	 XOR 
+sLatch_D(31) <= ((sLatch(30) AND sInv(94))
+	OR (NOT sLatch(30) AND NOT sInv(94)));
+
+FDCPE_sLatch32: FDCPE port map (sLatch(32),sLatch_D(32),pClock,'0','0');
+sLatch_D(32) <= flip
+	 XOR 
+sLatch_D(32) <= ((sLatch(31) AND sInv(97))
+	OR (NOT sLatch(31) AND NOT sInv(97)));
+
+FDCPE_sLatch33: FDCPE port map (sLatch(33),sLatch_D(33),pClock,'0','0');
+sLatch_D(33) <= flip
+	 XOR 
+sLatch_D(33) <= ((sLatch(32) AND sInv(100))
+	OR (NOT sLatch(32) AND NOT sInv(100)));
+
+FDCPE_sLatch34: FDCPE port map (sLatch(34),sLatch_D(34),pClock,'0','0');
+sLatch_D(34) <= flip
+	 XOR 
+sLatch_D(34) <= ((sLatch(33) AND sInv(103))
+	OR (NOT sLatch(33) AND NOT sInv(103)));
+
+FDCPE_sLatch35: FDCPE port map (sLatch(35),sLatch_D(35),pClock,'0','0');
+sLatch_D(35) <= flip
+	 XOR 
+sLatch_D(35) <= ((sLatch(34) AND sInv(106))
+	OR (NOT sLatch(34) AND NOT sInv(106)));
+
+FDCPE_sLatch36: FDCPE port map (sLatch(36),sLatch_D(36),pClock,'0','0');
+sLatch_D(36) <= flip
+	 XOR 
+sLatch_D(36) <= ((sLatch(35) AND sInv(109))
+	OR (NOT sLatch(35) AND NOT sInv(109)));
+
+FDCPE_sLatch37: FDCPE port map (sLatch(37),sLatch_D(37),pClock,'0','0');
+sLatch_D(37) <= flip
+	 XOR 
+sLatch_D(37) <= ((sLatch(36) AND sInv(112))
+	OR (NOT sLatch(36) AND NOT sInv(112)));
+
+FDCPE_sLatch38: FDCPE port map (sLatch(38),sLatch_D(38),pClock,'0','0');
+sLatch_D(38) <= flip
+	 XOR 
+sLatch_D(38) <= ((sLatch(37) AND sInv(115))
+	OR (NOT sLatch(37) AND NOT sInv(115)));
+
+FDCPE_sLatch39: FDCPE port map (sLatch(39),sLatch_D(39),pClock,'0','0');
+sLatch_D(39) <= flip
+	 XOR 
+sLatch_D(39) <= ((sLatch(38) AND sInv(118))
+	OR (NOT sLatch(38) AND NOT sInv(118)));
+
+FDCPE_sLatch40: FDCPE port map (sLatch(40),sLatch_D(40),pClock,'0','0');
+sLatch_D(40) <= flip
+	 XOR 
+sLatch_D(40) <= ((sLatch(39) AND sInv(121))
+	OR (NOT sLatch(39) AND NOT sInv(121)));
+
+FDCPE_sLatch41: FDCPE port map (sLatch(41),sLatch_D(41),pClock,'0','0');
+sLatch_D(41) <= flip
+	 XOR 
+sLatch_D(41) <= ((sLatch(40) AND sInv(124))
+	OR (NOT sLatch(40) AND NOT sInv(124)));
+
+FDCPE_sLatch42: FDCPE port map (sLatch(42),sLatch_D(42),pClock,'0','0');
+sLatch_D(42) <= flip
+	 XOR 
+sLatch_D(42) <= ((sLatch(41) AND sInv(127))
+	OR (NOT sLatch(41) AND NOT sInv(127)));
+
+FDCPE_sLatch43: FDCPE port map (sLatch(43),sLatch_D(43),pClock,'0','0');
+sLatch_D(43) <= flip
+	 XOR 
+sLatch_D(43) <= ((sLatch(42) AND sInv(130))
+	OR (NOT sLatch(42) AND NOT sInv(130)));
+
+FDCPE_sLatch44: FDCPE port map (sLatch(44),sLatch_D(44),pClock,'0','0');
+sLatch_D(44) <= flip
+	 XOR 
+sLatch_D(44) <= ((sLatch(43) AND sInv(133))
+	OR (NOT sLatch(43) AND NOT sInv(133)));
+
+FDCPE_sLatch45: FDCPE port map (sLatch(45),sLatch_D(45),pClock,'0','0');
+sLatch_D(45) <= flip
+	 XOR 
+sLatch_D(45) <= ((sLatch(44) AND sInv(136))
+	OR (NOT sLatch(44) AND NOT sInv(136)));
+
+FDCPE_sLatch46: FDCPE port map (sLatch(46),sLatch_D(46),pClock,'0','0');
+sLatch_D(46) <= flip
+	 XOR 
+sLatch_D(46) <= ((sLatch(45) AND sInv(139))
+	OR (NOT sLatch(45) AND NOT sInv(139)));
+
+FDCPE_sLatch47: FDCPE port map (sLatch(47),sLatch_D(47),pClock,'0','0');
+sLatch_D(47) <= flip
+	 XOR 
+sLatch_D(47) <= ((sLatch(46) AND sInv(142))
+	OR (NOT sLatch(46) AND NOT sInv(142)));
+
+FDCPE_sLatch48: FDCPE port map (sLatch(48),sLatch_D(48),pClock,'0','0');
+sLatch_D(48) <= flip
+	 XOR 
+sLatch_D(48) <= ((sLatch(47) AND sInv(145))
+	OR (NOT sLatch(47) AND NOT sInv(145)));
+
+FDCPE_sLatch49: FDCPE port map (sLatch(49),sLatch_D(49),pClock,'0','0');
+sLatch_D(49) <= flip
+	 XOR 
+sLatch_D(49) <= ((sLatch(48) AND sInv(148))
+	OR (NOT sLatch(48) AND NOT sInv(148)));
+
+FDCPE_sLatch50: FDCPE port map (sLatch(50),sLatch_D(50),pClock,'0','0');
+sLatch_D(50) <= flip
+	 XOR 
+sLatch_D(50) <= ((sLatch(49) AND sInv(151))
+	OR (NOT sLatch(49) AND NOT sInv(151)));
+
+FDCPE_sLatch51: FDCPE port map (sLatch(51),sLatch_D(51),pClock,'0','0');
+sLatch_D(51) <= flip
+	 XOR 
+sLatch_D(51) <= ((sLatch(50) AND sInv(154))
+	OR (NOT sLatch(50) AND NOT sInv(154)));
+
+FDCPE_sLatch52: FDCPE port map (sLatch(52),sLatch_D(52),pClock,'0','0');
+sLatch_D(52) <= flip
+	 XOR 
+sLatch_D(52) <= ((sLatch(51) AND sInv(157))
+	OR (NOT sLatch(51) AND NOT sInv(157)));
+
+FDCPE_sLatch53: FDCPE port map (sLatch(53),sLatch_D(53),pClock,'0','0');
+sLatch_D(53) <= flip
+	 XOR 
+sLatch_D(53) <= ((sLatch(52) AND sInv(160))
+	OR (NOT sLatch(52) AND NOT sInv(160)));
+
+FDCPE_sLatch54: FDCPE port map (sLatch(54),sLatch_D(54),pClock,'0','0');
+sLatch_D(54) <= flip
+	 XOR 
+sLatch_D(54) <= ((sLatch(53) AND sInv(163))
+	OR (NOT sLatch(53) AND NOT sInv(163)));
+
+FDCPE_sLatch55: FDCPE port map (sLatch(55),sLatch_D(55),pClock,'0','0');
+sLatch_D(55) <= flip
+	 XOR 
+sLatch_D(55) <= ((sLatch(54) AND sInv(166))
+	OR (NOT sLatch(54) AND NOT sInv(166)));
+
+FTCPE_sSerialOut0: FTCPE port map (sSerialOut(0),sSerialOut_T(0),pClock,'0','0');
+sSerialOut_T(0) <= ((sLatch(19) AND sLatch(15) AND sLatch(18) AND 
+	sLatch(17) AND sLatch(16))
+	OR (NOT sLatch(19) AND sLatch(18) AND sLatch(7) AND 
+	sLatch(17) AND sLatch(16))
+	OR (sLatch(17) AND NOT sLatch(16) AND $OpTx$FX_DC$71)
+	OR (NOT sLatch(17) AND sLatch(16) AND $OpTx$FX_DC$70)
+	OR (NOT sLatch(17) AND NOT sLatch(16) AND $OpTx$FX_DC$72)
+	OR (sLatch(19) AND sLatch(11) AND NOT sLatch(18) AND 
+	sLatch(17) AND sLatch(16))
+	OR (NOT sLatch(19) AND NOT sLatch(18) AND sLatch(3) AND 
+	sLatch(17) AND sLatch(16)));
+
+FTCPE_sSerialOut1: FTCPE port map (sSerialOut(1),sSerialOut_T(1),pClock,'0','0');
+sSerialOut_T(1) <= ((sLatch(23) AND sLatch(14) AND sLatch(22) AND 
+	sLatch(21) AND NOT sLatch(20))
+	OR (NOT sLatch(23) AND sLatch(22) AND sLatch(6) AND 
+	sLatch(21) AND NOT sLatch(20))
+	OR (sLatch(21) AND sLatch(20) AND $OpTx$FX_DC$75)
+	OR (NOT sLatch(21) AND sLatch(20) AND $OpTx$FX_DC$76)
+	OR (NOT sLatch(21) AND NOT sLatch(20) AND $OpTx$FX_DC$74)
+	OR (sLatch(23) AND sLatch(10) AND NOT sLatch(22) AND 
+	sLatch(21) AND NOT sLatch(20))
+	OR (NOT sLatch(23) AND NOT sLatch(22) AND sLatch(2) AND 
+	sLatch(21) AND NOT sLatch(20)));
+
+FTCPE_sSerialOut2: FTCPE port map (sSerialOut(2),sSerialOut_T(2),pClock,'0','0');
+sSerialOut_T(2) <= ((sLatch(27) AND sLatch(14) AND sLatch(26) AND 
+	sLatch(25) AND NOT sLatch(24))
+	OR (NOT sLatch(27) AND sLatch(26) AND sLatch(6) AND 
+	sLatch(25) AND NOT sLatch(24))
+	OR (sLatch(25) AND sLatch(24) AND $OpTx$FX_DC$79)
+	OR (NOT sLatch(25) AND sLatch(24) AND $OpTx$FX_DC$80)
+	OR (NOT sLatch(25) AND NOT sLatch(24) AND $OpTx$FX_DC$78)
+	OR (sLatch(27) AND sLatch(10) AND NOT sLatch(26) AND 
+	sLatch(25) AND NOT sLatch(24))
+	OR (NOT sLatch(27) AND NOT sLatch(26) AND sLatch(2) AND 
+	sLatch(25) AND NOT sLatch(24)));
+
+FTCPE_sSerialOut3: FTCPE port map (sSerialOut(3),sSerialOut_T(3),pClock,'0','0');
+sSerialOut_T(3) <= ((sLatch(31) AND sLatch(14) AND sLatch(30) AND 
+	sLatch(29) AND NOT sLatch(28))
+	OR (NOT sLatch(31) AND sLatch(30) AND sLatch(6) AND 
+	sLatch(29) AND NOT sLatch(28))
+	OR (sLatch(29) AND sLatch(28) AND $OpTx$FX_DC$83)
+	OR (NOT sLatch(29) AND sLatch(28) AND $OpTx$FX_DC$84)
+	OR (NOT sLatch(29) AND NOT sLatch(28) AND $OpTx$FX_DC$82)
+	OR (sLatch(31) AND sLatch(10) AND NOT sLatch(30) AND 
+	sLatch(29) AND NOT sLatch(28))
+	OR (NOT sLatch(31) AND sLatch(2) AND NOT sLatch(30) AND 
+	sLatch(29) AND NOT sLatch(28)));
+
+FTCPE_sSerialOut4: FTCPE port map (sSerialOut(4),sSerialOut_T(4),pClock,'0','0');
+sSerialOut_T(4) <= ((sLatch(35) AND sLatch(14) AND sLatch(34) AND 
+	sLatch(33) AND NOT sLatch(32))
+	OR (NOT sLatch(35) AND sLatch(34) AND sLatch(6) AND 
+	sLatch(33) AND NOT sLatch(32))
+	OR (sLatch(33) AND sLatch(32) AND $OpTx$FX_DC$87)
+	OR (NOT sLatch(33) AND sLatch(32) AND $OpTx$FX_DC$88)
+	OR (NOT sLatch(33) AND NOT sLatch(32) AND $OpTx$FX_DC$86)
+	OR (sLatch(35) AND sLatch(10) AND NOT sLatch(34) AND 
+	sLatch(33) AND NOT sLatch(32))
+	OR (NOT sLatch(35) AND sLatch(2) AND NOT sLatch(34) AND 
+	sLatch(33) AND NOT sLatch(32)));
+
+FTCPE_sSerialOut5: FTCPE port map (sSerialOut(5),sSerialOut_T(5),pClock,'0','0');
+sSerialOut_T(5) <= ((sLatch(39) AND sLatch(14) AND sLatch(38) AND 
+	sLatch(37) AND NOT sLatch(36))
+	OR (NOT sLatch(39) AND sLatch(38) AND sLatch(6) AND 
+	sLatch(37) AND NOT sLatch(36))
+	OR (sLatch(37) AND sLatch(36) AND $OpTx$FX_DC$91)
+	OR (NOT sLatch(37) AND sLatch(36) AND $OpTx$FX_DC$92)
+	OR (NOT sLatch(37) AND NOT sLatch(36) AND $OpTx$FX_DC$90)
+	OR (sLatch(39) AND sLatch(10) AND NOT sLatch(38) AND 
+	sLatch(37) AND NOT sLatch(36))
+	OR (NOT sLatch(39) AND sLatch(2) AND NOT sLatch(38) AND 
+	sLatch(37) AND NOT sLatch(36)));
+
+FTCPE_sSerialOut6: FTCPE port map (sSerialOut(6),sSerialOut_T(6),pClock,'0','0');
+sSerialOut_T(6) <= ((sLatch(43) AND sLatch(14) AND sLatch(42) AND 
+	sLatch(41) AND NOT sLatch(40))
+	OR (NOT sLatch(43) AND sLatch(42) AND sLatch(6) AND 
+	sLatch(41) AND NOT sLatch(40))
+	OR (sLatch(41) AND sLatch(40) AND $OpTx$FX_DC$95)
+	OR (NOT sLatch(41) AND sLatch(40) AND $OpTx$FX_DC$96)
+	OR (NOT sLatch(41) AND NOT sLatch(40) AND $OpTx$FX_DC$94)
+	OR (sLatch(43) AND sLatch(10) AND NOT sLatch(42) AND 
+	sLatch(41) AND NOT sLatch(40))
+	OR (NOT sLatch(43) AND sLatch(2) AND NOT sLatch(42) AND 
+	sLatch(41) AND NOT sLatch(40)));
+
+FTCPE_sSerialOut7: FTCPE port map (sSerialOut(7),sSerialOut_T(7),pClock,'0','0');
+sSerialOut_T(7) <= ((sLatch(47) AND sLatch(13) AND sLatch(46) AND 
+	NOT sLatch(45) AND sLatch(44))
+	OR (NOT sLatch(47) AND sLatch(46) AND sLatch(5) AND 
+	NOT sLatch(45) AND sLatch(44))
+	OR (sLatch(45) AND sLatch(44) AND $OpTx$FX_DC$99)
+	OR (sLatch(45) AND NOT sLatch(44) AND $OpTx$FX_DC$97)
+	OR (NOT sLatch(45) AND NOT sLatch(44) AND $OpTx$FX_DC$98)
+	OR (sLatch(47) AND NOT sLatch(46) AND sLatch(9) AND 
+	NOT sLatch(45) AND sLatch(44))
+	OR (NOT sLatch(47) AND sLatch(1) AND NOT sLatch(46) AND 
+	NOT sLatch(45) AND sLatch(44)));
+
+Register Legend:
+ FDCPE (Q,D,C,CLR,PRE,CE); 
+ FTCPE (Q,D,C,CLR,PRE,CE); 
+ LDCP  (Q,D,G,CLR,PRE); 
+
+******************************  Device Pin Out *****************************
+
+Device : XC95288XL-6-TQ144
+
+
+Pin Signal                         Pin Signal                        
+No. Name                           No. Name                          
+  1 VCC                              73 VCC                           
+  2 KPR                              74 KPR                           
+  3 KPR                              75 KPR                           
+  4 KPR                              76 KPR                           
+  5 KPR                              77 KPR                           
+  6 KPR                              78 KPR                           
+  7 KPR                              79 KPR                           
+  8 VCC                              80 pSerialOut<0>                 
+  9 KPR                              81 pSerialOut<1>                 
+ 10 KPR                              82 KPR                           
+ 11 KPR                              83 KPR                           
+ 12 KPR                              84 VCC                           
+ 13 KPR                              85 KPR                           
+ 14 KPR                              86 KPR                           
+ 15 KPR                              87 pSerialOut<2>                 
+ 16 KPR                              88 pSerialOut<3>                 
+ 17 KPR                              89 GND                           
+ 18 GND                              90 GND                           
+ 19 KPR                              91 KPR                           
+ 20 KPR                              92 pSerialOut<4>                 
+ 21 KPR                              93 pSerialOut<5>                 
+ 22 KPR                              94 KPR                           
+ 23 KPR                              95 KPR                           
+ 24 KPR                              96 pSerialOut<6>                 
+ 25 KPR                              97 pSerialOut<7>                 
+ 26 KPR                              98 KPR                           
+ 27 KPR                              99 GND                           
+ 28 KPR                             100 KPR                           
+ 29 GND                             101 KPR                           
+ 30 pClock                          102 KPR                           
+ 31 KPR                             103 KPR                           
+ 32 KPR                             104 KPR                           
+ 33 KPR                             105 KPR                           
+ 34 KPR                             106 KPR                           
+ 35 KPR                             107 KPR                           
+ 36 GND                             108 GND                           
+ 37 VCC                             109 VCC                           
+ 38 KPR                             110 KPR                           
+ 39 KPR                             111 KPR                           
+ 40 KPR                             112 KPR                           
+ 41 KPR                             113 KPR                           
+ 42 VCC                             114 GND                           
+ 43 KPR                             115 KPR                           
+ 44 KPR                             116 KPR                           
+ 45 KPR                             117 KPR                           
+ 46 KPR                             118 KPR                           
+ 47 GND                             119 KPR                           
+ 48 KPR                             120 KPR                           
+ 49 KPR                             121 KPR                           
+ 50 KPR                             122 TDO                           
+ 51 KPR                             123 GND                           
+ 52 KPR                             124 KPR                           
+ 53 KPR                             125 KPR                           
+ 54 KPR                             126 KPR                           
+ 55 VCC                             127 VCC                           
+ 56 KPR                             128 KPR                           
+ 57 KPR                             129 KPR                           
+ 58 KPR                             130 KPR                           
+ 59 KPR                             131 KPR                           
+ 60 KPR                             132 KPR                           
+ 61 KPR                             133 KPR                           
+ 62 GND                             134 KPR                           
+ 63 TDI                             135 KPR                           
+ 64 KPR                             136 KPR                           
+ 65 TMS                             137 KPR                           
+ 66 KPR                             138 KPR                           
+ 67 TCK                             139 KPR                           
+ 68 KPR                             140 KPR                           
+ 69 KPR                             141 VCC                           
+ 70 KPR                             142 KPR                           
+ 71 KPR                             143 KPR                           
+ 72 GND                             144 GND                           
+
+
+Legend :  NC  = Not Connected, unbonded pin
+         PGND = Unused I/O configured as additional Ground pin
+         TIE  = Unused I/O floating -- must tie to VCC, GND or other signal
+         KPR  = Unused I/O with weak keeper (leave unconnected)
+         VCC  = Dedicated Power Pin
+         GND  = Dedicated Ground Pin
+         TDI  = Test Data In, JTAG pin
+         TDO  = Test Data Out, JTAG pin
+         TCK  = Test Clock, JTAG pin
+         TMS  = Test Mode Select, JTAG pin
+  PROHIBITED  = User reserved pin
+****************************  Compiler Options  ****************************
+
+Following is a list of all global compiler options used by the fitter run.
+
+Device(s) Specified                         : xc95288xl-6-TQ144
+Optimization Method                         : DENSITY
+Multi-Level Logic Optimization              : ON
+Ignore Timing Specifications                : OFF
+Default Register Power Up Value             : LOW
+Keep User Location Constraints              : ON
+What-You-See-Is-What-You-Get                : OFF
+Exhaustive Fitting                          : OFF
+Keep Unused Inputs                          : OFF
+Slew Rate                                   : FAST
+Power Mode                                  : STD
+Ground on Unused IOs                        : OFF
+Set I/O Pin Termination                     : KEEPER
+Global Clock Optimization                   : ON
+Global Set/Reset Optimization               : ON
+Global Ouput Enable Optimization            : ON
+Input Limit                                 : 12
+Pterm Limit                                 : 18

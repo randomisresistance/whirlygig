@@ -1,0 +1,44 @@
+Protel Design System Design Rule Check
+PCB File : \projects\randy\schematics\randy.PcbDoc
+Date     : 21/11/2007
+Time     : 15:42:15
+
+Processing Rule : Width Constraint (Min=0.1524mm) (Max=0.3048mm) (Preferred=0.3048mm) (InNet('3.3V'))
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=0.1524mm) (Max=0.3048mm) (Preferred=0.3048mm) (InNet('3.3VBEFOREIND'))
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=0.1524mm) (Max=0.635mm) (Preferred=0.635mm) (InNet('VBUSIN'))
+Rule Violations :0
+
+Processing Rule : SMD Neck-Down Constraint (Percent=100%) (All)
+Rule Violations :0
+
+Processing Rule : Room randy (Bounding Region = (63.246mm, 60.03mm, 103.346mm, 87.63mm) (InComponentClass('randy'))
+Rule Violations :0
+
+Processing Rule : Hole Size Constraint (Min=0.0254mm) (Max=4mm) (All)
+Rule Violations :0
+
+Processing Rule : Height Constraint (Min=0mm) (Max=25.4mm) (Prefered=12.7mm) (All)
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=0.254mm) (Max=0.254mm) (Preferred=0.254mm) (All)
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=0.1524mm) (All),(All)
+Rule Violations :0
+
+Processing Rule : Broken-Net Constraint ( (All) )
+Rule Violations :0
+
+Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=0.254mm) ((InPoly)),(All)
+Rule Violations :0
+
+
+Violations Detected : 0
+Time Elapsed        : 00:00:03

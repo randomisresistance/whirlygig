@@ -1,0 +1,919 @@
+xst -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -ifn whirlygig.xst -ofn whirlygig.syr
+ngdbuild -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -dd _ngo -uc "whirlygig.ucf" -p xc9500xl "whirlygig.ngc" whirlygig.ngd
+cpldfit -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -p xc95288xl-6-TQ144 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper whirlygig.ngd
+XSLTProcess -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" whirlygig_build.xml
+tsim -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise whirlygig whirlygig.nga
+taengine -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -f whirlygig -w --format html1 -l /projects/randy/whirlygig-cpld/whirlygig_html/tim/timing_report.htm
+hprep6 -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -s IEEE1149 -n whirlygig -i whirlygig
+xst -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -ifn whirlygig.xst -ofn whirlygig.syr
+xst -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -ifn whirlygig.xst -ofn whirlygig.syr
+ngdbuild -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -dd _ngo -uc "whirlygig.ucf" -p xc9500xl "whirlygig.ngc" whirlygig.ngd
+cpldfit -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -p xc95288xl-6-TQ144 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper whirlygig.ngd
+XSLTProcess -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" whirlygig_build.xml
+cpldfit -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -p xc95288xl-6-TQ144 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper whirlygig.ngd
+XSLTProcess -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" whirlygig_build.xml
+cpldfit -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -p xc95288xl-6-TQ144 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper whirlygig.ngd
+XSLTProcess -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" whirlygig_build.xml
+cpldfit -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -p xc95288xl-6-TQ144 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper whirlygig.ngd
+XSLTProcess -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" whirlygig_build.xml
+ngdbuild -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -dd _ngo -uc "whirlygig.ucf" -p xc9500xl "whirlygig.ngc" whirlygig.ngd
+cpldfit -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -p xc95288xl-6-TQ144 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper whirlygig.ngd
+XSLTProcess -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" whirlygig_build.xml
+cpldfit -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -p xc95288xl-6-TQ144 -ofmt vhdl -optimize density -htmlrpt -loc on -slew slow -init low -inputs 54 -pterms 90 -unused float -power std -terminate keeper whirlygig.ngd
+XSLTProcess -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" whirlygig_build.xml
+cpldfit -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -p xc95288xl-6-TQ144 -ofmt vhdl -optimize density -htmlrpt -loc on -slew slow -init low -inputs 44 -pterms 70 -unused float -power std -terminate keeper whirlygig.ngd
+XSLTProcess -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" whirlygig_build.xml
+cpldfit -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -p xc95288xl-6-TQ144 -ofmt vhdl -optimize density -htmlrpt -loc on -slew slow -init low -inputs 24 -pterms 50 -unused float -power std -terminate keeper whirlygig.ngd
+XSLTProcess -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" whirlygig_build.xml
+cpldfit -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -p xc95288xl-6-TQ144 -ofmt vhdl -optimize density -htmlrpt -loc on -slew slow -init low -inputs 14 -pterms 20 -unused float -power std -terminate keeper whirlygig.ngd
+XSLTProcess -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" whirlygig_build.xml
+tsim -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise whirlygig whirlygig.nga
+taengine -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -f whirlygig -w --format html1 -l /projects/randy/whirlygig-cpld/whirlygig_html/tim/timing_report.htm
+xst -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -ifn whirlygig.xst -ofn whirlygig.syr
+ngdbuild -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -dd _ngo -uc "whirlygig.ucf" -p xc9500xl "whirlygig.ngc" whirlygig.ngd
+cpldfit -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -p xc95288xl-6-TQ144 -ofmt vhdl -optimize density -htmlrpt -loc on -slew slow -init low -inputs 14 -pterms 20 -unused float -power std -terminate keeper whirlygig.ngd
+XSLTProcess -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" whirlygig_build.xml
+tsim -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise whirlygig whirlygig.nga
+taengine -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -f whirlygig -w --format html1 -l /projects/randy/whirlygig-cpld/whirlygig_html/tim/timing_report.htm
+hprep6 -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -s IEEE1149 -n whirlygig -i whirlygig
+xst -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -ifn whirlygig.xst -ofn whirlygig.syr
+ngdbuild -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -dd _ngo -uc "whirlygig.ucf" -p xc9500xl "whirlygig.ngc" whirlygig.ngd
+cpldfit -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -p xc95288xl-6-TQ144 -ofmt vhdl -optimize density -htmlrpt -loc on -slew slow -init low -inputs 14 -pterms 20 -unused float -power std -terminate keeper whirlygig.ngd
+XSLTProcess -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" whirlygig_build.xml
+cpldfit -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -p xc95288xl-6-TQ144 -ofmt vhdl -optimize density -htmlrpt -loc on -slew slow -init low -inputs 12 -pterms 16 -unused float -power std -terminate keeper whirlygig.ngd
+XSLTProcess -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" whirlygig_build.xml
+xst -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -ifn whirlygig.xst -ofn whirlygig.syr
+ngdbuild -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -dd _ngo -uc "whirlygig.ucf" -p xc9500xl "whirlygig.ngc" whirlygig.ngd
+cpldfit -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -p xc95288xl-6-TQ144 -ofmt vhdl -optimize density -htmlrpt -loc on -slew slow -init low -inputs 12 -pterms 16 -unused float -power std -terminate keeper whirlygig.ngd
+XSLTProcess -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" whirlygig_build.xml
+xst -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -ifn whirlygig.xst -ofn whirlygig.syr
+ngdbuild -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -dd _ngo -uc "whirlygig.ucf" -p xc9500xl "whirlygig.ngc" whirlygig.ngd
+cpldfit -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -p xc95288xl-6-TQ144 -ofmt vhdl -optimize density -htmlrpt -loc on -slew slow -init low -inputs 12 -pterms 16 -unused float -power std -terminate keeper whirlygig.ngd
+XSLTProcess -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" whirlygig_build.xml
+tsim -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise whirlygig whirlygig.nga
+taengine -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -f whirlygig -w --format html1 -l /projects/randy/whirlygig-cpld/whirlygig_html/tim/timing_report.htm
+hprep6 -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -s IEEE1149 -n whirlygig -i whirlygig
+xst -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -ifn whirlygig.xst -ofn whirlygig.syr
+ngdbuild -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -dd _ngo -uc "whirlygig.ucf" -p xc9500xl "whirlygig.ngc" whirlygig.ngd
+cpldfit -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -p xc95288xl-6-TQ144 -ofmt vhdl -optimize density -htmlrpt -loc on -slew slow -init low -inputs 12 -pterms 16 -unused float -power std -terminate keeper whirlygig.ngd
+XSLTProcess -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" whirlygig_build.xml
+tsim -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise whirlygig whirlygig.nga
+taengine -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -f whirlygig -w --format html1 -l /projects/randy/whirlygig-cpld/whirlygig_html/tim/timing_report.htm
+hprep6 -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -s IEEE1149 -n whirlygig -i whirlygig
+xst -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -ifn whirlygig.xst -ofn whirlygig.syr
+ngdbuild -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -dd _ngo -uc "whirlygig.ucf" -p xc9500xl "whirlygig.ngc" whirlygig.ngd
+cpldfit -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -p xc95288xl-6-TQ144 -ofmt vhdl -optimize density -htmlrpt -loc on -slew slow -init low -inputs 12 -pterms 16 -unused float -power std -terminate keeper whirlygig.ngd
+XSLTProcess -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" whirlygig_build.xml
+tsim -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise whirlygig whirlygig.nga
+taengine -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -f whirlygig -w --format html1 -l /projects/randy/whirlygig-cpld/whirlygig_html/tim/timing_report.htm
+hprep6 -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -s IEEE1149 -n whirlygig -i whirlygig
+xst -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -ifn whirlygig.xst -ofn whirlygig.syr
+ngdbuild -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -dd _ngo -uc "whirlygig.ucf" -p xc9500xl "whirlygig.ngc" whirlygig.ngd
+cpldfit -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -p xc95288xl-6-TQ144 -ofmt vhdl -optimize density -htmlrpt -loc on -slew slow -init low -inputs 12 -pterms 16 -unused float -power std -terminate keeper whirlygig.ngd
+XSLTProcess -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" whirlygig_build.xml
+tsim -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise whirlygig whirlygig.nga
+taengine -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -f whirlygig -w --format html1 -l /projects/randy/whirlygig-cpld/whirlygig_html/tim/timing_report.htm
+hprep6 -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -s IEEE1149 -n whirlygig -i whirlygig
+xst -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -ifn whirlygig.xst -ofn whirlygig.syr
+ngdbuild -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -dd _ngo -uc "whirlygig.ucf" -p xc9500xl "whirlygig.ngc" whirlygig.ngd
+cpldfit -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -p xc95288xl-6-TQ144 -ofmt vhdl -optimize density -htmlrpt -loc on -slew slow -init low -inputs 12 -pterms 16 -unused float -power std -terminate keeper whirlygig.ngd
+XSLTProcess -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" whirlygig_build.xml
+xst -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -ifn whirlygig.xst -ofn whirlygig.syr
+ngdbuild -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -dd _ngo -uc "whirlygig.ucf" -p xc9500xl "whirlygig.ngc" whirlygig.ngd
+cpldfit -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -p xc95288xl-6-TQ144 -ofmt vhdl -optimize density -htmlrpt -loc on -slew slow -init low -inputs 12 -pterms 16 -unused float -power std -terminate keeper whirlygig.ngd
+XSLTProcess -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" whirlygig_build.xml
+tsim -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise whirlygig whirlygig.nga
+taengine -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -f whirlygig -w --format html1 -l /projects/randy/whirlygig-cpld/whirlygig_html/tim/timing_report.htm
+hprep6 -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -s IEEE1149 -n whirlygig -i whirlygig
+xst -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -ifn whirlygig.xst -ofn whirlygig.syr
+ngdbuild -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -dd _ngo -uc "whirlygig.ucf" -p xc9500xl "whirlygig.ngc" whirlygig.ngd
+cpldfit -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -p xc95288xl-6-TQ144 -ofmt vhdl -optimize density -htmlrpt -loc on -slew slow -init low -inputs 12 -pterms 16 -unused float -power std -terminate keeper whirlygig.ngd
+XSLTProcess -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" whirlygig_build.xml
+cpldfit -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -p xc95288xl-6-TQ144 -ofmt vhdl -optimize density -htmlrpt -loc on -slew slow -init low -inputs 54 -pterms 90 -unused float -power std -terminate keeper whirlygig.ngd
+XSLTProcess -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" whirlygig_build.xml
+xst -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -ifn whirlygig.xst -ofn whirlygig.syr
+ngdbuild -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -dd _ngo -uc "whirlygig.ucf" -p xc9500xl "whirlygig.ngc" whirlygig.ngd
+cpldfit -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -p xc95288xl-6-TQ144 -ofmt vhdl -optimize density -htmlrpt -loc on -slew slow -init low -inputs 54 -pterms 90 -unused float -power std -terminate keeper whirlygig.ngd
+XSLTProcess -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" whirlygig_build.xml
+xst -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -ifn whirlygig.xst -ofn whirlygig.syr
+ngdbuild -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -dd _ngo -uc "whirlygig.ucf" -p xc9500xl "whirlygig.ngc" whirlygig.ngd
+cpldfit -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -p xc95288xl-6-TQ144 -ofmt vhdl -optimize density -htmlrpt -loc on -slew slow -init low -inputs 54 -pterms 90 -unused float -power std -terminate keeper whirlygig.ngd
+XSLTProcess -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" whirlygig_build.xml
+tsim -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise whirlygig whirlygig.nga
+taengine -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -f whirlygig -w --format html1 -l /projects/randy/whirlygig-cpld/whirlygig_html/tim/timing_report.htm
+hprep6 -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -s IEEE1149 -n whirlygig -i whirlygig
+xst -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -ifn whirlygig.xst -ofn whirlygig.syr
+ngdbuild -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -dd _ngo -uc "whirlygig.ucf" -p xc9500xl "whirlygig.ngc" whirlygig.ngd
+cpldfit -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -p xc95288xl-6-TQ144 -ofmt vhdl -optimize density -htmlrpt -loc on -slew slow -init low -inputs 54 -pterms 90 -unused float -power std -terminate keeper whirlygig.ngd
+XSLTProcess -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" whirlygig_build.xml
+tsim -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise whirlygig whirlygig.nga
+taengine -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -f whirlygig -w --format html1 -l /projects/randy/whirlygig-cpld/whirlygig_html/tim/timing_report.htm
+hprep6 -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -s IEEE1149 -n whirlygig -i whirlygig
+xst -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -ifn whirlygig.xst -ofn whirlygig.syr
+ngdbuild -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -dd _ngo -uc "whirlygig.ucf" -p xc9500xl "whirlygig.ngc" whirlygig.ngd
+cpldfit -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -p xc95288xl-6-TQ144 -ofmt vhdl -optimize density -htmlrpt -loc on -slew slow -init low -inputs 54 -pterms 90 -unused float -power std -terminate keeper whirlygig.ngd
+XSLTProcess -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" whirlygig_build.xml
+tsim -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise whirlygig whirlygig.nga
+taengine -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -f whirlygig -w --format html1 -l /projects/randy/whirlygig-cpld/whirlygig_html/tim/timing_report.htm
+hprep6 -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -s IEEE1149 -n whirlygig -i whirlygig
+xst -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -ifn whirlygig.xst -ofn whirlygig.syr
+ngdbuild -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -dd _ngo -uc "whirlygig.ucf" -p xc9500xl "whirlygig.ngc" whirlygig.ngd
+cpldfit -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -p xc95288xl-6-TQ144 -ofmt vhdl -optimize density -htmlrpt -loc on -slew slow -init low -inputs 54 -pterms 90 -unused float -power std -terminate keeper whirlygig.ngd
+XSLTProcess -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" whirlygig_build.xml
+tsim -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise whirlygig whirlygig.nga
+taengine -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -f whirlygig -w --format html1 -l /projects/randy/whirlygig-cpld/whirlygig_html/tim/timing_report.htm
+hprep6 -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -s IEEE1149 -n whirlygig -i whirlygig
+xst -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -ifn whirlygig.xst -ofn whirlygig.syr
+xst -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -ifn whirlygig.xst -ofn whirlygig.syr
+ngdbuild -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -dd _ngo -uc "whirlygig.ucf" -p xc9500xl "whirlygig.ngc" whirlygig.ngd
+cpldfit -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -p xc95288xl-6-TQ144 -ofmt vhdl -optimize density -htmlrpt -loc on -slew slow -init low -inputs 54 -pterms 90 -unused float -power std -terminate keeper whirlygig.ngd
+XSLTProcess -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" whirlygig_build.xml
+tsim -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise whirlygig whirlygig.nga
+taengine -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -f whirlygig -w --format html1 -l /projects/randy/whirlygig-cpld/whirlygig_html/tim/timing_report.htm
+hprep6 -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -s IEEE1149 -n whirlygig -i whirlygig
+xst -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -ifn whirlygig.xst -ofn whirlygig.syr
+ngdbuild -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -dd _ngo -uc "whirlygig.ucf" -p xc9500xl "whirlygig.ngc" whirlygig.ngd
+cpldfit -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -p xc95288xl-6-TQ144 -ofmt vhdl -optimize density -htmlrpt -loc on -slew slow -init low -inputs 54 -pterms 90 -unused float -power std -terminate keeper whirlygig.ngd
+XSLTProcess -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" whirlygig_build.xml
+tsim -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise whirlygig whirlygig.nga
+taengine -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -f whirlygig -w --format html1 -l /projects/randy/whirlygig-cpld/whirlygig_html/tim/timing_report.htm
+hprep6 -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -s IEEE1149 -n whirlygig -i whirlygig
+xst -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -ifn whirlygig.xst -ofn whirlygig.syr
+ngdbuild -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -dd _ngo -uc "whirlygig.ucf" -p xc9500xl "whirlygig.ngc" whirlygig.ngd
+cpldfit -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -p xc95288xl-6-TQ144 -ofmt vhdl -optimize density -htmlrpt -loc on -slew slow -init low -inputs 54 -pterms 90 -unused float -power std -terminate keeper whirlygig.ngd
+XSLTProcess -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" whirlygig_build.xml
+tsim -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise whirlygig whirlygig.nga
+taengine -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -f whirlygig -w --format html1 -l /projects/randy/whirlygig-cpld/whirlygig_html/tim/timing_report.htm
+hprep6 -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -s IEEE1149 -n whirlygig -i whirlygig
+xst -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -ifn whirlygig.xst -ofn whirlygig.syr
+ngdbuild -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -dd _ngo -uc "whirlygig.ucf" -p xc9500xl "whirlygig.ngc" whirlygig.ngd
+cpldfit -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -p xc95288xl-6-TQ144 -ofmt vhdl -optimize density -htmlrpt -loc on -slew slow -init low -inputs 54 -pterms 90 -unused float -power std -terminate keeper whirlygig.ngd
+XSLTProcess -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" whirlygig_build.xml
+tsim -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise whirlygig whirlygig.nga
+taengine -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -f whirlygig -w --format html1 -l /projects/randy/whirlygig-cpld/whirlygig_html/tim/timing_report.htm
+hprep6 -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -s IEEE1149 -n whirlygig -i whirlygig
+xst -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -ifn whirlygig.xst -ofn whirlygig.syr
+ngdbuild -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -dd _ngo -uc "whirlygig.ucf" -p xc9500xl "whirlygig.ngc" whirlygig.ngd
+cpldfit -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -p xc95288xl-6-TQ144 -ofmt vhdl -optimize density -htmlrpt -loc on -slew slow -init low -inputs 54 -pterms 90 -unused float -power std -terminate keeper whirlygig.ngd
+XSLTProcess -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" whirlygig_build.xml
+tsim -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise whirlygig whirlygig.nga
+taengine -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -f whirlygig -w --format html1 -l /projects/randy/whirlygig-cpld/whirlygig_html/tim/timing_report.htm
+hprep6 -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -s IEEE1149 -n whirlygig -i whirlygig
+xst -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -ifn whirlygig.xst -ofn whirlygig.syr
+ngdbuild -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -dd _ngo -uc "whirlygig.ucf" -p xc9500xl "whirlygig.ngc" whirlygig.ngd
+cpldfit -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -p xc95288xl-6-TQ144 -ofmt vhdl -optimize density -htmlrpt -loc on -slew slow -init low -inputs 54 -pterms 90 -unused float -power std -terminate keeper whirlygig.ngd
+XSLTProcess -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" whirlygig_build.xml
+xst -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -ifn whirlygig.xst -ofn whirlygig.syr
+xst -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -ifn whirlygig.xst -ofn whirlygig.syr
+ngdbuild -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -dd _ngo -uc "whirlygig.ucf" -p xc9500xl "whirlygig.ngc" whirlygig.ngd
+cpldfit -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -p xc95288xl-6-TQ144 -ofmt vhdl -optimize density -htmlrpt -loc on -slew slow -init low -inputs 54 -pterms 90 -unused float -power std -terminate keeper whirlygig.ngd
+XSLTProcess -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" whirlygig_build.xml
+tsim -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise whirlygig whirlygig.nga
+taengine -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -f whirlygig -w --format html1 -l /projects/randy/whirlygig-cpld/whirlygig_html/tim/timing_report.htm
+hprep6 -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -s IEEE1149 -n whirlygig -i whirlygig
+xst -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -ifn whirlygig.xst -ofn whirlygig.syr
+ngdbuild -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -dd _ngo -uc "whirlygig.ucf" -p xc9500xl "whirlygig.ngc" whirlygig.ngd
+cpldfit -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -p xc95288xl-6-TQ144 -ofmt vhdl -optimize density -htmlrpt -loc on -slew slow -init low -inputs 54 -pterms 90 -unused float -power std -terminate keeper whirlygig.ngd
+XSLTProcess -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" whirlygig_build.xml
+tsim -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise whirlygig whirlygig.nga
+taengine -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -f whirlygig -w --format html1 -l /projects/randy/whirlygig-cpld/whirlygig_html/tim/timing_report.htm
+hprep6 -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -s IEEE1149 -n whirlygig -i whirlygig
+xst -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -ifn whirlygig.xst -ofn whirlygig.syr
+ngdbuild -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -dd _ngo -uc "whirlygig.ucf" -p xc9500xl "whirlygig.ngc" whirlygig.ngd
+cpldfit -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -p xc95288xl-6-TQ144 -ofmt vhdl -optimize density -htmlrpt -loc on -slew slow -init low -inputs 54 -pterms 90 -unused float -power std -terminate keeper whirlygig.ngd
+XSLTProcess -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" whirlygig_build.xml
+tsim -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise whirlygig whirlygig.nga
+taengine -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -f whirlygig -w --format html1 -l /projects/randy/whirlygig-cpld/whirlygig_html/tim/timing_report.htm
+hprep6 -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -s IEEE1149 -n whirlygig -i whirlygig
+xst -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -ifn whirlygig.xst -ofn whirlygig.syr
+xst -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -ifn whirlygig.xst -ofn whirlygig.syr
+ngdbuild -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -dd _ngo -uc "whirlygig.ucf" -p xc9500xl "whirlygig.ngc" whirlygig.ngd
+cpldfit -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -p xc95288xl-6-TQ144 -ofmt vhdl -optimize density -htmlrpt -loc on -slew slow -init low -inputs 54 -pterms 90 -unused float -power std -terminate keeper whirlygig.ngd
+XSLTProcess -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" whirlygig_build.xml
+tsim -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise whirlygig whirlygig.nga
+taengine -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -f whirlygig -w --format html1 -l /projects/randy/whirlygig-cpld/whirlygig_html/tim/timing_report.htm
+hprep6 -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -s IEEE1149 -n whirlygig -i whirlygig
+xst -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -ifn whirlygig.xst -ofn whirlygig.syr
+ngdbuild -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -dd _ngo -uc "whirlygig.ucf" -p xc9500xl "whirlygig.ngc" whirlygig.ngd
+cpldfit -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -p xc95288xl-6-TQ144 -ofmt vhdl -optimize density -htmlrpt -loc on -slew slow -init low -inputs 54 -pterms 90 -unused float -power std -terminate keeper whirlygig.ngd
+XSLTProcess -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" whirlygig_build.xml
+tsim -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise whirlygig whirlygig.nga
+taengine -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -f whirlygig -w --format html1 -l /projects/randy/whirlygig-cpld/whirlygig_html/tim/timing_report.htm
+hprep6 -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -s IEEE1149 -n whirlygig -i whirlygig
+xst -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -ifn whirlygig.xst -ofn whirlygig.syr
+ngdbuild -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -dd _ngo -uc "whirlygig.ucf" -p xc9500xl "whirlygig.ngc" whirlygig.ngd
+cpldfit -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -p xc95288xl-6-TQ144 -ofmt vhdl -optimize density -htmlrpt -loc on -slew slow -init low -inputs 54 -pterms 90 -unused float -power std -terminate keeper whirlygig.ngd
+XSLTProcess -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" whirlygig_build.xml
+tsim -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise whirlygig whirlygig.nga
+taengine -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -f whirlygig -w --format html1 -l /projects/randy/whirlygig-cpld/whirlygig_html/tim/timing_report.htm
+hprep6 -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -s IEEE1149 -n whirlygig -i whirlygig
+xst -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -ifn whirlygig.xst -ofn whirlygig.syr
+ngdbuild -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -dd _ngo -uc "whirlygig.ucf" -p xc9500xl "whirlygig.ngc" whirlygig.ngd
+cpldfit -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -p xc95288xl-6-TQ144 -ofmt vhdl -optimize density -htmlrpt -loc on -slew slow -init low -inputs 54 -pterms 90 -unused float -power std -terminate keeper whirlygig.ngd
+XSLTProcess -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" whirlygig_build.xml
+tsim -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise whirlygig whirlygig.nga
+taengine -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -f whirlygig -w --format html1 -l /projects/randy/whirlygig-cpld/whirlygig_html/tim/timing_report.htm
+hprep6 -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -s IEEE1149 -n whirlygig -i whirlygig
+xst -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -ifn whirlygig.xst -ofn whirlygig.syr
+ngdbuild -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -dd _ngo -uc "whirlygig.ucf" -p xc9500xl "whirlygig.ngc" whirlygig.ngd
+cpldfit -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -p xc95288xl-6-TQ144 -ofmt vhdl -optimize density -htmlrpt -loc on -slew slow -init low -inputs 54 -pterms 90 -unused float -power std -terminate keeper whirlygig.ngd
+XSLTProcess -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" whirlygig_build.xml
+tsim -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise whirlygig whirlygig.nga
+taengine -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -f whirlygig -w --format html1 -l /projects/randy/whirlygig-cpld/whirlygig_html/tim/timing_report.htm
+hprep6 -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -s IEEE1149 -n whirlygig -i whirlygig
+xst -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -ifn whirlygig.xst -ofn whirlygig.syr
+xst -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -ifn whirlygig.xst -ofn whirlygig.syr
+xst -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -ifn whirlygig.xst -ofn whirlygig.syr
+ngdbuild -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -dd _ngo -uc "whirlygig.ucf" -p xc9500xl "whirlygig.ngc" whirlygig.ngd
+cpldfit -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -p xc95288xl-6-TQ144 -ofmt vhdl -optimize density -htmlrpt -loc on -slew slow -init low -inputs 54 -pterms 90 -unused float -power std -terminate keeper whirlygig.ngd
+XSLTProcess -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" whirlygig_build.xml
+tsim -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise whirlygig whirlygig.nga
+taengine -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -f whirlygig -w --format html1 -l /projects/randy/whirlygig-cpld/whirlygig_html/tim/timing_report.htm
+hprep6 -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -s IEEE1149 -n whirlygig -i whirlygig
+xst -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -ifn whirlygig.xst -ofn whirlygig.syr
+ngdbuild -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -dd _ngo -uc "whirlygig.ucf" -p xc9500xl "whirlygig.ngc" whirlygig.ngd
+cpldfit -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -p xc95288xl-6-TQ144 -ofmt vhdl -optimize density -htmlrpt -loc on -slew slow -init low -inputs 54 -pterms 90 -unused float -power std -terminate keeper whirlygig.ngd
+XSLTProcess -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" whirlygig_build.xml
+tsim -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise whirlygig whirlygig.nga
+taengine -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -f whirlygig -w --format html1 -l /projects/randy/whirlygig-cpld/whirlygig_html/tim/timing_report.htm
+hprep6 -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -s IEEE1149 -n whirlygig -i whirlygig
+xst -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -ifn whirlygig.xst -ofn whirlygig.syr
+ngdbuild -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -dd _ngo -uc "whirlygig.ucf" -p xc9500xl "whirlygig.ngc" whirlygig.ngd
+cpldfit -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -p xc95288xl-6-TQ144 -ofmt vhdl -optimize density -htmlrpt -loc on -slew slow -init low -inputs 54 -pterms 90 -unused float -power std -terminate keeper whirlygig.ngd
+XSLTProcess -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" whirlygig_build.xml
+tsim -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise whirlygig whirlygig.nga
+taengine -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -f whirlygig -w --format html1 -l /projects/randy/whirlygig-cpld/whirlygig_html/tim/timing_report.htm
+hprep6 -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -s IEEE1149 -n whirlygig -i whirlygig
+xst -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -ifn whirlygig.xst -ofn whirlygig.syr
+ngdbuild -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -dd _ngo -uc "whirlygig.ucf" -p xc9500xl "whirlygig.ngc" whirlygig.ngd
+cpldfit -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -p xc95288xl-6-TQ144 -ofmt vhdl -optimize density -htmlrpt -loc on -slew slow -init low -inputs 54 -pterms 90 -unused float -power std -terminate keeper whirlygig.ngd
+XSLTProcess -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" whirlygig_build.xml
+tsim -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise whirlygig whirlygig.nga
+taengine -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -f whirlygig -w --format html1 -l /projects/randy/whirlygig-cpld/whirlygig_html/tim/timing_report.htm
+hprep6 -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -s IEEE1149 -n whirlygig -i whirlygig
+xst -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -ifn whirlygig.xst -ofn whirlygig.syr
+ngdbuild -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -dd _ngo -uc "whirlygig.ucf" -p xc9500xl "whirlygig.ngc" whirlygig.ngd
+cpldfit -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -p xc95288xl-6-TQ144 -ofmt vhdl -optimize density -htmlrpt -loc on -slew slow -init low -inputs 54 -pterms 90 -unused float -power std -terminate keeper whirlygig.ngd
+XSLTProcess -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" whirlygig_build.xml
+tsim -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise whirlygig whirlygig.nga
+taengine -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -f whirlygig -w --format html1 -l /projects/randy/whirlygig-cpld/whirlygig_html/tim/timing_report.htm
+hprep6 -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -s IEEE1149 -n whirlygig -i whirlygig
+xst -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -ifn whirlygig.xst -ofn whirlygig.syr
+ngdbuild -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -dd _ngo -uc "whirlygig.ucf" -p xc9500xl "whirlygig.ngc" whirlygig.ngd
+cpldfit -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -p xc95288xl-6-TQ144 -ofmt vhdl -optimize density -htmlrpt -loc on -slew slow -init low -inputs 54 -pterms 90 -unused float -power std -terminate keeper whirlygig.ngd
+XSLTProcess -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" whirlygig_build.xml
+tsim -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise whirlygig whirlygig.nga
+taengine -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -f whirlygig -w --format html1 -l /projects/randy/whirlygig-cpld/whirlygig_html/tim/timing_report.htm
+hprep6 -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -s IEEE1149 -n whirlygig -i whirlygig
+xst -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -ifn whirlygig.xst -ofn whirlygig.syr
+ngdbuild -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -dd _ngo -uc "whirlygig.ucf" -p xc9500xl "whirlygig.ngc" whirlygig.ngd
+cpldfit -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -p xc95288xl-6-TQ144 -ofmt vhdl -optimize density -htmlrpt -loc on -slew slow -init low -inputs 54 -pterms 90 -unused float -power std -terminate keeper whirlygig.ngd
+XSLTProcess -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" whirlygig_build.xml
+tsim -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise whirlygig whirlygig.nga
+taengine -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -f whirlygig -w --format html1 -l /projects/randy/whirlygig-cpld/whirlygig_html/tim/timing_report.htm
+hprep6 -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -s IEEE1149 -n whirlygig -i whirlygig
+xst -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -ifn whirlygig.xst -ofn whirlygig.syr
+ngdbuild -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -dd _ngo -uc "whirlygig.ucf" -p xc9500xl "whirlygig.ngc" whirlygig.ngd
+cpldfit -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -p xc95288xl-6-TQ144 -ofmt vhdl -optimize density -htmlrpt -loc on -slew slow -init low -inputs 54 -pterms 90 -unused float -power std -terminate keeper whirlygig.ngd
+XSLTProcess -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" whirlygig_build.xml
+xst -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -ifn whirlygig.xst -ofn whirlygig.syr
+ngdbuild -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -dd _ngo -uc "whirlygig.ucf" -p xc9500xl "whirlygig.ngc" whirlygig.ngd
+cpldfit -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -p xc95288xl-6-TQ144 -ofmt vhdl -optimize density -htmlrpt -loc on -slew slow -init low -inputs 54 -pterms 90 -unused float -power std -terminate keeper whirlygig.ngd
+XSLTProcess -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" whirlygig_build.xml
+tsim -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise whirlygig whirlygig.nga
+taengine -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -f whirlygig -w --format html1 -l /projects/randy/whirlygig-cpld/whirlygig_html/tim/timing_report.htm
+hprep6 -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -s IEEE1149 -n whirlygig -i whirlygig
+xst -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -ifn whirlygig.xst -ofn whirlygig.syr
+ngdbuild -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -dd _ngo -uc "whirlygig.ucf" -p xc9500xl "whirlygig.ngc" whirlygig.ngd
+cpldfit -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -p xc95288xl-6-TQ144 -ofmt vhdl -optimize density -htmlrpt -loc on -slew slow -init low -inputs 54 -pterms 90 -unused float -power low -terminate keeper whirlygig.ngd
+XSLTProcess -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" whirlygig_build.xml
+tsim -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise whirlygig whirlygig.nga
+taengine -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -f whirlygig -w --format html1 -l /projects/randy/whirlygig-cpld/whirlygig_html/tim/timing_report.htm
+hprep6 -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -s IEEE1149 -n whirlygig -i whirlygig
+xst -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -ifn whirlygig.xst -ofn whirlygig.syr
+ngdbuild -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -dd _ngo -uc "whirlygig.ucf" -p xc9500xl "whirlygig.ngc" whirlygig.ngd
+cpldfit -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -p xc95288xl-6-TQ144 -ofmt vhdl -optimize density -htmlrpt -loc on -slew slow -init low -inputs 54 -pterms 90 -unused float -power low -terminate keeper whirlygig.ngd
+XSLTProcess -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" whirlygig_build.xml
+tsim -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise whirlygig whirlygig.nga
+taengine -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -f whirlygig -w --format html1 -l /projects/randy/whirlygig-cpld/whirlygig_html/tim/timing_report.htm
+hprep6 -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -s IEEE1149 -n whirlygig -i whirlygig
+xst -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -ifn whirlygig.xst -ofn whirlygig.syr
+xst -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -ifn whirlygig.xst -ofn whirlygig.syr
+xst -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -ifn whirlygig.xst -ofn whirlygig.syr
+ngdbuild -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -dd _ngo -uc "whirlygig.ucf" -p xc9500xl "whirlygig.ngc" whirlygig.ngd
+cpldfit -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -p xc95288xl-6-TQ144 -ofmt vhdl -optimize density -htmlrpt -loc on -slew slow -init low -inputs 54 -pterms 90 -unused float -power low -terminate keeper whirlygig.ngd
+XSLTProcess -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" whirlygig_build.xml
+tsim -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise whirlygig whirlygig.nga
+taengine -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -f whirlygig -w --format html1 -l /projects/randy/whirlygig-cpld/whirlygig_html/tim/timing_report.htm
+hprep6 -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -s IEEE1149 -n whirlygig -i whirlygig
+xst -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -ifn whirlygig.xst -ofn whirlygig.syr
+xst -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -ifn whirlygig.xst -ofn whirlygig.syr
+xst -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -ifn whirlygig.xst -ofn whirlygig.syr
+ngdbuild -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -dd _ngo -uc "whirlygig.ucf" -p xc9500xl "whirlygig.ngc" whirlygig.ngd
+cpldfit -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -p xc95288xl-6-TQ144 -ofmt vhdl -optimize density -htmlrpt -loc on -slew slow -init low -inputs 54 -pterms 90 -unused float -power low -terminate keeper whirlygig.ngd
+XSLTProcess -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" whirlygig_build.xml
+tsim -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise whirlygig whirlygig.nga
+taengine -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -f whirlygig -w --format html1 -l /projects/randy/whirlygig-cpld/whirlygig_html/tim/timing_report.htm
+hprep6 -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -s IEEE1149 -n whirlygig -i whirlygig
+xst -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -ifn whirlygig.xst -ofn whirlygig.syr
+ngdbuild -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -dd _ngo -uc "whirlygig.ucf" -p xc9500xl "whirlygig.ngc" whirlygig.ngd
+cpldfit -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -p xc95288xl-6-TQ144 -ofmt vhdl -optimize density -htmlrpt -loc on -slew slow -init low -inputs 54 -pterms 90 -unused float -power std -terminate keeper whirlygig.ngd
+XSLTProcess -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" whirlygig_build.xml
+tsim -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise whirlygig whirlygig.nga
+taengine -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -f whirlygig -w --format html1 -l /projects/randy/whirlygig-cpld/whirlygig_html/tim/timing_report.htm
+hprep6 -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -s IEEE1149 -n whirlygig -i whirlygig
+xst -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -ifn whirlygig.xst -ofn whirlygig.syr
+ngdbuild -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -dd _ngo -uc "whirlygig.ucf" -p xc9500xl "whirlygig.ngc" whirlygig.ngd
+cpldfit -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -p xc95288xl-6-TQ144 -ofmt vhdl -optimize density -htmlrpt -loc on -slew slow -init low -inputs 54 -pterms 90 -unused float -power std -terminate keeper whirlygig.ngd
+XSLTProcess -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" whirlygig_build.xml
+tsim -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise whirlygig whirlygig.nga
+taengine -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -f whirlygig -w --format html1 -l /projects/randy/whirlygig-cpld/whirlygig_html/tim/timing_report.htm
+hprep6 -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -s IEEE1149 -n whirlygig -i whirlygig
+xst -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -ifn whirlygig.xst -ofn whirlygig.syr
+ngdbuild -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -dd _ngo -uc "whirlygig.ucf" -p xc9500xl "whirlygig.ngc" whirlygig.ngd
+cpldfit -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -p xc95288xl-6-TQ144 -ofmt vhdl -optimize density -htmlrpt -loc on -slew slow -init low -inputs 54 -pterms 90 -unused float -power std -terminate keeper whirlygig.ngd
+XSLTProcess -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" whirlygig_build.xml
+tsim -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise whirlygig whirlygig.nga
+taengine -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -f whirlygig -w --format html1 -l /projects/randy/whirlygig-cpld/whirlygig_html/tim/timing_report.htm
+hprep6 -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -s IEEE1149 -n whirlygig -i whirlygig
+xst -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -ifn whirlygig.xst -ofn whirlygig.syr
+ngdbuild -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -dd _ngo -uc "whirlygig.ucf" -p xc9500xl "whirlygig.ngc" whirlygig.ngd
+cpldfit -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -p xc95288xl-6-TQ144 -ofmt vhdl -optimize density -htmlrpt -loc on -slew slow -init low -inputs 54 -pterms 90 -unused float -power std -terminate keeper whirlygig.ngd
+XSLTProcess -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" whirlygig_build.xml
+tsim -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise whirlygig whirlygig.nga
+taengine -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -f whirlygig -w --format html1 -l /projects/randy/whirlygig-cpld/whirlygig_html/tim/timing_report.htm
+hprep6 -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -s IEEE1149 -n whirlygig -i whirlygig
+xst -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -ifn whirlygig.xst -ofn whirlygig.syr
+ngdbuild -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -dd _ngo -uc "whirlygig.ucf" -p xc9500xl "whirlygig.ngc" whirlygig.ngd
+cpldfit -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -p xc95288xl-6-TQ144 -ofmt vhdl -optimize density -htmlrpt -loc on -slew slow -init low -inputs 54 -pterms 90 -unused float -power std -terminate keeper whirlygig.ngd
+XSLTProcess -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" whirlygig_build.xml
+tsim -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise whirlygig whirlygig.nga
+taengine -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -f whirlygig -w --format html1 -l /projects/randy/whirlygig-cpld/whirlygig_html/tim/timing_report.htm
+hprep6 -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -s IEEE1149 -n whirlygig -i whirlygig
+xst -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -ifn whirlygig.xst -ofn whirlygig.syr
+ngdbuild -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -dd _ngo -uc "whirlygig.ucf" -p xc9500xl "whirlygig.ngc" whirlygig.ngd
+cpldfit -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -p xc95288xl-6-TQ144 -ofmt vhdl -optimize density -htmlrpt -loc on -slew slow -init low -inputs 54 -pterms 90 -unused float -power std -terminate keeper whirlygig.ngd
+XSLTProcess -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" whirlygig_build.xml
+tsim -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise whirlygig whirlygig.nga
+taengine -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -f whirlygig -w --format html1 -l /projects/randy/whirlygig-cpld/whirlygig_html/tim/timing_report.htm
+hprep6 -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -s IEEE1149 -n whirlygig -i whirlygig
+xst -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -ifn whirlygig.xst -ofn whirlygig.syr
+ngdbuild -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -dd _ngo -uc "whirlygig.ucf" -p xc9500xl "whirlygig.ngc" whirlygig.ngd
+cpldfit -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -p xc95288xl-6-TQ144 -ofmt vhdl -optimize density -htmlrpt -loc on -slew slow -init low -inputs 54 -pterms 90 -unused float -power std -terminate keeper whirlygig.ngd
+XSLTProcess -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" whirlygig_build.xml
+tsim -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise whirlygig whirlygig.nga
+taengine -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -f whirlygig -w --format html1 -l /projects/randy/whirlygig-cpld/whirlygig_html/tim/timing_report.htm
+hprep6 -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -s IEEE1149 -n whirlygig -i whirlygig
+xst -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -ifn whirlygig.xst -ofn whirlygig.syr
+ngdbuild -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -dd _ngo -uc "whirlygig.ucf" -p xc9500xl "whirlygig.ngc" whirlygig.ngd
+cpldfit -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -p xc95288xl-6-TQ144 -ofmt vhdl -optimize density -htmlrpt -loc on -slew slow -init low -inputs 54 -pterms 90 -unused float -power std -terminate keeper whirlygig.ngd
+XSLTProcess -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" whirlygig_build.xml
+tsim -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise whirlygig whirlygig.nga
+taengine -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -f whirlygig -w --format html1 -l /projects/randy/whirlygig-cpld/whirlygig_html/tim/timing_report.htm
+hprep6 -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -s IEEE1149 -n whirlygig -i whirlygig
+xst -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -ifn whirlygig.xst -ofn whirlygig.syr
+xst -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -ifn whirlygig.xst -ofn whirlygig.syr
+ngdbuild -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -dd _ngo -uc "whirlygig.ucf" -p xc9500xl "whirlygig.ngc" whirlygig.ngd
+cpldfit -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -p xc95288xl-6-TQ144 -ofmt vhdl -optimize density -htmlrpt -loc on -slew slow -init low -inputs 54 -pterms 90 -unused float -power std -terminate keeper whirlygig.ngd
+XSLTProcess -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" whirlygig_build.xml
+tsim -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise whirlygig whirlygig.nga
+taengine -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -f whirlygig -w --format html1 -l /projects/randy/whirlygig-cpld/whirlygig_html/tim/timing_report.htm
+hprep6 -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -s IEEE1149 -n whirlygig -i whirlygig
+xst -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -ifn whirlygig.xst -ofn whirlygig.syr
+xst -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -ifn whirlygig.xst -ofn whirlygig.syr
+ngdbuild -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -dd _ngo -uc "whirlygig.ucf" -p xc9500xl "whirlygig.ngc" whirlygig.ngd
+cpldfit -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -p xc95288xl-6-TQ144 -ofmt vhdl -optimize density -htmlrpt -loc on -slew slow -init low -inputs 54 -pterms 90 -unused float -power std -terminate keeper whirlygig.ngd
+XSLTProcess -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" whirlygig_build.xml
+tsim -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise whirlygig whirlygig.nga
+taengine -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -f whirlygig -w --format html1 -l /projects/randy/whirlygig-cpld/whirlygig_html/tim/timing_report.htm
+hprep6 -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -s IEEE1149 -n whirlygig -i whirlygig
+xst -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -ifn whirlygig.xst -ofn whirlygig.syr
+ngdbuild -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -dd _ngo -uc "whirlygig.ucf" -p xc9500xl "whirlygig.ngc" whirlygig.ngd
+cpldfit -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -p xc95288xl-6-TQ144 -ofmt vhdl -optimize density -htmlrpt -loc on -slew slow -init low -inputs 54 -pterms 90 -unused float -power std -terminate keeper whirlygig.ngd
+XSLTProcess -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" whirlygig_build.xml
+tsim -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise whirlygig whirlygig.nga
+taengine -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -f whirlygig -w --format html1 -l /projects/randy/whirlygig-cpld/whirlygig_html/tim/timing_report.htm
+hprep6 -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -s IEEE1149 -n whirlygig -i whirlygig
+xst -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -ifn whirlygig.xst -ofn whirlygig.syr
+ngdbuild -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -dd _ngo -uc "whirlygig.ucf" -p xc9500xl "whirlygig.ngc" whirlygig.ngd
+cpldfit -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -p xc95288xl-6-TQ144 -ofmt vhdl -optimize density -htmlrpt -loc on -slew slow -init low -inputs 54 -pterms 90 -unused float -power std -terminate keeper whirlygig.ngd
+XSLTProcess -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" whirlygig_build.xml
+tsim -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise whirlygig whirlygig.nga
+taengine -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -f whirlygig -w --format html1 -l /projects/randy/whirlygig-cpld/whirlygig_html/tim/timing_report.htm
+hprep6 -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -s IEEE1149 -n whirlygig -i whirlygig
+xst -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -ifn whirlygig.xst -ofn whirlygig.syr
+xst -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -ifn whirlygig.xst -ofn whirlygig.syr
+ngdbuild -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -dd _ngo -uc "whirlygig.ucf" -p xc9500xl "whirlygig.ngc" whirlygig.ngd
+cpldfit -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -p xc95288xl-6-TQ144 -ofmt vhdl -optimize density -htmlrpt -loc on -slew slow -init low -inputs 54 -pterms 90 -unused float -power std -terminate keeper whirlygig.ngd
+XSLTProcess -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" whirlygig_build.xml
+tsim -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise whirlygig whirlygig.nga
+taengine -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -f whirlygig -w --format html1 -l /projects/randy/whirlygig-cpld/whirlygig_html/tim/timing_report.htm
+hprep6 -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -s IEEE1149 -n whirlygig -i whirlygig
+xst -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -ifn whirlygig.xst -ofn whirlygig.syr
+ngdbuild -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -dd _ngo -uc "whirlygig.ucf" -p xc9500xl "whirlygig.ngc" whirlygig.ngd
+cpldfit -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -p xc95288xl-6-TQ144 -ofmt vhdl -optimize density -htmlrpt -loc on -slew slow -init low -inputs 54 -pterms 90 -unused float -power std -terminate keeper whirlygig.ngd
+XSLTProcess -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" whirlygig_build.xml
+tsim -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise whirlygig whirlygig.nga
+taengine -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -f whirlygig -w --format html1 -l /projects/randy/whirlygig-cpld/whirlygig_html/tim/timing_report.htm
+hprep6 -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -s IEEE1149 -n whirlygig -i whirlygig
+xst -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -ifn whirlygig.xst -ofn whirlygig.syr
+xst -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -ifn whirlygig.xst -ofn whirlygig.syr
+ngdbuild -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -dd _ngo -uc "whirlygig.ucf" -p xc9500xl "whirlygig.ngc" whirlygig.ngd
+cpldfit -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -p xc95288xl-6-TQ144 -ofmt vhdl -optimize density -htmlrpt -loc on -slew slow -init low -inputs 54 -pterms 90 -unused float -power std -terminate keeper whirlygig.ngd
+XSLTProcess -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" whirlygig_build.xml
+tsim -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise whirlygig whirlygig.nga
+taengine -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -f whirlygig -w --format html1 -l /projects/randy/whirlygig-cpld/whirlygig_html/tim/timing_report.htm
+hprep6 -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -s IEEE1149 -n whirlygig -i whirlygig
+xst -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -ifn whirlygig.xst -ofn whirlygig.syr
+ngdbuild -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -dd _ngo -uc "whirlygig.ucf" -p xc9500xl "whirlygig.ngc" whirlygig.ngd
+cpldfit -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -p xc95288xl-6-TQ144 -ofmt vhdl -optimize density -htmlrpt -loc on -slew slow -init low -inputs 54 -pterms 90 -unused float -power std -terminate keeper whirlygig.ngd
+XSLTProcess -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" whirlygig_build.xml
+tsim -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise whirlygig whirlygig.nga
+taengine -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -f whirlygig -w --format html1 -l /projects/randy/whirlygig-cpld/whirlygig_html/tim/timing_report.htm
+hprep6 -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -s IEEE1149 -n whirlygig -i whirlygig
+xst -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -ifn whirlygig.xst -ofn whirlygig.syr
+xst -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -ifn whirlygig.xst -ofn whirlygig.syr
+ngdbuild -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -dd _ngo -uc "whirlygig.ucf" -p xc9500xl "whirlygig.ngc" whirlygig.ngd
+cpldfit -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -p xc95288xl-6-TQ144 -ofmt vhdl -optimize density -htmlrpt -loc on -slew slow -init low -inputs 54 -pterms 90 -unused float -power std -terminate keeper whirlygig.ngd
+XSLTProcess -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" whirlygig_build.xml
+tsim -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise whirlygig whirlygig.nga
+taengine -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -f whirlygig -w --format html1 -l /projects/randy/whirlygig-cpld/whirlygig_html/tim/timing_report.htm
+xst -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -ifn whirlygig.xst -ofn whirlygig.syr
+ngdbuild -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -dd _ngo -uc "whirlygig.ucf" -p xc9500xl "whirlygig.ngc" whirlygig.ngd
+cpldfit -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -p xc95288xl-6-TQ144 -ofmt vhdl -optimize density -htmlrpt -loc on -slew slow -init low -inputs 54 -pterms 90 -unused float -power std -terminate keeper whirlygig.ngd
+XSLTProcess -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" whirlygig_build.xml
+tsim -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise whirlygig whirlygig.nga
+taengine -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -f whirlygig -w --format html1 -l /projects/randy/whirlygig-cpld/whirlygig_html/tim/timing_report.htm
+hprep6 -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -s IEEE1149 -n whirlygig -i whirlygig
+xst -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -ifn whirlygig.xst -ofn whirlygig.syr
+ngdbuild -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -dd _ngo -uc "whirlygig.ucf" -p xc9500xl "whirlygig.ngc" whirlygig.ngd
+cpldfit -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -p xc95288xl-6-TQ144 -ofmt vhdl -optimize density -htmlrpt -loc on -slew slow -init low -inputs 54 -pterms 90 -unused float -power std -terminate keeper whirlygig.ngd
+XSLTProcess -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" whirlygig_build.xml
+tsim -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise whirlygig whirlygig.nga
+taengine -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -f whirlygig -w --format html1 -l /projects/randy/whirlygig-cpld/whirlygig_html/tim/timing_report.htm
+hprep6 -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -s IEEE1149 -n whirlygig -i whirlygig
+xst -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -ifn whirlygig.xst -ofn whirlygig.syr
+xst -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -ifn whirlygig.xst -ofn whirlygig.syr
+xst -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -ifn whirlygig.xst -ofn whirlygig.syr
+ngdbuild -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -dd _ngo -uc "whirlygig.ucf" -p xc9500xl "whirlygig.ngc" whirlygig.ngd
+cpldfit -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -p xc95288xl-6-TQ144 -ofmt vhdl -optimize density -htmlrpt -loc on -slew slow -init low -inputs 54 -pterms 90 -unused float -power std -terminate keeper whirlygig.ngd
+XSLTProcess -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" whirlygig_build.xml
+cpldfit -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -p xc95288xl-6-TQ144 -ofmt vhdl -optimize density -htmlrpt -loc on -slew slow -init low -inputs 40 -pterms 40 -unused float -power std -terminate keeper whirlygig.ngd
+XSLTProcess -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" whirlygig_build.xml
+cpldfit -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -p xc95288xl-6-TQ144 -ofmt vhdl -optimize density -htmlrpt -loc on -slew slow -init low -inputs 20 -pterms 40 -unused float -power std -terminate keeper whirlygig.ngd
+XSLTProcess -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" whirlygig_build.xml
+cpldfit -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -p xc95288xl-6-TQ144 -ofmt vhdl -optimize density -htmlrpt -loc on -slew slow -init low -inputs 12 -pterms 20 -unused float -power std -terminate keeper whirlygig.ngd
+XSLTProcess -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" whirlygig_build.xml
+tsim -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise whirlygig whirlygig.nga
+taengine -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -f whirlygig -w --format html1 -l /projects/randy/whirlygig-cpld/whirlygig_html/tim/timing_report.htm
+hprep6 -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -s IEEE1149 -n whirlygig -i whirlygig
+xst -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -ifn whirlygig.xst -ofn whirlygig.syr
+ngdbuild -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -dd _ngo -uc "whirlygig.ucf" -p xc9500xl "whirlygig.ngc" whirlygig.ngd
+cpldfit -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -p xc95288xl-6-TQ144 -ofmt vhdl -optimize density -htmlrpt -loc on -slew slow -init low -inputs 12 -pterms 20 -unused float -power std -terminate keeper whirlygig.ngd
+XSLTProcess -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" whirlygig_build.xml
+tsim -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise whirlygig whirlygig.nga
+taengine -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -f whirlygig -w --format html1 -l /projects/randy/whirlygig-cpld/whirlygig_html/tim/timing_report.htm
+hprep6 -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -s IEEE1149 -n whirlygig -i whirlygig
+xst -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -ifn whirlygig.xst -ofn whirlygig.syr
+ngdbuild -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -dd _ngo -uc "whirlygig.ucf" -p xc9500xl "whirlygig.ngc" whirlygig.ngd
+cpldfit -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -p xc95288xl-6-TQ144 -ofmt vhdl -optimize density -htmlrpt -loc on -slew slow -init low -inputs 12 -pterms 20 -unused float -power std -terminate keeper whirlygig.ngd
+XSLTProcess -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" whirlygig_build.xml
+cpldfit -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -p xc95288xl-6-TQ144 -ofmt vhdl -optimize density -htmlrpt -loc on -slew slow -init low -inputs 10 -pterms 20 -unused float -power std -terminate keeper whirlygig.ngd
+XSLTProcess -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" whirlygig_build.xml
+tsim -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise whirlygig whirlygig.nga
+taengine -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -f whirlygig -w --format html1 -l /projects/randy/whirlygig-cpld/whirlygig_html/tim/timing_report.htm
+hprep6 -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -s IEEE1149 -n whirlygig -i whirlygig
+xst -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -ifn whirlygig.xst -ofn whirlygig.syr
+ngdbuild -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -dd _ngo -uc "whirlygig.ucf" -p xc9500xl "whirlygig.ngc" whirlygig.ngd
+cpldfit -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -p xc95288xl-6-TQ144 -ofmt vhdl -optimize density -htmlrpt -loc on -slew slow -init low -inputs 10 -pterms 20 -unused float -power std -terminate keeper whirlygig.ngd
+XSLTProcess -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" whirlygig_build.xml
+tsim -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise whirlygig whirlygig.nga
+taengine -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -f whirlygig -w --format html1 -l /projects/randy/whirlygig-cpld/whirlygig_html/tim/timing_report.htm
+hprep6 -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -s IEEE1149 -n whirlygig -i whirlygig
+xst -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -ifn whirlygig.xst -ofn whirlygig.syr
+ngdbuild -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -dd _ngo -uc "whirlygig.ucf" -p xc9500xl "whirlygig.ngc" whirlygig.ngd
+cpldfit -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -p xc95288xl-6-TQ144 -ofmt vhdl -optimize density -htmlrpt -loc on -slew slow -init low -inputs 10 -pterms 20 -unused float -power std -terminate keeper whirlygig.ngd
+XSLTProcess -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" whirlygig_build.xml
+tsim -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise whirlygig whirlygig.nga
+taengine -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -f whirlygig -w --format html1 -l /projects/randy/whirlygig-cpld/whirlygig_html/tim/timing_report.htm
+hprep6 -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -s IEEE1149 -n whirlygig -i whirlygig
+xst -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -ifn whirlygig.xst -ofn whirlygig.syr
+ngdbuild -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -dd _ngo -uc "whirlygig.ucf" -p xc9500xl "whirlygig.ngc" whirlygig.ngd
+cpldfit -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -p xc95288xl-6-TQ144 -ofmt vhdl -optimize density -htmlrpt -loc on -slew slow -init low -inputs 10 -pterms 20 -unused float -power std -terminate keeper whirlygig.ngd
+XSLTProcess -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" whirlygig_build.xml
+tsim -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise whirlygig whirlygig.nga
+taengine -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -f whirlygig -w --format html1 -l /projects/randy/whirlygig-cpld/whirlygig_html/tim/timing_report.htm
+hprep6 -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -s IEEE1149 -n whirlygig -i whirlygig
+xst -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -ifn whirlygig.xst -ofn whirlygig.syr
+ngdbuild -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -dd _ngo -uc "whirlygig.ucf" -p xc9500xl "whirlygig.ngc" whirlygig.ngd
+cpldfit -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -p xc95288xl-6-TQ144 -ofmt vhdl -optimize density -htmlrpt -loc on -slew slow -init low -inputs 10 -pterms 20 -unused float -power std -terminate keeper whirlygig.ngd
+XSLTProcess -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" whirlygig_build.xml
+tsim -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise whirlygig whirlygig.nga
+taengine -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -f whirlygig -w --format html1 -l /projects/randy/whirlygig-cpld/whirlygig_html/tim/timing_report.htm
+hprep6 -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -s IEEE1149 -n whirlygig -i whirlygig
+xst -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -ifn whirlygig.xst -ofn whirlygig.syr
+ngdbuild -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -dd _ngo -uc "whirlygig.ucf" -p xc9500xl "whirlygig.ngc" whirlygig.ngd
+cpldfit -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -p xc95288xl-6-TQ144 -ofmt vhdl -optimize density -htmlrpt -loc on -slew slow -init low -inputs 10 -pterms 20 -unused float -power std -terminate keeper whirlygig.ngd
+XSLTProcess -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" whirlygig_build.xml
+tsim -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise whirlygig whirlygig.nga
+taengine -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -f whirlygig -w --format html1 -l /projects/randy/whirlygig-cpld/whirlygig_html/tim/timing_report.htm
+hprep6 -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -s IEEE1149 -n whirlygig -i whirlygig
+xst -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -ifn whirlygig.xst -ofn whirlygig.syr
+ngdbuild -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -dd _ngo -uc "whirlygig.ucf" -p xc9500xl "whirlygig.ngc" whirlygig.ngd
+cpldfit -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -p xc95288xl-6-TQ144 -ofmt vhdl -optimize density -htmlrpt -loc on -slew slow -init low -inputs 10 -pterms 20 -unused float -power std -terminate keeper whirlygig.ngd
+XSLTProcess -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" whirlygig_build.xml
+tsim -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise whirlygig whirlygig.nga
+taengine -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -f whirlygig -w --format html1 -l /projects/randy/whirlygig-cpld/whirlygig_html/tim/timing_report.htm
+hprep6 -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -s IEEE1149 -n whirlygig -i whirlygig
+xst -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -ifn whirlygig.xst -ofn whirlygig.syr
+ngdbuild -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -dd _ngo -uc "whirlygig.ucf" -p xc9500xl "whirlygig.ngc" whirlygig.ngd
+cpldfit -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -p xc95288xl-6-TQ144 -ofmt vhdl -optimize density -htmlrpt -loc on -slew slow -init low -inputs 10 -pterms 20 -unused float -power std -terminate keeper whirlygig.ngd
+XSLTProcess -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" whirlygig_build.xml
+tsim -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise whirlygig whirlygig.nga
+taengine -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -f whirlygig -w --format html1 -l /projects/randy/whirlygig-cpld/whirlygig_html/tim/timing_report.htm
+hprep6 -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -s IEEE1149 -n whirlygig -i whirlygig
+xst -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -ifn whirlygig.xst -ofn whirlygig.syr
+ngdbuild -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -dd _ngo -uc "whirlygig.ucf" -p xc9500xl "whirlygig.ngc" whirlygig.ngd
+cpldfit -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -p xc95288xl-6-TQ144 -ofmt vhdl -optimize density -htmlrpt -loc on -slew slow -init low -inputs 10 -pterms 20 -unused float -power std -terminate keeper whirlygig.ngd
+XSLTProcess -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" whirlygig_build.xml
+tsim -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise whirlygig whirlygig.nga
+taengine -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -f whirlygig -w --format html1 -l /projects/randy/whirlygig-cpld/whirlygig_html/tim/timing_report.htm
+hprep6 -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -s IEEE1149 -n whirlygig -i whirlygig
+xst -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -ifn whirlygig.xst -ofn whirlygig.syr
+ngdbuild -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -dd _ngo -uc "whirlygig.ucf" -p xc9500xl "whirlygig.ngc" whirlygig.ngd
+cpldfit -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -p xc95288xl-6-TQ144 -ofmt vhdl -optimize density -htmlrpt -loc on -slew slow -init low -inputs 10 -pterms 20 -unused float -power std -terminate keeper whirlygig.ngd
+XSLTProcess -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" whirlygig_build.xml
+tsim -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise whirlygig whirlygig.nga
+taengine -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -f whirlygig -w --format html1 -l /projects/randy/whirlygig-cpld/whirlygig_html/tim/timing_report.htm
+hprep6 -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -s IEEE1149 -n whirlygig -i whirlygig
+xst -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -ifn whirlygig.xst -ofn whirlygig.syr
+ngdbuild -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -dd _ngo -uc "whirlygig.ucf" -p xc9500xl "whirlygig.ngc" whirlygig.ngd
+cpldfit -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -p xc95288xl-6-TQ144 -ofmt vhdl -optimize density -htmlrpt -loc on -slew slow -init low -inputs 10 -pterms 20 -unused float -power std -terminate keeper whirlygig.ngd
+XSLTProcess -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" whirlygig_build.xml
+tsim -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise whirlygig whirlygig.nga
+taengine -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -f whirlygig -w --format html1 -l /projects/randy/whirlygig-cpld/whirlygig_html/tim/timing_report.htm
+hprep6 -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -s IEEE1149 -n whirlygig -i whirlygig
+xst -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -ifn whirlygig.xst -ofn whirlygig.syr
+xst -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -ifn whirlygig.xst -ofn whirlygig.syr
+ngdbuild -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -dd _ngo -uc "whirlygig.ucf" -p xc9500xl "whirlygig.ngc" whirlygig.ngd
+cpldfit -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -p xc95288xl-6-TQ144 -ofmt vhdl -optimize density -htmlrpt -loc on -slew slow -init low -inputs 10 -pterms 20 -unused float -power std -terminate keeper whirlygig.ngd
+XSLTProcess -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" whirlygig_build.xml
+tsim -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise whirlygig whirlygig.nga
+taengine -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -f whirlygig -w --format html1 -l /projects/randy/whirlygig-cpld/whirlygig_html/tim/timing_report.htm
+hprep6 -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -s IEEE1149 -n whirlygig -i whirlygig
+xst -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -ifn whirlygig.xst -ofn whirlygig.syr
+ngdbuild -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -dd _ngo -uc "whirlygig.ucf" -p xc9500xl "whirlygig.ngc" whirlygig.ngd
+cpldfit -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -p xc95288xl-6-TQ144 -ofmt vhdl -optimize density -htmlrpt -loc on -slew slow -init low -inputs 10 -pterms 20 -unused float -power std -terminate keeper whirlygig.ngd
+XSLTProcess -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" whirlygig_build.xml
+tsim -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise whirlygig whirlygig.nga
+taengine -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -f whirlygig -w --format html1 -l /projects/randy/whirlygig-cpld/whirlygig_html/tim/timing_report.htm
+hprep6 -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -s IEEE1149 -n whirlygig -i whirlygig
+xst -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -ifn whirlygig.xst -ofn whirlygig.syr
+ngdbuild -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -dd _ngo -uc "whirlygig.ucf" -p xc9500xl "whirlygig.ngc" whirlygig.ngd
+cpldfit -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -p xc95288xl-6-TQ144 -ofmt vhdl -optimize density -htmlrpt -loc on -slew slow -init low -inputs 10 -pterms 20 -unused float -power std -terminate keeper whirlygig.ngd
+XSLTProcess -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" whirlygig_build.xml
+tsim -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise whirlygig whirlygig.nga
+taengine -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -f whirlygig -w --format html1 -l /projects/randy/whirlygig-cpld/whirlygig_html/tim/timing_report.htm
+hprep6 -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -s IEEE1149 -n whirlygig -i whirlygig
+xst -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -ifn whirlygig.xst -ofn whirlygig.syr
+ngdbuild -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -dd _ngo -uc "whirlygig.ucf" -p xc9500xl "whirlygig.ngc" whirlygig.ngd
+cpldfit -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -p xc95288xl-6-TQ144 -ofmt vhdl -optimize density -htmlrpt -loc on -slew slow -init low -inputs 10 -pterms 20 -unused float -power std -terminate keeper whirlygig.ngd
+XSLTProcess -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" whirlygig_build.xml
+tsim -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise whirlygig whirlygig.nga
+taengine -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -f whirlygig -w --format html1 -l /projects/randy/whirlygig-cpld/whirlygig_html/tim/timing_report.htm
+hprep6 -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -s IEEE1149 -n whirlygig -i whirlygig
+xst -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -ifn whirlygig.xst -ofn whirlygig.syr
+ngdbuild -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -dd _ngo -uc "whirlygig.ucf" -p xc9500xl "whirlygig.ngc" whirlygig.ngd
+cpldfit -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -p xc95288xl-6-TQ144 -ofmt vhdl -optimize density -htmlrpt -loc on -slew slow -init low -inputs 10 -pterms 20 -unused float -power std -terminate keeper whirlygig.ngd
+XSLTProcess -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" whirlygig_build.xml
+tsim -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise whirlygig whirlygig.nga
+taengine -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -f whirlygig -w --format html1 -l /projects/randy/whirlygig-cpld/whirlygig_html/tim/timing_report.htm
+hprep6 -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -s IEEE1149 -n whirlygig -i whirlygig
+xst -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -ifn whirlygig.xst -ofn whirlygig.syr
+xst -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -ifn whirlygig.xst -ofn whirlygig.syr
+ngdbuild -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -dd _ngo -uc "whirlygig.ucf" -p xc9500xl "whirlygig.ngc" whirlygig.ngd
+cpldfit -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -p xc95288xl-6-TQ144 -ofmt vhdl -optimize density -htmlrpt -loc on -slew slow -init low -inputs 10 -pterms 20 -unused float -power std -terminate keeper whirlygig.ngd
+XSLTProcess -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" whirlygig_build.xml
+xst -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -ifn whirlygig.xst -ofn whirlygig.syr
+ngdbuild -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -dd _ngo -uc "whirlygig.ucf" -p xc9500xl "whirlygig.ngc" whirlygig.ngd
+cpldfit -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -p xc95288xl-6-TQ144 -ofmt vhdl -optimize density -htmlrpt -loc on -slew slow -init low -inputs 10 -pterms 16 -unused float -power std -terminate keeper whirlygig.ngd
+XSLTProcess -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" whirlygig_build.xml
+cpldfit -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -p xc95288xl-6-TQ144 -ofmt vhdl -optimize density -htmlrpt -loc on -slew slow -init low -inputs 12 -pterms 18 -unused float -power std -terminate keeper whirlygig.ngd
+XSLTProcess -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" whirlygig_build.xml
+xst -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -ifn whirlygig.xst -ofn whirlygig.syr
+ngdbuild -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -dd _ngo -uc "whirlygig.ucf" -p xc9500xl "whirlygig.ngc" whirlygig.ngd
+cpldfit -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -p xc95288xl-6-TQ144 -ofmt vhdl -optimize density -htmlrpt -loc on -slew slow -init low -inputs 12 -pterms 18 -unused float -power std -terminate keeper whirlygig.ngd
+XSLTProcess -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" whirlygig_build.xml
+xst -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -ifn whirlygig.xst -ofn whirlygig.syr
+ngdbuild -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -dd _ngo -uc "whirlygig.ucf" -p xc9500xl "whirlygig.ngc" whirlygig.ngd
+cpldfit -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -p xc95288xl-6-TQ144 -ofmt vhdl -optimize density -htmlrpt -loc on -slew slow -init low -inputs 12 -pterms 18 -unused float -power std -terminate keeper whirlygig.ngd
+XSLTProcess -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" whirlygig_build.xml
+tsim -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise whirlygig whirlygig.nga
+taengine -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -f whirlygig -w --format html1 -l /projects/randy/whirlygig-cpld/whirlygig_html/tim/timing_report.htm
+hprep6 -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -s IEEE1149 -n whirlygig -i whirlygig
+xst -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -ifn whirlygig.xst -ofn whirlygig.syr
+ngdbuild -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -dd _ngo -uc "whirlygig.ucf" -p xc9500xl "whirlygig.ngc" whirlygig.ngd
+cpldfit -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -p xc95288xl-6-TQ144 -ofmt vhdl -optimize density -htmlrpt -loc on -slew slow -init low -inputs 12 -pterms 18 -unused float -power std -terminate keeper whirlygig.ngd
+XSLTProcess -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" whirlygig_build.xml
+tsim -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise whirlygig whirlygig.nga
+taengine -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -f whirlygig -w --format html1 -l /projects/randy/whirlygig-cpld/whirlygig_html/tim/timing_report.htm
+hprep6 -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -s IEEE1149 -n whirlygig -i whirlygig
+xst -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -ifn whirlygig.xst -ofn whirlygig.syr
+ngdbuild -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -dd _ngo -uc "whirlygig.ucf" -p xc9500xl "whirlygig.ngc" whirlygig.ngd
+cpldfit -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -p xc95288xl-6-TQ144 -ofmt vhdl -optimize density -htmlrpt -loc on -slew slow -init low -inputs 12 -pterms 18 -unused float -power std -terminate keeper whirlygig.ngd
+XSLTProcess -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" whirlygig_build.xml
+tsim -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise whirlygig whirlygig.nga
+taengine -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -f whirlygig -w --format html1 -l /projects/randy/whirlygig-cpld/whirlygig_html/tim/timing_report.htm
+hprep6 -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -s IEEE1149 -n whirlygig -i whirlygig
+xst -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -ifn whirlygig.xst -ofn whirlygig.syr
+ngdbuild -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -dd _ngo -uc "whirlygig.ucf" -p xc9500xl "whirlygig.ngc" whirlygig.ngd
+cpldfit -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -p xc95288xl-6-TQ144 -ofmt vhdl -optimize density -htmlrpt -loc on -slew slow -init low -inputs 12 -pterms 18 -unused float -power std -terminate keeper whirlygig.ngd
+XSLTProcess -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" whirlygig_build.xml
+tsim -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise whirlygig whirlygig.nga
+taengine -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -f whirlygig -w --format html1 -l /projects/randy/whirlygig-cpld/whirlygig_html/tim/timing_report.htm
+hprep6 -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -s IEEE1149 -n whirlygig -i whirlygig
+xst -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -ifn whirlygig.xst -ofn whirlygig.syr
+ngdbuild -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -dd _ngo -uc "whirlygig.ucf" -p xc9500xl "whirlygig.ngc" whirlygig.ngd
+cpldfit -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -p xc95288xl-6-TQ144 -ofmt vhdl -optimize density -htmlrpt -loc on -slew slow -init low -inputs 12 -pterms 18 -unused float -power std -terminate keeper whirlygig.ngd
+XSLTProcess -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" whirlygig_build.xml
+xst -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -ifn whirlygig.xst -ofn whirlygig.syr
+ngdbuild -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -dd _ngo -uc "whirlygig.ucf" -p xc9500xl "whirlygig.ngc" whirlygig.ngd
+cpldfit -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -p xc95288xl-6-TQ144 -ofmt vhdl -optimize density -htmlrpt -loc on -slew slow -init low -inputs 12 -pterms 18 -unused float -power std -terminate keeper whirlygig.ngd
+XSLTProcess -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" whirlygig_build.xml
+tsim -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise whirlygig whirlygig.nga
+taengine -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -f whirlygig -w --format html1 -l /projects/randy/whirlygig-cpld/whirlygig_html/tim/timing_report.htm
+hprep6 -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -s IEEE1149 -n whirlygig -i whirlygig
+xst -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -ifn whirlygig.xst -ofn whirlygig.syr
+ngdbuild -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -dd _ngo -uc "whirlygig.ucf" -p xc9500xl "whirlygig.ngc" whirlygig.ngd
+cpldfit -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -p xc95288xl-6-TQ144 -ofmt vhdl -optimize density -htmlrpt -loc on -slew slow -init low -inputs 12 -pterms 18 -unused float -power std -terminate keeper whirlygig.ngd
+XSLTProcess -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" whirlygig_build.xml
+tsim -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise whirlygig whirlygig.nga
+taengine -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -f whirlygig -w --format html1 -l /projects/randy/whirlygig-cpld/whirlygig_html/tim/timing_report.htm
+hprep6 -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -s IEEE1149 -n whirlygig -i whirlygig
+xst -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -ifn whirlygig.xst -ofn whirlygig.syr
+ngdbuild -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -dd _ngo -uc "whirlygig.ucf" -p xc9500xl "whirlygig.ngc" whirlygig.ngd
+cpldfit -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -p xc95288xl-6-TQ144 -ofmt vhdl -optimize density -htmlrpt -loc on -slew slow -init low -inputs 12 -pterms 18 -unused float -power std -terminate keeper whirlygig.ngd
+XSLTProcess -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" whirlygig_build.xml
+tsim -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise whirlygig whirlygig.nga
+taengine -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -f whirlygig -w --format html1 -l /projects/randy/whirlygig-cpld/whirlygig_html/tim/timing_report.htm
+hprep6 -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -s IEEE1149 -n whirlygig -i whirlygig
+xst -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -ifn whirlygig.xst -ofn whirlygig.syr
+xst -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -ifn whirlygig.xst -ofn whirlygig.syr
+ngdbuild -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -dd _ngo -uc "whirlygig.ucf" -p xc9500xl "whirlygig.ngc" whirlygig.ngd
+cpldfit -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -p xc95288xl-6-TQ144 -ofmt vhdl -optimize density -htmlrpt -loc on -slew slow -init low -inputs 12 -pterms 18 -unused float -power std -terminate keeper whirlygig.ngd
+XSLTProcess -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" whirlygig_build.xml
+tsim -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise whirlygig whirlygig.nga
+taengine -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -f whirlygig -w --format html1 -l /projects/randy/whirlygig-cpld/whirlygig_html/tim/timing_report.htm
+hprep6 -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -s IEEE1149 -n whirlygig -i whirlygig
+xst -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -ifn whirlygig.xst -ofn whirlygig.syr
+ngdbuild -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -dd _ngo -uc "whirlygig.ucf" -p xc9500xl "whirlygig.ngc" whirlygig.ngd
+cpldfit -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -p xc95288xl-6-TQ144 -ofmt vhdl -optimize density -htmlrpt -loc on -slew slow -init low -inputs 12 -pterms 18 -unused float -power std -terminate keeper whirlygig.ngd
+XSLTProcess -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" whirlygig_build.xml
+tsim -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise whirlygig whirlygig.nga
+taengine -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -f whirlygig -w --format html1 -l /projects/randy/whirlygig-cpld/whirlygig_html/tim/timing_report.htm
+hprep6 -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -s IEEE1149 -n whirlygig -i whirlygig
+xst -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -ifn whirlygig.xst -ofn whirlygig.syr
+ngdbuild -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -dd _ngo -uc "whirlygig.ucf" -p xc9500xl "whirlygig.ngc" whirlygig.ngd
+cpldfit -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -p xc95288xl-6-TQ144 -ofmt vhdl -optimize density -htmlrpt -loc on -slew slow -init low -inputs 12 -pterms 18 -unused float -power std -terminate keeper whirlygig.ngd
+XSLTProcess -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" whirlygig_build.xml
+tsim -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise whirlygig whirlygig.nga
+taengine -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -f whirlygig -w --format html1 -l /projects/randy/whirlygig-cpld/whirlygig_html/tim/timing_report.htm
+hprep6 -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -s IEEE1149 -n whirlygig -i whirlygig
+xst -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -ifn whirlygig.xst -ofn whirlygig.syr
+ngdbuild -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -dd _ngo -uc "whirlygig.ucf" -p xc9500xl "whirlygig.ngc" whirlygig.ngd
+cpldfit -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -p xc95288xl-6-TQ144 -ofmt vhdl -optimize density -htmlrpt -loc on -slew slow -init low -inputs 12 -pterms 18 -unused float -power std -terminate keeper whirlygig.ngd
+XSLTProcess -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" whirlygig_build.xml
+tsim -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise whirlygig whirlygig.nga
+taengine -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -f whirlygig -w --format html1 -l /projects/randy/whirlygig-cpld/whirlygig_html/tim/timing_report.htm
+hprep6 -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -s IEEE1149 -n whirlygig -i whirlygig
+xst -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -ifn whirlygig.xst -ofn whirlygig.syr
+ngdbuild -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -dd _ngo -uc "whirlygig.ucf" -p xc9500xl "whirlygig.ngc" whirlygig.ngd
+cpldfit -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -p xc95288xl-6-TQ144 -ofmt vhdl -optimize density -htmlrpt -loc on -slew slow -init low -inputs 12 -pterms 18 -unused float -power std -terminate keeper whirlygig.ngd
+XSLTProcess -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" whirlygig_build.xml
+tsim -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise whirlygig whirlygig.nga
+taengine -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -f whirlygig -w --format html1 -l /projects/randy/whirlygig-cpld/whirlygig_html/tim/timing_report.htm
+hprep6 -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -s IEEE1149 -n whirlygig -i whirlygig
+xst -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -ifn whirlygig.xst -ofn whirlygig.syr
+xst -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -ifn whirlygig.xst -ofn whirlygig.syr
+ngdbuild -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -dd _ngo -uc "whirlygig.ucf" -p xc9500xl "whirlygig.ngc" whirlygig.ngd
+cpldfit -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -p xc95288xl-6-TQ144 -ofmt vhdl -optimize density -htmlrpt -loc on -slew slow -init low -inputs 12 -pterms 18 -unused float -power std -terminate keeper whirlygig.ngd
+XSLTProcess -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" whirlygig_build.xml
+tsim -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise whirlygig whirlygig.nga
+taengine -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -f whirlygig -w --format html1 -l /projects/randy/whirlygig-cpld/whirlygig_html/tim/timing_report.htm
+hprep6 -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -s IEEE1149 -n whirlygig -i whirlygig
+xst -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -ifn whirlygig.xst -ofn whirlygig.syr
+ngdbuild -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -dd _ngo -uc "whirlygig.ucf" -p xc9500xl "whirlygig.ngc" whirlygig.ngd
+cpldfit -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -p xc95288xl-6-TQ144 -ofmt vhdl -optimize density -htmlrpt -loc on -slew slow -init low -inputs 12 -pterms 18 -unused float -power std -terminate keeper whirlygig.ngd
+XSLTProcess -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" whirlygig_build.xml
+xst -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -ifn whirlygig.xst -ofn whirlygig.syr
+ngdbuild -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -dd _ngo -uc "whirlygig.ucf" -p xc9500xl "whirlygig.ngc" whirlygig.ngd
+cpldfit -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -p xc95288xl-6-TQ144 -ofmt vhdl -optimize density -htmlrpt -loc on -slew slow -init low -inputs 12 -pterms 18 -unused float -power std -terminate keeper whirlygig.ngd
+XSLTProcess -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" whirlygig_build.xml
+tsim -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise whirlygig whirlygig.nga
+taengine -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -f whirlygig -w --format html1 -l /projects/randy/whirlygig-cpld/whirlygig_html/tim/timing_report.htm
+hprep6 -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -s IEEE1149 -n whirlygig -i whirlygig
+cpldfit -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -p xc95288xl-6-TQ144 -ofmt vhdl -optimize density -htmlrpt -loc on -slew fast -init low -inputs 12 -pterms 18 -unused float -power std -terminate keeper whirlygig.ngd
+XSLTProcess -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" whirlygig_build.xml
+tsim -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise whirlygig whirlygig.nga
+taengine -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -f whirlygig -w --format html1 -l /projects/randy/whirlygig-cpld/whirlygig_html/tim/timing_report.htm
+hprep6 -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -s IEEE1149 -n whirlygig -i whirlygig
+ngdbuild -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -dd _ngo -uc "whirlygig.ucf" -p xc9500xl "whirlygig.ngc" whirlygig.ngd
+cpldfit -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -p xc95288xl-6-TQ144 -ofmt vhdl -optimize density -htmlrpt -loc on -slew fast -init low -inputs 12 -pterms 18 -unused float -power std -terminate keeper whirlygig.ngd
+XSLTProcess -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" whirlygig_build.xml
+tsim -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise whirlygig whirlygig.nga
+taengine -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -f whirlygig -w --format html1 -l /projects/randy/whirlygig-cpld/whirlygig_html/tim/timing_report.htm
+hprep6 -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -s IEEE1149 -n whirlygig -i whirlygig
+xst -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -ifn "/projects/randy/whirlygig-cpld/whirlygig.xst" -ofn "/projects/randy/whirlygig-cpld/whirlygig.syr" 
+xst -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -ifn "/projects/randy/whirlygig-cpld/whirlygig.xst" -ofn "/projects/randy/whirlygig-cpld/whirlygig.syr" 
+xst -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -ifn "/projects/randy/whirlygig-cpld/whirlygig.xst" -ofn "/projects/randy/whirlygig-cpld/whirlygig.syr" 
+xst -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -ifn "/projects/randy/whirlygig-cpld/whirlygig.xst" -ofn "/projects/randy/whirlygig-cpld/whirlygig.syr" 
+ngdbuild -ise "whirlygig-cpld.ise" -intstyle ise -dd _ngo -i -p xc95288xl-TQ144-6 whirlygig.ngc whirlygig.ngd  
+cpldfit -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -p xc95288xl-6-TQ144 -ofmt vhdl -optimize density -htmlrpt -loc on -slew fast -init low -inputs 12 -pterms 18 -unused float -power std -terminate keeper whirlygig.ngd 
+XSLTProcess -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" whirlygig_build.xml 
+tsim -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise whirlygig whirlygig.nga 
+taengine -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -f whirlygig -w --format html1 -l whirlygig_html/tim/timing_report.htm 
+hprep6 -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -s IEEE1149 -n whirlygig -i whirlygig 
+xst -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -ifn "/projects/randy/whirlygig-cpld/whirlygig.xst" -ofn "/projects/randy/whirlygig-cpld/whirlygig.syr" 
+ngdbuild -ise "whirlygig-cpld.ise" -intstyle ise -dd _ngo -i -p xc95288xl-TQ144-6 whirlygig.ngc whirlygig.ngd  
+ngdbuild -ise "whirlygig-cpld.ise" -intstyle ise -dd _ngo -i -p xc95288xl-TQ144-6 whirlygig.ngc whirlygig.ngd  
+cpldfit -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -p xc95288xl-6-TQ144 -ofmt vhdl -optimize density -htmlrpt -loc on -slew fast -init low -inputs 12 -pterms 18 -unused float -power std -terminate keeper whirlygig.ngd 
+XSLTProcess -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" whirlygig_build.xml 
+tsim -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise whirlygig whirlygig.nga 
+taengine -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -f whirlygig -w --format html1 -l whirlygig_html/tim/timing_report.htm 
+hprep6 -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -s IEEE1149 -n whirlygig -i whirlygig 
+xst -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -ifn "/projects/randy/whirlygig-cpld/whirlygig.xst" -ofn "/projects/randy/whirlygig-cpld/whirlygig.syr" 
+ngdbuild -ise "whirlygig-cpld.ise" -intstyle ise -dd _ngo -i -p xc95288xl-TQ144-6 whirlygig.ngc whirlygig.ngd  
+cpldfit -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -p xc95288xl-6-TQ144 -ofmt vhdl -optimize density -htmlrpt -loc on -slew fast -init low -inputs 12 -pterms 18 -unused float -power std -terminate keeper whirlygig.ngd 
+XSLTProcess -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" whirlygig_build.xml 
+tsim -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise whirlygig whirlygig.nga 
+taengine -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -f whirlygig -w --format html1 -l whirlygig_html/tim/timing_report.htm 
+hprep6 -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -s IEEE1149 -n whirlygig -i whirlygig 
+netgen -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -rpw 100 -ar Structure -tm whirlygig -w -dir netgen/fit -ofmt vhdl -sim whirlygig.nga whirlygig_timesim.vhd 
+cpldfit -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -p xc95288xl-6-TQ144 -ofmt vhdl -optimize density -htmlrpt -loc on -slew slow -init low -inputs 12 -pterms 18 -unused float -power low -terminate keeper whirlygig.ngd 
+XSLTProcess -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" whirlygig_build.xml 
+tsim -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise whirlygig whirlygig.nga 
+taengine -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -f whirlygig -w --format html1 -l whirlygig_html/tim/timing_report.htm 
+hprep6 -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -s IEEE1149 -n whirlygig -i whirlygig 
+xst -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -ifn "/projects/randy/whirlygig-cpld/whirlygig.xst" -ofn "/projects/randy/whirlygig-cpld/whirlygig.syr" 
+ngdbuild -ise "whirlygig-cpld.ise" -intstyle ise -dd _ngo -i -p xc95288xl-TQ144-6 whirlygig.ngc whirlygig.ngd  
+cpldfit -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -p xc95288xl-6-TQ144 -ofmt vhdl -optimize density -htmlrpt -loc on -slew slow -init low -inputs 12 -pterms 18 -unused float -power low -terminate keeper whirlygig.ngd 
+XSLTProcess -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" whirlygig_build.xml 
+xst -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -ifn "/projects/randy/whirlygig-cpld/whirlygig.xst" -ofn "/projects/randy/whirlygig-cpld/whirlygig.syr" 
+xst -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -ifn "/projects/randy/whirlygig-cpld/whirlygig.xst" -ofn "/projects/randy/whirlygig-cpld/whirlygig.syr" 
+ngdbuild -ise "whirlygig-cpld.ise" -intstyle ise -dd _ngo -i -p xc95288xl-TQ144-6 whirlygig.ngc whirlygig.ngd  
+cpldfit -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -p xc95288xl-6-TQ144 -ofmt vhdl -optimize density -htmlrpt -loc on -slew slow -init low -inputs 12 -pterms 18 -unused float -power low -terminate keeper whirlygig.ngd 
+XSLTProcess -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" whirlygig_build.xml 
+xst -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -ifn "/projects/randy/whirlygig-cpld/whirlygig.xst" -ofn "/projects/randy/whirlygig-cpld/whirlygig.syr" 
+ngdbuild -ise "whirlygig-cpld.ise" -intstyle ise -dd _ngo -i -p xc95288xl-TQ144-6 whirlygig.ngc whirlygig.ngd  
+cpldfit -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -p xc95288xl-6-TQ144 -ofmt vhdl -optimize density -htmlrpt -loc on -slew slow -init low -inputs 12 -pterms 18 -unused float -power low -terminate keeper whirlygig.ngd 
+XSLTProcess -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" whirlygig_build.xml 
+tsim -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise whirlygig whirlygig.nga 
+taengine -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -f whirlygig -w --format html1 -l whirlygig_html/tim/timing_report.htm 
+hprep6 -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -s IEEE1149 -n whirlygig -i whirlygig 
+xst -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -ifn "/projects/randy/whirlygig-cpld/whirlygig.xst" -ofn "/projects/randy/whirlygig-cpld/whirlygig.syr" 
+xst -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -ifn "/projects/randy/whirlygig-cpld/whirlygig.xst" -ofn "/projects/randy/whirlygig-cpld/whirlygig.syr" 
+ngdbuild -ise "whirlygig-cpld.ise" -intstyle ise -dd _ngo -i -p xc95288xl-TQ144-6 whirlygig.ngc whirlygig.ngd  
+cpldfit -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -p xc95288xl-6-TQ144 -ofmt vhdl -optimize density -htmlrpt -loc on -slew slow -init low -inputs 12 -pterms 18 -unused float -power low -terminate keeper whirlygig.ngd 
+XSLTProcess -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" whirlygig_build.xml 
+xst -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -ifn "/projects/randy/whirlygig-cpld/whirlygig.xst" -ofn "/projects/randy/whirlygig-cpld/whirlygig.syr" 
+xst -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -ifn "/projects/randy/whirlygig-cpld/whirlygig.xst" -ofn "/projects/randy/whirlygig-cpld/whirlygig.syr" 
+ngdbuild -ise "whirlygig-cpld.ise" -intstyle ise -dd _ngo -i -p xc95288xl-TQ144-6 whirlygig.ngc whirlygig.ngd  
+cpldfit -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -p xc95288xl-6-TQ144 -ofmt vhdl -optimize density -htmlrpt -loc on -slew slow -init low -inputs 12 -pterms 18 -unused float -power low -terminate keeper whirlygig.ngd 
+XSLTProcess -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" whirlygig_build.xml 
+tsim -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise whirlygig whirlygig.nga 
+taengine -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -f whirlygig -w --format html1 -l whirlygig_html/tim/timing_report.htm 
+hprep6 -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -s IEEE1149 -n whirlygig -i whirlygig 
+xst -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -ifn "/projects/randy/whirlygig-cpld/whirlygig.xst" -ofn "/projects/randy/whirlygig-cpld/whirlygig.syr" 
+ngdbuild -ise "whirlygig-cpld.ise" -intstyle ise -dd _ngo -i -p xc95288xl-TQ144-6 whirlygig.ngc whirlygig.ngd  
+cpldfit -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -p xc95288xl-6-TQ144 -ofmt vhdl -optimize density -htmlrpt -loc on -slew slow -init low -inputs 12 -pterms 18 -unused float -power low -terminate keeper whirlygig.ngd 
+XSLTProcess -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" whirlygig_build.xml 
+tsim -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise whirlygig whirlygig.nga 
+taengine -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -f whirlygig -w --format html1 -l whirlygig_html/tim/timing_report.htm 
+hprep6 -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -s IEEE1149 -n whirlygig -i whirlygig 
+xst -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -ifn "/projects/randy/whirlygig-cpld/whirlygig.xst" -ofn "/projects/randy/whirlygig-cpld/whirlygig.syr" 
+ngdbuild -ise "whirlygig-cpld.ise" -intstyle ise -dd _ngo -i -p xc95288xl-TQ144-6 whirlygig.ngc whirlygig.ngd  
+cpldfit -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -p xc95288xl-6-TQ144 -ofmt vhdl -optimize density -htmlrpt -loc on -slew slow -init low -inputs 12 -pterms 18 -unused float -power low -terminate keeper whirlygig.ngd 
+XSLTProcess -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" whirlygig_build.xml 
+tsim -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise whirlygig whirlygig.nga 
+taengine -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -f whirlygig -w --format html1 -l whirlygig_html/tim/timing_report.htm 
+hprep6 -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -s IEEE1149 -n whirlygig -i whirlygig 
+xst -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -ifn "/projects/randy/whirlygig-cpld/whirlygig.xst" -ofn "/projects/randy/whirlygig-cpld/whirlygig.syr" 
+xst -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -ifn "/projects/randy/whirlygig-cpld/whirlygig.xst" -ofn "/projects/randy/whirlygig-cpld/whirlygig.syr" 
+xst -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -ifn "/projects/randy/whirlygig-cpld/whirlygig.xst" -ofn "/projects/randy/whirlygig-cpld/whirlygig.syr" 
+ngdbuild -ise "whirlygig-cpld.ise" -intstyle ise -dd _ngo -i -p xc95288xl-TQ144-6 whirlygig.ngc whirlygig.ngd  
+cpldfit -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -p xc95288xl-6-TQ144 -ofmt vhdl -optimize density -htmlrpt -loc on -slew slow -init low -inputs 12 -pterms 18 -unused float -power low -terminate keeper whirlygig.ngd 
+XSLTProcess -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" whirlygig_build.xml 
+tsim -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise whirlygig whirlygig.nga 
+taengine -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -f whirlygig -w --format html1 -l whirlygig_html/tim/timing_report.htm 
+hprep6 -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -s IEEE1149 -n whirlygig -i whirlygig 
+xst -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -ifn "/projects/randy/whirlygig-cpld/whirlygig.xst" -ofn "/projects/randy/whirlygig-cpld/whirlygig.syr" 
+ngdbuild -ise "whirlygig-cpld.ise" -intstyle ise -dd _ngo -i -p xc95288xl-TQ144-6 whirlygig.ngc whirlygig.ngd  
+cpldfit -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -p xc95288xl-6-TQ144 -ofmt vhdl -optimize density -htmlrpt -loc on -slew slow -init low -inputs 12 -pterms 18 -unused float -power low -terminate keeper whirlygig.ngd 
+XSLTProcess -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" whirlygig_build.xml 
+xst -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -ifn "/projects/randy/whirlygig-cpld/whirlygig.xst" -ofn "/projects/randy/whirlygig-cpld/whirlygig.syr" 
+ngdbuild -ise "whirlygig-cpld.ise" -intstyle ise -dd _ngo -i -p xc95288xl-TQ144-6 whirlygig.ngc whirlygig.ngd  
+cpldfit -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -p xc95288xl-6-TQ144 -ofmt vhdl -optimize density -htmlrpt -loc on -slew slow -init low -inputs 12 -pterms 18 -unused float -power low -terminate keeper whirlygig.ngd 
+XSLTProcess -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" whirlygig_build.xml 
+tsim -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise whirlygig whirlygig.nga 
+taengine -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -f whirlygig -w --format html1 -l whirlygig_html/tim/timing_report.htm 
+hprep6 -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -s IEEE1149 -n whirlygig -i whirlygig 
+xst -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -ifn "/projects/randy/whirlygig-cpld/whirlygig.xst" -ofn "/projects/randy/whirlygig-cpld/whirlygig.syr" 
+ngdbuild -ise "whirlygig-cpld.ise" -intstyle ise -dd _ngo -i -p xc95288xl-TQ144-6 whirlygig.ngc whirlygig.ngd  
+cpldfit -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -p xc95288xl-6-TQ144 -ofmt vhdl -optimize density -htmlrpt -loc on -slew slow -init low -inputs 12 -pterms 18 -unused float -power low -terminate keeper whirlygig.ngd 
+XSLTProcess -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" whirlygig_build.xml 
+tsim -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise whirlygig whirlygig.nga 
+taengine -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -f whirlygig -w --format html1 -l whirlygig_html/tim/timing_report.htm 
+hprep6 -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -s IEEE1149 -n whirlygig -i whirlygig 
+xst -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -ifn "/projects/randy/whirlygig-cpld/whirlygig.xst" -ofn "/projects/randy/whirlygig-cpld/whirlygig.syr" 
+ngdbuild -ise "whirlygig-cpld.ise" -intstyle ise -dd _ngo -i -p xc95288xl-TQ144-6 whirlygig.ngc whirlygig.ngd  
+cpldfit -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -p xc95288xl-6-TQ144 -ofmt vhdl -optimize density -htmlrpt -loc on -slew slow -init low -inputs 12 -pterms 18 -unused float -power low -terminate keeper whirlygig.ngd 
+XSLTProcess -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" whirlygig_build.xml 
+tsim -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise whirlygig whirlygig.nga 
+taengine -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -f whirlygig -w --format html1 -l whirlygig_html/tim/timing_report.htm 
+hprep6 -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -s IEEE1149 -n whirlygig -i whirlygig 
+xst -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -ifn "/projects/randy/whirlygig-cpld/whirlygig.xst" -ofn "/projects/randy/whirlygig-cpld/whirlygig.syr" 
+ngdbuild -ise "whirlygig-cpld.ise" -intstyle ise -dd _ngo -i -p xc95288xl-TQ144-6 whirlygig.ngc whirlygig.ngd  
+cpldfit -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -p xc95288xl-6-TQ144 -ofmt vhdl -optimize density -htmlrpt -loc on -slew slow -init low -inputs 12 -pterms 18 -unused float -power low -terminate keeper whirlygig.ngd 
+XSLTProcess -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" whirlygig_build.xml 
+xst -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -ifn "/projects/randy/whirlygig-cpld/whirlygig.xst" -ofn "/projects/randy/whirlygig-cpld/whirlygig.syr" 
+ngdbuild -ise "whirlygig-cpld.ise" -intstyle ise -dd _ngo -i -p xc95288xl-TQ144-6 whirlygig.ngc whirlygig.ngd  
+cpldfit -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -p xc95288xl-6-TQ144 -ofmt vhdl -optimize density -htmlrpt -loc on -slew slow -init low -inputs 12 -pterms 18 -unused float -power low -terminate keeper whirlygig.ngd 
+XSLTProcess -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" whirlygig_build.xml 
+tsim -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise whirlygig whirlygig.nga 
+taengine -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -f whirlygig -w --format html1 -l whirlygig_html/tim/timing_report.htm 
+hprep6 -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -s IEEE1149 -n whirlygig -i whirlygig 
+xst -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -ifn "/projects/randy/whirlygig-cpld/whirlygig.xst" -ofn "/projects/randy/whirlygig-cpld/whirlygig.syr" 
+ngdbuild -ise "whirlygig-cpld.ise" -intstyle ise -dd _ngo -i -p xc95288xl-TQ144-6 whirlygig.ngc whirlygig.ngd  
+cpldfit -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -p xc95288xl-6-TQ144 -ofmt vhdl -optimize density -htmlrpt -loc on -slew slow -init low -inputs 12 -pterms 18 -unused float -power low -terminate keeper whirlygig.ngd 
+XSLTProcess -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" whirlygig_build.xml 
+xst -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -ifn "/projects/randy/whirlygig-cpld/whirlygig.xst" -ofn "/projects/randy/whirlygig-cpld/whirlygig.syr" 
+ngdbuild -ise "whirlygig-cpld.ise" -intstyle ise -dd _ngo -i -p xc95288xl-TQ144-6 whirlygig.ngc whirlygig.ngd  
+cpldfit -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -p xc95288xl-6-TQ144 -ofmt vhdl -optimize density -htmlrpt -loc on -slew slow -init low -inputs 12 -pterms 18 -unused float -power low -terminate keeper whirlygig.ngd 
+XSLTProcess -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" whirlygig_build.xml 
+tsim -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise whirlygig whirlygig.nga 
+taengine -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -f whirlygig -w --format html1 -l whirlygig_html/tim/timing_report.htm 
+hprep6 -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -s IEEE1149 -n whirlygig -i whirlygig 
+xst -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -ifn "/projects/randy/whirlygig-cpld/whirlygig.xst" -ofn "/projects/randy/whirlygig-cpld/whirlygig.syr" 
+ngdbuild -ise "whirlygig-cpld.ise" -intstyle ise -dd _ngo -i -p xc95288xl-TQ144-6 whirlygig.ngc whirlygig.ngd  
+cpldfit -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -p xc95288xl-6-TQ144 -ofmt vhdl -optimize density -htmlrpt -loc on -slew slow -init low -inputs 12 -pterms 18 -unused float -power low -terminate keeper whirlygig.ngd 
+XSLTProcess -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" whirlygig_build.xml 
+tsim -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise whirlygig whirlygig.nga 
+taengine -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -f whirlygig -w --format html1 -l whirlygig_html/tim/timing_report.htm 
+hprep6 -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -s IEEE1149 -n whirlygig -i whirlygig 
+xst -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -ifn "/projects/randy/whirlygig-cpld/whirlygig.xst" -ofn "/projects/randy/whirlygig-cpld/whirlygig.syr" 
+ngdbuild -ise "whirlygig-cpld.ise" -intstyle ise -dd _ngo -i -p xc95288xl-TQ144-6 whirlygig.ngc whirlygig.ngd  
+cpldfit -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -p xc95288xl-6-TQ144 -ofmt vhdl -optimize density -htmlrpt -loc on -slew slow -init low -inputs 12 -pterms 18 -unused float -power low -terminate keeper whirlygig.ngd 
+XSLTProcess -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" whirlygig_build.xml 
+tsim -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise whirlygig whirlygig.nga 
+taengine -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -f whirlygig -w --format html1 -l whirlygig_html/tim/timing_report.htm 
+hprep6 -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -s IEEE1149 -n whirlygig -i whirlygig 
+xst -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -ifn "/projects/randy/whirlygig-cpld/whirlygig.xst" -ofn "/projects/randy/whirlygig-cpld/whirlygig.syr" 
+xst -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -ifn "/projects/randy/whirlygig-cpld/whirlygig.xst" -ofn "/projects/randy/whirlygig-cpld/whirlygig.syr" 
+ngdbuild -ise "whirlygig-cpld.ise" -intstyle ise -dd _ngo -i -p xc95288xl-TQ144-6 whirlygig.ngc whirlygig.ngd  
+cpldfit -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -p xc95288xl-6-TQ144 -ofmt vhdl -optimize density -htmlrpt -loc on -slew slow -init low -inputs 12 -pterms 18 -unused float -power low -terminate keeper whirlygig.ngd 
+XSLTProcess -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" whirlygig_build.xml 
+xst -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -ifn "/projects/randy/whirlygig-cpld/whirlygig.xst" -ofn "/projects/randy/whirlygig-cpld/whirlygig.syr" 
+ngdbuild -ise "whirlygig-cpld.ise" -intstyle ise -dd _ngo -i -p xc95288xl-TQ144-6 whirlygig.ngc whirlygig.ngd  
+cpldfit -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -p xc95288xl-6-TQ144 -ofmt vhdl -optimize density -htmlrpt -loc on -slew slow -init low -inputs 12 -pterms 18 -unused float -power low -terminate keeper whirlygig.ngd 
+XSLTProcess -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" whirlygig_build.xml 
+xst -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -ifn "/projects/randy/whirlygig-cpld/whirlygig.xst" -ofn "/projects/randy/whirlygig-cpld/whirlygig.syr" 
+xst -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -ifn "/projects/randy/whirlygig-cpld/whirlygig.xst" -ofn "/projects/randy/whirlygig-cpld/whirlygig.syr" 
+xst -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -ifn "/projects/randy/whirlygig-cpld/whirlygig.xst" -ofn "/projects/randy/whirlygig-cpld/whirlygig.syr" 
+xst -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -ifn "/projects/randy/whirlygig-cpld/whirlygig.xst" -ofn "/projects/randy/whirlygig-cpld/whirlygig.syr" 
+ngdbuild -ise "whirlygig-cpld.ise" -intstyle ise -dd _ngo -i -p xc95288xl-TQ144-6 whirlygig.ngc whirlygig.ngd  
+cpldfit -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -p xc95288xl-6-TQ144 -ofmt vhdl -optimize density -htmlrpt -loc on -slew slow -init low -inputs 12 -pterms 18 -unused float -power low -terminate keeper whirlygig.ngd 
+XSLTProcess -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" whirlygig_build.xml 
+xst -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -ifn "/projects/randy/whirlygig-cpld/whirlygig.xst" -ofn "/projects/randy/whirlygig-cpld/whirlygig.syr" 
+ngdbuild -ise "whirlygig-cpld.ise" -intstyle ise -dd _ngo -i -p xc95288xl-TQ144-6 whirlygig.ngc whirlygig.ngd  
+cpldfit -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -p xc95288xl-6-TQ144 -ofmt vhdl -optimize density -htmlrpt -loc on -slew slow -init low -inputs 12 -pterms 18 -unused float -power low -terminate keeper whirlygig.ngd 
+XSLTProcess -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" whirlygig_build.xml 
+tsim -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise whirlygig whirlygig.nga 
+taengine -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -f whirlygig -w --format html1 -l whirlygig_html/tim/timing_report.htm 
+hprep6 -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -s IEEE1149 -n whirlygig -i whirlygig 
+xst -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -ifn "/projects/randy/whirlygig-cpld/whirlygig.xst" -ofn "/projects/randy/whirlygig-cpld/whirlygig.syr" 
+ngdbuild -ise "whirlygig-cpld.ise" -intstyle ise -dd _ngo -i -p xc95288xl-TQ144-6 whirlygig.ngc whirlygig.ngd  
+cpldfit -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -p xc95288xl-6-TQ144 -ofmt vhdl -optimize density -htmlrpt -loc on -slew slow -init low -inputs 12 -pterms 18 -unused float -power low -terminate keeper whirlygig.ngd 
+XSLTProcess -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" whirlygig_build.xml 
+tsim -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise whirlygig whirlygig.nga 
+taengine -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -f whirlygig -w --format html1 -l whirlygig_html/tim/timing_report.htm 
+hprep6 -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -s IEEE1149 -n whirlygig -i whirlygig 
+xst -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -ifn "/projects/randy/whirlygig-cpld/whirlygig.xst" -ofn "/projects/randy/whirlygig-cpld/whirlygig.syr" 
+ngdbuild -ise "whirlygig-cpld.ise" -intstyle ise -dd _ngo -i -p xc95288xl-TQ144-6 whirlygig.ngc whirlygig.ngd  
+cpldfit -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -p xc95288xl-6-TQ144 -ofmt vhdl -optimize density -htmlrpt -loc on -slew slow -init low -inputs 12 -pterms 18 -unused float -power low -terminate keeper whirlygig.ngd 
+XSLTProcess -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" whirlygig_build.xml 
+tsim -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise whirlygig whirlygig.nga 
+taengine -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -f whirlygig -w --format html1 -l whirlygig_html/tim/timing_report.htm 
+hprep6 -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -s IEEE1149 -n whirlygig -i whirlygig 
+xst -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -ifn "/projects/randy/whirlygig-cpld/whirlygig.xst" -ofn "/projects/randy/whirlygig-cpld/whirlygig.syr" 
+xst -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -ifn "/projects/randy/whirlygig-cpld/whirlygig.xst" -ofn "/projects/randy/whirlygig-cpld/whirlygig.syr" 
+ngdbuild -ise "whirlygig-cpld.ise" -intstyle ise -dd _ngo -i -p xc95288xl-TQ144-6 whirlygig.ngc whirlygig.ngd  
+cpldfit -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -p xc95288xl-6-TQ144 -ofmt vhdl -optimize density -htmlrpt -loc on -slew slow -init low -inputs 12 -pterms 18 -unused float -power low -terminate keeper whirlygig.ngd 
+XSLTProcess -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" whirlygig_build.xml 
+tsim -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise whirlygig whirlygig.nga 
+taengine -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -f whirlygig -w --format html1 -l whirlygig_html/tim/timing_report.htm 
+hprep6 -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -s IEEE1149 -n whirlygig -i whirlygig 
+cpldfit -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -p xc95288xl-6-TQ144 -ofmt vhdl -optimize density -htmlrpt -loc on -slew fast -init low -inputs 12 -pterms 18 -unused float -power std -terminate keeper whirlygig.ngd 
+XSLTProcess -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" whirlygig_build.xml 
+tsim -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise whirlygig whirlygig.nga 
+taengine -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -intstyle ise -f whirlygig -w --format html1 -l whirlygig_html/tim/timing_report.htm 
+hprep6 -ise "/projects/randy/whirlygig-cpld/whirlygig-cpld.ise" -s IEEE1149 -n whirlygig -i whirlygig 

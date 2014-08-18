@@ -1,0 +1,7 @@
+V3 4
+FL /projects/randy/whirlygig-cpld/whirlygig.vhdl 2009/05/12.16:51:59 L.33
+EN work/whirlygig 1242143525 FL /projects/randy/whirlygig-cpld/whirlygig.vhdl \
+      PB ieee/std_logic_1164 1236108447 PB ieee/std_logic_arith 1236108448 \
+      PB ieee/STD_LOGIC_UNSIGNED 1236108449 LB UNISIM PH unisim/VCOMPONENTS 1236108447
+AR work/whirlygig/Behavioral 1242143526 \
+      FL /projects/randy/whirlygig-cpld/whirlygig.vhdl EN work/whirlygig 1242143525
